@@ -1,0 +1,81 @@
+{
+  "llm_mode": "required",
+  "llm_backend": "openrouter",
+  "openrouter": {
+    "api_key": "paste-openrouter-api-key-here",
+    "model": "deepseek/deepseek-v3.2",
+    "app_title": "Relocation Agent Course Project",
+    "http_referer": ""
+  },
+  "mcp": {
+    "include_local_listings": true,
+    "providers": [
+      {
+        "provider_id": "cian",
+        "enabled": false,
+        "transport": {
+          "kind": "streamable_http",
+          "url": "https://mcp.apify.com/?tools=igolaizola/cian-ru-scraper&telemetry-enabled=false",
+          "headers": {
+            "Authorization": "Bearer paste-apify-token-here"
+          },
+          "timeout_seconds": 20
+        },
+        "search_tool_aliases": [
+          "igolaizola/cian-ru-scraper",
+          "igolaizola-slash-cian-ru-scraper"
+        ],
+        "detail_tool_aliases": [],
+        "fixed_search_arguments": {
+          "operationType": "rent",
+          "category": "flatRent",
+          "shortTermRent": false,
+          "maxItems": 15,
+          "currency": "rub"
+        },
+        "search_argument_map": {
+          "location": "city",
+          "maxPrice": "monthly_budget",
+          "rooms": {
+            "field": "rooms_min",
+            "transform": "rooms_array"
+          }
+        },
+        "supported_cities": ["Москва", "Санкт-Петербург", "Казань", "Екатеринбург"],
+        "supported_countries": ["Россия"],
+        "default_country": "Россия",
+        "default_city_to_country": {
+          "Москва": "Россия",
+          "Санкт-Петербург": "Россия",
+          "Казань": "Россия",
+          "Екатеринбург": "Россия"
+        },
+        "listing_defaults": {
+          "currency": "RUB",
+          "deposit_months": 1.0,
+          "furnished": true,
+          "children_friendly": true,
+          "min_lease_months": 6,
+          "short_term_available": false,
+          "property_type": "apartment",
+          "area_sqm": 30.0,
+          "rooms": 1
+        },
+        "listing_field_map": {
+          "listing_id": ["id", "offer_id", "listing_id"],
+          "title": ["title", "name"],
+          "city": ["location.city", "city"],
+          "district_name": ["location.district", "district", "district_name", "address"],
+          "monthly_rent": ["price", "monthly_rent", "rent", "amount"],
+          "currency": ["currency", "price_currency"],
+          "area_sqm": ["area", "area_sqm"],
+          "rooms": ["rooms", "room_count"],
+          "url": ["url", "link"],
+          "available_from": ["available_from", "availableAt", "createdAt"],
+          "furnished": ["furnished", "is_furnished"],
+          "pet_friendly": ["pet_friendly", "pets_allowed"]
+        }
+      }
+    ]
+  }
+}

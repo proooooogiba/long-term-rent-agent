@@ -1,0 +1,14 @@
+{
+  "llm_mode": "required",
+  "llm_backend": "demo_stub",
+  "openrouter": {
+    "api_key": "optional-for-demo",
+    "model": "deepseek/deepseek-v3.2",
+    "app_title": "Relocation Agent Course Project",
+    "http_referer": ""
+  },
+  "mcp": {
+    "include_local_listings": true,
+    "providers": []
+  }
+}

@@ -1,0 +1,78 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <list>
+          <option value="argon2-cffi" />
+          <option value="async-generator" />
+          <option value="attrs" />
+          <option value="backcall" />
+          <option value="bleach" />
+          <option value="certifi" />
+          <option value="cffi" />
+          <option value="chardet" />
+          <option value="decorator" />
+          <option value="defusedxml" />
+          <option value="dynaconf" />
+          <option value="entrypoints" />
+          <option value="idna" />
+          <option value="importlib-metadata" />
+          <option value="ipykernel" />
+          <option value="ipython" />
+          <option value="ipython-genutils" />
+          <option value="jedi" />
+          <option value="Jinja2" />
+          <option value="json5" />
+          <option value="jsonschema" />
+          <option value="jupyter-client" />
+          <option value="jupyter-core" />
+          <option value="jupyterlab" />
+          <option value="jupyterlab-pygments" />
+          <option value="jupyterlab-server" />
+          <option value="loguru" />
+          <option value="MarkupSafe" />
+          <option value="mistune" />
+          <option value="nbclient" />
+          <option value="nbconvert" />
+          <option value="nbformat" />
+          <option value="nest-asyncio" />
+          <option value="notebook" />
+          <option value="pandocfilters" />
+          <option value="parso" />
+          <option value="patsy" />
+          <option value="pexpect" />
+          <option value="pickleshare" />
+          <option value="prometheus-client" />
+          <option value="prompt-toolkit" />
+          <option value="ptyprocess" />
+          <option value="pycparser" />
+          <option value="Pygments" />
+          <option value="pyrsistent" />
+          <option value="pyzmq" />
+          <option value="requests" />
+          <option value="Send2Trash" />
+          <option value="sklearn" />
+          <option value="sortedcontainers" />
+          <option value="statsmodels" />
+          <option value="terminado" />
+          <option value="testpath" />
+          <option value="tornado" />
+          <option value="traitlets" />
+          <option value="urllib3" />
+          <option value="wcwidth" />
+          <option value="webencodings" />
+          <option value="zipp" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N806" />
+          <option value="N803" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="577px" preserveAspectRatio="none" style="width:2564px;height:577px;background:#FFFFFF;" version="1.1" viewBox="0 0 2564 577" width="2564px" zoomAndPan="magnify"><defs/><g><rect fill="#FFFFFF" height="26.2969" id="_title" style="stroke:none;stroke-width:1.0;" width="341" x="1104.5" y="5"/><text fill="#000000" font-family="Arial" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="331" x="1109.5" y="22.9951">Relocation Agent Architecture (Simplified)</text><!--MD5=[36e574655c073bacf14fe4aa263a2e76]
+cluster Interface--><g id="cluster_Interface"><rect fill="none" height="87" rx="2.5" ry="2.5" style="stroke:#7F8C8D;stroke-width:1.0;" width="160" x="99" y="67.7969"/><text fill="#000000" font-family="Arial" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="71" x="143.5" y="82.792">Interface</text></g><!--MD5=[17a7320d07917d3ecb22d19d8d9ff8ce]
+cluster Agent Runtime--><g id="cluster_Agent Runtime"><rect fill="none" height="158" rx="2.5" ry="2.5" style="stroke:#7F8C8D;stroke-width:1.0;" width="1801.5" x="362" y="114.7969"/><text fill="#000000" font-family="Arial" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="116" x="1204.75" y="129.792">Agent Runtime</text></g><!--MD5=[5cc6fa3322116ad47a7d81e401c7b535]
+cluster Tools and Data--><g id="cluster_Tools and Data"><rect fill="none" height="105" rx="2.5" ry="2.5" style="stroke:#7F8C8D;stroke-width:1.0;" width="591" x="1967" y="360.7969"/><text fill="#000000" font-family="Arial" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="117" x="2204" y="375.792">Tools and Data</text></g><!--MD5=[01910a28bc50286e73e6f601b618e3be]
+cluster Market Data Ingestion--><g id="cluster_Market Data Ingestion"><rect fill="none" height="97" rx="2.5" ry="2.5" style="stroke:#7F8C8D;stroke-width:1.0;" width="487" x="1306" y="348.7969"/><text fill="#000000" font-family="Arial" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="172" x="1463.5" y="363.792">Market Data Ingestion</text></g><!--MD5=[36a841e18707cee00a362cb6d7051365]
+cluster Extensions--><g id="cluster_Extensions"><rect fill="none" height="87" rx="2.5" ry="2.5" style="stroke:#7F8C8D;stroke-width:1.0;" width="188" x="85" y="178.7969"/><text fill="#000000" font-family="Arial" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="86" x="136" y="193.792">Extensions</text></g><!--MD5=[f753affe34c5fffbeb808f4d6a256091]
+entity EntryPoint--><g id="elem_EntryPoint"><rect fill="#F1F1F1" height="36.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="128" x="115" y="102.7969"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="108" x="125" y="125.792">CLI / QA Runner</text></g><!--MD5=[2428808ca108f759c26f353e279b151e]
+entity Graph--><g id="elem_Graph"><rect fill="#F1F1F1" height="36.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="238" x="378" y="149.7969"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="218" x="388" y="172.792">Session + Agent + State Graph</text></g><!--MD5=[8dd9ee0f844f52d7f0b3f942cacc48dd]
+entity Intake--><g id="elem_Intake"><rect fill="#F1F1F1" height="36.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="243" x="765" y="220.7969"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="223" x="775" y="243.792">Routing + Intake + Policy Expert</text></g><!--MD5=[f08d99a5d954cab98c847de775e5956b]
+entity Search--><g id="elem_Search"><rect fill="#F1F1F1" height="36.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="190" x="1069" y="220.7969"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="170" x="1079" y="243.792">Search + District Advisor</text></g><!--MD5=[0e8aaa35e1d7378bac8692a5c3e9af2f]
+entity Scoring--><g id="elem_Scoring"><rect fill="#F1F1F1" height="36.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="124" x="1380.5" y="220.7969"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="104" x="1390.5" y="243.792">Scoring Engine</text></g><!--MD5=[04a589c3b8175f9f8316b3c2ac0032cb]
+entity Verify--><g id="elem_Verify"><rect fill="#F1F1F1" height="36.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="158" x="1624" y="220.7969"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="138" x="1634" y="243.792">Verifier + Replanner</text></g><!--MD5=[abd0ad01589357b3baa3551a551ab5d8]
+entity Response--><g id="elem_Response"><rect fill="#F1F1F1" height="36.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="126" x="2021.5" y="196.7969"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="106" x="2031.5" y="219.792">Final Response</text></g><!--MD5=[5c691934b5633fdd3b98f008c74cebb5]
+entity State--><g id="elem_State"><rect fill="#F1F1F1" height="36.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="97" x="838" y="149.7969"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="77" x="848" y="172.792">AgentState</text></g><!--MD5=[4dc160ad080f439c9e6a91b0dd02eae7]
+entity Tools--><g id="elem_Tools"><rect fill="#F1F1F1" height="52.5938" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="203" x="1983" y="396.2969"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="70" x="1993" y="419.292">Tool Layer</text><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="183" x="1993" y="435.5889">DB + Policy + Calculations</text></g><!--MD5=[806045220e9809db94a958d8b8d94468]
+entity Knowledge--><g id="elem_Knowledge"><rect fill="#F1F1F1" height="52.5938" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="271" x="2271" y="396.2969"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="197" x="2281" y="419.292">Operational Data + Policy KB</text><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="251" x="2281" y="435.5889">SQLite + markdown docs + retriever</text></g><!--MD5=[be287a998dac5f12bdb762e5dc0d8a95]
+entity Scraper--><g id="elem_Scraper"><rect fill="#F1F1F1" height="36.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="241" x="1322" y="388.7969"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="221" x="1332" y="411.792">Krisha Scraper + Import Pipeline</text></g><!--MD5=[344eeb022ebddda5a0c802afca84c4b9]
+entity MarketDB--><g id="elem_MarketDB"><path d="M1629,394.2969 C1629,384.2969 1703,384.2969 1703,384.2969 C1703,384.2969 1777,384.2969 1777,394.2969 L1777,419.5938 C1777,429.5938 1703,429.5938 1703,429.5938 C1703,429.5938 1629,429.5938 1629,419.5938 L1629,394.2969 " fill="#F1F1F1" style="stroke:#34495E;stroke-width:0.5;"/><path d="M1629,394.2969 C1629,404.2969 1703,404.2969 1703,404.2969 C1703,404.2969 1777,404.2969 1777,394.2969 " fill="none" style="stroke:#34495E;stroke-width:0.5;"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="128" x="1639" y="421.292">Market Listings DB</text></g><!--MD5=[15ea2235b34f275930a9059aec35e2a1]
+entity AdapterLayer--><g id="elem_AdapterLayer"><rect fill="#F1F1F1" height="36.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="156" x="101" y="213.7969"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="136" x="111" y="236.792">LLM / MCP Adapters</text></g><!--MD5=[fee662a292a0353a69bd162820bae93b]
+entity User--><g id="elem_User"><ellipse cx="22" cy="91.2969" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M22,99.2969 L22,126.2969 M9,107.2969 L35,107.2969 M22,126.2969 L9,141.2969 M22,126.2969 L35,141.2969 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="32" x="6" y="155.792">User</text></g><g id="elem_GMN976"><path d="M372,43.2969 L372,98.6953 A0,0 0 0 0 372,98.6953 L493,98.6953 L497,149.6069 L501,98.6953 L622,98.6953 A0,0 0 0 0 622,98.6953 L622,53.2969 L612,43.2969 L372,43.2969 A0,0 0 0 0 372,43.2969 " fill="#FFF8DC" style="stroke:#181818;stroke-width:0.5;"/><path d="M612,43.2969 L612,53.2969 L622,53.2969 L612,43.2969 " fill="#FFF8DC" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="Arial" font-size="13" lengthAdjust="spacing" textLength="157" x="378" y="60.3638">Single orchestrated flow:</text><text fill="#000000" font-family="Arial" font-size="13" lengthAdjust="spacing" textLength="211" x="378" y="75.4966">request -&gt; extract -&gt; retrieve -&gt;</text><text fill="#000000" font-family="Arial" font-size="13" lengthAdjust="spacing" textLength="229" x="378" y="90.6294">search -&gt; score -&gt; verify -&gt; answer</text></g><g id="elem_GMN979"><path d="M1959,289.2969 L1959,344.6953 L2210,344.6953 L2210,299.2969 L2200,289.2969 L1959,289.2969 " fill="#FFF8DC" style="stroke:#181818;stroke-width:0.5;"/><path d="M2200,289.2969 L2200,299.2969 L2210,299.2969 L2200,289.2969 " fill="#FFF8DC" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="Arial" font-size="13" lengthAdjust="spacing" textLength="182" x="1965" y="306.3638">Guardrails prevent unsafe or</text><text fill="#000000" font-family="Arial" font-size="13" lengthAdjust="spacing" textLength="230" x="1965" y="321.4966">unsupported recommendations and</text><text fill="#000000" font-family="Arial" font-size="13" lengthAdjust="spacing" textLength="199" x="1965" y="336.6294">trigger clarification / escalation.</text></g><!--MD5=[dbaf0ba6800d153704def3b5855cfc66]
+link User to EntryPoint--><g id="link_User_EntryPoint"><path d="M38.14,120.7969 C54.86,120.7969 82.92,120.7969 109.54,120.7969 " fill="none" id="User-to-EntryPoint" style="stroke:#4A4A4A;stroke-width:1.0;"/><polygon fill="#4A4A4A" points="114.85,120.7969,105.85,116.7969,109.85,120.7969,105.85,124.7969,114.85,120.7969" style="stroke:#4A4A4A;stroke-width:1.0;"/></g><!--MD5=[e1e9863d115fbbe70cd5194a0d4b6752]
+link EntryPoint to Graph--><g id="link_EntryPoint_Graph"><path d="M243.19,130.1969 C280.3,135.7169 328.49,142.8869 372.83,149.4769 " fill="none" id="EntryPoint-to-Graph" style="stroke:#4A4A4A;stroke-width:1.0;"/><polygon fill="#4A4A4A" points="377.94,150.2369,369.6322,144.9472,372.9952,149.4959,368.4466,152.8589,377.94,150.2369" style="stroke:#4A4A4A;stroke-width:1.0;"/></g><!--MD5=[c65e9edf14789a87327a5d902bc8d011]
+link Graph to Intake--><g id="link_Graph_Intake"><path d="M596.28,185.8069 C652.98,196.1969 724.22,209.2469 781.81,219.7969 " fill="none" id="Graph-to-Intake" style="stroke:#4A4A4A;stroke-width:1.0;"/><polygon fill="#4A4A4A" points="786.98,220.7469,778.8478,215.191,782.0618,219.8462,777.4067,223.0601,786.98,220.7469" style="stroke:#4A4A4A;stroke-width:1.0;"/></g><!--MD5=[9507831c0f037c84d4d268f753709d23]
+link Intake to Search--><g id="link_Intake_Search"><path d="M1008.34,238.7969 C1026.84,238.7969 1045.75,238.7969 1063.72,238.7969 " fill="none" id="Intake-to-Search" style="stroke:#4A4A4A;stroke-width:1.0;"/><polygon fill="#4A4A4A" points="1068.76,238.7969,1059.76,234.7969,1063.76,238.7969,1059.76,242.7969,1068.76,238.7969" style="stroke:#4A4A4A;stroke-width:1.0;"/></g><!--MD5=[2322f87cb570a8c8e74f84abad99a2ee]
+link Search to Scoring--><g id="link_Search_Scoring"><path d="M1259.38,238.7969 C1297.55,238.7969 1340.71,238.7969 1375.42,238.7969 " fill="none" id="Search-to-Scoring" style="stroke:#4A4A4A;stroke-width:1.0;"/><polygon fill="#4A4A4A" points="1380.48,238.7969,1371.48,234.7969,1375.48,238.7969,1371.48,242.7969,1380.48,238.7969" style="stroke:#4A4A4A;stroke-width:1.0;"/></g><!--MD5=[df85bb2fb3fa6c56ffd42de90cc13b86]
+link Scoring to Verify--><g id="link_Scoring_Verify"><path d="M1504.76,238.7969 C1538.63,238.7969 1581.2,238.7969 1618.12,238.7969 " fill="none" id="Scoring-to-Verify" style="stroke:#4A4A4A;stroke-width:1.0;"/><polygon fill="#4A4A4A" points="1623.53,238.7969,1614.53,234.7969,1618.53,238.7969,1614.53,242.7969,1623.53,238.7969" style="stroke:#4A4A4A;stroke-width:1.0;"/></g><!--MD5=[fcc03c1db04cff7056dc174a797b2828]
+link Verify to Response--><g id="link_Verify_Response"><path d="M1782.26,223.5569 C1792.24,222.0469 1802.34,220.7269 1812,219.7969 C1881.32,213.0969 1961.05,212.4669 2016.09,213.1269 " fill="none" id="Verify-to-Response" style="stroke:#4A4A4A;stroke-width:1.0;"/><polygon fill="#4A4A4A" points="2021.34,213.1969,2012.3863,209.0943,2016.3403,213.1397,2012.2949,217.0938,2021.34,213.1969" style="stroke:#4A4A4A;stroke-width:1.0;"/></g><!--MD5=[828e1dd70c661c382517906b61bfaf21]
+link Graph to State--><g id="link_Graph_State"><path d="M616.1,167.7969 C688.35,167.7969 777.24,167.7969 832.66,167.7969 " fill="none" id="Graph-to-State" style="stroke:#4A4A4A;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#4A4A4A" points="837.91,167.7969,828.91,163.7969,832.91,167.7969,828.91,171.7969,837.91,167.7969" style="stroke:#4A4A4A;stroke-width:1.0;"/><text fill="#000000" font-family="Arial" font-size="13" lengthAdjust="spacing" textLength="81" x="653" y="163.8638">shared state</text></g><!--MD5=[b6d409888747f5d8eb5a022406b4aaa1]
+link Intake to Tools--><g id="link_Intake_Tools"><path d="M893.28,257.0969 C915.79,324.3269 1004.25,553.7969 1163,553.7969 C1163,553.7969 1163,553.7969 1704,553.7969 C1806.44,553.7969 1832.8,538.9969 1929,503.7969 C1966.26,490.1669 2005.84,469.2769 2035.61,452.1269 " fill="none" id="Intake-to-Tools" style="stroke:#4A4A4A;stroke-width:1.0;"/><polygon fill="#4A4A4A" points="2040.3,449.4069,2030.5059,450.4443,2035.9703,451.9075,2034.507,457.3719,2040.3,449.4069" style="stroke:#4A4A4A;stroke-width:1.0;"/></g><!--MD5=[45856f9e8db2b08438626797d7491328]
+link Search to Tools--><g id="link_Search_Tools"><path d="M1170.15,257.0269 C1183.24,299.4669 1222.27,404.4369 1298,445.7969 C1526.46,570.5669 1850.72,496.5669 2001.06,450.7869 " fill="none" id="Search-to-Tools" style="stroke:#4A4A4A;stroke-width:1.0;"/><polygon fill="#4A4A4A" points="2005.9,449.3069,1996.1251,448.1018,2001.1168,450.7633,1998.4553,455.7549,2005.9,449.3069" style="stroke:#4A4A4A;stroke-width:1.0;"/></g><!--MD5=[5c808f961abad608494880dd2675a006]
+link Scoring to Tools--><g id="link_Scoring_Tools"><path d="M1504.58,256.3569 C1615.86,288.3469 1852.47,356.3769 1986.19,394.8169 " fill="none" id="Scoring-to-Tools" style="stroke:#4A4A4A;stroke-width:1.0;"/><polygon fill="#4A4A4A" points="1991.29,396.2869,1983.7352,389.9683,1986.4824,394.9133,1981.5374,397.6605,1991.29,396.2869" style="stroke:#4A4A4A;stroke-width:1.0;"/></g><!--MD5=[6fd5665364ef6d2894ceeb5e17fe247b]
+link Verify to Tools--><g id="link_Verify_Tools"><path d="M1782,253.6169 C1837.62,265.4769 1906.4,283.1369 1929,301.7969 C1951.99,320.7769 1937.83,340.7969 1959,361.7969 C1971.96,374.6569 1988.18,385.2569 2004.58,393.7969 " fill="none" id="Verify-to-Tools" style="stroke:#4A4A4A;stroke-width:1.0;"/><polygon fill="#4A4A4A" points="2009.21,396.1469,2002.988,388.5123,2004.7494,393.888,1999.3737,395.6493,2009.21,396.1469" style="stroke:#4A4A4A;stroke-width:1.0;"/></g><!--MD5=[21ec961dde0e01820794747fb754e4a2]
+link Tools to Knowledge--><g id="link_Tools_Knowledge"><path d="M2186.31,422.7969 C2211.47,422.7969 2238.91,422.7969 2265.58,422.7969 " fill="none" id="Tools-to-Knowledge" style="stroke:#4A4A4A;stroke-width:1.0;"/><polygon fill="#4A4A4A" points="2270.91,422.7969,2261.91,418.7969,2265.91,422.7969,2261.91,426.7969,2270.91,422.7969" style="stroke:#4A4A4A;stroke-width:1.0;"/></g><!--MD5=[463c31be5cd88ce1c12c83d19dbc728b]
+link Scraper to MarketDB--><g id="link_Scraper_MarketDB"><path d="M1563.29,406.7969 C1583.69,406.7969 1604.41,406.7969 1623.4,406.7969 " fill="none" id="Scraper-to-MarketDB" style="stroke:#4A4A4A;stroke-width:1.0;"/><polygon fill="#4A4A4A" points="1628.7,406.7969,1619.7,402.7969,1623.7,406.7969,1619.7,410.7969,1628.7,406.7969" style="stroke:#4A4A4A;stroke-width:1.0;"/></g><!--MD5=[0bc06b887e14c8c469730a70035f00b3]
+link MarketDB to Tools--><g id="link_MarketDB_Tools"><path d="M1777.17,409.8769 C1834.05,412.2769 1913.75,415.6369 1977.59,418.3269 " fill="none" id="MarketDB-to-Tools" style="stroke:#4A4A4A;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#4A4A4A" points="1982.94,418.5569,1974.1195,414.1752,1977.9446,418.3428,1973.777,422.1678,1982.94,418.5569" style="stroke:#4A4A4A;stroke-width:1.0;"/><text fill="#000000" font-family="Arial" font-size="13" lengthAdjust="spacing" textLength="115" x="1813" y="406.8638">future enrichment</text></g><!--MD5=[2bd9944bbedb06c2ba71cb86ba351ccf]
+link AdapterLayer to Graph--><g id="link_AdapterLayer_Graph"><path d="M257.3,216.1369 C300.94,207.3069 355.79,196.1969 401.91,186.8569 " fill="none" id="AdapterLayer-to-Graph" style="stroke:#4A4A4A;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#4A4A4A" points="406.92,185.8369,397.3079,183.6904,402.0182,186.823,398.8856,191.5333,406.92,185.8369" style="stroke:#4A4A4A;stroke-width:1.0;"/><text fill="#000000" font-family="Arial" font-size="13" lengthAdjust="spacing" textLength="51" x="290" y="195.8638">optional</text></g><!--MD5=[497cdaa23281fae988b39ae086f3709f]
+link Verify to GMN979--><g id="link_Verify_GMN979"><path d="M1782.23,241.0169 C1825.91,243.5969 1881.05,249.1169 1929,260.7969 C1942.95,264.1969 1945.56,267.7369 1959,272.7969 C1973.48,278.2469 1988.98,283.8869 2003.96,289.2269 " fill="none" id="Verify-GMN979" style="stroke:#4A4A4A;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/></g><!--MD5=[91bc9327b3032bf98d98c89305e91123]
+@startuml
+title Relocation Agent Architecture (Simplified)
+
+left to right direction
+skinparam shadowing false
+skinparam backgroundColor white
+skinparam componentStyle rectangle
+skinparam packageStyle rectangle
+skinparam defaultFontName Arial
+skinparam ArrowColor #4a4a4a
+skinparam PackageBorderColor #7f8c8d
+skinparam ComponentBorderColor #34495e
+skinparam DatabaseBorderColor #34495e
+skinparam noteBackgroundColor #fff8dc
+skinparam noteBorderColor #c9a227
+
+actor "User" as User
+
+package "Interface" {
+  component "CLI / QA Runner" as EntryPoint
+}
+
+package "Agent Runtime" {
+  component "Session + Agent + State Graph" as Graph
+  component "Routing + Intake + Policy Expert" as Intake
+  component "Search + District Advisor" as Search
+  component "Scoring Engine" as Scoring
+  component "Verifier + Replanner" as Verify
+  component "Final Response" as Response
+  component "AgentState" as State
+}
+
+package "Tools and Data" {
+  component "Tool Layer\nDB + Policy + Calculations" as Tools
+  component "Operational Data + Policy KB\nSQLite + markdown docs + retriever" as Knowledge
+}
+
+package "Market Data Ingestion" {
+  component "Krisha Scraper + Import Pipeline" as Scraper
+  database "Market Listings DB" as MarketDB
+}
+
+package "Extensions" {
+  component "LLM / MCP Adapters" as AdapterLayer
+}
+
+User - -> EntryPoint
+EntryPoint - -> Graph
+
+Graph - -> Intake
+Intake - -> Search
+Search - -> Scoring
+Scoring - -> Verify
+Verify - -> Response
+
+Graph ..> State : shared state
+
+Intake - -> Tools
+Search - -> Tools
+Scoring - -> Tools
+Verify - -> Tools
+
+Tools - -> Knowledge
+
+Scraper - -> MarketDB
+MarketDB ..> Tools : future enrichment
+
+AdapterLayer ..> Graph : optional
+
+note bottom of Graph
+Single orchestrated flow:
+request -> extract -> retrieve ->
+search -> score -> verify -> answer
+end note
+
+note right of Verify
+Guardrails prevent unsafe or
+unsupported recommendations and
+trigger clarification / escalation.
+end note
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 17:01:30 UTC 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>

@@ -1,0 +1,37 @@
+@startuml
+title Relocation Agent Architecture (upper-level)
+
+left to right direction
+skinparam linetype ortho
+skinparam shadowing false
+skinparam backgroundColor white
+skinparam componentStyle rectangle
+skinparam packageStyle rectangle
+skinparam defaultFontName Arial
+
+actor User
+
+component "CLI / Streamlit /\nQA Runner" as Entry
+component "Agent Graph\nRouter -> Intake -> RAG -> District Advisor -> Search -> Scoring -> Verifier -> Replanner -> Final Composer" as Graph
+component "Agent Session / State\ncurrent context + previous requirements + previous shortlist" as State
+component "Structured LLM\nclassification, extraction,\nreplanning, final narrative" as LLM
+component "Tool Layer\ntyped DB tools + policy search + calculations + MCP adapters" as Tools
+database "SQLite Operational Data\nclients, cases, listings,\ncities, districts, services" as DB
+component "RAG Knowledge Base\nmarkdown policy documents" as RAG
+component "External MCP Listing Providers\noptional live market data" as MCP
+component "Scraper + Import Pipeline\nKrisha / List.am -> CSV -> normalized data" as Ingestion
+component "Final Answer + Trace + Shortlist" as Output
+
+User --> Entry
+Entry --> Graph
+Graph ..> State : stateful dialogue
+LLM --> Graph : structured calls
+Graph --> Tools
+Tools --> DB
+Tools --> RAG
+Tools ..> MCP : optional
+Ingestion --> DB : refresh market data
+Graph --> Output
+Output --> User
+
+@enduml
