@@ -1,0 +1,126 @@
+{
+  "qa_path": "/Users/iopogiba/Documents/HSE/Module 3/AI AGENT/final_work/Проект агент подбора аренды жилья и релокации/data/qa/qa.jsonl",
+  "llm_backend": "demo_stub",
+  "llm_mode": "required",
+  "model": "demo_stub",
+  "trials": 1,
+  "total_cases": 1,
+  "total_trial_runs": 1,
+  "aggregate_metrics": {
+    "intent_accuracy": 1.0,
+    "required_fields_extracted": 1.0,
+    "budget_constraint_pass_rate": 1.0,
+    "pet_constraint_pass_rate": null,
+    "upfront_cost_correctness": 1.0,
+    "expected_entities_accuracy": 1.0,
+    "recommendation_has_rationale": 1.0,
+    "clarification_correctness": null,
+    "escalation_correctness": null,
+    "info_answer_has_sources": null
+  },
+  "aggregate_quality_gate": {
+    "passed": true,
+    "hard_gate_passed": true,
+    "soft_pass_rate": 1.0,
+    "minimum_soft_pass_rate": 0.75,
+    "checks": [
+      {
+        "metric": "intent_accuracy",
+        "actual": 1.0,
+        "minimum": 0.85,
+        "passed": true,
+        "hard_gate": false,
+        "rationale": "Router should classify most requests correctly."
+      },
+      {
+        "metric": "required_fields_extracted",
+        "actual": 1.0,
+        "minimum": 0.85,
+        "passed": true,
+        "hard_gate": false,
+        "rationale": "Intake should capture key search fields."
+      },
+      {
+        "metric": "budget_constraint_pass_rate",
+        "actual": 1.0,
+        "minimum": 0.95,
+        "passed": true,
+        "hard_gate": true,
+        "rationale": "Top recommendation should almost never violate budget."
+      },
+      {
+        "metric": "upfront_cost_correctness",
+        "actual": 1.0,
+        "minimum": 0.95,
+        "passed": true,
+        "hard_gate": true,
+        "rationale": "Cost estimation should stay close to reference values."
+      },
+      {
+        "metric": "expected_entities_accuracy",
+        "actual": 1.0,
+        "minimum": 0.75,
+        "passed": true,
+        "hard_gate": false,
+        "rationale": "User-facing answer should mention the expected shortlist entities."
+      },
+      {
+        "metric": "recommendation_has_rationale",
+        "actual": 1.0,
+        "minimum": 0.95,
+        "passed": true,
+        "hard_gate": true,
+        "rationale": "Final answer must explain fit and trade-offs."
+      }
+    ]
+  },
+  "mean_case_pass_rate": 1.0,
+  "case_pass_at_k": 1.0,
+  "case_pass_all_k": 1.0,
+  "case_outcome_consistency": 1.0,
+  "mean_case_score": 1.0,
+  "mean_latency_ms": 22256.0,
+  "p95_latency_ms": 22256.0,
+  "cases": [
+    {
+      "case_id": "Q-001",
+      "category": "search",
+      "expected_outcome_type": "recommendation",
+      "trials": 1,
+      "pass_rate": 1.0,
+      "pass_at_k": 1.0,
+      "pass_all_k": 1.0,
+      "outcome_consistency": 1.0,
+      "mean_case_score": 1.0,
+      "mean_latency_ms": 22256.0
+    }
+  ],
+  "trial_results": [
+    {
+      "trial_index": 1,
+      "case_id": "Q-001",
+      "relocation_case_id": "R-0001",
+      "category": "search",
+      "expected_outcome_type": "recommendation",
+      "gate_passed": true,
+      "hard_gate_passed": true,
+      "soft_pass_rate": 1.0,
+      "case_score": 1.0,
+      "latency_ms": 22256.0,
+      "metrics": {
+        "intent_accuracy": 1.0,
+        "required_fields_extracted": 1.0,
+        "budget_constraint_pass_rate": 1.0,
+        "pet_constraint_pass_rate": null,
+        "upfront_cost_correctness": 1.0,
+        "expected_entities_accuracy": 1.0,
+        "recommendation_has_rationale": 1.0,
+        "clarification_correctness": null,
+        "escalation_correctness": null,
+        "info_answer_has_sources": null
+      },
+      "warnings": [],
+      "error": null
+    }
+  ]
+}

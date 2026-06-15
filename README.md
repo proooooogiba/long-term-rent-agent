@@ -13,6 +13,7 @@
 - Разбор проекта по критериям и список оставшихся gap'ов: [docs/project_criteria_gap_analysis.md](docs/project_criteria_gap_analysis.md)
 - Operating notes по `data freshness`, `auth`, `observability`: [docs/production_operating_model.md](docs/production_operating_model.md)
 - Готовые demo-сценарии со скриншотами: [docs/demo_scenarios.md](docs/demo_scenarios.md)
+- Framework оценки агента на live LLM + human feedback rubric: [docs/evaluation_framework.md](docs/evaluation_framework.md)
 - Реальный внешний MCP provider и пример shortlist: [docs/external_mcp_provider_example.md](docs/external_mcp_provider_example.md)
 - Визуализация workflow для интерфейса: [src/app/assets/workflow_overview.svg](src/app/assets/workflow_overview.svg)
 
@@ -82,6 +83,8 @@
 - Источники данных изолированы за typed adapters, поэтому локальную БД можно заменить внешним MCP без переписывания узлов графа.
 - UI и eval runner работают поверх того же агента, а не поверх отдельных веток бизнес-логики.
 
+Для demo-сценариев проект обычно запускается с `llm_backend=demo_stub`: это не внешний LLM backend, а локальный детерминированный stub для воспроизводимых показов и скриншотов. В этом режиме shortlist по-прежнему строится через обычный pipeline `search -> scoring -> verifier`, то есть мы не "генерируем" варианты моделью, а находим и ранжируем подходящие объявления кодом. Live `LLM backend` нужен не для самого поиска объявлений, а для недетерминированных узлов `router`, `intake`, `replanner` и `final_composer`; обычно это актуально для non-demo запуска с `llm_backend=openrouter`.
+
 Отдельно добавлен target production view:
 
 - схема: [docs/relocation_agent_production_contour.drawio](docs/relocation_agent_production_contour.drawio)
@@ -137,6 +140,8 @@
 
 Метрики уже реализованы в `src/evals/metrics.py`, а batch-прогон находится в `src/evals/run_qa.py`.
 
+Для live LLM и честного сравнения моделей поверх этого добавлен repeated benchmark runner `src/evals/run_benchmark.py`, который гоняет один и тот же suite несколько раз, поднимает свежую SQLite на каждый trial и считает reliability-агрегаты вроде `case_pass_at_k`, `case_pass_all_k` и `case_outcome_consistency`.
+
 | Метрика | Как считается | Target threshold | Тип |
 |---|---|---|---|
 | `intent_accuracy` | совпал ли intent агента с expected intent кейса | `>= 0.85` | soft |
@@ -155,6 +160,12 @@
 - все hard metrics должны пройти;
 - soft pass rate должен быть не ниже `75%`;
 - запуск: `python3 -m src.evals.run_qa --enforce-gate`.
+
+Для live benchmark:
+
+- запуск: `python3 -m src.evals.run_benchmark --llm-backend openrouter --llm-mode required --trials 3 --output-json outputs/evals/live-benchmark.json`
+- baseline/сравнение вариантов описаны в [docs/evaluation_framework.md](docs/evaluation_framework.md)
+- шаблон human review лежит в `data/qa/human_feedback_template.csv`
 
 Текущий честный snapshot на `demo_stub`:
 
@@ -316,6 +327,13 @@ python3 -m src.evals.run_qa --enforce-gate
 
 ```bash
 pytest
+```
+
+Запустить приложение:
+```bash
+streamlit run app.py --server.address 127.0.0.1 --server.port 8501
+brew install cloudflared
+cloudflared tunnel --url http://localhost:8501
 ```
 
 ## CLI и UI возможности

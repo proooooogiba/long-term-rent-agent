@@ -1,0 +1,65 @@
+<svg width="1200" height="700" viewBox="0 0 1200 700" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="700" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8FBFF"/>
+      <stop offset="1" stop-color="#EEF6FF"/>
+    </linearGradient>
+    <linearGradient id="core" x1="250" y1="180" x2="780" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2563EB"/>
+      <stop offset="1" stop-color="#0EA5E9"/>
+    </linearGradient>
+    <filter id="shadow" x="0" y="0" width="1200" height="700" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#0F172A" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <rect x="10" y="10" width="1180" height="680" rx="34" fill="url(#bg)"/>
+
+  <rect x="56" y="270" width="178" height="92" rx="24" fill="#FFFFFF" stroke="#CBD5E1"/>
+  <text x="145" y="310" text-anchor="middle" fill="#0F172A" font-family="Aptos, Arial" font-size="22" font-weight="700">API / Gateway</text>
+  <text x="145" y="338" text-anchor="middle" fill="#5B6473" font-family="Aptos, Arial" font-size="15">SSO, session, rate limit</text>
+
+  <g filter="url(#shadow)">
+    <rect x="276" y="190" width="286" height="244" rx="30" fill="url(#core)"/>
+  </g>
+  <text x="419" y="250" text-anchor="middle" fill="white" font-family="Aptos Display, Arial" font-size="28" font-weight="700">Agent Service</text>
+  <text x="419" y="288" text-anchor="middle" fill="white" font-family="Aptos, Arial" font-size="17">orchestration graph</text>
+  <text x="419" y="316" text-anchor="middle" fill="white" font-family="Aptos, Arial" font-size="17">business guardrails</text>
+  <text x="419" y="344" text-anchor="middle" fill="white" font-family="Aptos, Arial" font-size="17">router -> intake -> search -> verify</text>
+  <rect x="326" y="372" width="186" height="34" rx="17" fill="white" fill-opacity="0.18"/>
+  <text x="419" y="394" text-anchor="middle" fill="white" font-family="Aptos, Arial" font-size="15" font-weight="700">write-back after every run</text>
+
+  <rect x="610" y="216" width="212" height="190" rx="28" fill="#FFFFFF" stroke="#93C5FD"/>
+  <text x="716" y="258" text-anchor="middle" fill="#1D4ED8" font-family="Aptos Display, Arial" font-size="26" font-weight="700">Tool Layer</text>
+  <text x="716" y="292" text-anchor="middle" fill="#5B6473" font-family="Aptos, Arial" font-size="16">DB, RAG, calculations</text>
+  <text x="716" y="320" text-anchor="middle" fill="#5B6473" font-family="Aptos, Arial" font-size="16">external MCP adapters</text>
+  <text x="716" y="356" text-anchor="middle" fill="#0F172A" font-family="Aptos, Arial" font-size="18" font-weight="700">isolates integrations</text>
+
+  <rect x="870" y="112" width="274" height="118" rx="26" fill="#FFFFFF" stroke="#99F6E4"/>
+  <text x="1007" y="154" text-anchor="middle" fill="#0F766E" font-family="Aptos Display, Arial" font-size="24" font-weight="700">Persistent Memory</text>
+  <text x="1007" y="185" text-anchor="middle" fill="#5B6473" font-family="Aptos, Arial" font-size="16">agent_case_memory</text>
+  <text x="1007" y="212" text-anchor="middle" fill="#5B6473" font-family="Aptos, Arial" font-size="16">agent_run_history + client_preferences</text>
+
+  <rect x="870" y="262" width="274" height="118" rx="26" fill="#FFFFFF" stroke="#BAE6FD"/>
+  <text x="1007" y="304" text-anchor="middle" fill="#0369A1" font-family="Aptos Display, Arial" font-size="24" font-weight="700">Refresh Jobs</text>
+  <text x="1007" y="335" text-anchor="middle" fill="#5B6473" font-family="Aptos, Arial" font-size="16">market ingestion and normalization</text>
+  <text x="1007" y="362" text-anchor="middle" fill="#5B6473" font-family="Aptos, Arial" font-size="16">freshness alerts and retries</text>
+
+  <rect x="870" y="412" width="274" height="118" rx="26" fill="#FFFFFF" stroke="#FDE68A"/>
+  <text x="1007" y="454" text-anchor="middle" fill="#B45309" font-family="Aptos Display, Arial" font-size="24" font-weight="700">Auth + Observability</text>
+  <text x="1007" y="485" text-anchor="middle" fill="#5B6473" font-family="Aptos, Arial" font-size="16">SSO, RBAC, secret store</text>
+  <text x="1007" y="512" text-anchor="middle" fill="#5B6473" font-family="Aptos, Arial" font-size="16">latency, freshness, empty shortlist, QA gate</text>
+
+  <path d="M234 316H276" stroke="#94A3B8" stroke-width="4" stroke-linecap="round"/>
+  <path d="M276 316L260 306V326L276 316Z" fill="#94A3B8"/>
+  <path d="M562 316H610" stroke="#94A3B8" stroke-width="4" stroke-linecap="round"/>
+  <path d="M610 316L594 306V326L610 316Z" fill="#94A3B8"/>
+  <path d="M822 316H870" stroke="#94A3B8" stroke-width="4" stroke-linecap="round"/>
+  <path d="M870 316L854 306V326L870 316Z" fill="#94A3B8"/>
+  <path d="M1007 230V262" stroke="#94A3B8" stroke-width="4" stroke-linecap="round"/>
+  <path d="M1007 262L997 246H1017L1007 262Z" fill="#94A3B8"/>
+  <path d="M1007 380V412" stroke="#94A3B8" stroke-width="4" stroke-linecap="round"/>
+  <path d="M1007 412L997 396H1017L1007 412Z" fill="#94A3B8"/>
+
+  <text x="60" y="636" fill="#5B6473" font-family="Aptos, Arial" font-size="18">Target contour from production_operating_model.md: live MCP stays fresh, local DB stays reproducible.</text>
+</svg>

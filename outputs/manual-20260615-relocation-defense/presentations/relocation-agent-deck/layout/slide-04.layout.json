@@ -1,0 +1,3852 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/2b0ubh",
+    "id": "2b0ubh",
+    "slide": 4,
+    "layoutId": "42394a6f-c0e5-402f-a73b-4571aabd6194",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "7ed930d9-e6a6-4fa6-a518-57804764494e",
+    "masterLayoutName": "Master",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Aptos",
+      "Aptos Display"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "42394a6f-c0e5-402f-a73b-4571aabd6194",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "7ed930d9-e6a6-4fa6-a518-57804764494e",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "7ed930d9-e6a6-4fa6-a518-57804764494e",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xczed8v6",
+      "id": "1",
+      "bbox": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0"
+      },
+      "geometry": "rect",
+      "fillColor": "#F4F7FB"
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qpg3ex0n",
+      "id": "2",
+      "bbox": [
+        42,
+        34,
+        1196,
+        20
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.0.0"
+      },
+      "geometry": "rect",
+      "text": "OPERATING MODEL",
+      "textPreview": "OPERATING MODEL",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "fontSize": 14,
+        "typeface": "Aptos",
+        "color": "#2563EB",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "OPERATING MODEL"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "OPERATING MODEL",
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "Aptos",
+            "color": "#2563EB",
+            "bold": true,
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "OPERATING MODEL",
+              "fontSize": 14,
+              "typeface": "Aptos",
+              "color": "#2563EB",
+              "bold": true,
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fa9w3m94",
+      "id": "3",
+      "bbox": [
+        42,
+        62,
+        1196,
+        34
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.0.1"
+      },
+      "geometry": "rect",
+      "text": "Production operating model",
+      "textPreview": "Production operating model",
+      "resolvedFontSize": 30,
+      "resolvedTextStyle": {
+        "fontSize": 30,
+        "typeface": "Aptos Display",
+        "color": "#0F172A",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Production operating model"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Production operating model",
+          "resolvedTextStyle": {
+            "fontSize": 30,
+            "typeface": "Aptos Display",
+            "color": "#0F172A",
+            "bold": true,
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Production operating model",
+              "fontSize": 30,
+              "typeface": "Aptos Display",
+              "color": "#0F172A",
+              "bold": true,
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8jqh0fep",
+      "id": "4",
+      "bbox": [
+        42,
+        114,
+        760,
+        574
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.0"
+      },
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#D7E0EA",
+      "lineWidth": 1
+    },
+    {
+      "order": 5,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/0bi9s36h",
+      "id": "5",
+      "bbox": [
+        54,
+        124,
+        736,
+        392
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.0.0.0"
+      },
+      "contentType": "image/png",
+      "imageFit": "contain",
+      "asset": {
+        "assetId": "45dae3ae-278f-4b3d-834f-bdbd1b68a076",
+        "contentType": "image/png",
+        "byteLength": 191627
+      }
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qd4vmtwr",
+      "id": "6",
+      "bbox": [
+        54,
+        524,
+        736,
+        152
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.0.0.1"
+      },
+      "geometry": "rect",
+      "text": "Схема заземляет архитектуру; справа показано, что уже есть в прототипе и что нужно для боевого контура.",
+      "textPreview": "Схема заземляет архитектуру; справа показано, что уже есть в прототипе и что нужно для боевого контура.",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "fontSize": 15,
+        "typeface": "Aptos",
+        "color": "#5B6473",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Схема заземляет архитектуру; справа показано, что уже есть в прототипе и что нужно для боевого"
+          },
+          {
+            "index": 2,
+            "text": "контура."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Схема заземляет архитектуру; справа показано, что уже есть в прототипе и что нужно для боевого контура.",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Aptos",
+            "color": "#5B6473",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Схема заземляет архитектуру; справа показано, что уже есть в прототипе и что нужно для боевого контура.",
+              "fontSize": 15,
+              "typeface": "Aptos",
+              "color": "#5B6473",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fyxobm58",
+      "id": "7",
+      "bbox": [
+        822,
+        114,
+        416,
+        156
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.1.0"
+      },
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#D7E0EA",
+      "lineWidth": 1
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/87ed8bat",
+      "id": "8",
+      "bbox": [
+        842,
+        132,
+        376,
+        28
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.1.0.0.0"
+      },
+      "geometry": "roundRect",
+      "fillColor": "#EFF6FF",
+      "lineColor": "#EFF6FF",
+      "lineWidth": 1
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xs72x4na",
+      "id": "9",
+      "bbox": [
+        854,
+        139,
+        352,
+        15.6
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.1.0.0.0.0.0"
+      },
+      "geometry": "rect",
+      "text": "FRESHNESS",
+      "textPreview": "FRESHNESS",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "fontSize": 13,
+        "typeface": "Aptos",
+        "color": "#2563EB",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "FRESHNESS"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "FRESHNESS",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "typeface": "Aptos",
+            "color": "#2563EB",
+            "bold": true,
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "FRESHNESS",
+              "fontSize": 13,
+              "typeface": "Aptos",
+              "color": "#2563EB",
+              "bold": true,
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xkf6dcbu",
+      "id": "10",
+      "bbox": [
+        842,
+        168,
+        376,
+        24
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.1.0.0.1"
+      },
+      "geometry": "rect",
+      "text": "Для данных есть явный operating contract.",
+      "textPreview": "Для данных есть явный operating contract.",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "Aptos Display",
+        "color": "#0F172A",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Для данных есть явный operating"
+          },
+          {
+            "index": 2,
+            "text": "contract."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Для данных есть явный operating contract.",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Aptos Display",
+            "color": "#0F172A",
+            "bold": true,
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Для данных есть явный operating contract.",
+              "fontSize": 18,
+              "typeface": "Aptos Display",
+              "color": "#0F172A",
+              "bold": true,
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4zidonyd",
+      "id": "11",
+      "bbox": [
+        842,
+        200,
+        376,
+        22
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.1.0.0.2"
+      },
+      "geometry": "rect",
+      "text": "- локальный каталог обновляется refresh job по trigger",
+      "textPreview": "- локальный каталог обновляется refresh job по trigger",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "fontSize": 15,
+        "typeface": "Aptos",
+        "color": "#5B6473",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "- локальный каталог обновляется refresh job по"
+          },
+          {
+            "index": 2,
+            "text": "trigger"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "- локальный каталог обновляется refresh job по trigger",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Aptos",
+            "color": "#5B6473",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "- локальный каталог обновляется refresh job по trigger",
+              "fontSize": 15,
+              "typeface": "Aptos",
+              "color": "#5B6473",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fepkzupw",
+      "id": "12",
+      "bbox": [
+        842,
+        230,
+        376,
+        22
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.1.0.0.3"
+      },
+      "geometry": "rect",
+      "text": "- после 24 часов показываем staleness warning",
+      "textPreview": "- после 24 часов показываем staleness warning",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "fontSize": 15,
+        "typeface": "Aptos",
+        "color": "#5B6473",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "- после 24 часов показываем staleness warning"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "- после 24 часов показываем staleness warning",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Aptos",
+            "color": "#5B6473",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "- после 24 часов показываем staleness warning",
+              "fontSize": 15,
+              "typeface": "Aptos",
+              "color": "#5B6473",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/mtwra5gb",
+      "id": "13",
+      "bbox": [
+        842,
+        260,
+        376,
+        22
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.1.0.0.4"
+      },
+      "geometry": "rect",
+      "text": "- policy corpus пересматривается по weekly cadence",
+      "textPreview": "- policy corpus пересматривается по weekly cadence",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "fontSize": 15,
+        "typeface": "Aptos",
+        "color": "#5B6473",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "- policy corpus пересматривается по weekly cadence"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "- policy corpus пересматривается по weekly cadence",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Aptos",
+            "color": "#5B6473",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "- policy corpus пересматривается по weekly cadence",
+              "fontSize": 15,
+              "typeface": "Aptos",
+              "color": "#5B6473",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xc3ylc7u",
+      "id": "14",
+      "bbox": [
+        822,
+        286,
+        416,
+        168
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.1.1"
+      },
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#D7E0EA",
+      "lineWidth": 1
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4r65wjud",
+      "id": "15",
+      "bbox": [
+        842,
+        304,
+        376,
+        28
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.1.1.0.0"
+      },
+      "geometry": "roundRect",
+      "fillColor": "#FFF7ED",
+      "lineColor": "#FFF7ED",
+      "lineWidth": 1
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/f6dcbulw",
+      "id": "16",
+      "bbox": [
+        854,
+        311,
+        352,
+        15.6
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.1.1.0.0.0.0"
+      },
+      "geometry": "rect",
+      "text": "УЖЕ ЕСТЬ",
+      "textPreview": "УЖЕ ЕСТЬ",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "fontSize": 13,
+        "typeface": "Aptos",
+        "color": "#F59E0B",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "УЖЕ ЕСТЬ"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "УЖЕ ЕСТЬ",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "typeface": "Aptos",
+            "color": "#F59E0B",
+            "bold": true,
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "УЖЕ ЕСТЬ",
+              "fontSize": 13,
+              "typeface": "Aptos",
+              "color": "#F59E0B",
+              "bold": true,
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/mlkjm1cf",
+      "id": "17",
+      "bbox": [
+        842,
+        340,
+        376,
+        48
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.1.1.0.1"
+      },
+      "geometry": "rect",
+      "text": "Что реально реализовано в прототипе.",
+      "textPreview": "Что реально реализовано в прототипе.",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "Aptos Display",
+        "color": "#0F172A",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Что реально реализовано в прототипе."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Что реально реализовано в прототипе.",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Aptos Display",
+            "color": "#0F172A",
+            "bold": true,
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Что реально реализовано в прототипе.",
+              "fontSize": 18,
+              "typeface": "Aptos Display",
+              "color": "#0F172A",
+              "bold": true,
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/x0nuxc3y",
+      "id": "18",
+      "bbox": [
+        842,
+        396,
+        376,
+        22
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.1.1.0.2"
+      },
+      "geometry": "rect",
+      "text": "- persistent memory в SQLite",
+      "textPreview": "- persistent memory в SQLite",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "fontSize": 15,
+        "typeface": "Aptos",
+        "color": "#5B6473",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "- persistent memory в SQLite"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "- persistent memory в SQLite",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Aptos",
+            "color": "#5B6473",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "- persistent memory в SQLite",
+              "fontSize": 15,
+              "typeface": "Aptos",
+              "color": "#5B6473",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4fu18jqh",
+      "id": "19",
+      "bbox": [
+        842,
+        426,
+        376,
+        22
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.1.1.0.3"
+      },
+      "geometry": "rect",
+      "text": "- write-back в профиль кейса",
+      "textPreview": "- write-back в профиль кейса",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "fontSize": 15,
+        "typeface": "Aptos",
+        "color": "#5B6473",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "- write-back в профиль кейса"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "- write-back в профиль кейса",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Aptos",
+            "color": "#5B6473",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "- write-back в профиль кейса",
+              "fontSize": 15,
+              "typeface": "Aptos",
+              "color": "#5B6473",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 20,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4nap4r65",
+      "id": "20",
+      "bbox": [
+        842,
+        456,
+        376,
+        22
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.1.1.0.4"
+      },
+      "geometry": "rect",
+      "text": "- fallback при сбое MCP provider",
+      "textPreview": "- fallback при сбое MCP provider",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "fontSize": 15,
+        "typeface": "Aptos",
+        "color": "#5B6473",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "- fallback при сбое MCP provider"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "- fallback при сбое MCP provider",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Aptos",
+            "color": "#5B6473",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "- fallback при сбое MCP provider",
+              "fontSize": 15,
+              "typeface": "Aptos",
+              "color": "#5B6473",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 21,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/t83itgfm",
+      "id": "21",
+      "bbox": [
+        822,
+        470,
+        416,
+        218
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.1.2"
+      },
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#D7E0EA",
+      "lineWidth": 1
+    },
+    {
+      "order": 22,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/mhk3q5o7",
+      "id": "22",
+      "bbox": [
+        842,
+        488,
+        376,
+        28
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.1.2.0.0"
+      },
+      "geometry": "roundRect",
+      "fillColor": "#ECFEFF",
+      "lineColor": "#ECFEFF",
+      "lineWidth": 1
+    },
+    {
+      "order": 23,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/b2hwfyxo",
+      "id": "23",
+      "bbox": [
+        854,
+        495,
+        352,
+        15.6
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.1.2.0.0.0.0"
+      },
+      "geometry": "rect",
+      "text": "OBSERVABILITY",
+      "textPreview": "OBSERVABILITY",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "fontSize": 13,
+        "typeface": "Aptos",
+        "color": "#0F766E",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "OBSERVABILITY"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "OBSERVABILITY",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "typeface": "Aptos",
+            "color": "#0F766E",
+            "bold": true,
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "OBSERVABILITY",
+              "fontSize": 13,
+              "typeface": "Aptos",
+              "color": "#0F766E",
+              "bold": true,
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 24,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4byhgn29",
+      "id": "24",
+      "bbox": [
+        842,
+        524,
+        376,
+        24
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.1.2.0.1"
+      },
+      "geometry": "rect",
+      "text": "Ключевые сигналы уже определены.",
+      "textPreview": "Ключевые сигналы уже определены.",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "Aptos Display",
+        "color": "#0F172A",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Ключевые сигналы уже определены."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Ключевые сигналы уже определены.",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Aptos Display",
+            "color": "#0F172A",
+            "bold": true,
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Ключевые сигналы уже определены.",
+              "fontSize": 18,
+              "typeface": "Aptos Display",
+              "color": "#0F172A",
+              "bold": true,
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 25,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/twra5gbq",
+      "id": "25",
+      "bbox": [
+        842,
+        556,
+        376,
+        22
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.1.2.0.2"
+      },
+      "geometry": "rect",
+      "text": "- latency: agent_run, listing_search, MCP",
+      "textPreview": "- latency: agent_run, listing_search, MCP",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "fontSize": 15,
+        "typeface": "Aptos",
+        "color": "#5B6473",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "- latency: agent_run, listing_search, MCP"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "- latency: agent_run, listing_search, MCP",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Aptos",
+            "color": "#5B6473",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "- latency: agent_run, listing_search, MCP",
+              "fontSize": 15,
+              "typeface": "Aptos",
+              "color": "#5B6473",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 26,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/m58z25kb",
+      "id": "26",
+      "bbox": [
+        842,
+        586,
+        376,
+        22
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.1.2.0.3"
+      },
+      "geometry": "rect",
+      "text": "- quality: nightly QA gate и quality gate status",
+      "textPreview": "- quality: nightly QA gate и quality gate status",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "fontSize": 15,
+        "typeface": "Aptos",
+        "color": "#5B6473",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "- quality: nightly QA gate и quality gate status"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "- quality: nightly QA gate и quality gate status",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Aptos",
+            "color": "#5B6473",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "- quality: nightly QA gate и quality gate status",
+              "fontSize": 15,
+              "typeface": "Aptos",
+              "color": "#5B6473",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 27,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/bq1oryts",
+      "id": "27",
+      "bbox": [
+        842,
+        616,
+        376,
+        22
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.1.2.0.4"
+      },
+      "geometry": "rect",
+      "text": "- empty_shortlist_rate, escalation_rate, freshness age",
+      "textPreview": "- empty_shortlist_rate, escalation_rate, freshness age",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "fontSize": 15,
+        "typeface": "Aptos",
+        "color": "#5B6473",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "- empty_shortlist_rate, escalation_rate, freshness age"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "- empty_shortlist_rate, escalation_rate, freshness age",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Aptos",
+            "color": "#5B6473",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "- empty_shortlist_rate, escalation_rate, freshness age",
+              "fontSize": 15,
+              "typeface": "Aptos",
+              "color": "#5B6473",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    }
+  ],
+  "composeRuns": [
+    {
+      "index": 1,
+      "frame": {
+        "left": 0,
+        "top": 0,
+        "width": 1280,
+        "height": 720
+      },
+      "root": {
+        "path": "0",
+        "kind": "panel",
+        "requestedSize": {
+          "width": {
+            "mode": "fill",
+            "value": 1
+          },
+          "height": {
+            "mode": "fill",
+            "value": 1
+          }
+        },
+        "intrinsicSize": {
+          "width": 84,
+          "height": 146
+        },
+        "frame": {
+          "left": 0,
+          "top": 0,
+          "width": 1280,
+          "height": 720
+        },
+        "children": [
+          {
+            "path": "0.0",
+            "kind": "grid",
+            "requestedSize": {
+              "width": {
+                "mode": "fill",
+                "value": 1
+              },
+              "height": {
+                "mode": "fill",
+                "value": 1
+              }
+            },
+            "intrinsicSize": {
+              "width": 0,
+              "height": 80
+            },
+            "frame": {
+              "left": 42,
+              "top": 34,
+              "width": 1196,
+              "height": 654
+            },
+            "children": [
+              {
+                "path": "0.0.0",
+                "kind": "grid",
+                "requestedSize": {
+                  "width": {
+                    "mode": "fill",
+                    "value": 1
+                  },
+                  "height": {
+                    "mode": "hug"
+                  }
+                },
+                "intrinsicSize": {
+                  "width": 0,
+                  "height": 62
+                },
+                "frame": {
+                  "left": 42,
+                  "top": 34,
+                  "width": 1196,
+                  "height": 62
+                },
+                "children": [
+                  {
+                    "path": "0.0.0.0",
+                    "kind": "text",
+                    "requestedSize": {
+                      "width": {
+                        "mode": "fill",
+                        "value": 1
+                      },
+                      "height": {
+                        "mode": "hug"
+                      }
+                    },
+                    "intrinsicSize": {
+                      "width": 0,
+                      "height": 16.8
+                    },
+                    "frame": {
+                      "left": 42,
+                      "top": 34,
+                      "width": 1196,
+                      "height": 20
+                    },
+                    "children": [],
+                    "text": "OPERATING MODEL",
+                    "transform": "none",
+                    "element": {
+                      "aid": "sh/qpg3ex0n",
+                      "id": "2",
+                      "kind": "shape"
+                    }
+                  },
+                  {
+                    "path": "0.0.0.1",
+                    "kind": "text",
+                    "requestedSize": {
+                      "width": {
+                        "mode": "fill",
+                        "value": 1
+                      },
+                      "height": {
+                        "mode": "hug"
+                      }
+                    },
+                    "intrinsicSize": {
+                      "width": 0,
+                      "height": 36
+                    },
+                    "frame": {
+                      "left": 42,
+                      "top": 62,
+                      "width": 1196,
+                      "height": 34
+                    },
+                    "children": [],
+                    "text": "Production operating model",
+                    "transform": "none",
+                    "element": {
+                      "aid": "sh/fa9w3m94",
+                      "id": "3",
+                      "kind": "shape"
+                    }
+                  }
+                ],
+                "padding": {
+                  "top": 0,
+                  "right": 0,
+                  "bottom": 0,
+                  "left": 0
+                },
+                "columnGap": 0,
+                "rowGap": 8,
+                "alignItems": "stretch",
+                "justifyItems": "stretch",
+                "contentFrame": {
+                  "left": 42,
+                  "top": 34,
+                  "width": 1196,
+                  "height": 62
+                },
+                "columns": [
+                  {
+                    "mode": "fr",
+                    "value": 1
+                  }
+                ],
+                "rows": [
+                  {
+                    "mode": "fixed",
+                    "value": 20
+                  },
+                  {
+                    "mode": "fixed",
+                    "value": 34
+                  }
+                ],
+                "autoRows": "auto",
+                "resolvedRows": [
+                  {
+                    "mode": "fixed",
+                    "value": 20
+                  },
+                  {
+                    "mode": "fixed",
+                    "value": 34
+                  }
+                ],
+                "columnSizes": [
+                  1196
+                ],
+                "rowSizes": [
+                  20,
+                  34
+                ],
+                "cells": [
+                  {
+                    "path": "0.0.0.0",
+                    "column": 0,
+                    "row": 0,
+                    "columnSpan": 1,
+                    "rowSpan": 1,
+                    "cellFrame": {
+                      "left": 42,
+                      "top": 34,
+                      "width": 1196,
+                      "height": 20
+                    }
+                  },
+                  {
+                    "path": "0.0.0.1",
+                    "column": 0,
+                    "row": 1,
+                    "columnSpan": 1,
+                    "rowSpan": 1,
+                    "cellFrame": {
+                      "left": 42,
+                      "top": 62,
+                      "width": 1196,
+                      "height": 34
+                    }
+                  }
+                ]
+              },
+              {
+                "path": "0.0.1",
+                "kind": "grid",
+                "requestedSize": {
+                  "width": {
+                    "mode": "fill",
+                    "value": 1
+                  },
+                  "height": {
+                    "mode": "fill",
+                    "value": 1
+                  }
+                },
+                "intrinsicSize": {
+                  "width": 780,
+                  "height": 422
+                },
+                "frame": {
+                  "left": 42,
+                  "top": 114,
+                  "width": 1196,
+                  "height": 574
+                },
+                "children": [
+                  {
+                    "path": "0.0.1.0",
+                    "kind": "panel",
+                    "requestedSize": {
+                      "width": {
+                        "mode": "fill",
+                        "value": 1
+                      },
+                      "height": {
+                        "mode": "fill",
+                        "value": 1
+                      }
+                    },
+                    "intrinsicSize": {
+                      "width": 24,
+                      "height": 422
+                    },
+                    "frame": {
+                      "left": 42,
+                      "top": 114,
+                      "width": 760,
+                      "height": 574
+                    },
+                    "children": [
+                      {
+                        "path": "0.0.1.0.0",
+                        "kind": "grid",
+                        "requestedSize": {
+                          "width": {
+                            "mode": "fill",
+                            "value": 1
+                          },
+                          "height": {
+                            "mode": "fill",
+                            "value": 1
+                          }
+                        },
+                        "intrinsicSize": {
+                          "width": 0,
+                          "height": 400
+                        },
+                        "frame": {
+                          "left": 54,
+                          "top": 124,
+                          "width": 736,
+                          "height": 552
+                        },
+                        "children": [
+                          {
+                            "path": "0.0.1.0.0.0",
+                            "kind": "image",
+                            "requestedSize": {
+                              "width": {
+                                "mode": "fill",
+                                "value": 1
+                              },
+                              "height": {
+                                "mode": "fixed",
+                                "value": 392
+                              }
+                            },
+                            "intrinsicSize": {
+                              "width": 0,
+                              "height": 392
+                            },
+                            "frame": {
+                              "left": 54,
+                              "top": 124,
+                              "width": 736,
+                              "height": 392
+                            },
+                            "children": [],
+                            "source": {
+                              "kind": "blob"
+                            },
+                            "contentType": "image/png",
+                            "fit": "contain",
+                            "element": {
+                              "aid": "im/0bi9s36h",
+                              "id": "5",
+                              "kind": "image"
+                            }
+                          },
+                          {
+                            "path": "0.0.1.0.0.1",
+                            "kind": "text",
+                            "requestedSize": {
+                              "width": {
+                                "mode": "fill",
+                                "value": 1
+                              },
+                              "height": {
+                                "mode": "hug"
+                              }
+                            },
+                            "intrinsicSize": {
+                              "width": 0,
+                              "height": 18
+                            },
+                            "frame": {
+                              "left": 54,
+                              "top": 524,
+                              "width": 736,
+                              "height": 152
+                            },
+                            "children": [],
+                            "text": "Схема заземляет архитектуру; справа показано, что уже есть в прототипе и что нужно для боевого контура.",
+                            "transform": "none",
+                            "element": {
+                              "aid": "sh/qd4vmtwr",
+                              "id": "6",
+                              "kind": "shape"
+                            }
+                          }
+                        ],
+                        "padding": {
+                          "top": 0,
+                          "right": 0,
+                          "bottom": 0,
+                          "left": 0
+                        },
+                        "columnGap": 0,
+                        "rowGap": 8,
+                        "alignItems": "stretch",
+                        "justifyItems": "stretch",
+                        "contentFrame": {
+                          "left": 54,
+                          "top": 124,
+                          "width": 736,
+                          "height": 552
+                        },
+                        "columns": [
+                          {
+                            "mode": "fr",
+                            "value": 1
+                          }
+                        ],
+                        "rows": [
+                          {
+                            "mode": "fixed",
+                            "value": 392
+                          },
+                          {
+                            "mode": "fr",
+                            "value": 1
+                          }
+                        ],
+                        "autoRows": "auto",
+                        "resolvedRows": [
+                          {
+                            "mode": "fixed",
+                            "value": 392
+                          },
+                          {
+                            "mode": "fr",
+                            "value": 1
+                          }
+                        ],
+                        "columnSizes": [
+                          736
+                        ],
+                        "rowSizes": [
+                          392,
+                          152
+                        ],
+                        "cells": [
+                          {
+                            "path": "0.0.1.0.0.0",
+                            "column": 0,
+                            "row": 0,
+                            "columnSpan": 1,
+                            "rowSpan": 1,
+                            "cellFrame": {
+                              "left": 54,
+                              "top": 124,
+                              "width": 736,
+                              "height": 392
+                            }
+                          },
+                          {
+                            "path": "0.0.1.0.0.1",
+                            "column": 0,
+                            "row": 1,
+                            "columnSpan": 1,
+                            "rowSpan": 1,
+                            "cellFrame": {
+                              "left": 54,
+                              "top": 524,
+                              "width": 736,
+                              "height": 152
+                            }
+                          }
+                        ]
+                      }
+                    ],
+                    "padding": {
+                      "top": 10,
+                      "right": 12,
+                      "bottom": 12,
+                      "left": 12
+                    },
+                    "align": "start",
+                    "justify": "start",
+                    "contentFrame": {
+                      "left": 54,
+                      "top": 124,
+                      "width": 736,
+                      "height": 552
+                    },
+                    "element": {
+                      "aid": "sh/8jqh0fep",
+                      "id": "4",
+                      "kind": "shape"
+                    }
+                  },
+                  {
+                    "path": "0.0.1.1",
+                    "kind": "grid",
+                    "requestedSize": {
+                      "width": {
+                        "mode": "fill",
+                        "value": 1
+                      },
+                      "height": {
+                        "mode": "fill",
+                        "value": 1
+                      }
+                    },
+                    "intrinsicSize": {
+                      "width": 0,
+                      "height": 356
+                    },
+                    "frame": {
+                      "left": 822,
+                      "top": 114,
+                      "width": 416,
+                      "height": 574
+                    },
+                    "children": [
+                      {
+                        "path": "0.0.1.1.0",
+                        "kind": "panel",
+                        "requestedSize": {
+                          "width": {
+                            "mode": "fill",
+                            "value": 1
+                          },
+                          "height": {
+                            "mode": "fill",
+                            "value": 1
+                          }
+                        },
+                        "intrinsicSize": {
+                          "width": 40,
+                          "height": 186
+                        },
+                        "frame": {
+                          "left": 822,
+                          "top": 114,
+                          "width": 416,
+                          "height": 156
+                        },
+                        "children": [
+                          {
+                            "path": "0.0.1.1.0.0",
+                            "kind": "grid",
+                            "requestedSize": {
+                              "width": {
+                                "mode": "fill",
+                                "value": 1
+                              },
+                              "height": {
+                                "mode": "fill",
+                                "value": 1
+                              }
+                            },
+                            "intrinsicSize": {
+                              "width": 0,
+                              "height": 150
+                            },
+                            "frame": {
+                              "left": 842,
+                              "top": 132,
+                              "width": 376,
+                              "height": 120
+                            },
+                            "children": [
+                              {
+                                "path": "0.0.1.1.0.0.0",
+                                "kind": "panel",
+                                "requestedSize": {
+                                  "width": {
+                                    "mode": "fill",
+                                    "value": 1
+                                  },
+                                  "height": {
+                                    "mode": "hug"
+                                  }
+                                },
+                                "intrinsicSize": {
+                                  "width": 24,
+                                  "height": 29.6
+                                },
+                                "frame": {
+                                  "left": 842,
+                                  "top": 132,
+                                  "width": 376,
+                                  "height": 28
+                                },
+                                "children": [
+                                  {
+                                    "path": "0.0.1.1.0.0.0.0",
+                                    "kind": "grid",
+                                    "requestedSize": {
+                                      "width": {
+                                        "mode": "fill",
+                                        "value": 1
+                                      },
+                                      "height": {
+                                        "mode": "fill",
+                                        "value": 1
+                                      }
+                                    },
+                                    "intrinsicSize": {
+                                      "width": 0,
+                                      "height": 15.6
+                                    },
+                                    "frame": {
+                                      "left": 854,
+                                      "top": 139,
+                                      "width": 352,
+                                      "height": 14
+                                    },
+                                    "children": [
+                                      {
+                                        "path": "0.0.1.1.0.0.0.0.0",
+                                        "kind": "text",
+                                        "requestedSize": {
+                                          "width": {
+                                            "mode": "hug"
+                                          },
+                                          "height": {
+                                            "mode": "hug"
+                                          }
+                                        },
+                                        "intrinsicSize": {
+                                          "width": 78.53,
+                                          "height": 15.6
+                                        },
+                                        "frame": {
+                                          "left": 854,
+                                          "top": 139,
+                                          "width": 352,
+                                          "height": 15.6
+                                        },
+                                        "children": [],
+                                        "text": "FRESHNESS",
+                                        "transform": "none",
+                                        "element": {
+                                          "aid": "sh/xs72x4na",
+                                          "id": "9",
+                                          "kind": "shape"
+                                        }
+                                      }
+                                    ],
+                                    "padding": {
+                                      "top": 0,
+                                      "right": 0,
+                                      "bottom": 0,
+                                      "left": 0
+                                    },
+                                    "columnGap": 0,
+                                    "rowGap": 0,
+                                    "alignItems": "stretch",
+                                    "justifyItems": "stretch",
+                                    "contentFrame": {
+                                      "left": 854,
+                                      "top": 139,
+                                      "width": 352,
+                                      "height": 14
+                                    },
+                                    "columns": [
+                                      {
+                                        "mode": "fr",
+                                        "value": 1
+                                      }
+                                    ],
+                                    "autoRows": "auto",
+                                    "resolvedRows": [
+                                      "auto"
+                                    ],
+                                    "columnSizes": [
+                                      352
+                                    ],
+                                    "rowSizes": [
+                                      15.6
+                                    ],
+                                    "cells": [
+                                      {
+                                        "path": "0.0.1.1.0.0.0.0.0",
+                                        "column": 0,
+                                        "row": 0,
+                                        "columnSpan": 1,
+                                        "rowSpan": 1,
+                                        "cellFrame": {
+                                          "left": 854,
+                                          "top": 139,
+                                          "width": 352,
+                                          "height": 15.6
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ],
+                                "padding": {
+                                  "top": 7,
+                                  "right": 12,
+                                  "bottom": 7,
+                                  "left": 12
+                                },
+                                "align": "start",
+                                "justify": "start",
+                                "contentFrame": {
+                                  "left": 854,
+                                  "top": 139,
+                                  "width": 352,
+                                  "height": 14
+                                },
+                                "element": {
+                                  "aid": "sh/87ed8bat",
+                                  "id": "8",
+                                  "kind": "shape"
+                                }
+                              },
+                              {
+                                "path": "0.0.1.1.0.0.1",
+                                "kind": "text",
+                                "requestedSize": {
+                                  "width": {
+                                    "mode": "hug"
+                                  },
+                                  "height": {
+                                    "mode": "hug"
+                                  }
+                                },
+                                "intrinsicSize": {
+                                  "width": 382.24,
+                                  "height": 21.6
+                                },
+                                "frame": {
+                                  "left": 842,
+                                  "top": 168,
+                                  "width": 376,
+                                  "height": 24
+                                },
+                                "children": [],
+                                "text": "Для данных есть явный operating contract.",
+                                "transform": "none",
+                                "element": {
+                                  "aid": "sh/xkf6dcbu",
+                                  "id": "10",
+                                  "kind": "shape"
+                                }
+                              },
+                              {
+                                "path": "0.0.1.1.0.0.2",
+                                "kind": "text",
+                                "requestedSize": {
+                                  "width": {
+                                    "mode": "fill",
+                                    "value": 1
+                                  },
+                                  "height": {
+                                    "mode": "hug"
+                                  }
+                                },
+                                "intrinsicSize": {
+                                  "width": 0,
+                                  "height": 18
+                                },
+                                "frame": {
+                                  "left": 842,
+                                  "top": 200,
+                                  "width": 376,
+                                  "height": 22
+                                },
+                                "children": [],
+                                "text": "- локальный каталог обновляется refresh job по trigger",
+                                "transform": "none",
+                                "element": {
+                                  "aid": "sh/4zidonyd",
+                                  "id": "11",
+                                  "kind": "shape"
+                                }
+                              },
+                              {
+                                "path": "0.0.1.1.0.0.3",
+                                "kind": "text",
+                                "requestedSize": {
+                                  "width": {
+                                    "mode": "fill",
+                                    "value": 1
+                                  },
+                                  "height": {
+                                    "mode": "hug"
+                                  }
+                                },
+                                "intrinsicSize": {
+                                  "width": 0,
+                                  "height": 18
+                                },
+                                "frame": {
+                                  "left": 842,
+                                  "top": 230,
+                                  "width": 376,
+                                  "height": 22
+                                },
+                                "children": [],
+                                "text": "- после 24 часов показываем staleness warning",
+                                "transform": "none",
+                                "element": {
+                                  "aid": "sh/fepkzupw",
+                                  "id": "12",
+                                  "kind": "shape"
+                                }
+                              },
+                              {
+                                "path": "0.0.1.1.0.0.4",
+                                "kind": "text",
+                                "requestedSize": {
+                                  "width": {
+                                    "mode": "fill",
+                                    "value": 1
+                                  },
+                                  "height": {
+                                    "mode": "hug"
+                                  }
+                                },
+                                "intrinsicSize": {
+                                  "width": 0,
+                                  "height": 18
+                                },
+                                "frame": {
+                                  "left": 842,
+                                  "top": 260,
+                                  "width": 376,
+                                  "height": 22
+                                },
+                                "children": [],
+                                "text": "- policy corpus пересматривается по weekly cadence",
+                                "transform": "none",
+                                "element": {
+                                  "aid": "sh/mtwra5gb",
+                                  "id": "13",
+                                  "kind": "shape"
+                                }
+                              }
+                            ],
+                            "padding": {
+                              "top": 0,
+                              "right": 0,
+                              "bottom": 0,
+                              "left": 0
+                            },
+                            "columnGap": 0,
+                            "rowGap": 8,
+                            "alignItems": "stretch",
+                            "justifyItems": "stretch",
+                            "contentFrame": {
+                              "left": 842,
+                              "top": 132,
+                              "width": 376,
+                              "height": 120
+                            },
+                            "columns": [
+                              {
+                                "mode": "fr",
+                                "value": 1
+                              }
+                            ],
+                            "rows": [
+                              {
+                                "mode": "fixed",
+                                "value": 28
+                              },
+                              {
+                                "mode": "fixed",
+                                "value": 24
+                              },
+                              {
+                                "mode": "fixed",
+                                "value": 22
+                              },
+                              {
+                                "mode": "fixed",
+                                "value": 22
+                              },
+                              {
+                                "mode": "fixed",
+                                "value": 22
+                              }
+                            ],
+                            "autoRows": "auto",
+                            "resolvedRows": [
+                              {
+                                "mode": "fixed",
+                                "value": 28
+                              },
+                              {
+                                "mode": "fixed",
+                                "value": 24
+                              },
+                              {
+                                "mode": "fixed",
+                                "value": 22
+                              },
+                              {
+                                "mode": "fixed",
+                                "value": 22
+                              },
+                              {
+                                "mode": "fixed",
+                                "value": 22
+                              }
+                            ],
+                            "columnSizes": [
+                              376
+                            ],
+                            "rowSizes": [
+                              28,
+                              24,
+                              22,
+                              22,
+                              22
+                            ],
+                            "cells": [
+                              {
+                                "path": "0.0.1.1.0.0.0",
+                                "column": 0,
+                                "row": 0,
+                                "columnSpan": 1,
+                                "rowSpan": 1,
+                                "cellFrame": {
+                                  "left": 842,
+                                  "top": 132,
+                                  "width": 376,
+                                  "height": 28
+                                }
+                              },
+                              {
+                                "path": "0.0.1.1.0.0.1",
+                                "column": 0,
+                                "row": 1,
+                                "columnSpan": 1,
+                                "rowSpan": 1,
+                                "cellFrame": {
+                                  "left": 842,
+                                  "top": 168,
+                                  "width": 376,
+                                  "height": 24
+                                }
+                              },
+                              {
+                                "path": "0.0.1.1.0.0.2",
+                                "column": 0,
+                                "row": 2,
+                                "columnSpan": 1,
+                                "rowSpan": 1,
+                                "cellFrame": {
+                                  "left": 842,
+                                  "top": 200,
+                                  "width": 376,
+                                  "height": 22
+                                }
+                              },
+                              {
+                                "path": "0.0.1.1.0.0.3",
+                                "column": 0,
+                                "row": 3,
+                                "columnSpan": 1,
+                                "rowSpan": 1,
+                                "cellFrame": {
+                                  "left": 842,
+                                  "top": 230,
+                                  "width": 376,
+                                  "height": 22
+                                }
+                              },
+                              {
+                                "path": "0.0.1.1.0.0.4",
+                                "column": 0,
+                                "row": 4,
+                                "columnSpan": 1,
+                                "rowSpan": 1,
+                                "cellFrame": {
+                                  "left": 842,
+                                  "top": 260,
+                                  "width": 376,
+                                  "height": 22
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "padding": {
+                          "top": 18,
+                          "right": 20,
+                          "bottom": 18,
+                          "left": 20
+                        },
+                        "align": "start",
+                        "justify": "start",
+                        "contentFrame": {
+                          "left": 842,
+                          "top": 132,
+                          "width": 376,
+                          "height": 120
+                        },
+                        "element": {
+                          "aid": "sh/fyxobm58",
+                          "id": "7",
+                          "kind": "shape"
+                        }
+                      },
+                      {
+                        "path": "0.0.1.1.1",
+                        "kind": "panel",
+                        "requestedSize": {
+                          "width": {
+                            "mode": "fill",
+                            "value": 1
+                          },
+                          "height": {
+                            "mode": "fill",
+                            "value": 1
+                          }
+                        },
+                        "intrinsicSize": {
+                          "width": 40,
+                          "height": 210
+                        },
+                        "frame": {
+                          "left": 822,
+                          "top": 286,
+                          "width": 416,
+                          "height": 168
+                        },
+                        "children": [
+                          {
+                            "path": "0.0.1.1.1.0",
+                            "kind": "grid",
+                            "requestedSize": {
+                              "width": {
+                                "mode": "fill",
+                                "value": 1
+                              },
+                              "height": {
+                                "mode": "fill",
+                                "value": 1
+                              }
+                            },
+                            "intrinsicSize": {
+                              "width": 0,
+                              "height": 174
+                            },
+                            "frame": {
+                              "left": 842,
+                              "top": 304,
+                              "width": 376,
+                              "height": 132
+                            },
+                            "children": [
+                              {
+                                "path": "0.0.1.1.1.0.0",
+                                "kind": "panel",
+                                "requestedSize": {
+                                  "width": {
+                                    "mode": "fill",
+                                    "value": 1
+                                  },
+                                  "height": {
+                                    "mode": "hug"
+                                  }
+                                },
+                                "intrinsicSize": {
+                                  "width": 24,
+                                  "height": 29.6
+                                },
+                                "frame": {
+                                  "left": 842,
+                                  "top": 304,
+                                  "width": 376,
+                                  "height": 28
+                                },
+                                "children": [
+                                  {
+                                    "path": "0.0.1.1.1.0.0.0",
+                                    "kind": "grid",
+                                    "requestedSize": {
+                                      "width": {
+                                        "mode": "fill",
+                                        "value": 1
+                                      },
+                                      "height": {
+                                        "mode": "fill",
+                                        "value": 1
+                                      }
+                                    },
+                                    "intrinsicSize": {
+                                      "width": 0,
+                                      "height": 15.6
+                                    },
+                                    "frame": {
+                                      "left": 854,
+                                      "top": 311,
+                                      "width": 352,
+                                      "height": 14
+                                    },
+                                    "children": [
+                                      {
+                                        "path": "0.0.1.1.1.0.0.0.0",
+                                        "kind": "text",
+                                        "requestedSize": {
+                                          "width": {
+                                            "mode": "hug"
+                                          },
+                                          "height": {
+                                            "mode": "hug"
+                                          }
+                                        },
+                                        "intrinsicSize": {
+                                          "width": 69.02,
+                                          "height": 15.6
+                                        },
+                                        "frame": {
+                                          "left": 854,
+                                          "top": 311,
+                                          "width": 352,
+                                          "height": 15.6
+                                        },
+                                        "children": [],
+                                        "text": "УЖЕ ЕСТЬ",
+                                        "transform": "none",
+                                        "element": {
+                                          "aid": "sh/f6dcbulw",
+                                          "id": "16",
+                                          "kind": "shape"
+                                        }
+                                      }
+                                    ],
+                                    "padding": {
+                                      "top": 0,
+                                      "right": 0,
+                                      "bottom": 0,
+                                      "left": 0
+                                    },
+                                    "columnGap": 0,
+                                    "rowGap": 0,
+                                    "alignItems": "stretch",
+                                    "justifyItems": "stretch",
+                                    "contentFrame": {
+                                      "left": 854,
+                                      "top": 311,
+                                      "width": 352,
+                                      "height": 14
+                                    },
+                                    "columns": [
+                                      {
+                                        "mode": "fr",
+                                        "value": 1
+                                      }
+                                    ],
+                                    "autoRows": "auto",
+                                    "resolvedRows": [
+                                      "auto"
+                                    ],
+                                    "columnSizes": [
+                                      352
+                                    ],
+                                    "rowSizes": [
+                                      15.6
+                                    ],
+                                    "cells": [
+                                      {
+                                        "path": "0.0.1.1.1.0.0.0.0",
+                                        "column": 0,
+                                        "row": 0,
+                                        "columnSpan": 1,
+                                        "rowSpan": 1,
+                                        "cellFrame": {
+                                          "left": 854,
+                                          "top": 311,
+                                          "width": 352,
+                                          "height": 15.6
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ],
+                                "padding": {
+                                  "top": 7,
+                                  "right": 12,
+                                  "bottom": 7,
+                                  "left": 12
+                                },
+                                "align": "start",
+                                "justify": "start",
+                                "contentFrame": {
+                                  "left": 854,
+                                  "top": 311,
+                                  "width": 352,
+                                  "height": 14
+                                },
+                                "element": {
+                                  "aid": "sh/4r65wjud",
+                                  "id": "15",
+                                  "kind": "shape"
+                                }
+                              },
+                              {
+                                "path": "0.0.1.1.1.0.1",
+                                "kind": "text",
+                                "requestedSize": {
+                                  "width": {
+                                    "mode": "hug"
+                                  },
+                                  "height": {
+                                    "mode": "hug"
+                                  }
+                                },
+                                "intrinsicSize": {
+                                  "width": 351.4,
+                                  "height": 21.6
+                                },
+                                "frame": {
+                                  "left": 842,
+                                  "top": 340,
+                                  "width": 376,
+                                  "height": 48
+                                },
+                                "children": [],
+                                "text": "Что реально реализовано в прототипе.",
+                                "transform": "none",
+                                "element": {
+                                  "aid": "sh/mlkjm1cf",
+                                  "id": "17",
+                                  "kind": "shape"
+                                }
+                              },
+                              {
+                                "path": "0.0.1.1.1.0.2",
+                                "kind": "text",
+                                "requestedSize": {
+                                  "width": {
+                                    "mode": "fill",
+                                    "value": 1
+                                  },
+                                  "height": {
+                                    "mode": "hug"
+                                  }
+                                },
+                                "intrinsicSize": {
+                                  "width": 0,
+                                  "height": 18
+                                },
+                                "frame": {
+                                  "left": 842,
+                                  "top": 396,
+                                  "width": 376,
+                                  "height": 22
+                                },
+                                "children": [],
+                                "text": "- persistent memory в SQLite",
+                                "transform": "none",
+                                "element": {
+                                  "aid": "sh/x0nuxc3y",
+                                  "id": "18",
+                                  "kind": "shape"
+                                }
+                              },
+                              {
+                                "path": "0.0.1.1.1.0.3",
+                                "kind": "text",
+                                "requestedSize": {
+                                  "width": {
+                                    "mode": "fill",
+                                    "value": 1
+                                  },
+                                  "height": {
+                                    "mode": "hug"
+                                  }
+                                },
+                                "intrinsicSize": {
+                                  "width": 0,
+                                  "height": 18
+                                },
+                                "frame": {
+                                  "left": 842,
+                                  "top": 426,
+                                  "width": 376,
+                                  "height": 22
+                                },
+                                "children": [],
+                                "text": "- write-back в профиль кейса",
+                                "transform": "none",
+                                "element": {
+                                  "aid": "sh/4fu18jqh",
+                                  "id": "19",
+                                  "kind": "shape"
+                                }
+                              },
+                              {
+                                "path": "0.0.1.1.1.0.4",
+                                "kind": "text",
+                                "requestedSize": {
+                                  "width": {
+                                    "mode": "fill",
+                                    "value": 1
+                                  },
+                                  "height": {
+                                    "mode": "hug"
+                                  }
+                                },
+                                "intrinsicSize": {
+                                  "width": 0,
+                                  "height": 18
+                                },
+                                "frame": {
+                                  "left": 842,
+                                  "top": 456,
+                                  "width": 376,
+                                  "height": 22
+                                },
+                                "children": [],
+                                "text": "- fallback при сбое MCP provider",
+                                "transform": "none",
+                                "element": {
+                                  "aid": "sh/4nap4r65",
+                                  "id": "20",
+                                  "kind": "shape"
+                                }
+                              }
+                            ],
+                            "padding": {
+                              "top": 0,
+                              "right": 0,
+                              "bottom": 0,
+                              "left": 0
+                            },
+                            "columnGap": 0,
+                            "rowGap": 8,
+                            "alignItems": "stretch",
+                            "justifyItems": "stretch",
+                            "contentFrame": {
+                              "left": 842,
+                              "top": 304,
+                              "width": 376,
+                              "height": 132
+                            },
+                            "columns": [
+                              {
+                                "mode": "fr",
+                                "value": 1
+                              }
+                            ],
+                            "rows": [
+                              {
+                                "mode": "fixed",
+                                "value": 28
+                              },
+                              {
+                                "mode": "fixed",
+                                "value": 48
+                              },
+                              {
+                                "mode": "fixed",
+                                "value": 22
+                              },
+                              {
+                                "mode": "fixed",
+                                "value": 22
+                              },
+                              {
+                                "mode": "fixed",
+                                "value": 22
+                              }
+                            ],
+                            "autoRows": "auto",
+                            "resolvedRows": [
+                              {
+                                "mode": "fixed",
+                                "value": 28
+                              },
+                              {
+                                "mode": "fixed",
+                                "value": 48
+                              },
+                              {
+                                "mode": "fixed",
+                                "value": 22
+                              },
+                              {
+                                "mode": "fixed",
+                                "value": 22
+                              },
+                              {
+                                "mode": "fixed",
+                                "value": 22
+                              }
+                            ],
+                            "columnSizes": [
+                              376
+                            ],
+                            "rowSizes": [
+                              28,
+                              48,
+                              22,
+                              22,
+                              22
+                            ],
+                            "cells": [
+                              {
+                                "path": "0.0.1.1.1.0.0",
+                                "column": 0,
+                                "row": 0,
+                                "columnSpan": 1,
+                                "rowSpan": 1,
+                                "cellFrame": {
+                                  "left": 842,
+                                  "top": 304,
+                                  "width": 376,
+                                  "height": 28
+                                }
+                              },
+                              {
+                                "path": "0.0.1.1.1.0.1",
+                                "column": 0,
+                                "row": 1,
+                                "columnSpan": 1,
+                                "rowSpan": 1,
+                                "cellFrame": {
+                                  "left": 842,
+                                  "top": 340,
+                                  "width": 376,
+                                  "height": 48
+                                }
+                              },
+                              {
+                                "path": "0.0.1.1.1.0.2",
+                                "column": 0,
+                                "row": 2,
+                                "columnSpan": 1,
+                                "rowSpan": 1,
+                                "cellFrame": {
+                                  "left": 842,
+                                  "top": 396,
+                                  "width": 376,
+                                  "height": 22
+                                }
+                              },
+                              {
+                                "path": "0.0.1.1.1.0.3",
+                                "column": 0,
+                                "row": 3,
+                                "columnSpan": 1,
+                                "rowSpan": 1,
+                                "cellFrame": {
+                                  "left": 842,
+                                  "top": 426,
+                                  "width": 376,
+                                  "height": 22
+                                }
+                              },
+                              {
+                                "path": "0.0.1.1.1.0.4",
+                                "column": 0,
+                                "row": 4,
+                                "columnSpan": 1,
+                                "rowSpan": 1,
+                                "cellFrame": {
+                                  "left": 842,
+                                  "top": 456,
+                                  "width": 376,
+                                  "height": 22
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "padding": {
+                          "top": 18,
+                          "right": 20,
+                          "bottom": 18,
+                          "left": 20
+                        },
+                        "align": "start",
+                        "justify": "start",
+                        "contentFrame": {
+                          "left": 842,
+                          "top": 304,
+                          "width": 376,
+                          "height": 132
+                        },
+                        "element": {
+                          "aid": "sh/xc3ylc7u",
+                          "id": "14",
+                          "kind": "shape"
+                        }
+                      },
+                      {
+                        "path": "0.0.1.1.2",
+                        "kind": "panel",
+                        "requestedSize": {
+                          "width": {
+                            "mode": "fill",
+                            "value": 1
+                          },
+                          "height": {
+                            "mode": "fill",
+                            "value": 1
+                          }
+                        },
+                        "intrinsicSize": {
+                          "width": 40,
+                          "height": 186
+                        },
+                        "frame": {
+                          "left": 822,
+                          "top": 470,
+                          "width": 416,
+                          "height": 218
+                        },
+                        "children": [
+                          {
+                            "path": "0.0.1.1.2.0",
+                            "kind": "grid",
+                            "requestedSize": {
+                              "width": {
+                                "mode": "fill",
+                                "value": 1
+                              },
+                              "height": {
+                                "mode": "fill",
+                                "value": 1
+                              }
+                            },
+                            "intrinsicSize": {
+                              "width": 0,
+                              "height": 150
+                            },
+                            "frame": {
+                              "left": 842,
+                              "top": 488,
+                              "width": 376,
+                              "height": 182
+                            },
+                            "children": [
+                              {
+                                "path": "0.0.1.1.2.0.0",
+                                "kind": "panel",
+                                "requestedSize": {
+                                  "width": {
+                                    "mode": "fill",
+                                    "value": 1
+                                  },
+                                  "height": {
+                                    "mode": "hug"
+                                  }
+                                },
+                                "intrinsicSize": {
+                                  "width": 24,
+                                  "height": 29.6
+                                },
+                                "frame": {
+                                  "left": 842,
+                                  "top": 488,
+                                  "width": 376,
+                                  "height": 28
+                                },
+                                "children": [
+                                  {
+                                    "path": "0.0.1.1.2.0.0.0",
+                                    "kind": "grid",
+                                    "requestedSize": {
+                                      "width": {
+                                        "mode": "fill",
+                                        "value": 1
+                                      },
+                                      "height": {
+                                        "mode": "fill",
+                                        "value": 1
+                                      }
+                                    },
+                                    "intrinsicSize": {
+                                      "width": 0,
+                                      "height": 15.6
+                                    },
+                                    "frame": {
+                                      "left": 854,
+                                      "top": 495,
+                                      "width": 352,
+                                      "height": 14
+                                    },
+                                    "children": [
+                                      {
+                                        "path": "0.0.1.1.2.0.0.0.0",
+                                        "kind": "text",
+                                        "requestedSize": {
+                                          "width": {
+                                            "mode": "hug"
+                                          },
+                                          "height": {
+                                            "mode": "hug"
+                                          }
+                                        },
+                                        "intrinsicSize": {
+                                          "width": 102.94,
+                                          "height": 15.6
+                                        },
+                                        "frame": {
+                                          "left": 854,
+                                          "top": 495,
+                                          "width": 352,
+                                          "height": 15.6
+                                        },
+                                        "children": [],
+                                        "text": "OBSERVABILITY",
+                                        "transform": "none",
+                                        "element": {
+                                          "aid": "sh/b2hwfyxo",
+                                          "id": "23",
+                                          "kind": "shape"
+                                        }
+                                      }
+                                    ],
+                                    "padding": {
+                                      "top": 0,
+                                      "right": 0,
+                                      "bottom": 0,
+                                      "left": 0
+                                    },
+                                    "columnGap": 0,
+                                    "rowGap": 0,
+                                    "alignItems": "stretch",
+                                    "justifyItems": "stretch",
+                                    "contentFrame": {
+                                      "left": 854,
+                                      "top": 495,
+                                      "width": 352,
+                                      "height": 14
+                                    },
+                                    "columns": [
+                                      {
+                                        "mode": "fr",
+                                        "value": 1
+                                      }
+                                    ],
+                                    "autoRows": "auto",
+                                    "resolvedRows": [
+                                      "auto"
+                                    ],
+                                    "columnSizes": [
+                                      352
+                                    ],
+                                    "rowSizes": [
+                                      15.6
+                                    ],
+                                    "cells": [
+                                      {
+                                        "path": "0.0.1.1.2.0.0.0.0",
+                                        "column": 0,
+                                        "row": 0,
+                                        "columnSpan": 1,
+                                        "rowSpan": 1,
+                                        "cellFrame": {
+                                          "left": 854,
+                                          "top": 495,
+                                          "width": 352,
+                                          "height": 15.6
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ],
+                                "padding": {
+                                  "top": 7,
+                                  "right": 12,
+                                  "bottom": 7,
+                                  "left": 12
+                                },
+                                "align": "start",
+                                "justify": "start",
+                                "contentFrame": {
+                                  "left": 854,
+                                  "top": 495,
+                                  "width": 352,
+                                  "height": 14
+                                },
+                                "element": {
+                                  "aid": "sh/mhk3q5o7",
+                                  "id": "22",
+                                  "kind": "shape"
+                                }
+                              },
+                              {
+                                "path": "0.0.1.1.2.0.1",
+                                "kind": "text",
+                                "requestedSize": {
+                                  "width": {
+                                    "mode": "hug"
+                                  },
+                                  "height": {
+                                    "mode": "hug"
+                                  }
+                                },
+                                "intrinsicSize": {
+                                  "width": 333.84,
+                                  "height": 21.6
+                                },
+                                "frame": {
+                                  "left": 842,
+                                  "top": 524,
+                                  "width": 376,
+                                  "height": 24
+                                },
+                                "children": [],
+                                "text": "Ключевые сигналы уже определены.",
+                                "transform": "none",
+                                "element": {
+                                  "aid": "sh/4byhgn29",
+                                  "id": "24",
+                                  "kind": "shape"
+                                }
+                              },
+                              {
+                                "path": "0.0.1.1.2.0.2",
+                                "kind": "text",
+                                "requestedSize": {
+                                  "width": {
+                                    "mode": "fill",
+                                    "value": 1
+                                  },
+                                  "height": {
+                                    "mode": "hug"
+                                  }
+                                },
+                                "intrinsicSize": {
+                                  "width": 0,
+                                  "height": 18
+                                },
+                                "frame": {
+                                  "left": 842,
+                                  "top": 556,
+                                  "width": 376,
+                                  "height": 22
+                                },
+                                "children": [],
+                                "text": "- latency: agent_run, listing_search, MCP",
+                                "transform": "none",
+                                "element": {
+                                  "aid": "sh/twra5gbq",
+                                  "id": "25",
+                                  "kind": "shape"
+                                }
+                              },
+                              {
+                                "path": "0.0.1.1.2.0.3",
+                                "kind": "text",
+                                "requestedSize": {
+                                  "width": {
+                                    "mode": "fill",
+                                    "value": 1
+                                  },
+                                  "height": {
+                                    "mode": "hug"
+                                  }
+                                },
+                                "intrinsicSize": {
+                                  "width": 0,
+                                  "height": 18
+                                },
+                                "frame": {
+                                  "left": 842,
+                                  "top": 586,
+                                  "width": 376,
+                                  "height": 22
+                                },
+                                "children": [],
+                                "text": "- quality: nightly QA gate и quality gate status",
+                                "transform": "none",
+                                "element": {
+                                  "aid": "sh/m58z25kb",
+                                  "id": "26",
+                                  "kind": "shape"
+                                }
+                              },
+                              {
+                                "path": "0.0.1.1.2.0.4",
+                                "kind": "text",
+                                "requestedSize": {
+                                  "width": {
+                                    "mode": "fill",
+                                    "value": 1
+                                  },
+                                  "height": {
+                                    "mode": "hug"
+                                  }
+                                },
+                                "intrinsicSize": {
+                                  "width": 0,
+                                  "height": 18
+                                },
+                                "frame": {
+                                  "left": 842,
+                                  "top": 616,
+                                  "width": 376,
+                                  "height": 22
+                                },
+                                "children": [],
+                                "text": "- empty_shortlist_rate, escalation_rate, freshness age",
+                                "transform": "none",
+                                "element": {
+                                  "aid": "sh/bq1oryts",
+                                  "id": "27",
+                                  "kind": "shape"
+                                }
+                              }
+                            ],
+                            "padding": {
+                              "top": 0,
+                              "right": 0,
+                              "bottom": 0,
+                              "left": 0
+                            },
+                            "columnGap": 0,
+                            "rowGap": 8,
+                            "alignItems": "stretch",
+                            "justifyItems": "stretch",
+                            "contentFrame": {
+                              "left": 842,
+                              "top": 488,
+                              "width": 376,
+                              "height": 182
+                            },
+                            "columns": [
+                              {
+                                "mode": "fr",
+                                "value": 1
+                              }
+                            ],
+                            "rows": [
+                              {
+                                "mode": "fixed",
+                                "value": 28
+                              },
+                              {
+                                "mode": "fixed",
+                                "value": 24
+                              },
+                              {
+                                "mode": "fixed",
+                                "value": 22
+                              },
+                              {
+                                "mode": "fixed",
+                                "value": 22
+                              },
+                              {
+                                "mode": "fixed",
+                                "value": 22
+                              }
+                            ],
+                            "autoRows": "auto",
+                            "resolvedRows": [
+                              {
+                                "mode": "fixed",
+                                "value": 28
+                              },
+                              {
+                                "mode": "fixed",
+                                "value": 24
+                              },
+                              {
+                                "mode": "fixed",
+                                "value": 22
+                              },
+                              {
+                                "mode": "fixed",
+                                "value": 22
+                              },
+                              {
+                                "mode": "fixed",
+                                "value": 22
+                              }
+                            ],
+                            "columnSizes": [
+                              376
+                            ],
+                            "rowSizes": [
+                              28,
+                              24,
+                              22,
+                              22,
+                              22
+                            ],
+                            "cells": [
+                              {
+                                "path": "0.0.1.1.2.0.0",
+                                "column": 0,
+                                "row": 0,
+                                "columnSpan": 1,
+                                "rowSpan": 1,
+                                "cellFrame": {
+                                  "left": 842,
+                                  "top": 488,
+                                  "width": 376,
+                                  "height": 28
+                                }
+                              },
+                              {
+                                "path": "0.0.1.1.2.0.1",
+                                "column": 0,
+                                "row": 1,
+                                "columnSpan": 1,
+                                "rowSpan": 1,
+                                "cellFrame": {
+                                  "left": 842,
+                                  "top": 524,
+                                  "width": 376,
+                                  "height": 24
+                                }
+                              },
+                              {
+                                "path": "0.0.1.1.2.0.2",
+                                "column": 0,
+                                "row": 2,
+                                "columnSpan": 1,
+                                "rowSpan": 1,
+                                "cellFrame": {
+                                  "left": 842,
+                                  "top": 556,
+                                  "width": 376,
+                                  "height": 22
+                                }
+                              },
+                              {
+                                "path": "0.0.1.1.2.0.3",
+                                "column": 0,
+                                "row": 3,
+                                "columnSpan": 1,
+                                "rowSpan": 1,
+                                "cellFrame": {
+                                  "left": 842,
+                                  "top": 586,
+                                  "width": 376,
+                                  "height": 22
+                                }
+                              },
+                              {
+                                "path": "0.0.1.1.2.0.4",
+                                "column": 0,
+                                "row": 4,
+                                "columnSpan": 1,
+                                "rowSpan": 1,
+                                "cellFrame": {
+                                  "left": 842,
+                                  "top": 616,
+                                  "width": 376,
+                                  "height": 22
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "padding": {
+                          "top": 18,
+                          "right": 20,
+                          "bottom": 18,
+                          "left": 20
+                        },
+                        "align": "start",
+                        "justify": "start",
+                        "contentFrame": {
+                          "left": 842,
+                          "top": 488,
+                          "width": 376,
+                          "height": 182
+                        },
+                        "element": {
+                          "aid": "sh/t83itgfm",
+                          "id": "21",
+                          "kind": "shape"
+                        }
+                      }
+                    ],
+                    "padding": {
+                      "top": 0,
+                      "right": 0,
+                      "bottom": 0,
+                      "left": 0
+                    },
+                    "columnGap": 0,
+                    "rowGap": 16,
+                    "alignItems": "stretch",
+                    "justifyItems": "stretch",
+                    "contentFrame": {
+                      "left": 822,
+                      "top": 114,
+                      "width": 416,
+                      "height": 574
+                    },
+                    "columns": [
+                      {
+                        "mode": "fr",
+                        "value": 1
+                      }
+                    ],
+                    "rows": [
+                      {
+                        "mode": "fixed",
+                        "value": 156
+                      },
+                      {
+                        "mode": "fixed",
+                        "value": 168
+                      },
+                      {
+                        "mode": "fr",
+                        "value": 1
+                      }
+                    ],
+                    "autoRows": "auto",
+                    "resolvedRows": [
+                      {
+                        "mode": "fixed",
+                        "value": 156
+                      },
+                      {
+                        "mode": "fixed",
+                        "value": 168
+                      },
+                      {
+                        "mode": "fr",
+                        "value": 1
+                      }
+                    ],
+                    "columnSizes": [
+                      416
+                    ],
+                    "rowSizes": [
+                      156,
+                      168,
+                      218
+                    ],
+                    "cells": [
+                      {
+                        "path": "0.0.1.1.0",
+                        "column": 0,
+                        "row": 0,
+                        "columnSpan": 1,
+                        "rowSpan": 1,
+                        "cellFrame": {
+                          "left": 822,
+                          "top": 114,
+                          "width": 416,
+                          "height": 156
+                        }
+                      },
+                      {
+                        "path": "0.0.1.1.1",
+                        "column": 0,
+                        "row": 1,
+                        "columnSpan": 1,
+                        "rowSpan": 1,
+                        "cellFrame": {
+                          "left": 822,
+                          "top": 286,
+                          "width": 416,
+                          "height": 168
+                        }
+                      },
+                      {
+                        "path": "0.0.1.1.2",
+                        "column": 0,
+                        "row": 2,
+                        "columnSpan": 1,
+                        "rowSpan": 1,
+                        "cellFrame": {
+                          "left": 822,
+                          "top": 470,
+                          "width": 416,
+                          "height": 218
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "padding": {
+                  "top": 0,
+                  "right": 0,
+                  "bottom": 0,
+                  "left": 0
+                },
+                "columnGap": 20,
+                "rowGap": 0,
+                "alignItems": "stretch",
+                "justifyItems": "stretch",
+                "contentFrame": {
+                  "left": 42,
+                  "top": 114,
+                  "width": 1196,
+                  "height": 574
+                },
+                "columns": [
+                  {
+                    "mode": "fixed",
+                    "value": 760
+                  },
+                  {
+                    "mode": "fr",
+                    "value": 1
+                  }
+                ],
+                "autoRows": "auto",
+                "resolvedRows": [
+                  "auto"
+                ],
+                "columnSizes": [
+                  760,
+                  416
+                ],
+                "rowSizes": [
+                  574
+                ],
+                "cells": [
+                  {
+                    "path": "0.0.1.0",
+                    "column": 0,
+                    "row": 0,
+                    "columnSpan": 1,
+                    "rowSpan": 1,
+                    "cellFrame": {
+                      "left": 42,
+                      "top": 114,
+                      "width": 760,
+                      "height": 574
+                    }
+                  },
+                  {
+                    "path": "0.0.1.1",
+                    "column": 1,
+                    "row": 0,
+                    "columnSpan": 1,
+                    "rowSpan": 1,
+                    "cellFrame": {
+                      "left": 822,
+                      "top": 114,
+                      "width": 416,
+                      "height": 574
+                    }
+                  }
+                ]
+              }
+            ],
+            "padding": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            },
+            "columnGap": 0,
+            "rowGap": 18,
+            "alignItems": "stretch",
+            "justifyItems": "stretch",
+            "contentFrame": {
+              "left": 42,
+              "top": 34,
+              "width": 1196,
+              "height": 654
+            },
+            "columns": [
+              {
+                "mode": "fr",
+                "value": 1
+              }
+            ],
+            "rows": [
+              {
+                "mode": "fixed",
+                "value": 62
+              },
+              {
+                "mode": "fr",
+                "value": 1
+              }
+            ],
+            "autoRows": "auto",
+            "resolvedRows": [
+              {
+                "mode": "fixed",
+                "value": 62
+              },
+              {
+                "mode": "fr",
+                "value": 1
+              }
+            ],
+            "columnSizes": [
+              1196
+            ],
+            "rowSizes": [
+              62,
+              574
+            ],
+            "cells": [
+              {
+                "path": "0.0.0",
+                "column": 0,
+                "row": 0,
+                "columnSpan": 1,
+                "rowSpan": 1,
+                "cellFrame": {
+                  "left": 42,
+                  "top": 34,
+                  "width": 1196,
+                  "height": 62
+                }
+              },
+              {
+                "path": "0.0.1",
+                "column": 0,
+                "row": 1,
+                "columnSpan": 1,
+                "rowSpan": 1,
+                "cellFrame": {
+                  "left": 42,
+                  "top": 114,
+                  "width": 1196,
+                  "height": 574
+                }
+              }
+            ]
+          }
+        ],
+        "padding": {
+          "top": 34,
+          "right": 42,
+          "bottom": 32,
+          "left": 42
+        },
+        "align": "start",
+        "justify": "start",
+        "contentFrame": {
+          "left": 42,
+          "top": 34,
+          "width": 1196,
+          "height": 654
+        },
+        "element": {
+          "aid": "sh/xczed8v6",
+          "id": "1",
+          "kind": "shape"
+        }
+      }
+    }
+  ]
+}

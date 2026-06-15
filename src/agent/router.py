@@ -3,6 +3,7 @@ from __future__ import annotations
 from typing import TYPE_CHECKING
 
 from .llm import require_structured_llm
+from .llm import should_use_demo_fallback
 from .message_understanding import RouterDecision
 from .state import AgentState
 
@@ -10,9 +11,13 @@ if TYPE_CHECKING:
     from .dependencies import GraphDependencies
 
 
-def _route_with_llm(state: AgentState, deps: "GraphDependencies") -> AgentState:
-    llm = require_structured_llm(deps.llm, "Routing")
+def _demo_llm():
+    from .demo_llm import DemoStructuredLLM
 
+    return DemoStructuredLLM()
+
+
+def _route_with_llm(state: AgentState, deps: "GraphDependencies") -> AgentState:
     previous_requirements = state.previous_requirements.model_dump(mode="json") if state.previous_requirements else None
     system_prompt = (
         "You are a router for a relocation and rental assistant. "
@@ -33,10 +38,20 @@ def _route_with_llm(state: AgentState, deps: "GraphDependencies") -> AgentState:
     )
 
     try:
+        llm = require_structured_llm(deps.llm, "Routing")
         decision = llm.extract_json(system_prompt=system_prompt, user_prompt=user_prompt, schema=RouterDecision)
         state.intent = decision.intent
         return state
     except Exception as exc:
+        if should_use_demo_fallback(exc, getattr(deps, "llm_mode", "auto")):
+            state.warnings.append(f"LLM routing fallback: {exc}")
+            decision = _demo_llm().extract_json(
+                system_prompt=system_prompt,
+                user_prompt=user_prompt,
+                schema=RouterDecision,
+            )
+            state.intent = decision.intent
+            return state
         raise RuntimeError(f"LLM routing failed: {exc}") from exc
 
 

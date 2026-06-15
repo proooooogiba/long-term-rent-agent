@@ -105,6 +105,7 @@ def _build_cian_provider(invoker: FakeCianInvoker | BrokenInvoker) -> MCPRentalL
             detail_tool_aliases=[],
             fixed_search_arguments={
                 "operationType": "rent",
+                "category": "flatRent",
                 "shortTermRent": False,
                 "maxItems": 15,
                 "currency": "rub",
@@ -135,6 +136,7 @@ def test_mcp_provider_maps_search_args_and_normalizes_results():
         SearchListingsInput(
             city="Москва",
             monthly_budget=120000,
+            budget_currency="RUB",
             rooms_min=2,
             furnished=True,
             pet_count=1,
@@ -146,6 +148,7 @@ def test_mcp_provider_maps_search_args_and_normalizes_results():
             "igolaizola--cian-ru-scraper",
             {
                 "operationType": "rent",
+                "category": "flatRent",
                 "shortTermRent": False,
                 "maxItems": 15,
                 "currency": "rub",
@@ -175,12 +178,13 @@ def test_mcp_provider_does_not_flood_schema_defaults():
     tool = provider._resolve_tool(provider.config.search_tool_aliases)
 
     arguments = provider._build_search_arguments(
-        SearchListingsInput(city="Москва", monthly_budget=120000, rooms_min=2),
+        SearchListingsInput(city="Москва", monthly_budget=120000, budget_currency="RUB", rooms_min=2),
         tool.input_schema,
     )
 
     assert arguments == {
         "operationType": "rent",
+        "category": "flatRent",
         "shortTermRent": False,
         "maxItems": 15,
         "currency": "rub",
@@ -190,7 +194,13 @@ def test_mcp_provider_does_not_flood_schema_defaults():
     }
 
     date_arguments = provider._build_search_arguments(
-        SearchListingsInput(city="Москва", monthly_budget=120000, rooms_min=2, move_in_date=date(2026, 7, 1)),
+        SearchListingsInput(
+            city="Москва",
+            monthly_budget=120000,
+            budget_currency="RUB",
+            rooms_min=2,
+            move_in_date=date(2026, 7, 1),
+        ),
         tool.input_schema,
     )
     assert "onlyFlat" not in date_arguments
@@ -204,6 +214,7 @@ def test_mcp_provider_hydrates_dataset_items_from_actor_run():
         SearchListingsInput(
             city="Москва",
             monthly_budget=120000,
+            budget_currency="RUB",
             rooms_min=1,
         )
     )
@@ -222,6 +233,42 @@ def test_mcp_provider_hydrates_dataset_items_from_actor_run():
     assert "url:https://www.cian.ru/rent/flat/offer-2/" in listing.notes
 
 
+def test_mcp_provider_converts_usd_budget_for_rub_query_and_normalizes_results():
+    invoker = FakeCianInvoker()
+    provider = _build_cian_provider(invoker)
+
+    result = provider.search_listings(
+        SearchListingsInput(
+            city="Москва",
+            monthly_budget=2000,
+            budget_currency="USD",
+            rooms_min=2,
+        )
+    )
+
+    assert invoker.calls == [
+        (
+            "igolaizola--cian-ru-scraper",
+            {
+                "operationType": "rent",
+                "category": "flatRent",
+                "shortTermRent": False,
+                "maxItems": 15,
+                "currency": "rub",
+                "location": "Москва",
+                "maxPrice": 180000.0,
+                "rooms": ["2"],
+            },
+        )
+    ]
+
+    assert len(result.listings) == 1
+    listing = result.listings[0]
+    assert listing.currency == "USD"
+    assert listing.monthly_rent == 1333.33
+    assert "original_price:120000 RUB" in listing.notes
+
+
 def test_composite_tools_merge_external_geography_and_results(tmp_path):
     db_path = seed_database(tmp_path / "relocation.sqlite")
     local_tools = RelocationDBTools(db_path)
@@ -232,7 +279,9 @@ def test_composite_tools_merge_external_geography_and_results(tmp_path):
     assert "Москва" in geography.cities
     assert geography.city_to_country["Москва"] == "Россия"
 
-    result = composite.search_listings(SearchListingsInput(city="Москва", monthly_budget=130000))
+    result = composite.search_listings(
+        SearchListingsInput(city="Москва", monthly_budget=130000, budget_currency="RUB")
+    )
     assert [listing.listing_id for listing in result.listings] == ["cian:offer-1"]
 
     listing = composite.get_listing(GetListingInput(listing_id="cian:offer-1"))
@@ -245,7 +294,9 @@ def test_composite_tools_expose_provider_failures_as_runtime_warnings(tmp_path):
     local_tools = RelocationDBTools(db_path)
     composite = CompositeRelocationDBTools(local_tools, [_build_cian_provider(BrokenInvoker())])
 
-    result = composite.search_listings(SearchListingsInput(city="Москва", monthly_budget=130000))
+    result = composite.search_listings(
+        SearchListingsInput(city="Москва", monthly_budget=130000, budget_currency="RUB")
+    )
     warnings = composite.pull_runtime_warnings()
 
     assert result.listings == []

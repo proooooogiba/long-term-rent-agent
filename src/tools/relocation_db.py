@@ -8,6 +8,7 @@ from typing import Any
 
 from pydantic import BaseModel, Field
 
+from src.agent.domain_types import HousingType
 from src.agent.state import (
     City,
     ClientProfile,
@@ -19,6 +20,7 @@ from src.agent.state import (
     RelocationService,
 )
 from src.db.seed import DEFAULT_DB_PATH
+from src.tools.currency import convert_amount
 
 
 def _loads_json_list(raw: str | None) -> list[Any]:
@@ -39,8 +41,10 @@ class SearchListingsInput(BaseModel):
     city: str
     move_in_date: date | None = None
     monthly_budget: float | None = None
+    budget_currency: str = "USD"
     preferred_districts: list[str] = Field(default_factory=list)
     rooms_min: int | None = None
+    housing_type: HousingType | None = None
     furnished: bool | None = None
     pet_count: int = 0
     max_commute_minutes: int | None = None
@@ -321,12 +325,17 @@ class RelocationDBTools:
         params: list[Any] = [payload.city]
 
         if payload.monthly_budget is not None:
+            normalized_budget = convert_amount(payload.monthly_budget, payload.budget_currency, "USD") or payload.monthly_budget
             query.append("AND monthly_rent <= ?")
-            params.append(round(payload.monthly_budget * payload.budget_slack_ratio, 2))
+            params.append(round(normalized_budget * payload.budget_slack_ratio, 2))
 
         if payload.rooms_min is not None:
             query.append("AND rooms >= ?")
             params.append(payload.rooms_min)
+
+        if payload.housing_type is not None:
+            query.append("AND property_type = ?")
+            params.append(payload.housing_type)
 
         if payload.furnished is not None:
             query.append("AND furnished = ?")

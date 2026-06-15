@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 from dataclasses import dataclass, field
+from pathlib import Path
 from typing import Literal, cast
 
 from dotenv import load_dotenv
@@ -28,7 +29,9 @@ class GraphDependencies:
     memory_store: AgentMemoryStore | None = None
 
     def __post_init__(self) -> None:
-        load_dotenv()
+        project_env = Path(__file__).resolve().parents[2] / ".env"
+        if project_env.exists():
+            load_dotenv(dotenv_path=project_env, override=False)
         self.db_tools = build_listing_data_tools(self.db_tools)
         if self.llm_mode is None:
             self.llm_mode = cast(Literal["off", "auto", "required"], resolve_llm_mode("auto"))

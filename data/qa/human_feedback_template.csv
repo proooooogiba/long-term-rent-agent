@@ -1,0 +1,2 @@
+review_id,session_id,case_id,model_variant,reviewer_type,task_completion_1_5,constraint_fit_1_5,relevance_1_5,clarity_1_5,safety_trust_1_5,would_use_again_1_5,critical_issue_yes_no,free_text
+HF-001,session-001,Q-001,baseline-demo,student,,,,,,,,

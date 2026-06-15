@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 from dataclasses import dataclass
+from typing import Mapping
 
 
 @dataclass(frozen=True)
@@ -46,10 +47,11 @@ class QualityGateResult:
 
 
 def evaluate_quality_gate(
-    metrics: dict[str, float],
+    metrics: Mapping[str, float | None],
     thresholds: dict[str, MetricThreshold] | None = None,
     *,
     minimum_soft_pass_rate: float = MIN_SOFT_PASS_RATE,
+    skip_missing_metrics: bool = False,
 ) -> QualityGateResult:
     effective_thresholds = thresholds or DEFAULT_QA_THRESHOLDS
     checks: list[QualityGateCheck] = []
@@ -58,7 +60,10 @@ def evaluate_quality_gate(
     soft_passed = 0
 
     for metric, threshold in effective_thresholds.items():
-        actual = float(metrics.get(metric, 0.0))
+        raw_actual = metrics.get(metric, 0.0)
+        if raw_actual is None and skip_missing_metrics:
+            continue
+        actual = float(raw_actual or 0.0)
         passed = actual >= threshold.minimum
         checks.append(
             QualityGateCheck(

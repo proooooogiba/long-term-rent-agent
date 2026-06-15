@@ -36,3 +36,28 @@ def test_quality_gate_fails_when_hard_gate_metric_drops_below_threshold():
     assert result.hard_gate_passed is False
     escalation_check = next(check for check in result.checks if check.metric == "escalation_correctness")
     assert escalation_check.passed is False
+
+
+def test_quality_gate_can_skip_non_applicable_metrics():
+    metrics = {
+        "intent_accuracy": 1.0,
+        "required_fields_extracted": None,
+        "budget_constraint_pass_rate": 1.0,
+        "pet_constraint_pass_rate": None,
+        "upfront_cost_correctness": 1.0,
+        "expected_entities_accuracy": None,
+        "recommendation_has_rationale": 1.0,
+        "clarification_correctness": None,
+        "escalation_correctness": None,
+        "info_answer_has_sources": None,
+    }
+
+    result = evaluate_quality_gate(metrics, skip_missing_metrics=True)
+
+    assert result.passed is True
+    assert {check.metric for check in result.checks} == {
+        "intent_accuracy",
+        "budget_constraint_pass_rate",
+        "upfront_cost_correctness",
+        "recommendation_has_rationale",
+    }

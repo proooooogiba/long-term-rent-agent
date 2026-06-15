@@ -7,10 +7,17 @@ from typing import TYPE_CHECKING, Any
 from pydantic import BaseModel, Field
 
 from .llm import require_structured_llm
+from .llm import should_use_demo_fallback
 from .state import AgentState, FinalRecommendation, ScoredListing
 
 if TYPE_CHECKING:
     from .dependencies import GraphDependencies
+
+
+def _demo_llm():
+    from .demo_llm import DemoStructuredLLM
+
+    return DemoStructuredLLM()
 
 
 URL_RE = re.compile(r"https?://[^\s]+")
@@ -40,12 +47,35 @@ class RecommendationAnswerSections(BaseModel):
     clarification_lines: list[str] = Field(default_factory=list)
 
 
+def _listing_url(scored: ScoredListing) -> str | None:
+    for note in scored.listing.notes:
+        if note.startswith("url:"):
+            url = note.split("url:", 1)[1].strip()
+            return url or None
+    return None
+
+
+def _listing_link_label(scored: ScoredListing) -> str:
+    listing = scored.listing
+    label = listing.district_name.strip() if listing.district_name and listing.district_name != "Район не указан" else listing.title.strip()
+    if listing.city and listing.city not in label:
+        label = f"{label}, {listing.city}"
+    return label.replace("[", "\\[").replace("]", "\\]")
+
+
+def _listing_reference(scored: ScoredListing) -> str:
+    url = _listing_url(scored)
+    if not url:
+        return f"`{scored.listing.listing_id}`"
+    return f"[{_listing_link_label(scored)}]({url})"
+
+
 def _format_listing_block(rank: int, scored: ScoredListing) -> str:
     listing = scored.listing
     why = "; ".join(scored.pros[:2]) or "Подходит по базовому набору ограничений."
     risks = "; ".join(scored.cons[:2]) or "Критичных компромиссов не видно."
     return (
-        f"{rank}. {listing.title} [{listing.listing_id}] — {listing.monthly_rent:.0f} {listing.currency}/мес, "
+        f"{rank}. {listing.title} {_listing_reference(scored)} — {listing.monthly_rent:.0f} {listing.currency}/мес, "
         f"{listing.district_name}, доступно с {listing.available_from.isoformat()}\n"
         f"   Почему подходит: {why}\n"
         f"   Риски/компромиссы: {risks}\n"
@@ -146,10 +176,14 @@ def _call_llm_or_raise(
             schema=schema,
         )
     except Exception as exc:
-        if getattr(deps, "llm_mode", "auto") == "required":
+        if not should_use_demo_fallback(exc, getattr(deps, "llm_mode", "auto")):
             raise RuntimeError(f"LLM final composition failed: {exc}") from exc
         state.warnings.append(f"LLM final composition fallback: {exc}")
-        return None
+        return _demo_llm().extract_json(
+            system_prompt=system_prompt,
+            user_prompt=f"Context JSON:\n{payload}",
+            schema=schema,
+        )
 
 
 def _fallback_info_sections(state: AgentState) -> InfoAnswerSections:
@@ -193,7 +227,7 @@ def _fallback_recommendation_sections(state: AgentState) -> RecommendationAnswer
     if ranked:
         best = ranked[0]
         summary_parts.append(
-            f"Лучший текущий вариант — {best.listing.listing_id}: {best.listing.monthly_rent:.0f} {best.listing.currency}/мес, район {best.listing.district_name}."
+            f"Лучший текущий вариант — {_listing_reference(best)}: {best.listing.monthly_rent:.0f} {best.listing.currency}/мес, район {best.listing.district_name}."
         )
     if state.replanning_notes:
         summary_parts.append(" ".join(state.replanning_notes))
@@ -212,7 +246,7 @@ def _fallback_recommendation_sections(state: AgentState) -> RecommendationAnswer
     alternatives = []
     if len(state.ranked_listings) > 3:
         alternatives = [
-            f"{item.listing.listing_id}: {item.listing.monthly_rent:.0f} {item.listing.currency}/мес, {item.listing.district_name}"
+            f"{_listing_reference(item)}: {item.listing.monthly_rent:.0f} {item.listing.currency}/мес, {item.listing.district_name}"
             for item in state.ranked_listings[3:5]
         ]
 
@@ -242,7 +276,6 @@ def _compose_info_answer(state: AgentState, deps: "GraphDependencies") -> InfoAn
 
 
 def _compose_clarification_answer(state: AgentState, deps: "GraphDependencies") -> ClarificationAnswerSections:
-    llm = require_structured_llm(deps.llm, "Clarification answer composition")
     system_prompt = (
         "You are the final response composer for a relocation and rental assistant. "
         "Use the provided missing fields and verification clarifications to formulate short user-facing clarification questions in Russian. "
@@ -251,12 +284,20 @@ def _compose_clarification_answer(state: AgentState, deps: "GraphDependencies") 
     )
     payload = json.dumps(_serialize_state_context(state), ensure_ascii=False, indent=2)
     try:
+        llm = require_structured_llm(deps.llm, "Clarification answer composition")
         return llm.extract_json(
             system_prompt=system_prompt,
             user_prompt=f"Context JSON:\n{payload}",
             schema=ClarificationAnswerSections,
         )
     except Exception as exc:
+        if should_use_demo_fallback(exc, getattr(deps, "llm_mode", "auto")):
+            state.warnings.append(f"LLM clarification fallback: {exc}")
+            return _demo_llm().extract_json(
+                system_prompt=system_prompt,
+                user_prompt=f"Context JSON:\n{payload}",
+                schema=ClarificationAnswerSections,
+            )
         raise RuntimeError(f"LLM clarification composition failed: {exc}") from exc
 
 

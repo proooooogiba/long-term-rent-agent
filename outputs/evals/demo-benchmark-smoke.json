@@ -1,0 +1,196 @@
+{
+  "qa_path": "/Users/iopogiba/Documents/HSE/Module 3/AI AGENT/final_work/Проект агент подбора аренды жилья и релокации/data/qa/qa.jsonl",
+  "llm_backend": "demo_stub",
+  "llm_mode": "required",
+  "model": "demo_stub",
+  "trials": 1,
+  "total_cases": 2,
+  "total_trial_runs": 2,
+  "aggregate_metrics": {
+    "intent_accuracy": 1.0,
+    "required_fields_extracted": 1.0,
+    "budget_constraint_pass_rate": 1.0,
+    "pet_constraint_pass_rate": 0.0,
+    "upfront_cost_correctness": 1.0,
+    "expected_entities_accuracy": 1.0,
+    "recommendation_has_rationale": 1.0,
+    "clarification_correctness": 0.0,
+    "escalation_correctness": 1.0,
+    "info_answer_has_sources": 0.0
+  },
+  "aggregate_quality_gate": {
+    "passed": false,
+    "hard_gate_passed": false,
+    "soft_pass_rate": 0.6,
+    "minimum_soft_pass_rate": 0.75,
+    "checks": [
+      {
+        "metric": "intent_accuracy",
+        "actual": 1.0,
+        "minimum": 0.85,
+        "passed": true,
+        "hard_gate": false,
+        "rationale": "Router should classify most requests correctly."
+      },
+      {
+        "metric": "required_fields_extracted",
+        "actual": 1.0,
+        "minimum": 0.85,
+        "passed": true,
+        "hard_gate": false,
+        "rationale": "Intake should capture key search fields."
+      },
+      {
+        "metric": "budget_constraint_pass_rate",
+        "actual": 1.0,
+        "minimum": 0.95,
+        "passed": true,
+        "hard_gate": true,
+        "rationale": "Top recommendation should almost never violate budget."
+      },
+      {
+        "metric": "pet_constraint_pass_rate",
+        "actual": 0.0,
+        "minimum": 0.9,
+        "passed": false,
+        "hard_gate": false,
+        "rationale": "Pet constraints should be respected for relevant households."
+      },
+      {
+        "metric": "upfront_cost_correctness",
+        "actual": 1.0,
+        "minimum": 0.95,
+        "passed": true,
+        "hard_gate": true,
+        "rationale": "Cost estimation should stay close to reference values."
+      },
+      {
+        "metric": "expected_entities_accuracy",
+        "actual": 1.0,
+        "minimum": 0.75,
+        "passed": true,
+        "hard_gate": false,
+        "rationale": "User-facing answer should mention the expected shortlist entities."
+      },
+      {
+        "metric": "recommendation_has_rationale",
+        "actual": 1.0,
+        "minimum": 0.95,
+        "passed": true,
+        "hard_gate": true,
+        "rationale": "Final answer must explain fit and trade-offs."
+      },
+      {
+        "metric": "clarification_correctness",
+        "actual": 0.0,
+        "minimum": 0.9,
+        "passed": false,
+        "hard_gate": true,
+        "rationale": "Agent should ask for clarification instead of hallucinating."
+      },
+      {
+        "metric": "escalation_correctness",
+        "actual": 1.0,
+        "minimum": 0.9,
+        "passed": true,
+        "hard_gate": true,
+        "rationale": "Risky scenarios should be escalated reliably."
+      },
+      {
+        "metric": "info_answer_has_sources",
+        "actual": 0.0,
+        "minimum": 0.8,
+        "passed": false,
+        "hard_gate": false,
+        "rationale": "Informational answers should cite at least one supporting source."
+      }
+    ]
+  },
+  "mean_case_pass_rate": 1.0,
+  "case_pass_at_k": 1.0,
+  "case_pass_all_k": 1.0,
+  "case_outcome_consistency": 1.0,
+  "mean_case_score": 1.0,
+  "mean_latency_ms": 21074.1,
+  "p95_latency_ms": 22274.0,
+  "cases": [
+    {
+      "case_id": "Q-001",
+      "category": "search",
+      "expected_outcome_type": "recommendation",
+      "trials": 1,
+      "pass_rate": 1.0,
+      "pass_at_k": 1.0,
+      "pass_all_k": 1.0,
+      "outcome_consistency": 1.0,
+      "mean_case_score": 1.0,
+      "mean_latency_ms": 22274.0
+    },
+    {
+      "case_id": "Q-006",
+      "category": "escalation",
+      "expected_outcome_type": "escalation",
+      "trials": 1,
+      "pass_rate": 1.0,
+      "pass_at_k": 1.0,
+      "pass_all_k": 1.0,
+      "outcome_consistency": 1.0,
+      "mean_case_score": 1.0,
+      "mean_latency_ms": 19874.2
+    }
+  ],
+  "trial_results": [
+    {
+      "trial_index": 1,
+      "case_id": "Q-001",
+      "relocation_case_id": "R-0001",
+      "category": "search",
+      "expected_outcome_type": "recommendation",
+      "gate_passed": true,
+      "hard_gate_passed": true,
+      "soft_pass_rate": 1.0,
+      "case_score": 1.0,
+      "latency_ms": 22274.0,
+      "metrics": {
+        "intent_accuracy": 1.0,
+        "required_fields_extracted": 1.0,
+        "budget_constraint_pass_rate": 1.0,
+        "pet_constraint_pass_rate": null,
+        "upfront_cost_correctness": 1.0,
+        "expected_entities_accuracy": 1.0,
+        "recommendation_has_rationale": 1.0,
+        "clarification_correctness": null,
+        "escalation_correctness": null,
+        "info_answer_has_sources": null
+      },
+      "warnings": [],
+      "error": null
+    },
+    {
+      "trial_index": 1,
+      "case_id": "Q-006",
+      "relocation_case_id": "R-0006",
+      "category": "escalation",
+      "expected_outcome_type": "escalation",
+      "gate_passed": true,
+      "hard_gate_passed": true,
+      "soft_pass_rate": 1.0,
+      "case_score": 1.0,
+      "latency_ms": 19874.2,
+      "metrics": {
+        "intent_accuracy": 1.0,
+        "required_fields_extracted": null,
+        "budget_constraint_pass_rate": null,
+        "pet_constraint_pass_rate": null,
+        "upfront_cost_correctness": null,
+        "expected_entities_accuracy": 1.0,
+        "recommendation_has_rationale": null,
+        "clarification_correctness": null,
+        "escalation_correctness": 1.0,
+        "info_answer_has_sources": null
+      },
+      "warnings": [],
+      "error": null
+    }
+  ]
+}

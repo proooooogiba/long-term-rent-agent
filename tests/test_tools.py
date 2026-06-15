@@ -21,6 +21,18 @@ def test_search_listings_returns_expected_fields(tmp_path):
     assert isinstance(first.monthly_rent, float)
 
 
+def test_search_listings_can_filter_by_housing_type(tmp_path):
+    db_path = seed_database(tmp_path / "relocation.sqlite")
+    tools = RelocationDBTools(db_path)
+
+    result = tools.search_listings(
+        SearchListingsInput(city="Алматы", monthly_budget=1200, housing_type="studio")
+    )
+
+    assert result.listings
+    assert all(item.property_type == "studio" for item in result.listings)
+
+
 def test_estimate_upfront_cost_sums_first_month_deposit_and_fee(tmp_path):
     db_path = seed_database(tmp_path / "relocation.sqlite")
     calc = CalculationTools(RelocationDBTools(db_path))
