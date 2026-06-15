@@ -1,0 +1,148 @@
+<svg width="1200" height="1200" viewBox="0 0 1200 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="70" y1="60" x2="1130" y2="1140" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8FAFC"/>
+      <stop offset="1" stop-color="#EEF6FF"/>
+    </linearGradient>
+    <linearGradient id="hero" x1="458" y1="82" x2="742" y2="326" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2563EB"/>
+      <stop offset="1" stop-color="#0EA5E9"/>
+    </linearGradient>
+    <linearGradient id="laneUnderstand" x1="118" y1="356" x2="1082" y2="356" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#DBEAFE"/>
+      <stop offset="1" stop-color="#E0F2FE"/>
+    </linearGradient>
+    <linearGradient id="laneSearch" x1="118" y1="626" x2="1082" y2="626" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E0F2FE"/>
+      <stop offset="1" stop-color="#ECFEFF"/>
+    </linearGradient>
+    <linearGradient id="laneRespond" x1="118" y1="896" x2="1082" y2="896" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ECFEFF"/>
+      <stop offset="1" stop-color="#F0FDFA"/>
+    </linearGradient>
+    <filter id="shadow" x="0" y="0" width="1200" height="1200" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="12" stdDeviation="20" flood-color="#0F172A" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#shadow)">
+    <rect x="24" y="24" width="1152" height="1152" rx="36" fill="url(#bg)"/>
+  </g>
+
+  <circle cx="600" cy="192" r="108" fill="url(#hero)"/>
+  <circle cx="600" cy="192" r="82" fill="white" fill-opacity="0.13"/>
+  <path d="M556 198L600 158L644 198" stroke="white" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M568 192V248H632V192" stroke="white" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M592 248V214H608V248" stroke="white" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="548" cy="128" r="11" fill="white" fill-opacity="0.9"/>
+  <circle cx="654" cy="146" r="9" fill="white" fill-opacity="0.72"/>
+  <circle cx="668" cy="234" r="8" fill="white" fill-opacity="0.65"/>
+  <path d="M557 136L581 164" stroke="white" stroke-width="4" stroke-linecap="round"/>
+  <path d="M646 151L622 170" stroke="white" stroke-width="4" stroke-linecap="round"/>
+
+  <text x="600" y="336" text-anchor="middle" fill="#0F172A" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">
+    Workflow запроса
+  </text>
+  <text x="600" y="376" text-anchor="middle" fill="#64748B" font-family="Arial, Helvetica, sans-serif" font-size="18">
+    Квадратная схема: три слоя по три этапа
+  </text>
+
+  <rect x="96" y="418" width="1008" height="214" rx="32" fill="white" fill-opacity="0.7"/>
+  <rect x="118" y="446" width="964" height="40" rx="20" fill="url(#laneUnderstand)"/>
+  <text x="600" y="472" text-anchor="middle" fill="#1D4ED8" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700">
+    UNDERSTAND
+  </text>
+
+  <rect x="96" y="688" width="1008" height="214" rx="32" fill="white" fill-opacity="0.7"/>
+  <rect x="118" y="716" width="964" height="40" rx="20" fill="url(#laneSearch)"/>
+  <text x="600" y="742" text-anchor="middle" fill="#0369A1" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700">
+    SEARCH AND EVALUATE
+  </text>
+
+  <rect x="96" y="958" width="1008" height="174" rx="32" fill="white" fill-opacity="0.7"/>
+  <rect x="118" y="986" width="964" height="40" rx="20" fill="url(#laneRespond)"/>
+  <text x="600" y="1012" text-anchor="middle" fill="#0F766E" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700">
+    DECIDE AND RESPOND
+  </text>
+
+  <g font-family="Arial, Helvetica, sans-serif">
+    <line x1="366" y1="560" x2="434" y2="560" stroke="#94A3B8" stroke-width="4" stroke-linecap="round"/>
+    <line x1="686" y1="560" x2="754" y2="560" stroke="#94A3B8" stroke-width="4" stroke-linecap="round"/>
+    <line x1="366" y1="830" x2="434" y2="830" stroke="#94A3B8" stroke-width="4" stroke-linecap="round"/>
+    <line x1="686" y1="830" x2="754" y2="830" stroke="#94A3B8" stroke-width="4" stroke-linecap="round"/>
+    <line x1="366" y1="1080" x2="434" y2="1080" stroke="#94A3B8" stroke-width="4" stroke-linecap="round"/>
+    <line x1="686" y1="1080" x2="754" y2="1080" stroke="#94A3B8" stroke-width="4" stroke-linecap="round"/>
+
+    <g fill="#94A3B8">
+      <path d="M434 560L420 552V568L434 560Z"/>
+      <path d="M754 560L740 552V568L754 560Z"/>
+      <path d="M434 830L420 822V838L434 830Z"/>
+      <path d="M754 830L740 822V838L754 830Z"/>
+      <path d="M434 1080L420 1072V1088L434 1080Z"/>
+      <path d="M754 1080L740 1072V1088L754 1080Z"/>
+    </g>
+
+    <g>
+      <rect x="154" y="512" width="212" height="96" rx="24" fill="#EFF6FF" stroke="#93C5FD"/>
+      <text x="260" y="548" fill="#1D4ED8" font-size="20" font-weight="700" text-anchor="middle">Routing</text>
+      <text x="260" y="579" fill="#475569" font-size="15" text-anchor="middle">intent</text>
+      <text x="260" y="599" fill="#475569" font-size="15" text-anchor="middle">classification</text>
+    </g>
+
+    <g>
+      <rect x="474" y="512" width="212" height="96" rx="24" fill="#EFF6FF" stroke="#93C5FD"/>
+      <text x="580" y="548" fill="#1D4ED8" font-size="20" font-weight="700" text-anchor="middle">Intake</text>
+      <text x="580" y="579" fill="#475569" font-size="15" text-anchor="middle">requirements</text>
+      <text x="580" y="599" fill="#475569" font-size="15" text-anchor="middle">extraction</text>
+    </g>
+
+    <g>
+      <rect x="794" y="512" width="212" height="96" rx="24" fill="#EFF6FF" stroke="#93C5FD"/>
+      <text x="900" y="548" fill="#1D4ED8" font-size="20" font-weight="700" text-anchor="middle">Memory</text>
+      <text x="900" y="579" fill="#475569" font-size="15" text-anchor="middle">case context</text>
+      <text x="900" y="599" fill="#475569" font-size="15" text-anchor="middle">and previous run</text>
+    </g>
+
+    <g>
+      <rect x="154" y="782" width="212" height="96" rx="24" fill="#F0F9FF" stroke="#7DD3FC"/>
+      <text x="260" y="818" fill="#0369A1" font-size="20" font-weight="700" text-anchor="middle">RAG</text>
+      <text x="260" y="849" fill="#475569" font-size="15" text-anchor="middle">policy and</text>
+      <text x="260" y="869" fill="#475569" font-size="15" text-anchor="middle">guardrails</text>
+    </g>
+
+    <g>
+      <rect x="474" y="782" width="212" height="96" rx="24" fill="#F0F9FF" stroke="#7DD3FC"/>
+      <text x="580" y="818" fill="#0369A1" font-size="20" font-weight="700" text-anchor="middle">Listings</text>
+      <text x="580" y="849" fill="#475569" font-size="15" text-anchor="middle">database and</text>
+      <text x="580" y="869" fill="#475569" font-size="15" text-anchor="middle">MCP search</text>
+    </g>
+
+    <g>
+      <rect x="794" y="782" width="212" height="96" rx="24" fill="#F0F9FF" stroke="#7DD3FC"/>
+      <text x="900" y="818" fill="#0369A1" font-size="20" font-weight="700" text-anchor="middle">Scoring</text>
+      <text x="900" y="849" fill="#475569" font-size="15" text-anchor="middle">ranking and</text>
+      <text x="900" y="869" fill="#475569" font-size="15" text-anchor="middle">cost estimate</text>
+    </g>
+
+    <g>
+      <rect x="154" y="1032" width="212" height="96" rx="24" fill="#F0FDFA" stroke="#5EEAD4"/>
+      <text x="260" y="1068" fill="#0F766E" font-size="20" font-weight="700" text-anchor="middle">Verifier</text>
+      <text x="260" y="1099" fill="#475569" font-size="15" text-anchor="middle">constraints</text>
+      <text x="260" y="1119" fill="#475569" font-size="15" text-anchor="middle">and risks</text>
+    </g>
+
+    <g>
+      <rect x="474" y="1032" width="212" height="96" rx="24" fill="#F0FDFA" stroke="#5EEAD4"/>
+      <text x="580" y="1068" fill="#0F766E" font-size="20" font-weight="700" text-anchor="middle">Replan</text>
+      <text x="580" y="1099" fill="#475569" font-size="15" text-anchor="middle">delta from</text>
+      <text x="580" y="1119" fill="#475569" font-size="15" text-anchor="middle">previous run</text>
+    </g>
+
+    <g>
+      <rect x="794" y="1032" width="212" height="96" rx="24" fill="#F0FDFA" stroke="#5EEAD4"/>
+      <text x="900" y="1068" fill="#0F766E" font-size="20" font-weight="700" text-anchor="middle">Final Answer</text>
+      <text x="900" y="1099" fill="#475569" font-size="15" text-anchor="middle">shortlist, notes,</text>
+      <text x="900" y="1119" fill="#475569" font-size="15" text-anchor="middle">clarifications</text>
+    </g>
+  </g>
+</svg>

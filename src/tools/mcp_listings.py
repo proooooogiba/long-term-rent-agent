@@ -16,6 +16,7 @@ from pydantic import BaseModel, Field, model_validator
 from src.agent.state import Listing
 from src.runtime_config import load_agent_runtime_config
 from src.tools.contracts import RelocationToolsProtocol
+from src.tools.currency import convert_amount, normalize_currency_code
 from src.tools.relocation_db import (
     GetListingInput,
     RelocationDBTools,
@@ -351,9 +352,19 @@ class MCPRentalListingProvider:
         )
 
     def _build_search_arguments(self, payload: SearchListingsInput, input_schema: dict[str, Any]) -> dict[str, Any]:
+        query_currency = normalize_currency_code(
+            _to_string(self.config.fixed_search_arguments.get("currency"))
+            or _to_string(self.config.listing_defaults.get("currency"))
+        ) or payload.budget_currency
+        provider_payload = payload.model_copy(
+            update={
+                "monthly_budget": convert_amount(payload.monthly_budget, payload.budget_currency, query_currency),
+                "budget_currency": query_currency,
+            }
+        )
         arguments = dict(self.config.fixed_search_arguments)
         for name, binding in self.config.search_argument_map.items():
-            value = _resolve_binding_value(payload, binding)
+            value = _resolve_binding_value(provider_payload, binding)
             if value is not None:
                 arguments[name] = value
 
@@ -364,7 +375,7 @@ class MCPRentalListingProvider:
                 continue
             if _semantic_argument_already_present(arguments, property_name):
                 continue
-            guessed = _guess_search_argument(property_name, payload, self.config.default_country)
+            guessed = _guess_search_argument(property_name, provider_payload, self.config.default_country)
             if guessed is not None:
                 arguments[property_name] = guessed
 
@@ -448,6 +459,7 @@ class MCPRentalListingProvider:
         monthly_rent = _to_float(_extract_from_record(record, self._field_aliases("monthly_rent")))
         if monthly_rent is None or monthly_rent <= 0:
             return None
+        original_monthly_rent = monthly_rent
 
         raw_area = _extract_from_record(record, self._field_aliases("area_sqm"))
         area_sqm = _to_float(raw_area)
@@ -492,6 +504,13 @@ class MCPRentalListingProvider:
         currency = _to_string(_extract_from_record(record, self._field_aliases("currency"))) or _to_string(
             self.config.listing_defaults.get("currency")
         ) or "RUB"
+        original_currency = normalize_currency_code(currency) or currency
+        target_currency = normalize_currency_code(search_payload.budget_currency) if search_payload else None
+        if target_currency and original_currency != target_currency:
+            converted_monthly_rent = convert_amount(monthly_rent, original_currency, target_currency)
+            if converted_monthly_rent is not None:
+                monthly_rent = converted_monthly_rent
+                currency = target_currency
         property_type = _to_string(_extract_from_record(record, self._field_aliases("property_type"))) or self._infer_property_type(title)
 
         available_from = _to_date(_extract_from_record(record, self._field_aliases("available_from"))) or date.today()
@@ -517,7 +536,7 @@ class MCPRentalListingProvider:
         if income_verification_required is None:
             income_verification_required = bool(self.config.listing_defaults.get("income_verification_required", False))
 
-        deposit_months = self._derive_deposit_months(record, monthly_rent)
+        deposit_months = self._derive_deposit_months(record, original_monthly_rent)
         agency_fee = _to_float(_extract_from_record(record, self._field_aliases("agency_fee"))) or _to_float(
             self.config.listing_defaults.get("agency_fee")
         ) or 0.0
@@ -527,6 +546,10 @@ class MCPRentalListingProvider:
         utilities_monthly = _to_float(_extract_from_record(record, self._field_aliases("utilities_monthly"))) or _to_float(
             self.config.listing_defaults.get("utilities_monthly")
         ) or 0.0
+        if target_currency and original_currency != target_currency:
+            agency_fee = convert_amount(agency_fee, original_currency, target_currency) or agency_fee
+            move_in_fee = convert_amount(move_in_fee, original_currency, target_currency) or move_in_fee
+            utilities_monthly = convert_amount(utilities_monthly, original_currency, target_currency) or utilities_monthly
         max_pets = _to_int(_extract_from_record(record, self._field_aliases("max_pets")))
         floor = _to_int(_extract_from_record(record, self._field_aliases("floor")))
         max_occupants = _to_int(_extract_from_record(record, self._field_aliases("max_occupants"))) or _to_int(
@@ -547,6 +570,8 @@ class MCPRentalListingProvider:
         notes.append(f"source:{self.provider_id}")
         if url:
             notes.append(f"url:{url}")
+        if target_currency and original_currency != target_currency:
+            notes.append(f"original_price:{original_monthly_rent:.0f} {original_currency}")
 
         landlord_flags = _normalize_string_list(self.config.listing_defaults.get("landlord_flags"))
         landlord_flags.extend(_normalize_string_list(record.get("landlord_flags")))

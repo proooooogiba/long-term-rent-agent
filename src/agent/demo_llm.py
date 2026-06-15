@@ -5,6 +5,7 @@ import re
 from datetime import date
 from typing import Any
 
+from src.agent.domain_types import infer_housing_type
 from src.agent.message_understanding import IntakeExtraction, RouterDecision
 from src.agent.replanner import ReplanningAssessment
 
@@ -79,9 +80,13 @@ class DemoStructuredLLM:
 
         if budget := self._extract_budget(message):
             result["monthly_budget"] = budget
+        if budget_currency := self._extract_budget_currency(message):
+            result["budget_currency"] = budget_currency
 
         if rooms := self._extract_rooms(message):
             result["rooms_min"] = rooms
+        if housing_type := self._extract_housing_type(message):
+            result["housing_type"] = housing_type
 
         if commute := self._extract_commute(message):
             result["max_commute_minutes"] = commute
@@ -103,8 +108,8 @@ class DemoStructuredLLM:
         elif "в центре" in lowered or "поближе к центру" in lowered or "центр важен" in lowered:
             result["center_preference"] = "prefer_center"
 
-        if re.search(r"(?:\bпара\b|для пары|двое взрослых|2 взрослых)", lowered):
-            result["adults"] = 2
+        if adults := self._extract_adults(lowered):
+            result["adults"] = adults
         elif "семья" in lowered and "двое взрослых" not in lowered:
             result["adults"] = 2
 
@@ -252,18 +257,60 @@ class DemoStructuredLLM:
         return None
 
     def _extract_budget(self, message: str) -> float | None:
-        match = re.search(r"(?:до|бюджет(?:ом)?\s*до|бюджет)\s*(\d[\d\s]{2,})", message.lower())
-        if not match:
-            match = re.search(r"\b(\d{3,5})\s*(?:usd|доллар|eur|руб|₽)?\b", message.lower())
-        if not match:
+        lowered = message.lower()
+
+        explicit_budget = re.search(
+            r"(?:бюджет(?:ом)?(?:\s*до)?|до)\s*(\d[\d\s]{2,})\s*(?:usd|доллар(?:ов)?|eur|евро|руб(?:лей)?|₽)?\b",
+            lowered,
+        )
+        if explicit_budget:
+            return float(explicit_budget.group(1).replace(" ", ""))
+
+        currency_amount = re.search(
+            r"\b(\d{3,6})\s*(?:usd|доллар(?:ов)?|eur|евро|руб(?:лей)?|₽)\b",
+            lowered,
+        )
+        if currency_amount:
+            return float(currency_amount.group(1))
+
+        generic_candidates = re.findall(r"(?<![.\-/])\b(\d{3,6})\b(?![.\-/])", lowered)
+        if not generic_candidates:
             return None
-        return float(match.group(1).replace(" ", ""))
+        return float(generic_candidates[-1].replace(" ", ""))
+
+    def _extract_budget_currency(self, message: str) -> str | None:
+        lowered = message.lower()
+        if any(token in lowered for token in ["usd", "$", "доллар"]):
+            return "USD"
+        if any(token in lowered for token in ["eur", "€", "евро"]):
+            return "EUR"
+        if any(token in lowered for token in ["rub", "rur", "₽", "руб"]):
+            return "RUB"
+        if any(token in lowered for token in ["kzt", "₸", "тенге"]):
+            return "KZT"
+        if any(token in lowered for token in ["amd", "֏", "драм"]):
+            return "AMD"
+        if any(token in lowered for token in ["byn", "белруб"]):
+            return "BYN"
+        if any(token in lowered for token in ["uzs", "сум"]):
+            return "UZS"
+        return None
 
     def _extract_rooms(self, message: str) -> int | None:
         match = re.search(r"\b(\d)\s*(?:-|–)?\s*(?:комн|комнат)", message.lower())
         if match:
             return int(match.group(1))
         if "студ" in message.lower():
+            return 1
+        return None
+
+    def _extract_housing_type(self, message: str) -> str | None:
+        return infer_housing_type(message)
+
+    def _extract_adults(self, lowered_message: str) -> int | None:
+        if re.search(r"(?:\bпара\b|для пары|двое взрослых|2 взрослых)", lowered_message):
+            return 2
+        if re.search(r"(?:1 взросл|один взросл|для одного)", lowered_message):
             return 1
         return None
 
@@ -279,10 +326,33 @@ class DemoStructuredLLM:
             return int(match.group(1))
         return 1 if "с ребёнком" in message.lower() or "с ребенком" in message.lower() else None
 
+    def _quantity_from_token(self, token: str | None) -> int:
+        if not token:
+            return 1
+        normalized = token.strip().lower()
+        if normalized.isdigit():
+            return int(normalized)
+        return {
+            "один": 1,
+            "одна": 1,
+            "одного": 1,
+            "одной": 1,
+            "две": 2,
+            "два": 2,
+            "двух": 2,
+            "двумя": 2,
+            "три": 3,
+            "трех": 3,
+            "трёх": 3,
+        }.get(normalized, 1)
+
     def _extract_pets(self, lowered_message: str) -> list[str]:
         pets: list[str] = []
-        cats = len(re.findall(r"\b(?:кот|кошка|cat)\b", lowered_message))
-        dogs = len(re.findall(r"\b(?:собак|пёс|пес|dog)\b", lowered_message))
-        pets.extend(["cat"] * cats)
-        pets.extend(["dog"] * dogs)
+        pet_patterns = [
+            ("cat", r"(?:(\d+|один|одна|одного|одной|две|два|двух|двумя|три|трех|трёх)\s+)?(?:кот(?:ы|а|ов)?|кошк(?:а|и|у|ой|е|ами|ах)?|cat)\b"),
+            ("dog", r"(?:(\d+|один|одна|одного|одной|две|два|двух|двумя|три|трех|трёх)\s+)?(?:собак(?:а|и|у|ой|е|ами|ах)?|пёс|пес|пса|псов|dog)\b"),
+        ]
+        for pet_kind, pattern in pet_patterns:
+            for match in re.finditer(pattern, lowered_message):
+                pets.extend([pet_kind] * self._quantity_from_token(match.group(1)))
         return pets

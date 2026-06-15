@@ -1,0 +1,355 @@
+{"kind":"deck","id":"pr/zwbg28","name":"Deck"}
+{"kind":"layout","layoutId":"7ed930d9-e6a6-4fa6-a518-57804764494e","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"42394a6f-c0e5-402f-a73b-4571aabd6194","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/yde1xo","slide":1,"title":"ФИНАЛЬНАЯ РАБОТА","textShapes":24}
+{"kind":"shape","id":"sh/4nap4r65","slide":1,"bbox":[0,0,1280,720]}
+{"kind":"textbox","id":"sh/b2hwfyxo","slide":1,"text":"ФИНАЛЬНАЯ РАБОТА","textPreview":"ФИНАЛЬНАЯ РАБОТА","textChars":16,"textLines":1,"bbox":[42,34,1196,20]}
+{"kind":"textbox","id":"sh/mhk3q5o7","slide":1,"text":"Агент подбора аренды и релокации","textPreview":"Агент подбора аренды и релокации","textChars":32,"textLines":1,"bbox":[42,62,1196,34]}
+{"kind":"shape","id":"sh/twra5gbq","slide":1,"bbox":[42,114,754,28]}
+{"kind":"textbox","id":"sh/4byhgn29","slide":1,"text":"ЧТО ПОКАЗЫВАЕМ","textPreview":"ЧТО ПОКАЗЫВАЕМ","textChars":14,"textLines":1,"bbox":[54,121,730,15.6]}
+{"kind":"textbox","id":"sh/bq1oryts","slide":1,"text":"Как показать именно агента, а не просто хороший чат?","textPreview":"Как показать именно агента, а не просто хороший чат?","textChars":52,"textLines":1,"bbox":[42,156,754,90]}
+{"kind":"textbox","id":"sh/m58z25kb","slide":1,"text":"Смотрим не только на финальный ответ, а на весь управляемый путь: от понимания кейса до безопасного human handoff.","textPreview":"Смотрим не только на финальный ответ, а на весь управляемый путь: от понимания кейса до безопасного human handoff.","textChars":114,"textLines":1,"bbox":[42,260,754,58]}
+{"kind":"shape","id":"sh/tsvu9kni","slide":1,"bbox":[42,332,371,124]}
+{"kind":"shape","id":"sh/47y1kre1","slide":1,"bbox":[58,346,339,28]}
+{"kind":"textbox","id":"sh/adsji5sn","slide":1,"text":"ПОДБОР","textPreview":"ПОДБОР","textChars":6,"textLines":1,"bbox":[70,353,315,15.6]}
+{"kind":"textbox","id":"sh/3ylc7u54","slide":1,"text":"Подбор под кейс","textPreview":"Подбор под кейс","textChars":15,"textLines":1,"bbox":[58,382,339,28]}
+{"kind":"textbox","id":"sh/sji5snel","slide":1,"text":"Город, бюджет, семья, питомцы и commute.","textPreview":"Город, бюджет, семья, питомцы и commute.","textChars":40,"textLines":1,"bbox":[58,418,339,24]}
+{"kind":"shape","id":"sh/h4byhgn2","slide":1,"bbox":[425,332,371,124]}
+{"kind":"shape","id":"sh/a5gbq1or","slide":1,"bbox":[441,346,339,28]}
+{"kind":"textbox","id":"sh/3m94fu18","slide":1,"text":"ПАМЯТЬ","textPreview":"ПАМЯТЬ","textChars":6,"textLines":1,"bbox":[453,353,315,15.6]}
+{"kind":"textbox","id":"sh/s72x4nap","slide":1,"text":"Память между запусками","textPreview":"Память между запусками","textChars":22,"textLines":1,"bbox":[441,382,339,28]}
+{"kind":"textbox","id":"sh/lszqtcj6","slide":1,"text":"Новый run помнит прошлый shortlist.","textPreview":"Новый run помнит прошлый shortlist.","textChars":35,"textLines":1,"bbox":[441,418,339,24]}
+{"kind":"shape","id":"sh/a1gvy90j","slide":1,"bbox":[42,456,371,124]}
+{"kind":"shape","id":"sh/zidonyd0","slide":1,"bbox":[58,470,339,28]}
+{"kind":"textbox","id":"sh/val87ed8","slide":1,"text":"БЕЗОПАСНОСТЬ","textPreview":"БЕЗОПАСНОСТЬ","textChars":12,"textLines":1,"bbox":[70,477,315,15.6]}
+{"kind":"textbox","id":"sh/6psfil0r","slide":1,"text":"Безопасная остановка","textPreview":"Безопасная остановка","textChars":20,"textLines":1,"bbox":[58,506,339,28]}
+{"kind":"textbox","id":"sh/dcbulwva","slide":1,"text":"Риск идёт в clarification или handoff.","textPreview":"Риск идёт в clarification или handoff.","textChars":38,"textLines":1,"bbox":[58,542,339,24]}
+{"kind":"shape","id":"sh/kre1w7mp","slide":1,"bbox":[425,456,371,124]}
+{"kind":"shape","id":"sh/vixczed8","slide":1,"bbox":[441,470,339,28]}
+{"kind":"textbox","id":"sh/2x4nap4r","slide":1,"text":"ИНТЕГРАЦИИ","textPreview":"ИНТЕГРАЦИИ","textChars":10,"textLines":1,"bbox":[453,477,315,15.6]}
+{"kind":"textbox","id":"sh/donyd0z6","slide":1,"text":"Live-источники","textPreview":"Live-источники","textChars":14,"textLines":1,"bbox":[441,506,339,28]}
+{"kind":"textbox","id":"sh/k3q5o7qp","slide":1,"text":"MCP даёт свежие карточки, fallback остаётся локальным.","textPreview":"MCP даёт свежие карточки, fallback остаётся локальным.","textChars":54,"textLines":1,"bbox":[441,542,339,24]}
+{"kind":"shape","id":"sh/vu9knih4","slide":1,"bbox":[42,594,754,94]}
+{"kind":"textbox","id":"sh/29gr2p8n","slide":1,"text":"1 кейс","textPreview":"1 кейс","textChars":6,"textLines":1,"bbox":[62,612,714,34]}
+{"kind":"textbox","id":"sh/cfa9w3m9","slide":1,"text":"1 run = shortlist + объяснение + guardrails","textPreview":"1 run = shortlist + объяснение + guardrails","textChars":43,"textLines":1,"bbox":[62,654,714,34]}
+{"kind":"shape","id":"sh/1032lszq","slide":1,"bbox":[818,114,420,332]}
+{"kind":"textbox","id":"sh/judg7ads","slide":1,"text":"Компонентная схема: UI -> orchestration graph -> memory -> tool layer -> data и MCP.","textPreview":"Компонентная схема: UI -> orchestration graph -> memory -> tool layer -> data и MCP.","textChars":84,"textLines":1,"bbox":[834,384,388,48]}
+{"kind":"shape","id":"sh/c7u54zid","slide":1,"bbox":[818,460,204,228]}
+{"kind":"textbox","id":"sh/1orytsvu","slide":1,"text":"9","textPreview":"9","textChars":1,"textLines":1,"bbox":[838,478,164,34]}
+{"kind":"textbox","id":"sh/u18jqh0f","slide":1,"text":"узлов в trace","textPreview":"узлов в trace","textChars":13,"textLines":1,"bbox":[838,520,164,34]}
+{"kind":"shape","id":"sh/jm1cfa9w","slide":1,"bbox":[1034,460,204,228]}
+{"kind":"textbox","id":"sh/cvixczed","slide":1,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[1054,478,164,34]}
+{"kind":"textbox","id":"sh/5gbq1ory","slide":1,"text":"demo-сценария для защиты","textPreview":"demo-сценария для защиты","textChars":24,"textLines":1,"bbox":[1054,520,164,34]}
+{"kind":"image","id":"im/94fu18jq","slide":1,"name":"","bbox":[834,128,388,248]}
+{"kind":"notes","id":"nt/yde1xo","slide":1,"text":""}
+{"kind":"slide","id":"sl/1ow5kl","slide":2,"title":"ПРОДУКТ","textShapes":24}
+{"kind":"shape","id":"sh/7y1kre1w","slide":2,"bbox":[0,0,1280,720]}
+{"kind":"textbox","id":"sh/wjudg7ad","slide":2,"text":"ПРОДУКТ","textPreview":"ПРОДУКТ","textChars":7,"textLines":1,"bbox":[42,34,1196,20]}
+{"kind":"textbox","id":"sh/p4r65wju","slide":2,"text":"Что пользователь получает за один run","textPreview":"Что пользователь получает за один run","textChars":37,"textLines":1,"bbox":[42,62,1196,34]}
+{"kind":"shape","id":"sh/i5sneloj","slide":2,"bbox":[42,114,1196,28]}
+{"kind":"textbox","id":"sh/7qpg3ex0","slide":2,"text":"ЕСЛИ БЮДЖЕТ МЕНЯЕТСЯ ПОСЛЕ ПЕРВОГО ОТВЕТА, СИСТЕМА НЕ НАЧИНАЕТ ВСЁ ЗАНОВО","textPreview":"ЕСЛИ БЮДЖЕТ МЕНЯЕТСЯ ПОСЛЕ ПЕРВОГО ОТВЕТА, СИСТЕМА НЕ НАЧИНАЕТ ВСЁ ЗАНОВО","textChars":73,"textLines":1,"bbox":[54,121,1172,15.6]}
+{"kind":"shape","id":"sh/0bi9s36h","slide":2,"bbox":[42,160,410,264]}
+{"kind":"shape","id":"sh/pwb2hwfy","slide":2,"bbox":[62,178,370,28]}
+{"kind":"textbox","id":"sh/itgfmlkj","slide":2,"text":"SEARCH","textPreview":"SEARCH","textChars":6,"textLines":1,"bbox":[74,185,346,15.6]}
+{"kind":"textbox","id":"sh/7ed8bat4","slide":2,"text":"Подбор по кейсу","textPreview":"Подбор по кейсу","textChars":15,"textLines":1,"bbox":[62,214,370,24]}
+{"kind":"textbox","id":"sh/r2p8nqxs","slide":2,"text":"Город, бюджет, дата въезда, состав домохозяйства, питомцы и время в пути.","textPreview":"Город, бюджет, дата въезда, состав домохозяйства, питомцы и время в пути.","textChars":73,"textLines":1,"bbox":[62,246,370,160]}
+{"kind":"shape","id":"sh/2hwfyxob","slide":2,"bbox":[468,160,410,264]}
+{"kind":"shape","id":"sh/94fu18jq","slide":2,"bbox":[488,178,370,28]}
+{"kind":"textbox","id":"sh/kjm1cfa9","slide":2,"text":"EXPLAIN","textPreview":"EXPLAIN","textChars":7,"textLines":1,"bbox":[500,185,346,15.6]}
+{"kind":"textbox","id":"sh/ra5gbq1o","slide":2,"text":"Объяснение выбора","textPreview":"Объяснение выбора","textChars":17,"textLines":1,"bbox":[488,214,370,24]}
+{"kind":"textbox","id":"sh/2p8nqxs7","slide":2,"text":"Показываем, почему вариант подходит, где компромиссы и какие стартовые расходы.","textPreview":"Показываем, почему вариант подходит, где компромиссы и какие стартовые расходы.","textChars":79,"textLines":1,"bbox":[488,246,370,160]}
+{"kind":"shape","id":"sh/9gr2p8nq","slide":2,"bbox":[42,424,410,264]}
+{"kind":"shape","id":"sh/gvy90je9","slide":2,"bbox":[62,442,370,28]}
+{"kind":"textbox","id":"sh/re1w7mp0","slide":2,"text":"REPLAN","textPreview":"REPLAN","textChars":6,"textLines":1,"bbox":[74,449,346,15.6]}
+{"kind":"textbox","id":"sh/2t83itgf","slide":2,"text":"Пересборка shortlist","textPreview":"Пересборка shortlist","textChars":20,"textLines":1,"bbox":[62,478,370,24]}
+{"kind":"textbox","id":"sh/qpg3ex0n","slide":2,"text":"При изменении бюджета, даты или города агент считает delta и обновляет решение.","textPreview":"При изменении бюджета, даты или города агент считает delta и обновляет решение.","textChars":79,"textLines":1,"bbox":[62,510,370,160]}
+{"kind":"shape","id":"sh/fa9w3m94","slide":2,"bbox":[468,424,410,264]}
+{"kind":"shape","id":"sh/8v6psfil","slide":2,"bbox":[488,442,370,28]}
+{"kind":"textbox","id":"sh/xczed8v6","slide":2,"text":"ESCALATE","textPreview":"ESCALATE","textChars":8,"textLines":1,"bbox":[500,449,346,15.6]}
+{"kind":"textbox","id":"sh/qd4vmtwr","slide":2,"text":"Безопасная остановка","textPreview":"Безопасная остановка","textChars":20,"textLines":1,"bbox":[488,478,370,24]}
+{"kind":"textbox","id":"sh/fyxobm58","slide":2,"text":"Документные и квази-юридические кейсы идут в clarification или handoff.","textPreview":"Документные и квази-юридические кейсы идут в clarification или handoff.","textChars":71,"textLines":1,"bbox":[488,510,370,160]}
+{"kind":"shape","id":"sh/8jqh0fep","slide":2,"bbox":[898,160,340,528]}
+{"kind":"textbox","id":"sh/x4nap4r6","slide":2,"text":"Один запуск = один понятный результат","textPreview":"Один запуск = один понятный результат","textChars":37,"textLines":1,"bbox":[918,178,300,24]}
+{"kind":"textbox","id":"sh/q1orytsv","slide":2,"text":"- вход: сообщение пользователя + профиль кейса","textPreview":"- вход: сообщение пользователя + профиль кейса","textChars":46,"textLines":1,"bbox":[918,210,300,22]}
+{"kind":"textbox","id":"sh/fmlkjm1c","slide":2,"text":"- процесс: search -> score -> verify","textPreview":"- процесс: search -> score -> verify","textChars":36,"textLines":1,"bbox":[918,240,300,22]}
+{"kind":"textbox","id":"sh/5sneloj2","slide":2,"text":"- выход: shortlist + объяснение + предупреждения","textPreview":"- выход: shortlist + объяснение + предупреждения","textChars":48,"textLines":1,"bbox":[918,270,300,22]}
+{"kind":"textbox","id":"sh/cbulwval","slide":2,"text":"- follow-up: пересчёт относительно прошлого run","textPreview":"- follow-up: пересчёт относительно прошлого run","textChars":47,"textLines":1,"bbox":[918,300,300,22]}
+{"kind":"shape","id":"sh/nqxs72x4","slide":2,"bbox":[918,330,144,112]}
+{"kind":"textbox","id":"sh/u54zidon","slide":2,"text":"top-3","textPreview":"top-3","textChars":5,"textLines":1,"bbox":[938,348,104,34]}
+{"kind":"textbox","id":"sh/5kb6xkf6","slide":2,"text":"варианта на экране","textPreview":"варианта на экране","textChars":18,"textLines":1,"bbox":[938,390,104,34]}
+{"kind":"shape","id":"sh/czed8v6p","slide":2,"bbox":[1074,330,144,112]}
+{"kind":"textbox","id":"sh/neloj2t8","slide":2,"text":"safe","textPreview":"safe","textChars":4,"textLines":1,"bbox":[1094,348,104,34]}
+{"kind":"textbox","id":"sh/ytsvu9kn","slide":2,"text":"guardrails в пайплайне","textPreview":"guardrails в пайплайне","textChars":22,"textLines":1,"bbox":[1094,390,104,34]}
+{"kind":"notes","id":"nt/1ow5kl","slide":2,"text":""}
+{"kind":"slide","id":"sl/91nn6q","slide":3,"title":"WORKFLOW","textShapes":16}
+{"kind":"shape","id":"sh/bi9s36hc","slide":3,"bbox":[0,0,1280,720]}
+{"kind":"textbox","id":"sh/032lszqt","slide":3,"text":"WORKFLOW","textPreview":"WORKFLOW","textChars":8,"textLines":1,"bbox":[42,34,1196,20]}
+{"kind":"textbox","id":"sh/tovahoza","slide":3,"text":"Как агент принимает решение","textPreview":"Как агент принимает решение","textChars":27,"textLines":1,"bbox":[42,62,1196,34]}
+{"kind":"shape","id":"sh/i9s36hcr","slide":3,"bbox":[42,114,760,574]}
+{"kind":"textbox","id":"sh/0fepkzup","slide":3,"text":"Функциональный flow: запрос -> поиск вариантов -> ранжирование -> проверка ограничений -> ответ.","textPreview":"Функциональный flow: запрос -> поиск вариантов -> ранжирование -> проверка ограничений -> ответ.","textChars":96,"textLines":1,"bbox":[56,454,732,38]}
+{"kind":"shape","id":"sh/p0bi9s36","slide":3,"bbox":[822,114,416,100]}
+{"kind":"shape","id":"sh/idonyd0z","slide":3,"bbox":[836,124,388,28]}
+{"kind":"textbox","id":"sh/byhgn29g","slide":3,"text":"INSTA MEMORY","textPreview":"INSTA MEMORY","textChars":12,"textLines":1,"bbox":[848,131,364,15.6]}
+{"kind":"textbox","id":"sh/ra5gbq1o","slide":3,"text":"После run агент помнит состояние кейса.","textPreview":"После run агент помнит состояние кейса.","textChars":39,"textLines":1,"bbox":[836,156,388,34]}
+{"kind":"textbox","id":"sh/2p8nqxs7","slide":3,"text":"- last_state, прошлый shortlist и case memory","textPreview":"- last_state, прошлый shortlist и case memory","textChars":45,"textLines":1,"bbox":[836,194,388,20]}
+{"kind":"shape","id":"sh/9gr2p8nq","slide":3,"bbox":[822,226,416,126]}
+{"kind":"shape","id":"sh/gvy90je9","slide":3,"bbox":[836,236,388,28]}
+{"kind":"textbox","id":"sh/r2p8nqxs","slide":3,"text":"TOOLS","textPreview":"TOOLS","textChars":5,"textLines":1,"bbox":[848,243,364,15.6]}
+{"kind":"textbox","id":"sh/2hwfyxob","slide":3,"text":"Tool layer детерминирован.","textPreview":"Tool layer детерминирован.","textChars":26,"textLines":1,"bbox":[836,268,388,30]}
+{"kind":"shape","id":"sh/94fu18jq","slide":3,"bbox":[836,302,124,30]}
+{"kind":"textbox","id":"sh/kjm1cfa9","slide":3,"text":"RAG","textPreview":"RAG","textChars":3,"textLines":1,"bbox":[848,309,100,16]}
+{"kind":"shape","id":"sh/rqd4vmtw","slide":3,"bbox":[968,302,124,30]}
+{"kind":"textbox","id":"sh/25kb6xkf","slide":3,"text":"БД","textPreview":"БД","textChars":2,"textLines":1,"bbox":[980,309,100,16]}
+{"kind":"shape","id":"sh/a5gbq1or","slide":3,"bbox":[1100,302,124,30]}
+{"kind":"textbox","id":"sh/3m94fu18","slide":3,"text":"MCP","textPreview":"MCP","textChars":3,"textLines":1,"bbox":[1112,309,100,16]}
+{"kind":"textbox","id":"sh/s72x4nap","slide":3,"text":"- policy search, SQLite, scoring и MCP","textPreview":"- policy search, SQLite, scoring и MCP","textChars":38,"textLines":1,"bbox":[836,336,388,24]}
+{"kind":"shape","id":"sh/lszqtcj6","slide":3,"bbox":[822,364,416,132]}
+{"kind":"shape","id":"sh/adsji5sn","slide":3,"bbox":[836,374,388,28]}
+{"kind":"textbox","id":"sh/3ylc7u54","slide":3,"text":"ЗАЧЕМ ТАК","textPreview":"ЗАЧЕМ ТАК","textChars":9,"textLines":1,"bbox":[848,381,364,15.6]}
+{"kind":"textbox","id":"sh/sji5snel","slide":3,"text":"LLM включаем только для недетерминированных шагов.","textPreview":"LLM включаем только для недетерминированных шагов.","textChars":50,"textLines":1,"bbox":[836,406,388,42]}
+{"kind":"textbox","id":"sh/h4byhgn2","slide":3,"text":"- router, intake, replanner, final composer","textPreview":"- router, intake, replanner, final composer","textChars":43,"textLines":1,"bbox":[836,452,388,20]}
+{"kind":"textbox","id":"sh/ap4r65wj","slide":3,"text":"- поиск, ранжирование и проверки - в коде","textPreview":"- поиск, ранжирование и проверки - в коде","textChars":41,"textLines":1,"bbox":[836,476,388,20]}
+{"kind":"image","id":"im/6xkf6dcb","slide":3,"name":"","bbox":[56,126,732,320]}
+{"kind":"notes","id":"nt/91nn6q","slide":3,"text":""}
+{"kind":"slide","id":"sl/2b0ubh","slide":4,"title":"OPERATING MODEL","textShapes":18}
+{"kind":"shape","id":"sh/xczed8v6","slide":4,"bbox":[0,0,1280,720]}
+{"kind":"textbox","id":"sh/qpg3ex0n","slide":4,"text":"OPERATING MODEL","textPreview":"OPERATING MODEL","textChars":15,"textLines":1,"bbox":[42,34,1196,20]}
+{"kind":"textbox","id":"sh/fa9w3m94","slide":4,"text":"Production operating model","textPreview":"Production operating model","textChars":26,"textLines":1,"bbox":[42,62,1196,34]}
+{"kind":"shape","id":"sh/8jqh0fep","slide":4,"bbox":[42,114,760,574]}
+{"kind":"textbox","id":"sh/qd4vmtwr","slide":4,"text":"Схема заземляет архитектуру; справа показано, что уже есть в прототипе и что нужно для боевого контура.","textPreview":"Схема заземляет архитектуру; справа показано, что уже есть в прототипе и что нужно для боевого контура.","textChars":103,"textLines":1,"bbox":[54,524,736,152]}
+{"kind":"shape","id":"sh/fyxobm58","slide":4,"bbox":[822,114,416,156]}
+{"kind":"shape","id":"sh/87ed8bat","slide":4,"bbox":[842,132,376,28]}
+{"kind":"textbox","id":"sh/xs72x4na","slide":4,"text":"FRESHNESS","textPreview":"FRESHNESS","textChars":9,"textLines":1,"bbox":[854,139,352,15.6]}
+{"kind":"textbox","id":"sh/xkf6dcbu","slide":4,"text":"Для данных есть явный operating contract.","textPreview":"Для данных есть явный operating contract.","textChars":41,"textLines":1,"bbox":[842,168,376,24]}
+{"kind":"textbox","id":"sh/4zidonyd","slide":4,"text":"- локальный каталог обновляется refresh job по trigger","textPreview":"- локальный каталог обновляется refresh job по trigger","textChars":54,"textLines":1,"bbox":[842,200,376,22]}
+{"kind":"textbox","id":"sh/fepkzupw","slide":4,"text":"- после 24 часов показываем staleness warning","textPreview":"- после 24 часов показываем staleness warning","textChars":45,"textLines":1,"bbox":[842,230,376,22]}
+{"kind":"textbox","id":"sh/mtwra5gb","slide":4,"text":"- policy corpus пересматривается по weekly cadence","textPreview":"- policy corpus пересматривается по weekly cadence","textChars":50,"textLines":1,"bbox":[842,260,376,22]}
+{"kind":"shape","id":"sh/xc3ylc7u","slide":4,"bbox":[822,286,416,168]}
+{"kind":"shape","id":"sh/4r65wjud","slide":4,"bbox":[842,304,376,28]}
+{"kind":"textbox","id":"sh/f6dcbulw","slide":4,"text":"УЖЕ ЕСТЬ","textPreview":"УЖЕ ЕСТЬ","textChars":8,"textLines":1,"bbox":[854,311,352,15.6]}
+{"kind":"textbox","id":"sh/mlkjm1cf","slide":4,"text":"Что реально реализовано в прототипе.","textPreview":"Что реально реализовано в прототипе.","textChars":36,"textLines":1,"bbox":[842,340,376,48]}
+{"kind":"textbox","id":"sh/x0nuxc3y","slide":4,"text":"- persistent memory в SQLite","textPreview":"- persistent memory в SQLite","textChars":28,"textLines":1,"bbox":[842,396,376,22]}
+{"kind":"textbox","id":"sh/4fu18jqh","slide":4,"text":"- write-back в профиль кейса","textPreview":"- write-back в профиль кейса","textChars":28,"textLines":1,"bbox":[842,426,376,22]}
+{"kind":"textbox","id":"sh/4nap4r65","slide":4,"text":"- fallback при сбое MCP provider","textPreview":"- fallback при сбое MCP provider","textChars":32,"textLines":1,"bbox":[842,456,376,22]}
+{"kind":"shape","id":"sh/t83itgfm","slide":4,"bbox":[822,470,416,218]}
+{"kind":"shape","id":"sh/mhk3q5o7","slide":4,"bbox":[842,488,376,28]}
+{"kind":"textbox","id":"sh/b2hwfyxo","slide":4,"text":"OBSERVABILITY","textPreview":"OBSERVABILITY","textChars":13,"textLines":1,"bbox":[854,495,352,15.6]}
+{"kind":"textbox","id":"sh/4byhgn29","slide":4,"text":"Ключевые сигналы уже определены.","textPreview":"Ключевые сигналы уже определены.","textChars":32,"textLines":1,"bbox":[842,524,376,24]}
+{"kind":"textbox","id":"sh/twra5gbq","slide":4,"text":"- latency: agent_run, listing_search, MCP","textPreview":"- latency: agent_run, listing_search, MCP","textChars":41,"textLines":1,"bbox":[842,556,376,22]}
+{"kind":"textbox","id":"sh/m58z25kb","slide":4,"text":"- quality: nightly QA gate и quality gate status","textPreview":"- quality: nightly QA gate и quality gate status","textChars":48,"textLines":1,"bbox":[842,586,376,22]}
+{"kind":"textbox","id":"sh/bq1oryts","slide":4,"text":"- empty_shortlist_rate, escalation_rate, freshness age","textPreview":"- empty_shortlist_rate, escalation_rate, freshness age","textChars":54,"textLines":1,"bbox":[842,616,376,22]}
+{"kind":"image","id":"im/0bi9s36h","slide":4,"name":"","bbox":[54,124,736,392]}
+{"kind":"notes","id":"nt/2b0ubh","slide":4,"text":""}
+{"kind":"slide","id":"sl/02hn85","slide":5,"title":"EXTERNAL INTEGRATION","textShapes":19}
+{"kind":"shape","id":"sh/b2hwfyxo","slide":5,"bbox":[0,0,1280,720]}
+{"kind":"textbox","id":"sh/4nap4r65","slide":5,"text":"EXTERNAL INTEGRATION","textPreview":"EXTERNAL INTEGRATION","textChars":20,"textLines":1,"bbox":[42,34,1196,20]}
+{"kind":"textbox","id":"sh/t83itgfm","slide":5,"text":"MCP Cian, с которым работает агент","textPreview":"MCP Cian, с которым работает агент","textChars":34,"textLines":1,"bbox":[42,62,1196,34]}
+{"kind":"shape","id":"sh/m58z25kb","slide":5,"bbox":[42,114,760,574]}
+{"kind":"textbox","id":"sh/4byhgn29","slide":5,"text":"Cian не живёт отдельно: его выдача нормализуется в ту же модель Listing и попадает в тот же shortlist.","textPreview":"Cian не живёт отдельно: его выдача нормализуется в ту же модель Listing и попадает в тот же shortlist.","textChars":102,"textLines":1,"bbox":[54,524,736,152]}
+{"kind":"shape","id":"sh/twra5gbq","slide":5,"bbox":[822,114,416,156]}
+{"kind":"shape","id":"sh/m1cfa9w3","slide":5,"bbox":[842,132,376,28]}
+{"kind":"textbox","id":"sh/bm58z25k","slide":5,"text":"ПРОВЕРЕННЫЙ ПРИМЕР","textPreview":"ПРОВЕРЕННЫЙ ПРИМЕР","textChars":18,"textLines":1,"bbox":[854,139,352,15.6]}
+{"kind":"textbox","id":"sh/val87ed8","slide":5,"text":"Live-capture от 2026-06-14","textPreview":"Live-capture от 2026-06-14","textChars":26,"textLines":1,"bbox":[842,168,376,24]}
+{"kind":"textbox","id":"sh/6psfil0r","slide":5,"text":"- провайдер: Apify MCP","textPreview":"- провайдер: Apify MCP","textChars":22,"textLines":1,"bbox":[842,200,376,22]}
+{"kind":"textbox","id":"sh/dcbulwva","slide":5,"text":"- инструмент: cian-ru-scraper","textPreview":"- инструмент: cian-ru-scraper","textChars":29,"textLines":1,"bbox":[842,230,376,22]}
+{"kind":"textbox","id":"sh/kre1w7mp","slide":5,"text":"- запрос: Moscow, 1 room, rent","textPreview":"- запрос: Moscow, 1 room, rent","textChars":30,"textLines":1,"bbox":[842,260,376,22]}
+{"kind":"shape","id":"sh/vixczed8","slide":5,"bbox":[822,286,132,112]}
+{"kind":"textbox","id":"sh/2x4nap4r","slide":5,"text":"25k","textPreview":"25k","textChars":3,"textLines":1,"bbox":[842,304,92,34]}
+{"kind":"textbox","id":"sh/donyd0z6","slide":5,"text":"₽ • #998771","textPreview":"₽ • #998771","textChars":11,"textLines":1,"bbox":[842,346,92,34]}
+{"kind":"shape","id":"sh/k3q5o7qp","slide":5,"bbox":[964,286,132,112]}
+{"kind":"textbox","id":"sh/vu9knih4","slide":5,"text":"38k","textPreview":"38k","textChars":3,"textLines":1,"bbox":[984,304,92,34]}
+{"kind":"textbox","id":"sh/29gr2p8n","slide":5,"text":"₽ • #995460","textPreview":"₽ • #995460","textChars":11,"textLines":1,"bbox":[984,346,92,34]}
+{"kind":"shape","id":"sh/adsji5sn","slide":5,"bbox":[1106,286,132,112]}
+{"kind":"textbox","id":"sh/3ylc7u54","slide":5,"text":"45k","textPreview":"45k","textChars":3,"textLines":1,"bbox":[1126,304,92,34]}
+{"kind":"textbox","id":"sh/sji5snel","slide":5,"text":"₽ • #992338","textPreview":"₽ • #992338","textChars":11,"textLines":1,"bbox":[1126,346,92,34]}
+{"kind":"shape","id":"sh/h4byhgn2","slide":5,"bbox":[822,398,416,290]}
+{"kind":"shape","id":"sh/a5gbq1or","slide":5,"bbox":[842,416,376,28]}
+{"kind":"textbox","id":"sh/3m94fu18","slide":5,"text":"CONTRACT","textPreview":"CONTRACT","textChars":8,"textLines":1,"bbox":[854,423,352,15.6]}
+{"kind":"textbox","id":"sh/s72x4nap","slide":5,"text":"Почему этот слой важен","textPreview":"Почему этот слой важен","textChars":22,"textLines":1,"bbox":[842,452,376,24]}
+{"kind":"textbox","id":"sh/lszqtcj6","slide":5,"text":"- новые providers чаще подключаются через config","textPreview":"- новые providers чаще подключаются через config","textChars":48,"textLines":1,"bbox":[842,484,376,22]}
+{"kind":"textbox","id":"sh/a1gvy90j","slide":5,"text":"- aliases, mapping и defaults живут вне графа","textPreview":"- aliases, mapping и defaults живут вне графа","textChars":45,"textLines":1,"bbox":[842,514,376,22]}
+{"kind":"textbox","id":"sh/zidonyd0","slide":5,"text":"- timeout или provider fail -> fallback на локальные объявления","textPreview":"- timeout или provider fail -> fallback на локальные объявления","textChars":63,"textLines":1,"bbox":[842,544,376,22]}
+{"kind":"image","id":"im/epkzupwb","slide":5,"name":"","bbox":[54,124,736,392]}
+{"kind":"notes","id":"nt/02hn85","slide":5,"text":""}
+{"kind":"slide","id":"sl/jpwo6i","slide":6,"title":"DEMO","textShapes":17}
+{"kind":"shape","id":"sh/58z25kb6","slide":6,"bbox":[0,0,1280,720]}
+{"kind":"textbox","id":"sh/yhgn29gr","slide":6,"text":"DEMO","textPreview":"DEMO","textChars":4,"textLines":1,"bbox":[42,34,1196,20]}
+{"kind":"textbox","id":"sh/n29gr2p8","slide":6,"text":"Отдельный demo режим","textPreview":"Отдельный demo режим","textChars":20,"textLines":1,"bbox":[42,62,1196,34]}
+{"kind":"shape","id":"sh/gbq1oryt","slide":6,"bbox":[42,114,320,210]}
+{"kind":"shape","id":"sh/5wjudg7a","slide":6,"bbox":[62,132,280,28]}
+{"kind":"textbox","id":"sh/y90je9cv","slide":6,"text":"DEMO MODE","textPreview":"DEMO MODE","textChars":9,"textLines":1,"bbox":[74,139,256,15.6]}
+{"kind":"textbox","id":"sh/nuxc3ylc","slide":6,"text":"Без живой LLM, но с тем же пайплайном","textPreview":"Без живой LLM, но с тем же пайплайном","textChars":37,"textLines":1,"bbox":[62,168,280,48]}
+{"kind":"textbox","id":"sh/cbulwval","slide":6,"text":"- demo_stub заменяет только недетерминированные шаги","textPreview":"- demo_stub заменяет только недетерминированные шаги","textChars":52,"textLines":1,"bbox":[62,224,280,22]}
+{"kind":"textbox","id":"sh/5sneloj2","slide":6,"text":"- search, scoring и verifier работают как обычно","textPreview":"- search, scoring и verifier работают как обычно","textChars":48,"textLines":1,"bbox":[62,254,280,22]}
+{"kind":"textbox","id":"sh/tcj6tova","slide":6,"text":"- поэтому скриншоты и повторяемость честные","textPreview":"- поэтому скриншоты и повторяемость честные","textChars":43,"textLines":1,"bbox":[62,284,280,22]}
+{"kind":"shape","id":"sh/0rqd4vmt","slide":6,"bbox":[380,114,858,210]}
+{"kind":"textbox","id":"sh/b6xkf6dc","slide":6,"text":"Что показать на защите","textPreview":"Что показать на защите","textChars":22,"textLines":1,"bbox":[400,132,818,26]}
+{"kind":"textbox","id":"sh/il0rqd4v","slide":6,"text":"1. Search: top-3 shortlist","textPreview":"1. Search: top-3 shortlist","textChars":26,"textLines":1,"bbox":[400,166,263.33,140]}
+{"kind":"textbox","id":"sh/t47y1kre","slide":6,"text":"2. Replanning: изменение бюджета","textPreview":"2. Replanning: изменение бюджета","textChars":32,"textLines":1,"bbox":[677.33,166,263.33,140]}
+{"kind":"textbox","id":"sh/0je9cvix","slide":6,"text":"3. Escalation: document risk","textPreview":"3. Escalation: document risk","textChars":28,"textLines":1,"bbox":[954.67,166,263.33,140]}
+{"kind":"shape","id":"sh/byhgn29g","slide":6,"bbox":[42,342,389.33,346]}
+{"kind":"textbox","id":"sh/p0bi9s36","slide":6,"text":"Search","textPreview":"Search","textChars":6,"textLines":1,"bbox":[52,544,369.33,26]}
+{"kind":"textbox","id":"sh/0fepkzup","slide":6,"text":"Happy path: кейс R-0002, top-3 и вкладка shortlist.","textPreview":"Happy path: кейс R-0002, top-3 и вкладка shortlist.","textChars":51,"textLines":1,"bbox":[52,578,369.33,96]}
+{"kind":"shape","id":"sh/cbulwval","slide":6,"bbox":[445.33,342,389.33,346]}
+{"kind":"textbox","id":"sh/u54zidon","slide":6,"text":"Replanning","textPreview":"Replanning","textChars":10,"textLines":1,"bbox":[455.33,544,369.33,26]}
+{"kind":"textbox","id":"sh/nqxs72x4","slide":6,"text":"Changed constraints видно прямо в состоянии агента.","textPreview":"Changed constraints видно прямо в состоянии агента.","textChars":51,"textLines":1,"bbox":[455.33,578,369.33,96]}
+{"kind":"shape","id":"sh/czed8v6p","slide":6,"bbox":[848.67,342,389.33,346]}
+{"kind":"textbox","id":"sh/ytsvu9kn","slide":6,"text":"Escalation","textPreview":"Escalation","textChars":10,"textLines":1,"bbox":[858.67,544,369.33,26]}
+{"kind":"textbox","id":"sh/neloj2t8","slide":6,"text":"Verifier не даёт unsafe shortlist и предлагает human handoff.","textPreview":"Verifier не даёт unsafe shortlist и предлагает human handoff.","textChars":61,"textLines":1,"bbox":[858.67,578,369.33,96]}
+{"kind":"image","id":"im/l87ed8ba","slide":6,"name":"","bbox":[52,352,369.33,184]}
+{"kind":"image","id":"im/61032lsz","slide":6,"name":"","bbox":[455.33,352,369.33,184]}
+{"kind":"image","id":"im/6dcbulwv","slide":6,"name":"","bbox":[858.67,352,369.33,184]}
+{"kind":"notes","id":"nt/jpwo6i","slide":6,"text":""}
+{"kind":"slide","id":"sl/7zdp1m","slide":7,"title":"QUALITY","textShapes":40}
+{"kind":"shape","id":"sh/byhgn29g","slide":7,"bbox":[0,0,1280,720]}
+{"kind":"textbox","id":"sh/0je9cvix","slide":7,"text":"QUALITY","textPreview":"QUALITY","textChars":7,"textLines":1,"bbox":[42,34,1196,20]}
+{"kind":"textbox","id":"sh/t47y1kre","slide":7,"text":"Как мы считаем score и как его проверяем","textPreview":"Как мы считаем score и как его проверяем","textChars":40,"textLines":1,"bbox":[42,62,1196,34]}
+{"kind":"shape","id":"sh/il0rqd4v","slide":7,"bbox":[42,114,760,322]}
+{"kind":"shape","id":"sh/b6xkf6dc","slide":7,"bbox":[62,132,720,28]}
+{"kind":"textbox","id":"sh/0rqd4vmt","slide":7,"text":"SHORTLIST SCORE","textPreview":"SHORTLIST SCORE","textChars":15,"textLines":1,"bbox":[74,139,696,15.6]}
+{"kind":"textbox","id":"sh/tcj6tova","slide":7,"text":"Как считается score shortlist","textPreview":"Как считается score shortlist","textChars":29,"textLines":1,"bbox":[62,168,720,24]}
+{"kind":"textbox","id":"sh/ixczed8v","slide":7,"text":"Это внутренний ranking score для объявлений: он помогает упорядочить кандидатов до verifier и финального ответа.","textPreview":"Это внутренний ranking score для объявлений: он помогает упорядочить кандидатов до verifier и финального ответа.","textChars":112,"textLines":1,"bbox":[62,200,720,46]}
+{"kind":"shape","id":"sh/bi9s36hc","slide":7,"bbox":[62,254,233.33,112]}
+{"kind":"textbox","id":"sh/rytsvu9k","slide":7,"text":"25%","textPreview":"25%","textChars":3,"textLines":1,"bbox":[82,272,193.33,34]}
+{"kind":"textbox","id":"sh/yd0z6103","slide":7,"text":"budget fit","textPreview":"budget fit","textChars":10,"textLines":1,"bbox":[82,314,193.33,34]}
+{"kind":"shape","id":"sh/90je9cvi","slide":7,"bbox":[305.33,254,233.33,112]}
+{"kind":"textbox","id":"sh/gfmlkjm1","slide":7,"text":"20%","textPreview":"20%","textChars":3,"textLines":1,"bbox":[325.33,272,193.33,34]}
+{"kind":"textbox","id":"sh/rmhk3q5o","slide":7,"text":"commute fit","textPreview":"commute fit","textChars":11,"textLines":1,"bbox":[325.33,314,193.33,34]}
+{"kind":"shape","id":"sh/y1kre1w7","slide":7,"bbox":[548.67,254,233.33,112]}
+{"kind":"textbox","id":"sh/9s36hcrm","slide":7,"text":"20%","textPreview":"20%","textChars":3,"textLines":1,"bbox":[568.67,272,193.33,34]}
+{"kind":"textbox","id":"sh/g7adsji5","slide":7,"text":"household fit","textPreview":"household fit","textChars":13,"textLines":1,"bbox":[568.67,314,193.33,34]}
+{"kind":"shape","id":"sh/nih4byhg","slide":7,"bbox":[62,354,233.33,112]}
+{"kind":"textbox","id":"sh/yxobm58z","slide":7,"text":"15%","textPreview":"15%","textChars":3,"textLines":1,"bbox":[82,372,193.33,34]}
+{"kind":"textbox","id":"sh/61032lsz","slide":7,"text":"district fit","textPreview":"district fit","textChars":12,"textLines":1,"bbox":[82,414,193.33,34]}
+{"kind":"shape","id":"sh/vmtwra5g","slide":7,"bbox":[305.33,354,233.33,112]}
+{"kind":"textbox","id":"sh/o7qpg3ex","slide":7,"text":"10%","textPreview":"10%","textChars":3,"textLines":1,"bbox":[325.33,372,193.33,34]}
+{"kind":"textbox","id":"sh/dsji5sne","slide":7,"text":"pet fit","textPreview":"pet fit","textChars":7,"textLines":1,"bbox":[325.33,414,193.33,34]}
+{"kind":"shape","id":"sh/6dcbulwv","slide":7,"bbox":[548.67,354,233.33,112]}
+{"kind":"textbox","id":"sh/vy90je9c","slide":7,"text":"10%","textPreview":"10%","textChars":3,"textLines":1,"bbox":[568.67,372,193.33,34]}
+{"kind":"textbox","id":"sh/oj2t83it","slide":7,"text":"upfront fit","textPreview":"upfront fit","textChars":11,"textLines":1,"bbox":[568.67,414,193.33,34]}
+{"kind":"shape","id":"sh/d4vmtwra","slide":7,"bbox":[42,452,760,236]}
+{"kind":"shape","id":"sh/6hcrmhk3","slide":7,"bbox":[62,470,720,28]}
+{"kind":"textbox","id":"sh/z25kb6xk","slide":7,"text":"НА КАКИХ ДАННЫХ","textPreview":"НА КАКИХ ДАННЫХ","textChars":15,"textLines":1,"bbox":[74,477,696,15.6]}
+{"kind":"textbox","id":"sh/l87ed8ba","slide":7,"text":"Что входит в расчёт shortlist score","textPreview":"Что входит в расчёт shortlist score","textChars":35,"textLines":1,"bbox":[62,506,720,24]}
+{"kind":"textbox","id":"sh/sneloj2t","slide":7,"text":"- listing: rent, rooms, deposit, furnished, pet policy","textPreview":"- listing: rent, rooms, deposit, furnished, pet policy","textChars":54,"textLines":1,"bbox":[62,538,720,22]}
+{"kind":"textbox","id":"sh/32lszqtc","slide":7,"text":"- district: safety, transit, school, family-friendly","textPreview":"- district: safety, transit, school, family-friendly","textChars":52,"textLines":1,"bbox":[62,568,720,22]}
+{"kind":"textbox","id":"sh/ahoza1gv","slide":7,"text":"- requirements: budget, move-in date, pets, commute","textPreview":"- requirements: budget, move-in date, pets, commute","textChars":51,"textLines":1,"bbox":[62,598,720,22]}
+{"kind":"shape","id":"sh/lkjm1cfa","slide":7,"bbox":[822,114,416,170]}
+{"kind":"shape","id":"sh/szqtcj6t","slide":7,"bbox":[842,132,376,28]}
+{"kind":"textbox","id":"sh/3ex0nuxc","slide":7,"text":"OFFLINE BENCHMARK","textPreview":"OFFLINE BENCHMARK","textChars":17,"textLines":1,"bbox":[854,139,352,15.6]}
+{"kind":"textbox","id":"sh/at47y1kr","slide":7,"text":"Как оцениваем модель офлайн","textPreview":"Как оцениваем модель офлайн","textChars":27,"textLines":1,"bbox":[842,168,376,24]}
+{"kind":"textbox","id":"sh/loj2t83i","slide":7,"text":"- тот же data/qa/qa.jsonl как suite","textPreview":"- тот же data/qa/qa.jsonl как suite","textChars":35,"textLines":1,"bbox":[842,200,376,20]}
+{"kind":"textbox","id":"sh/w3m94fu1","slide":7,"text":"- для live LLM запускаем run_benchmark","textPreview":"- для live LLM запускаем run_benchmark","textChars":38,"textLines":1,"bbox":[842,228,376,20]}
+{"kind":"textbox","id":"sh/0fepkzup","slide":7,"text":"- минимум 3 trial, лучше 5","textPreview":"- минимум 3 trial, лучше 5","textChars":26,"textLines":1,"bbox":[842,256,376,20]}
+{"kind":"textbox","id":"sh/p0bi9s36","slide":7,"text":"- fresh SQLite для каждого trial","textPreview":"- fresh SQLite для каждого trial","textChars":32,"textLines":1,"bbox":[842,284,376,20]}
+{"kind":"shape","id":"sh/i9s36hcr","slide":7,"bbox":[822,300,416,170]}
+{"kind":"shape","id":"sh/bulwval8","slide":7,"bbox":[842,318,376,28]}
+{"kind":"textbox","id":"sh/032lszqt","slide":7,"text":"ЧТО СРАВНИВАЕМ","textPreview":"ЧТО СРАВНИВАЕМ","textChars":14,"textLines":1,"bbox":[854,325,352,15.6]}
+{"kind":"textbox","id":"sh/tovahoza","slide":7,"text":"Метрики для сравнения вариантов","textPreview":"Метрики для сравнения вариантов","textChars":31,"textLines":1,"bbox":[842,354,376,24]}
+{"kind":"textbox","id":"sh/ixczed8v","slide":7,"text":"- domain metrics и quality gate","textPreview":"- domain metrics и quality gate","textChars":31,"textLines":1,"bbox":[842,386,376,20]}
+{"kind":"textbox","id":"sh/bi9s36hc","slide":7,"text":"- mean_case_score и case pass rate","textPreview":"- mean_case_score и case pass rate","textChars":34,"textLines":1,"bbox":[842,414,376,20]}
+{"kind":"textbox","id":"sh/0rqd4vmt","slide":7,"text":"- case_pass_all_k и outcome_consistency","textPreview":"- case_pass_all_k и outcome_consistency","textChars":39,"textLines":1,"bbox":[842,442,376,20]}
+{"kind":"textbox","id":"sh/tcj6tova","slide":7,"text":"- mean latency и p95 latency","textPreview":"- mean latency и p95 latency","textChars":28,"textLines":1,"bbox":[842,470,376,20]}
+{"kind":"shape","id":"sh/j6tovaho","slide":7,"bbox":[822,486,416,170]}
+{"kind":"shape","id":"sh/ulwval87","slide":7,"bbox":[842,504,376,28]}
+{"kind":"textbox","id":"sh/1cfa9w3m","slide":7,"text":"HUMAN FEEDBACK","textPreview":"HUMAN FEEDBACK","textChars":14,"textLines":1,"bbox":[854,511,352,15.6]}
+{"kind":"textbox","id":"sh/crmhk3q5","slide":7,"text":"Как оцениваем live-режим","textPreview":"Как оцениваем live-режим","textChars":24,"textLines":1,"bbox":[842,540,376,24]}
+{"kind":"textbox","id":"sh/ji5snelo","slide":7,"text":"- task_completion, constraint_fit, relevance","textPreview":"- task_completion, constraint_fit, relevance","textChars":44,"textLines":1,"bbox":[842,572,376,20]}
+{"kind":"textbox","id":"sh/uxc3ylc7","slide":7,"text":"- clarity, safety_trust, would_use_again","textPreview":"- clarity, safety_trust, would_use_again","textChars":40,"textLines":1,"bbox":[842,600,376,20]}
+{"kind":"textbox","id":"sh/1kre1w7m","slide":7,"text":"- critical_issue_yes_no как стоп-сигнал","textPreview":"- critical_issue_yes_no как стоп-сигнал","textChars":39,"textLines":1,"bbox":[842,628,376,20]}
+{"kind":"textbox","id":"sh/c3ylc7u5","slide":7,"text":"- шаблон feedback лежит в data/qa","textPreview":"- шаблон feedback лежит в data/qa","textChars":33,"textLines":1,"bbox":[842,656,376,20]}
+{"kind":"notes","id":"nt/7zdp1m","slide":7,"text":""}
+{"kind":"slide","id":"sl/5u50uw","slide":8,"title":"TRACE","textShapes":17}
+{"kind":"shape","id":"sh/r65wjudg","slide":8,"bbox":[0,0,1280,720]}
+{"kind":"textbox","id":"sh/gr2p8nqx","slide":8,"text":"TRACE","textPreview":"TRACE","textChars":5,"textLines":1,"bbox":[42,34,1196,20]}
+{"kind":"textbox","id":"sh/9cvixcze","slide":8,"text":"Сколько времени занимает каждый этап","textPreview":"Сколько времени занимает каждый этап","textChars":36,"textLines":1,"bbox":[42,62,1196,34]}
+{"kind":"shape","id":"sh/yxobm58z","slide":8,"bbox":[42,114,760,574]}
+{"kind":"textbox","id":"sh/g3ex0nux","slide":8,"text":"Замерено через AgentTraceStep на live OpenRouter run от 2026-06-15.","textPreview":"Замерено через AgentTraceStep на live OpenRouter run от 2026-06-15.","textChars":67,"textLines":1,"bbox":[54,540,736,136]}
+{"kind":"shape","id":"sh/5o7qpg3e","slide":8,"bbox":[822,114,130.67,112]}
+{"kind":"textbox","id":"sh/y1kre1w7","slide":8,"text":"10.2 s","textPreview":"10.2 s","textChars":6,"textLines":1,"bbox":[842,132,90.67,34]}
+{"kind":"textbox","id":"sh/rmhk3q5o","slide":8,"text":"общий run","textPreview":"общий run","textChars":9,"textLines":1,"bbox":[842,174,90.67,34]}
+{"kind":"shape","id":"sh/fa9w3m94","slide":8,"bbox":[964.67,114,130.67,112]}
+{"kind":"textbox","id":"sh/qpg3ex0n","slide":8,"text":"5.4 s","textPreview":"5.4 s","textChars":5,"textLines":1,"bbox":[984.67,132,90.67,34]}
+{"kind":"textbox","id":"sh/xczed8v6","slide":8,"text":"intake","textPreview":"intake","textChars":6,"textLines":1,"bbox":[984.67,174,90.67,34]}
+{"kind":"shape","id":"sh/8v6psfil","slide":8,"bbox":[1107.33,114,130.67,112]}
+{"kind":"textbox","id":"sh/fyxobm58","slide":8,"text":"3.2 s","textPreview":"3.2 s","textChars":5,"textLines":1,"bbox":[1127.33,132,90.67,34]}
+{"kind":"textbox","id":"sh/qd4vmtwr","slide":8,"text":"final composer","textPreview":"final composer","textChars":14,"textLines":1,"bbox":[1127.33,174,90.67,34]}
+{"kind":"shape","id":"sh/x4nap4r6","slide":8,"bbox":[822,226,416,180]}
+{"kind":"shape","id":"sh/8jqh0fep","slide":8,"bbox":[842,244,376,28]}
+{"kind":"textbox","id":"sh/fmlkjm1c","slide":8,"text":"ЗАЧЕМ ЭТО НУЖНО","textPreview":"ЗАЧЕМ ЭТО НУЖНО","textChars":15,"textLines":1,"bbox":[854,251,352,15.6]}
+{"kind":"textbox","id":"sh/q1orytsv","slide":8,"text":"Trace показывает не только latency, но и реальный маршрут запроса.","textPreview":"Trace показывает не только latency, но и реальный маршрут запроса.","textChars":66,"textLines":1,"bbox":[842,280,376,64]}
+{"kind":"textbox","id":"sh/y1kre1w7","slide":8,"text":"- видно шаги, которые агент реально прошёл","textPreview":"- видно шаги, которые агент реально прошёл","textChars":42,"textLines":1,"bbox":[842,352,376,24]}
+{"kind":"textbox","id":"sh/rmhk3q5o","slide":8,"text":"- видно момент ухода в clarification","textPreview":"- видно момент ухода в clarification","textChars":36,"textLines":1,"bbox":[842,384,376,24]}
+{"kind":"shape","id":"sh/g7adsji5","slide":8,"bbox":[822,422,416,266]}
+{"kind":"shape","id":"sh/9s36hcrm","slide":8,"bbox":[842,440,376,28]}
+{"kind":"textbox","id":"sh/yd0z6103","slide":8,"text":"НАБЛЮДЕНИЕ","textPreview":"НАБЛЮДЕНИЕ","textChars":10,"textLines":1,"bbox":[854,447,352,15.6]}
+{"kind":"textbox","id":"sh/rytsvu9k","slide":8,"text":"В этом live кейсе почти вся стоимость сидит в LLM-узлах.","textPreview":"В этом live кейсе почти вся стоимость сидит в LLM-узлах.","textChars":56,"textLines":1,"bbox":[842,476,376,64]}
+{"kind":"textbox","id":"sh/gfmlkjm1","slide":8,"text":"- router + intake + final composer = 10.19 s","textPreview":"- router + intake + final composer = 10.19 s","textChars":44,"textLines":1,"bbox":[842,548,376,24]}
+{"kind":"textbox","id":"sh/90je9cvi","slide":8,"text":"- детерминированный контур занял около 6 ms","textPreview":"- детерминированный контур занял около 6 ms","textChars":43,"textLines":1,"bbox":[842,580,376,24]}
+{"kind":"image","id":"im/mp0bi9s3","slide":8,"name":"","bbox":[54,124,736,408]}
+{"kind":"notes","id":"nt/5u50uw","slide":8,"text":""}
+{"kind":"slide","id":"sl/d89mrb","slide":9,"title":"KNOWN ISSUES","textShapes":22}
+{"kind":"shape","id":"sh/0z61032l","slide":9,"bbox":[0,0,1280,720]}
+{"kind":"textbox","id":"sh/7ed8bat4","slide":9,"text":"KNOWN ISSUES","textPreview":"KNOWN ISSUES","textChars":12,"textLines":1,"bbox":[42,34,1196,20]}
+{"kind":"textbox","id":"sh/itgfmlkj","slide":9,"text":"Проблемы, с которыми мы сталкивались","textPreview":"Проблемы, с которыми мы сталкивались","textChars":36,"textLines":1,"bbox":[42,62,1196,34]}
+{"kind":"shape","id":"sh/p8nqxs72","slide":9,"bbox":[42,114,589,287]}
+{"kind":"shape","id":"sh/0nuxc3yl","slide":9,"bbox":[62,132,549,28]}
+{"kind":"textbox","id":"sh/72x4nap4","slide":9,"text":"ROUTING","textPreview":"ROUTING","textChars":7,"textLines":1,"bbox":[74,139,525,15.6]}
+{"kind":"textbox","id":"sh/ih4byhgn","slide":9,"text":"LLM routing failed: Connection error","textPreview":"LLM routing failed: Connection error","textChars":36,"textLines":1,"bbox":[62,168,549,40]}
+{"kind":"textbox","id":"sh/p4r65wju","slide":9,"text":"symptom: UI падал с traceback вместо ответа.","textPreview":"symptom: UI падал с traceback вместо ответа.","textChars":44,"textLines":1,"bbox":[62,216,549,34]}
+{"kind":"textbox","id":"sh/wjudg7ad","slide":9,"text":"cause: Live OpenRouter-вызов отваливался по сети, а ранний код не имел мягкого fallback.","textPreview":"cause: Live OpenRouter-вызов отваливался по сети, а ранний код не имел мягкого fallback.","textChars":88,"textLines":1,"bbox":[62,258,549,44]}
+{"kind":"textbox","id":"sh/6tovahoz","slide":9,"text":"fix: Добавлен fallback на demo LLM для routing, intake, replanning и final composition.","textPreview":"fix: Добавлен fallback на demo LLM для routing, intake, replanning и final composition.","textChars":87,"textLines":1,"bbox":[62,310,549,44]}
+{"kind":"shape","id":"sh/vahoza1g","slide":9,"bbox":[649,114,589,287]}
+{"kind":"shape","id":"sh/ovahoza1","slide":9,"bbox":[669,132,549,28]}
+{"kind":"textbox","id":"sh/dg7adsji","slide":9,"text":"PARSER","textPreview":"PARSER","textChars":6,"textLines":1,"bbox":[681,139,525,15.6]}
+{"kind":"textbox","id":"sh/6hcrmhk3","slide":9,"text":"Бюджет брался из даты","textPreview":"Бюджет брался из даты","textChars":21,"textLines":1,"bbox":[669,168,549,40]}
+{"kind":"textbox","id":"sh/z25kb6xk","slide":9,"text":"symptom: Строка 07.07.2026, 1000 usd могла давать budget = 2026.","textPreview":"symptom: Строка 07.07.2026, 1000 usd могла давать budget = 2026.","textChars":64,"textLines":1,"bbox":[669,216,549,34]}
+{"kind":"textbox","id":"sh/onyd0z61","slide":9,"text":"cause: Fallback-parser ловил первое похожее число и не исключал дату.","textPreview":"cause: Fallback-parser ловил первое похожее число и не исключал дату.","textChars":69,"textLines":1,"bbox":[669,258,549,44]}
+{"kind":"textbox","id":"sh/d8v6psfi","slide":9,"text":"fix: Теперь бюджет ищется как сумма с валютой, а дата фильтруется отдельно.","textPreview":"fix: Теперь бюджет ищется как сумма с валютой, а дата фильтруется отдельно.","textChars":75,"textLines":1,"bbox":[669,310,549,44]}
+{"kind":"shape","id":"sh/6dcbulwv","slide":9,"bbox":[42,401,589,287]}
+{"kind":"shape","id":"sh/vy90je9c","slide":9,"bbox":[62,419,549,28]}
+{"kind":"textbox","id":"sh/rmhk3q5o","slide":9,"text":"CURRENCY","textPreview":"CURRENCY","textChars":8,"textLines":1,"bbox":[74,426,525,15.6]}
+{"kind":"textbox","id":"sh/y1kre1w7","slide":9,"text":"Москва + 2000 USD давали пустой Cian","textPreview":"Москва + 2000 USD давали пустой Cian","textChars":36,"textLines":1,"bbox":[62,455,549,40]}
+{"kind":"textbox","id":"sh/9s36hcrm","slide":9,"text":"symptom: Живой provider отвечал пусто даже при доступном MCP.","textPreview":"symptom: Живой provider отвечал пусто даже при доступном MCP.","textChars":61,"textLines":1,"bbox":[62,503,549,34]}
+{"kind":"textbox","id":"sh/g7adsji5","slide":9,"text":"cause: USD-бюджет уходил в Cian как RUB, потому что не было currency conversion.","textPreview":"cause: USD-бюджет уходил в Cian как RUB, потому что не было currency conversion.","textChars":80,"textLines":1,"bbox":[62,545,549,44]}
+{"kind":"textbox","id":"sh/rytsvu9k","slide":9,"text":"fix: Добавлены budget_currency и конвертация request/result contract.","textPreview":"fix: Добавлены budget_currency и конвертация request/result contract.","textChars":69,"textLines":1,"bbox":[62,597,549,44]}
+{"kind":"shape","id":"sh/yd0z6103","slide":9,"bbox":[649,401,589,287]}
+{"kind":"shape","id":"sh/90je9cvi","slide":9,"bbox":[669,419,549,28]}
+{"kind":"textbox","id":"sh/gfmlkjm1","slide":9,"text":"ENV","textPreview":"ENV","textChars":3,"textLines":1,"bbox":[681,426,525,15.6]}
+{"kind":"textbox","id":"sh/r65wjudg","slide":9,"text":"Cian ломался только внутри приложения","textPreview":"Cian ломался только внутри приложения","textChars":37,"textLines":1,"bbox":[669,455,549,40]}
+{"kind":"textbox","id":"sh/ylc7u54z","slide":9,"text":"symptom: Изолированный search работал, а полный graph ловил ConnectError.","textPreview":"symptom: Изолированный search работал, а полный graph ловил ConnectError.","textChars":73,"textLines":1,"bbox":[669,503,549,34]}
+{"kind":"textbox","id":"sh/8v6psfil","slide":9,"text":"cause: GraphDependencies подхватывал домашний .env с битым proxy вместо проектного.","textPreview":"cause: GraphDependencies подхватывал домашний .env с битым proxy вместо проектного.","textChars":83,"textLines":1,"bbox":[669,545,549,44]}
+{"kind":"textbox","id":"sh/xczed8v6","slide":9,"text":"fix: Чтение .env ограничено локальным проектом.","textPreview":"fix: Чтение .env ограничено локальным проектом.","textChars":47,"textLines":1,"bbox":[669,597,549,44]}
+{"kind":"notes","id":"nt/d89mrb","slide":9,"text":""}
+{"kind":"slide","id":"sl/zzpdmb","slide":10,"title":"CONCLUSION","textShapes":19}
+{"kind":"shape","id":"sh/7adsji5s","slide":10,"bbox":[0,0,1280,720]}
+{"kind":"textbox","id":"sh/wval87ed","slide":10,"text":"CONCLUSION","textPreview":"CONCLUSION","textChars":10,"textLines":1,"bbox":[42,34,1196,20]}
+{"kind":"textbox","id":"sh/pg3ex0nu","slide":10,"text":"Что важно вынести","textPreview":"Что важно вынести","textChars":17,"textLines":1,"bbox":[42,62,1196,34]}
+{"kind":"shape","id":"sh/e1w7mp0b","slide":10,"bbox":[42,114,288.5,178]}
+{"kind":"shape","id":"sh/7mp0bi9s","slide":10,"bbox":[62,132,248.5,28]}
+{"kind":"textbox","id":"sh/w7mp0bi9","slide":10,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[74,139,224.5,15.6]}
+{"kind":"textbox","id":"sh/psfil0rq","slide":10,"text":"Агентность","textPreview":"Агентность","textChars":10,"textLines":1,"bbox":[62,168,248.5,26]}
+{"kind":"textbox","id":"sh/ed8bat47","slide":10,"text":"роли, память, replanning, verifier","textPreview":"роли, память, replanning, verifier","textChars":34,"textLines":1,"bbox":[62,202,248.5,72]}
+{"kind":"shape","id":"sh/7u54zido","slide":10,"bbox":[344.5,114,288.5,178]}
+{"kind":"shape","id":"sh/3q5o7qpg","slide":10,"bbox":[364.5,132,248.5,28]}
+{"kind":"textbox","id":"sh/e9cvixcz","slide":10,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[376.5,139,224.5,15.6]}
+{"kind":"textbox","id":"sh/lwval87e","slide":10,"text":"Воспроизводимость","textPreview":"Воспроизводимость","textChars":17,"textLines":1,"bbox":[364.5,168,248.5,26]}
+{"kind":"textbox","id":"sh/wb2hwfyx","slide":10,"text":"demo_stub, локальная БД, QA runner, trace","textPreview":"demo_stub, локальная БД, QA runner, trace","textChars":41,"textLines":1,"bbox":[364.5,202,248.5,72]}
+{"kind":"shape","id":"sh/3itgfmlk","slide":10,"bbox":[647,114,288.5,178]}
+{"kind":"shape","id":"sh/ex0nuxc3","slide":10,"bbox":[667,132,248.5,28]}
+{"kind":"textbox","id":"sh/loj2t83i","slide":10,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[679,139,224.5,15.6]}
+{"kind":"textbox","id":"sh/w3m94fu1","slide":10,"text":"Safety boundary","textPreview":"Safety boundary","textChars":15,"textLines":1,"bbox":[667,168,248.5,26]}
+{"kind":"textbox","id":"sh/3ex0nuxc","slide":10,"text":"clarification и escalation вместо ложной уверенности","textPreview":"clarification и escalation вместо ложной уверенности","textChars":52,"textLines":1,"bbox":[667,202,248.5,72]}
+{"kind":"shape","id":"sh/at47y1kr","slide":10,"bbox":[949.5,114,288.5,178]}
+{"kind":"shape","id":"sh/ixczed8v","slide":10,"bbox":[969.5,132,248.5,28]}
+{"kind":"textbox","id":"sh/bi9s36hc","slide":10,"text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[981.5,139,224.5,15.6]}
+{"kind":"textbox","id":"sh/032lszqt","slide":10,"text":"Расширяемость","textPreview":"Расширяемость","textChars":13,"textLines":1,"bbox":[969.5,168,248.5,26]}
+{"kind":"textbox","id":"sh/tovahoza","slide":10,"text":"typed tools и config-driven путь для MCP","textPreview":"typed tools и config-driven путь для MCP","textChars":40,"textLines":1,"bbox":[969.5,202,248.5,72]}
+{"kind":"shape","id":"sh/i9s36hcr","slide":10,"bbox":[42,310,360,378]}
+{"kind":"textbox","id":"sh/bulwval8","slide":10,"text":"Возможные улучшения","textPreview":"Возможные улучшения","textChars":19,"textLines":1,"bbox":[62,328,320,34]}
+{"kind":"textbox","id":"sh/0fepkzup","slide":10,"text":"SSO, observability, стабильный live MCP","textPreview":"SSO, observability, стабильный live MCP","textChars":39,"textLines":1,"bbox":[62,370,320,34]}
+{"kind":"shape","id":"sh/p0bi9s36","slide":10,"bbox":[420,310,818,378]}
+{"kind":"textbox","id":"sh/idonyd0z","slide":10,"text":"Главный тезис для защиты","textPreview":"Главный тезис для защиты","textChars":24,"textLines":1,"bbox":[440,328,778,24]}
+{"kind":"textbox","id":"sh/byhgn29g","slide":10,"text":"Проект уже показывает базовые признаки агента: он понимает намерение, хранит контекст, вызывает инструменты, может пересобрать решение и умеет остановиться, когда автоматизация небезопасна.","textPreview":"Проект уже показывает базовые признаки агента: он понимает намерение, хранит контекст, вызывает инструменты, может пересобрать решение и ...","textChars":189,"textLines":1,"bbox":[440,360,778,88]}
+{"kind":"textbox","id":"sh/hk3q5o7q","slide":10,"text":"- Главная ценность здесь - в управляемом workflow, а не в одном сильном prompt.","textPreview":"- Главная ценность здесь - в управляемом workflow, а не в одном сильном prompt.","textChars":79,"textLines":1,"bbox":[440,456,778,24]}
+{"kind":"notes","id":"nt/zzpdmb","slide":10,"text":""}

@@ -9,13 +9,22 @@ from src.tools.relocation_db import (
     SearchDistrictsInput,
     SupportedGeography,
 )
+from src.tools.currency import normalize_currency_code
 
+from .domain_types import infer_housing_type, normalize_housing_type
 from .llm import require_structured_llm
+from .llm import should_use_demo_fallback
 from .message_understanding import IntakeExtraction
 from .state import AgentState, Household, RentalRequirements
 
 if TYPE_CHECKING:
     from .dependencies import GraphDependencies
+
+
+def _demo_llm():
+    from .demo_llm import DemoStructuredLLM
+
+    return DemoStructuredLLM()
 
 
 def _extract_with_llm(
@@ -24,8 +33,6 @@ def _extract_with_llm(
     reference_date: date,
     supported_geography: SupportedGeography,
 ) -> IntakeExtraction:
-    llm = require_structured_llm(deps.llm, "Intake extraction")
-
     case_json = state.relocation_case.model_dump(mode="json") if state.relocation_case else None
     previous_json = state.previous_requirements.model_dump(mode="json") if state.previous_requirements else None
     supported_cities = ", ".join(supported_geography.cities)
@@ -39,6 +46,12 @@ def _extract_with_llm(
         "Return only fields explicitly stated or clearly implied by the user. "
         "Do not invent values. "
         "For pets return a normalized list like ['cat'] or ['dog', 'dog']. "
+        "For budget_currency use only normalized codes like USD, EUR, RUB, KZT, AMD, BYN, UZS. "
+        "For housing_type use only these normalized values: apartment, studio, temporary_housing, house. "
+        "Map квартира and апартаменты to apartment. "
+        "Map студия to studio. "
+        "Map дом, коттедж, таунхаус to house. "
+        "Map temporary stay or short-term accommodation requests to temporary_housing. "
         "Use null when the message does not specify a field. "
         f"{supported_cities_clause}"
         "For country use only supported countries when clearly stated. "
@@ -56,9 +69,51 @@ def _extract_with_llm(
         f"Previous requirements JSON:\n{previous_json}\n"
     )
     try:
+        llm = require_structured_llm(deps.llm, "Intake extraction")
         return llm.extract_json(system_prompt=system_prompt, user_prompt=user_prompt, schema=IntakeExtraction)
     except Exception as exc:
+        if should_use_demo_fallback(exc, getattr(deps, "llm_mode", "auto")):
+            state.warnings.append(f"LLM intake fallback: {exc}")
+            return _demo_llm().extract_json(
+                system_prompt=system_prompt,
+                user_prompt=user_prompt,
+                schema=IntakeExtraction,
+            )
         raise RuntimeError(f"LLM intake extraction failed: {exc}") from exc
+
+
+def _normalize_extraction_fields(extraction: IntakeExtraction, user_message: str) -> None:
+    normalized_budget_currency = normalize_currency_code(extraction.budget_currency)
+    if normalized_budget_currency is None:
+        lowered = user_message.lower()
+        if any(token in lowered for token in ["usd", "$", "доллар"]):
+            normalized_budget_currency = "USD"
+        elif any(token in lowered for token in ["eur", "€", "евро"]):
+            normalized_budget_currency = "EUR"
+        elif any(token in lowered for token in ["rub", "rur", "₽", "руб"]):
+            normalized_budget_currency = "RUB"
+        elif any(token in lowered for token in ["kzt", "₸", "тенге"]):
+            normalized_budget_currency = "KZT"
+        elif any(token in lowered for token in ["amd", "֏", "драм"]):
+            normalized_budget_currency = "AMD"
+        elif any(token in lowered for token in ["byn", "белруб"]):
+            normalized_budget_currency = "BYN"
+        elif any(token in lowered for token in ["uzs", "сум"]):
+            normalized_budget_currency = "UZS"
+    if normalized_budget_currency is not None:
+        extraction.budget_currency = normalized_budget_currency
+
+    normalized_housing_type = normalize_housing_type(extraction.housing_type) or infer_housing_type(user_message)
+    if normalized_housing_type is not None:
+        extraction.housing_type = normalized_housing_type
+        if normalized_housing_type == "studio" and extraction.rooms_min is None:
+            extraction.rooms_min = 1
+    lowered = user_message.lower()
+    if extraction.adults is None:
+        if "1 взросл" in lowered or "один взросл" in lowered or "для одного" in lowered:
+            extraction.adults = 1
+        elif "2 взрослых" in lowered or "двое взрослых" in lowered or "для пары" in lowered or "пара" in lowered:
+            extraction.adults = 2
 
 
 def _requirements_from_context(state: AgentState) -> RentalRequirements:
@@ -115,6 +170,8 @@ def _apply_intake_extraction(
         requirements.move_in_date = extraction.move_in_date
     if extraction.monthly_budget is not None:
         requirements.monthly_budget = extraction.monthly_budget
+    if extraction.budget_currency is not None:
+        requirements.budget_currency = extraction.budget_currency
     if extraction.upfront_budget is not None:
         requirements.upfront_budget = extraction.upfront_budget
     if extraction.adults is not None:
@@ -187,6 +244,7 @@ def intake_node(state: AgentState, deps: "GraphDependencies") -> AgentState:
     requirements = _requirements_from_context(state)
     reference_date = requirements.move_in_date or (state.relocation_case.move_in_date if state.relocation_case else date.today())
     extraction = _extract_with_llm(state, deps, reference_date=reference_date, supported_geography=supported_geography)
+    _normalize_extraction_fields(extraction, state.user_message)
 
     _apply_intake_extraction(requirements, extraction, supported_geography.city_to_country)
 

@@ -1,0 +1,32 @@
+task mode: create
+primary deck-profile: engineering-platform
+secondary profile gates: product-platform
+required proof objects:
+- product proof slide with concrete user-visible capabilities
+- workflow architecture map
+- production operating model contour
+- MCP Cian integration flow
+- demo mode proof with screenshots
+- metric evidence tied to the system via trace timings
+- risk and issue slide with root causes and fixes
+source and asset requirements:
+- README.md
+- docs/production_operating_model.md
+- docs/known_issues_root_causes.md
+- docs/demo_scenarios.md
+- docs/external_mcp_provider_example.md
+- config/mcp_connectors.example.json
+- docs/demo_assets/*.png
+- src/app/assets/workflow_overview.svg
+brand and authenticity constraints:
+- only use facts present in local repo
+- all MCP claims must stay tied to verified Cian example from 2026-06-14
+- demo slide must explicitly say it runs without live LLM
+profile-specific QA gates:
+- every slide must carry one clear claim
+- diagrams must name concrete components, not vague AI/data boxes
+- text must stay scannable at thumbnail scale
+- screenshots should support the argument, not act as decoration
+known missing inputs:
+- no ready-made production contour SVG, will create one from operating notes
+- no ready-made trace visual, will create one from measured demo timings

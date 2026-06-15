@@ -17,11 +17,11 @@ if str(ROOT_DIR) not in sys.path:
 
 from src.agent.graph import AgentSession, AgentTraceStep, AgentGraph, RelocationAgent
 from src.agent.dependencies import GraphDependencies
+from src.agent.final_composer import _listing_link_label, _listing_url
 from src.db.seed import DEFAULT_DB_PATH, seed_database
 from src.runtime_config import (
     load_agent_runtime_config,
     resolve_llm_backend,
-    resolve_llm_mode,
     resolve_openrouter_model,
 )
 from src.tools.relocation_db import RelocationDBTools
@@ -75,10 +75,9 @@ def _build_case_label(case: dict[str, object]) -> str:
 
 def _build_session(db_path_str: str) -> AgentSession:
     load_dotenv(ROOT_DIR / ".env")
-    llm_mode = resolve_llm_mode("required")
     deps = GraphDependencies(
         db_tools=RelocationDBTools(Path(db_path_str)),
-        llm_mode=llm_mode,
+        llm_mode="auto",
     )
     return AgentSession(agent=RelocationAgent(graph=AgentGraph(deps=deps)))
 
@@ -94,6 +93,8 @@ def _ensure_app_state(db_path_str: str) -> None:
         st.session_state.selected_case_id = None
     if "messages" not in st.session_state:
         st.session_state.messages = []
+    if "agent_panel_visible" not in st.session_state:
+        st.session_state.agent_panel_visible = True
     if "agent_session" not in st.session_state:
         _reset_conversation(db_path_str, st.session_state.selected_case_id)
 
@@ -103,10 +104,10 @@ def _inject_ui_styles() -> None:
         """
         <style>
         div[data-testid="stMetricValue"] {
-            font-size: 1.9rem;
+            font-size: 1.45rem;
         }
         div[data-testid="stMetricLabel"] {
-            font-size: 0.95rem;
+            font-size: 0.9rem;
         }
         .status-badge-row {
             display: flex;
@@ -150,6 +151,30 @@ def _inject_ui_styles() -> None:
             background: #fee2e2;
             border: 1px solid #fca5a5;
         }
+        .panel-divider-spacer {
+            height: 3.2rem;
+        }
+        button[kind="tertiary"] {
+            width: 100%;
+            min-height: 18rem;
+            border-radius: 16px;
+            border: 1px solid #dbe4f0;
+            background: linear-gradient(180deg, #f8fafc 0%, #eef3f8 100%);
+            color: #64748b;
+            box-shadow: none;
+            padding: 0.25rem 0;
+            transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+        }
+        button[kind="tertiary"]:hover {
+            border-color: #cbd5e1;
+            background: linear-gradient(180deg, #f3f6fa 0%, #eaf0f6 100%);
+            color: #475569;
+        }
+        button[kind="tertiary"] p {
+            font-size: 1rem;
+            font-weight: 700;
+            line-height: 1;
+        }
         </style>
         """,
         unsafe_allow_html=True,
@@ -182,11 +207,26 @@ def _render_suggested_prompts() -> None:
             st.session_state["_pending_prompt"] = prompt
 
 
-def _render_status_badges(llm_backend: str, configured_api_key: str | None) -> None:
+def _collect_mcp_session_status(session: AgentSession) -> str:
+    db_tools = session.agent.graph.deps.db_tools
+    active_parts = []
+    if getattr(db_tools, "include_local_listings", False):
+        active_parts.append("local-db")
+    active_providers = getattr(db_tools, "external_providers", []) or []
+    active_parts.extend(getattr(provider, "provider_id", "unknown") for provider in active_providers)
+    return ", ".join(active_parts) if active_parts else "disabled"
+
+
+def _render_status_badges(
+    llm_backend: str,
+    configured_api_key: str | None,
+    session: AgentSession,
+) -> None:
     backend_class = "backend-demo" if llm_backend == "demo_stub" else "backend-live"
     key_configured = bool(configured_api_key)
     key_class = "key-configured" if key_configured else "key-missing"
     key_value = "configured" if key_configured else "missing"
+    mcp_session_label = _collect_mcp_session_status(session)
 
     st.markdown(
         f"""
@@ -199,9 +239,30 @@ def _render_status_badges(llm_backend: str, configured_api_key: str | None) -> N
                 <span class="status-badge-label">OpenRouter key</span>
                 <span class="status-badge-value">{key_value}</span>
             </div>
+            <div class="status-badge backend-live">
+                <span class="status-badge-label">MCP session</span>
+                <span class="status-badge-value">{mcp_session_label}</span>
+            </div>
         </div>
         """,
         unsafe_allow_html=True,
+    )
+
+
+def _set_agent_panel_visibility(visible: bool) -> None:
+    st.session_state.agent_panel_visible = visible
+
+
+def _render_agent_panel_handle(expanded: bool) -> None:
+    st.markdown('<div class="panel-divider-spacer"></div>', unsafe_allow_html=True)
+    st.button(
+        "›" if expanded else "‹",
+        key="collapse_agent_panel" if expanded else "expand_agent_panel",
+        width="stretch",
+        type="tertiary",
+        help="Скрыть блок 'Как работал агент'" if expanded else "Показать блок 'Как работал агент'",
+        on_click=_set_agent_panel_visibility,
+        args=(False,) if expanded else (True,),
     )
 
 
@@ -298,7 +359,11 @@ def _render_shortlist(session: AgentSession) -> None:
             f"{rank}. {listing.title} · {listing.monthly_rent:.0f} {listing.currency}/мес",
             expanded=rank == 1,
         ):
-            st.markdown(f"**ID:** `{listing.listing_id}`")
+            listing_url = _listing_url(scored)
+            if listing_url:
+                st.markdown(f"**Объявление:** [{_listing_link_label(scored)}]({listing_url})")
+            else:
+                st.markdown(f"**ID:** `{listing.listing_id}`")
             st.markdown(
                 f"**Район:** {listing.district_name} · "
                 f"**Комнат:** {listing.rooms} · "
@@ -419,7 +484,11 @@ def main() -> None:
         else resolve_openrouter_model("deepseek/deepseek-v3.2")
     )
 
-    _render_status_badges(llm_backend, configured_api_key)
+    _render_status_badges(
+        llm_backend,
+        configured_api_key,
+        st.session_state.agent_session,
+    )
 
     _render_suggested_prompts()
     pending_prompt = st.session_state.pop("_pending_prompt", None)
@@ -429,22 +498,33 @@ def main() -> None:
     if new_message:
         _run_agent_turn(new_message, st.session_state.selected_case_id)
 
-    left_column, right_column = st.columns([1.3, 1.0], gap="large")
+    if st.session_state.agent_panel_visible:
+        left_column, divider_column, right_column = st.columns([1.3, 0.06, 1.0], gap="medium")
 
-    with left_column:
-        st.subheader("Диалог")
-        _render_messages(st.session_state.messages)
+        with left_column:
+            st.subheader("Диалог")
+            _render_messages(st.session_state.messages)
 
-    with right_column:
-        st.subheader("Как работал агент")
-        _render_workflow_overview(st.session_state.agent_session.last_trace)
-        tabs = st.tabs(["Трассировка", "Состояние", "Шортлист"])
-        with tabs[0]:
-            _render_trace(st.session_state.agent_session.last_trace)
-        with tabs[1]:
-            _render_state_snapshot(st.session_state.agent_session)
-        with tabs[2]:
-            _render_shortlist(st.session_state.agent_session)
+        with divider_column:
+            _render_agent_panel_handle(expanded=True)
+
+        with right_column:
+            st.subheader("Как работал агент")
+            _render_workflow_overview(st.session_state.agent_session.last_trace)
+            tabs = st.tabs(["Трассировка", "Состояние", "Шортлист"])
+            with tabs[0]:
+                _render_trace(st.session_state.agent_session.last_trace)
+            with tabs[1]:
+                _render_state_snapshot(st.session_state.agent_session)
+            with tabs[2]:
+                _render_shortlist(st.session_state.agent_session)
+    else:
+        left_column, divider_column = st.columns([1.0, 0.06], gap="medium")
+        with left_column:
+            st.subheader("Диалог")
+            _render_messages(st.session_state.messages)
+        with divider_column:
+            _render_agent_panel_handle(expanded=False)
 
 
 if __name__ == "__main__":

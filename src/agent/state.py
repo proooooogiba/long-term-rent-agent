@@ -5,6 +5,8 @@ from typing import Any, Literal
 
 from pydantic import BaseModel, Field
 
+from .domain_types import HousingType
+
 
 class PolicyChunk(BaseModel):
     source: str
@@ -39,7 +41,7 @@ class RentalRequirements(BaseModel):
     office_zone: str | None = None
     max_commute_minutes: int | None = None
     rooms_min: int | None = None
-    housing_type: str | None = None
+    housing_type: HousingType | None = None
     furnished: bool | None = None
     elevator: bool | None = None
     floor_min: int | None = None

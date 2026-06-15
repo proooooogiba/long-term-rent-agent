@@ -6,10 +6,17 @@ from typing import TYPE_CHECKING, Any, Literal
 from pydantic import BaseModel, Field
 
 from .llm import require_structured_llm
+from .llm import should_use_demo_fallback
 from .state import AgentState
 
 if TYPE_CHECKING:
     from .dependencies import GraphDependencies
+
+
+def _demo_llm():
+    from .demo_llm import DemoStructuredLLM
+
+    return DemoStructuredLLM()
 
 
 class ReplanningAssessment(BaseModel):
@@ -88,8 +95,6 @@ def _analyze_with_llm(
     if state.requirements is None or state.previous_requirements is None:
         return ReplanningAssessment()
 
-    llm = require_structured_llm(deps.llm, "Replanning analysis")
-
     payload = {
         "user_message": state.user_message,
         "changed_constraints": changes,
@@ -106,13 +111,18 @@ def _analyze_with_llm(
         "Write concise Russian notes only when there is a real user-visible consequence. "
         "Do not invent facts about listings, budgets, or legal status beyond the context."
     )
+    user_prompt = f"Context JSON:\n{json.dumps(payload, ensure_ascii=False, indent=2, default=str)}"
     try:
-        return llm.extract_json(
-            system_prompt=system_prompt,
-            user_prompt=f"Context JSON:\n{json.dumps(payload, ensure_ascii=False, indent=2, default=str)}",
-            schema=ReplanningAssessment,
-        )
+        llm = require_structured_llm(deps.llm, "Replanning analysis")
+        return llm.extract_json(system_prompt=system_prompt, user_prompt=user_prompt, schema=ReplanningAssessment)
     except Exception as exc:
+        if should_use_demo_fallback(exc, getattr(deps, "llm_mode", "auto")):
+            state.warnings.append(f"LLM replanning fallback: {exc}")
+            return _demo_llm().extract_json(
+                system_prompt=system_prompt,
+                user_prompt=user_prompt,
+                schema=ReplanningAssessment,
+            )
         raise RuntimeError(f"LLM replanning analysis failed: {exc}") from exc
 
 

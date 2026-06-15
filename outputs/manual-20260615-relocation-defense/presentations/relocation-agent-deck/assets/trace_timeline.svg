@@ -1,0 +1,66 @@
+<svg width="1200" height="700" viewBox="0 0 1200 700" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="700" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8FBFF"/>
+      <stop offset="1" stop-color="#EFF6FF"/>
+    </linearGradient>
+  </defs>
+  <rect x="10" y="10" width="1180" height="680" rx="34" fill="url(#bg)"/>
+
+  <text x="68" y="86" fill="#0F172A" font-family="Aptos Display, Arial" font-size="28" font-weight="700">Live LLM trace: один run агента</text>
+  <text x="68" y="118" fill="#5B6473" font-family="Aptos, Arial" font-size="17">Москва, 07.07.2026, 200 000 ₽, 1 взрослый, квартира. OpenRouter active; final answer finished with clarification fallback.</text>
+
+  <text x="68" y="188" fill="#0F172A" font-family="Aptos, Arial" font-size="19" font-weight="700">общий run</text>
+  <rect x="170" y="164" width="570" height="34" rx="17" fill="#DBEAFE"/>
+  <rect x="170" y="164" width="570" height="34" rx="17" fill="#2563EB"/>
+  <text x="760" y="188" fill="#1D4ED8" font-family="Aptos Display, Arial" font-size="22" font-weight="700">10.2 s</text>
+
+  <text x="68" y="252" fill="#0F172A" font-family="Aptos, Arial" font-size="19" font-weight="700">intake</text>
+  <rect x="170" y="228" width="570" height="34" rx="17" fill="#DBEAFE"/>
+  <rect x="170" y="228" width="300" height="34" rx="17" fill="#0EA5E9"/>
+  <text x="760" y="252" fill="#0369A1" font-family="Aptos Display, Arial" font-size="22" font-weight="700">5.4 s</text>
+
+  <text x="68" y="316" fill="#0F172A" font-family="Aptos, Arial" font-size="19" font-weight="700">final composer</text>
+  <rect x="170" y="292" width="570" height="34" rx="17" fill="#DBEAFE"/>
+  <rect x="170" y="292" width="180" height="34" rx="17" fill="#0F766E"/>
+  <text x="760" y="316" fill="#0F766E" font-family="Aptos Display, Arial" font-size="22" font-weight="700">3.2 s</text>
+
+  <rect x="68" y="386" width="1064" height="240" rx="28" fill="#FFFFFF" stroke="#D7E0EA"/>
+  <text x="96" y="428" fill="#0F172A" font-family="Aptos Display, Arial" font-size="28" font-weight="700">Разбивка по node</text>
+
+  <g font-family="Aptos, Arial">
+    <text x="96" y="484" fill="#0F172A" font-size="18" font-weight="700">router</text>
+    <rect x="220" y="466" width="95" height="22" rx="11" fill="#93C5FD"/>
+    <text x="333" y="484" fill="#5B6473" font-size="16">1.59 s</text>
+
+    <text x="96" y="524" fill="#0F172A" font-size="18" font-weight="700">intake</text>
+    <rect x="220" y="506" width="320" height="22" rx="11" fill="#60A5FA"/>
+    <text x="558" y="524" fill="#5B6473" font-size="16">5.37 s</text>
+
+    <text x="96" y="564" fill="#0F172A" font-size="18" font-weight="700">rag_policy</text>
+    <rect x="220" y="546" width="12" height="22" rx="6" fill="#38BDF8"/>
+    <text x="250" y="564" fill="#5B6473" font-size="16">3.1 ms</text>
+
+    <text x="96" y="604" fill="#0F172A" font-size="18" font-weight="700">district_advisor</text>
+    <rect x="220" y="586" width="12" height="22" rx="6" fill="#7DD3FC"/>
+    <text x="250" y="604" fill="#5B6473" font-size="16">3.2 ms</text>
+
+    <text x="620" y="484" fill="#0F172A" font-size="18" font-weight="700">listing_search</text>
+    <rect x="790" y="466" width="12" height="22" rx="6" fill="#A7F3D0"/>
+    <text x="820" y="484" fill="#5B6473" font-size="16">0.0 ms</text>
+
+    <text x="620" y="524" fill="#0F172A" font-size="18" font-weight="700">scoring</text>
+    <rect x="790" y="506" width="12" height="22" rx="6" fill="#14B8A6"/>
+    <text x="820" y="524" fill="#5B6473" font-size="16">0.0 ms</text>
+
+    <text x="620" y="564" fill="#0F172A" font-size="18" font-weight="700">verifier</text>
+    <rect x="790" y="546" width="12" height="22" rx="6" fill="#5EEAD4"/>
+    <text x="820" y="564" fill="#5B6473" font-size="16">0.0 ms</text>
+
+    <text x="620" y="604" fill="#0F172A" font-size="18" font-weight="700">final_composer</text>
+    <rect x="790" y="586" width="192" height="22" rx="11" fill="#2DD4BF"/>
+    <text x="1000" y="604" fill="#5B6473" font-size="16">3.22 s</text>
+  </g>
+
+  <text x="68" y="654" fill="#5B6473" font-family="Aptos, Arial" font-size="17">Budget не извлёкся из сообщения, поэтому run ушёл в clarification. Основная latency пришлась на router, intake и final composer.</text>
+</svg>

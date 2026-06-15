@@ -48,12 +48,17 @@
 - offline QA metrics в `src/evals/metrics.py`;
 - quality gate в `src/evals/quality_gate.py`;
 - запуск `python3 -m src.evals.run_qa --enforce-gate`;
+- отдельный repeated benchmark для live LLM в `src/evals/run_benchmark.py`;
+- документированный evaluation framework в `docs/evaluation_framework.md`;
+- human feedback rubric и шаблон review в `data/qa/human_feedback_template.csv`;
 - целевые пороги для core QA metrics;
 - разделение метрик на hard gate и soft gate.
 
 Что важно показать:
 
 - проект не только считает метрики, но и фиксирует минимально допустимый барьер качества;
+- для live backend качество оценивается не одним прогоном, а несколькими trial-ами с агрегатами `pass@k`, `pass_all_k` и стабильностью outcome;
+- qualitative feedback формализован и не сводится к “понравилось / не понравилось”;
 - текущий `demo_stub` не проходит quality gate полностью, и это нормально: в материалах зафиксирован не только target, но и реальный текущий статус.
 
 ## 4. Прототип и техническая готовность решения

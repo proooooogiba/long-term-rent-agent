@@ -19,6 +19,31 @@ class StructuredLLM(Protocol):
         ...
 
 
+def is_transient_llm_error(exc: Exception) -> bool:
+    message = str(exc).lower()
+    error_name = exc.__class__.__name__.lower()
+    transient_markers = (
+        "connection error",
+        "connect error",
+        "api connection",
+        "timeout",
+        "timed out",
+        "temporarily unavailable",
+        "server error",
+        "rate limit",
+        "503",
+        "502",
+        "504",
+    )
+    return any(marker in message for marker in transient_markers) or any(
+        marker in error_name for marker in ("connection", "timeout", "ratelimit")
+    )
+
+
+def should_use_demo_fallback(exc: Exception, llm_mode: str) -> bool:
+    return llm_mode != "required" or is_transient_llm_error(exc)
+
+
 def require_structured_llm(llm: StructuredLLM | None, capability: str) -> StructuredLLM:
     if llm is None:
         raise RuntimeError(

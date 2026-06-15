@@ -1,0 +1,22 @@
+Title font: Aptos Display, 26-34 px, weight 700
+Body font: Aptos, 13-18 px, weight 400-600
+Palette:
+- ink #0F172A
+- muted #5B6473
+- panel #FFFFFF
+- paper #F4F7FB
+- blue #2563EB
+- cyan #0EA5E9
+- teal #0F766E
+- amber #F59E0B
+- red #DC2626
+Layout rules:
+- 16:9, 1280x720
+- generous outer padding
+- max one key claim per slide
+- use white cards on a light paper background
+- reserve saturated color for claim text, chips, and emphasis
+Interaction devices:
+- short hook question on early slides
+- demo slide framed as "what to click"
+- trace slide framed as "what happens after send"

@@ -24,6 +24,7 @@ class IntakeExtraction(BaseModel):
     country: str | None = None
     move_in_date: date | None = None
     monthly_budget: float | None = None
+    budget_currency: str | None = None
     upfront_budget: float | None = None
     adults: int | None = None
     children: int | None = None
