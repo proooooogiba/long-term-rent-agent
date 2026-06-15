@@ -2,13 +2,13 @@
   "schema": "openai.presentation.layout/v4",
   "unit": "px",
   "slide": {
-    "aid": "sl/91nn6q",
-    "id": "91nn6q",
+    "aid": "sl/6vbods",
+    "id": "6vbods",
     "slide": 3,
-    "layoutId": "42394a6f-c0e5-402f-a73b-4571aabd6194",
+    "layoutId": "8e1fa63f-f22a-4256-89d4-20c807888436",
     "layoutName": "Title Slide",
     "layoutType": "title",
-    "masterLayoutId": "7ed930d9-e6a6-4fa6-a518-57804764494e",
+    "masterLayoutId": "3871ca3a-c15e-4637-98b2-37e1470948cc",
     "masterLayoutName": "Master",
     "frame": {
       "left": 0,
@@ -45,15 +45,15 @@
   "inheritedLayers": [
     {
       "scope": "layout",
-      "id": "42394a6f-c0e5-402f-a73b-4571aabd6194",
+      "id": "8e1fa63f-f22a-4256-89d4-20c807888436",
       "name": "Title Slide",
       "type": "title",
-      "parentLayoutId": "7ed930d9-e6a6-4fa6-a518-57804764494e",
+      "parentLayoutId": "3871ca3a-c15e-4637-98b2-37e1470948cc",
       "elements": []
     },
     {
       "scope": "master",
-      "id": "7ed930d9-e6a6-4fa6-a518-57804764494e",
+      "id": "3871ca3a-c15e-4637-98b2-37e1470948cc",
       "name": "Master",
       "type": "master",
       "elements": []
@@ -64,7 +64,7 @@
       "order": 1,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/bi9s36hc",
+      "aid": "sh/kf6dcbul",
       "id": "1",
       "bbox": [
         0,
@@ -83,7 +83,7 @@
       "order": 2,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/032lszqt",
+      "aid": "sh/vu9knih4",
       "id": "2",
       "bbox": [
         42,
@@ -93,7 +93,7 @@
       ],
       "composeSource": {
         "run": 1,
-        "path": "0.0.0.0"
+        "path": "0.0.1.1.1.0.2.1.0.0"
       },
       "geometry": "rect",
       "text": "WORKFLOW",
@@ -161,7 +161,7 @@
       "order": 3,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/tovahoza",
+      "aid": "sh/29gr2p8n",
       "id": "3",
       "bbox": [
         42,
@@ -171,7 +171,7 @@
       ],
       "composeSource": {
         "run": 1,
-        "path": "0.0.0.1"
+        "path": "0.0.1.1.1.0.2.1"
       },
       "geometry": "rect",
       "text": "Как агент принимает решение",
@@ -239,7 +239,7 @@
       "order": 4,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/i9s36hcr",
+      "aid": "sh/d8bat47y",
       "id": "4",
       "bbox": [
         42,
@@ -260,7 +260,7 @@
       "order": 5,
       "kind": "image",
       "scope": "slide",
-      "aid": "im/6xkf6dcb",
+      "aid": "im/tcj6tova",
       "id": "5",
       "bbox": [
         56,
@@ -275,7 +275,7 @@
       "contentType": "image/png",
       "imageFit": "contain",
       "asset": {
-        "assetId": "763df3bd-29b8-46e4-a1b7-6a634827a36d",
+        "assetId": "fc5e54a6-acb0-4923-ac10-d52fc0d0e110",
         "contentType": "image/png",
         "byteLength": 119793
       }
@@ -284,7 +284,7 @@
       "order": 6,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/0fepkzup",
+      "aid": "sh/v6psfil0",
       "id": "6",
       "bbox": [
         56,
@@ -363,7 +363,7 @@
       "order": 7,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/p0bi9s36",
+      "aid": "sh/2lszqtcj",
       "id": "7",
       "bbox": [
         822,
@@ -384,7 +384,7 @@
       "order": 8,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/idonyd0z",
+      "aid": "sh/dcbulwva",
       "id": "8",
       "bbox": [
         836,
@@ -394,7 +394,7 @@
       ],
       "composeSource": {
         "run": 1,
-        "path": "0.0.1.1.0.0.0"
+        "path": "0.0.1.1.1.0.0"
       },
       "geometry": "roundRect",
       "fillColor": "#EFF6FF",
@@ -405,7 +405,7 @@
       "order": 9,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/byhgn29g",
+      "aid": "sh/kre1w7mp",
       "id": "9",
       "bbox": [
         848,
@@ -415,7 +415,7 @@
       ],
       "composeSource": {
         "run": 1,
-        "path": "0.0.1.1.0.0.0.0.0"
+        "path": "0.0.1.1.1"
       },
       "geometry": "rect",
       "text": "INSTA MEMORY",
@@ -483,7 +483,7 @@
       "order": 10,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/ra5gbq1o",
+      "aid": "sh/6psfil0r",
       "id": "10",
       "bbox": [
         836,
@@ -561,7 +561,7 @@
       "order": 11,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/2p8nqxs7",
+      "aid": "sh/val87ed8",
       "id": "11",
       "bbox": [
         836,
@@ -636,7 +636,7 @@
       "order": 12,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/9gr2p8nq",
+      "aid": "sh/kre1w7mp",
       "id": "12",
       "bbox": [
         822,
@@ -657,7 +657,7 @@
       "order": 13,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/gvy90je9",
+      "aid": "sh/dcbulwva",
       "id": "13",
       "bbox": [
         836,
@@ -678,7 +678,7 @@
       "order": 14,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/r2p8nqxs",
+      "aid": "sh/2x4nap4r",
       "id": "14",
       "bbox": [
         848,
@@ -756,7 +756,7 @@
       "order": 15,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/2hwfyxob",
+      "aid": "sh/vixczed8",
       "id": "15",
       "bbox": [
         836,
@@ -834,7 +834,7 @@
       "order": 16,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/94fu18jq",
+      "aid": "sh/k3q5o7qp",
       "id": "16",
       "bbox": [
         836,
@@ -855,7 +855,7 @@
       "order": 17,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/kjm1cfa9",
+      "aid": "sh/donyd0z6",
       "id": "17",
       "bbox": [
         848,
@@ -933,7 +933,7 @@
       "order": 18,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/rqd4vmtw",
+      "aid": "sh/29gr2p8n",
       "id": "18",
       "bbox": [
         968,
@@ -954,7 +954,7 @@
       "order": 19,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/25kb6xkf",
+      "aid": "sh/vu9knih4",
       "id": "19",
       "bbox": [
         980,
@@ -1032,7 +1032,7 @@
       "order": 20,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/a5gbq1or",
+      "aid": "sh/judg7ads",
       "id": "20",
       "bbox": [
         1100,
@@ -1053,7 +1053,7 @@
       "order": 21,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/3m94fu18",
+      "aid": "sh/u9knih4b",
       "id": "21",
       "bbox": [
         1112,
@@ -1131,7 +1131,7 @@
       "order": 22,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/s72x4nap",
+      "aid": "sh/1032lszq",
       "id": "22",
       "bbox": [
         836,
@@ -1206,7 +1206,7 @@
       "order": 23,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/lszqtcj6",
+      "aid": "sh/cfa9w3m9",
       "id": "23",
       "bbox": [
         822,
@@ -1227,7 +1227,7 @@
       "order": 24,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/adsji5sn",
+      "aid": "sh/jm1cfa9w",
       "id": "24",
       "bbox": [
         836,
@@ -1248,7 +1248,7 @@
       "order": 25,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/3ylc7u54",
+      "aid": "sh/u18jqh0f",
       "id": "25",
       "bbox": [
         848,
@@ -1326,7 +1326,7 @@
       "order": 26,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/sji5snel",
+      "aid": "sh/1orytsvu",
       "id": "26",
       "bbox": [
         836,
@@ -1408,7 +1408,7 @@
       "order": 27,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/h4byhgn2",
+      "aid": "sh/c7u54zid",
       "id": "27",
       "bbox": [
         836,
@@ -1483,7 +1483,7 @@
       "order": 28,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/ap4r65wj",
+      "aid": "sh/nap4r65w",
       "id": "28",
       "bbox": [
         836,
@@ -1661,7 +1661,7 @@
                     "text": "WORKFLOW",
                     "transform": "none",
                     "element": {
-                      "aid": "sh/032lszqt",
+                      "aid": "sh/vu9knih4",
                       "id": "2",
                       "kind": "shape"
                     }
@@ -1692,7 +1692,7 @@
                     "text": "Как агент принимает решение",
                     "transform": "none",
                     "element": {
-                      "aid": "sh/tovahoza",
+                      "aid": "sh/29gr2p8n",
                       "id": "3",
                       "kind": "shape"
                     }
@@ -1879,7 +1879,7 @@
                             "contentType": "image/png",
                             "fit": "contain",
                             "element": {
-                              "aid": "im/6xkf6dcb",
+                              "aid": "im/tcj6tova",
                               "id": "5",
                               "kind": "image"
                             }
@@ -1910,7 +1910,7 @@
                             "text": "Функциональный flow: запрос -> поиск вариантов -> ранжирование -> проверка ограничений -> ответ.",
                             "transform": "none",
                             "element": {
-                              "aid": "sh/0fepkzup",
+                              "aid": "sh/v6psfil0",
                               "id": "6",
                               "kind": "shape"
                             }
@@ -2011,7 +2011,7 @@
                       "height": 548
                     },
                     "element": {
-                      "aid": "sh/i9s36hcr",
+                      "aid": "sh/d8bat47y",
                       "id": "4",
                       "kind": "shape"
                     }
@@ -2160,7 +2160,7 @@
                                         "text": "INSTA MEMORY",
                                         "transform": "none",
                                         "element": {
-                                          "aid": "sh/byhgn29g",
+                                          "aid": "sh/kre1w7mp",
                                           "id": "9",
                                           "kind": "shape"
                                         }
@@ -2230,7 +2230,7 @@
                                   "height": 14
                                 },
                                 "element": {
-                                  "aid": "sh/idonyd0z",
+                                  "aid": "sh/dcbulwva",
                                   "id": "8",
                                   "kind": "shape"
                                 }
@@ -2261,7 +2261,7 @@
                                 "text": "После run агент помнит состояние кейса.",
                                 "transform": "none",
                                 "element": {
-                                  "aid": "sh/ra5gbq1o",
+                                  "aid": "sh/6psfil0r",
                                   "id": "10",
                                   "kind": "shape"
                                 }
@@ -2292,7 +2292,7 @@
                                 "text": "- last_state, прошлый shortlist и case memory",
                                 "transform": "none",
                                 "element": {
-                                  "aid": "sh/2p8nqxs7",
+                                  "aid": "sh/val87ed8",
                                   "id": "11",
                                   "kind": "shape"
                                 }
@@ -2415,7 +2415,7 @@
                           "height": 80
                         },
                         "element": {
-                          "aid": "sh/p0bi9s36",
+                          "aid": "sh/2lszqtcj",
                           "id": "7",
                           "kind": "shape"
                         }
@@ -2540,7 +2540,7 @@
                                         "text": "TOOLS",
                                         "transform": "none",
                                         "element": {
-                                          "aid": "sh/r2p8nqxs",
+                                          "aid": "sh/2x4nap4r",
                                           "id": "14",
                                           "kind": "shape"
                                         }
@@ -2610,7 +2610,7 @@
                                   "height": 14
                                 },
                                 "element": {
-                                  "aid": "sh/gvy90je9",
+                                  "aid": "sh/dcbulwva",
                                   "id": "13",
                                   "kind": "shape"
                                 }
@@ -2641,7 +2641,7 @@
                                 "text": "Tool layer детерминирован.",
                                 "transform": "none",
                                 "element": {
-                                  "aid": "sh/2hwfyxob",
+                                  "aid": "sh/vixczed8",
                                   "id": "15",
                                   "kind": "shape"
                                 }
@@ -2742,7 +2742,7 @@
                                             "text": "RAG",
                                             "transform": "none",
                                             "element": {
-                                              "aid": "sh/kjm1cfa9",
+                                              "aid": "sh/donyd0z6",
                                               "id": "17",
                                               "kind": "shape"
                                             }
@@ -2812,7 +2812,7 @@
                                       "height": 16
                                     },
                                     "element": {
-                                      "aid": "sh/94fu18jq",
+                                      "aid": "sh/k3q5o7qp",
                                       "id": "16",
                                       "kind": "shape"
                                     }
@@ -2889,7 +2889,7 @@
                                             "text": "БД",
                                             "transform": "none",
                                             "element": {
-                                              "aid": "sh/25kb6xkf",
+                                              "aid": "sh/vu9knih4",
                                               "id": "19",
                                               "kind": "shape"
                                             }
@@ -2959,7 +2959,7 @@
                                       "height": 16
                                     },
                                     "element": {
-                                      "aid": "sh/rqd4vmtw",
+                                      "aid": "sh/29gr2p8n",
                                       "id": "18",
                                       "kind": "shape"
                                     }
@@ -3036,7 +3036,7 @@
                                             "text": "MCP",
                                             "transform": "none",
                                             "element": {
-                                              "aid": "sh/3m94fu18",
+                                              "aid": "sh/u9knih4b",
                                               "id": "21",
                                               "kind": "shape"
                                             }
@@ -3106,7 +3106,7 @@
                                       "height": 16
                                     },
                                     "element": {
-                                      "aid": "sh/a5gbq1or",
+                                      "aid": "sh/judg7ads",
                                       "id": "20",
                                       "kind": "shape"
                                     }
@@ -3222,7 +3222,7 @@
                                 "text": "- policy search, SQLite, scoring и MCP",
                                 "transform": "none",
                                 "element": {
-                                  "aid": "sh/s72x4nap",
+                                  "aid": "sh/1032lszq",
                                   "id": "22",
                                   "kind": "shape"
                                 }
@@ -3367,7 +3367,7 @@
                           "height": 106
                         },
                         "element": {
-                          "aid": "sh/9gr2p8nq",
+                          "aid": "sh/kre1w7mp",
                           "id": "12",
                           "kind": "shape"
                         }
@@ -3492,7 +3492,7 @@
                                         "text": "ЗАЧЕМ ТАК",
                                         "transform": "none",
                                         "element": {
-                                          "aid": "sh/3ylc7u54",
+                                          "aid": "sh/u18jqh0f",
                                           "id": "25",
                                           "kind": "shape"
                                         }
@@ -3562,7 +3562,7 @@
                                   "height": 14
                                 },
                                 "element": {
-                                  "aid": "sh/adsji5sn",
+                                  "aid": "sh/jm1cfa9w",
                                   "id": "24",
                                   "kind": "shape"
                                 }
@@ -3593,7 +3593,7 @@
                                 "text": "LLM включаем только для недетерминированных шагов.",
                                 "transform": "none",
                                 "element": {
-                                  "aid": "sh/sji5snel",
+                                  "aid": "sh/1orytsvu",
                                   "id": "26",
                                   "kind": "shape"
                                 }
@@ -3624,7 +3624,7 @@
                                 "text": "- router, intake, replanner, final composer",
                                 "transform": "none",
                                 "element": {
-                                  "aid": "sh/h4byhgn2",
+                                  "aid": "sh/c7u54zid",
                                   "id": "27",
                                   "kind": "shape"
                                 }
@@ -3655,7 +3655,7 @@
                                 "text": "- поиск, ранжирование и проверки - в коде",
                                 "transform": "none",
                                 "element": {
-                                  "aid": "sh/ap4r65wj",
+                                  "aid": "sh/nap4r65w",
                                   "id": "28",
                                   "kind": "shape"
                                 }
@@ -3800,7 +3800,7 @@
                           "height": 112
                         },
                         "element": {
-                          "aid": "sh/lszqtcj6",
+                          "aid": "sh/cfa9w3m9",
                           "id": "23",
                           "kind": "shape"
                         }
@@ -4070,7 +4070,7 @@
           "height": 654
         },
         "element": {
-          "aid": "sh/bi9s36hc",
+          "aid": "sh/kf6dcbul",
           "id": "1",
           "kind": "shape"
         }

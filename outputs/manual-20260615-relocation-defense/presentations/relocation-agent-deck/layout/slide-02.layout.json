@@ -2,13 +2,13 @@
   "schema": "openai.presentation.layout/v4",
   "unit": "px",
   "slide": {
-    "aid": "sl/1ow5kl",
-    "id": "1ow5kl",
+    "aid": "sl/va90xk",
+    "id": "va90xk",
     "slide": 2,
-    "layoutId": "42394a6f-c0e5-402f-a73b-4571aabd6194",
+    "layoutId": "8e1fa63f-f22a-4256-89d4-20c807888436",
     "layoutName": "Title Slide",
     "layoutType": "title",
-    "masterLayoutId": "7ed930d9-e6a6-4fa6-a518-57804764494e",
+    "masterLayoutId": "3871ca3a-c15e-4637-98b2-37e1470948cc",
     "masterLayoutName": "Master",
     "frame": {
       "left": 0,
@@ -45,15 +45,15 @@
   "inheritedLayers": [
     {
       "scope": "layout",
-      "id": "42394a6f-c0e5-402f-a73b-4571aabd6194",
+      "id": "8e1fa63f-f22a-4256-89d4-20c807888436",
       "name": "Title Slide",
       "type": "title",
-      "parentLayoutId": "7ed930d9-e6a6-4fa6-a518-57804764494e",
+      "parentLayoutId": "3871ca3a-c15e-4637-98b2-37e1470948cc",
       "elements": []
     },
     {
       "scope": "master",
-      "id": "7ed930d9-e6a6-4fa6-a518-57804764494e",
+      "id": "3871ca3a-c15e-4637-98b2-37e1470948cc",
       "name": "Master",
       "type": "master",
       "elements": []
@@ -64,7 +64,7 @@
       "order": 1,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/7y1kre1w",
+      "aid": "sh/lwval87e",
       "id": "1",
       "bbox": [
         0,
@@ -74,7 +74,7 @@
       ],
       "composeSource": {
         "run": 1,
-        "path": "0"
+        "path": "0.0.1.1.1.0.5.1.0.0"
       },
       "geometry": "rect",
       "fillColor": "#F4F7FB"
@@ -83,7 +83,7 @@
       "order": 2,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/wjudg7ad",
+      "aid": "sh/e9cvixcz",
       "id": "2",
       "bbox": [
         42,
@@ -93,7 +93,7 @@
       ],
       "composeSource": {
         "run": 1,
-        "path": "0.0.0.0"
+        "path": "0.0.1.1.1.0.5.1"
       },
       "geometry": "rect",
       "text": "ПРОДУКТ",
@@ -161,7 +161,7 @@
       "order": 3,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/p4r65wju",
+      "aid": "sh/3q5o7qpg",
       "id": "3",
       "bbox": [
         42,
@@ -171,7 +171,7 @@
       ],
       "composeSource": {
         "run": 1,
-        "path": "0.0.0.1"
+        "path": "0.0.1.1.1.0.5.0.0.1"
       },
       "geometry": "rect",
       "text": "Что пользователь получает за один run",
@@ -239,7 +239,7 @@
       "order": 4,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/i5sneloj",
+      "aid": "sh/w3m94fu1",
       "id": "4",
       "bbox": [
         42,
@@ -249,7 +249,7 @@
       ],
       "composeSource": {
         "run": 1,
-        "path": "0.0.1.0"
+        "path": "0.0.1.1.1.0.5.0.0.0"
       },
       "geometry": "roundRect",
       "fillColor": "#FFF7ED",
@@ -260,7 +260,7 @@
       "order": 5,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/7qpg3ex0",
+      "aid": "sh/loj2t83i",
       "id": "5",
       "bbox": [
         54,
@@ -270,7 +270,7 @@
       ],
       "composeSource": {
         "run": 1,
-        "path": "0.0.1.0.0.0"
+        "path": "0.0.1.1.1.0.5.0"
       },
       "geometry": "rect",
       "text": "ЕСЛИ БЮДЖЕТ МЕНЯЕТСЯ ПОСЛЕ ПЕРВОГО ОТВЕТА, СИСТЕМА НЕ НАЧИНАЕТ ВСЁ ЗАНОВО",
@@ -338,7 +338,7 @@
       "order": 6,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/0bi9s36h",
+      "aid": "sh/ex0nuxc3",
       "id": "6",
       "bbox": [
         42,
@@ -348,7 +348,7 @@
       ],
       "composeSource": {
         "run": 1,
-        "path": "0.0.1.1.0.0"
+        "path": "0.0.1.1.1.0.4"
       },
       "geometry": "roundRect",
       "fillColor": "#FFFFFF",
@@ -359,7 +359,7 @@
       "order": 7,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/pwb2hwfy",
+      "aid": "sh/3itgfmlk",
       "id": "7",
       "bbox": [
         62,
@@ -369,7 +369,7 @@
       ],
       "composeSource": {
         "run": 1,
-        "path": "0.0.1.1.0.0.0.0"
+        "path": "0.0.1.1.1.0.3"
       },
       "geometry": "roundRect",
       "fillColor": "#EFF6FF",
@@ -380,7 +380,7 @@
       "order": 8,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/itgfmlkj",
+      "aid": "sh/szqtcj6t",
       "id": "8",
       "bbox": [
         74,
@@ -458,7 +458,7 @@
       "order": 9,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/7ed8bat4",
+      "aid": "sh/lkjm1cfa",
       "id": "9",
       "bbox": [
         62,
@@ -536,7 +536,7 @@
       "order": 10,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/r2p8nqxs",
+      "aid": "sh/hcrmhk3q",
       "id": "10",
       "bbox": [
         62,
@@ -615,7 +615,7 @@
       "order": 11,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/2hwfyxob",
+      "aid": "sh/orytsvu9",
       "id": "11",
       "bbox": [
         468,
@@ -636,7 +636,7 @@
       "order": 12,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/94fu18jq",
+      "aid": "sh/z61032ls",
       "id": "12",
       "bbox": [
         488,
@@ -657,7 +657,7 @@
       "order": 13,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/kjm1cfa9",
+      "aid": "sh/al87ed8b",
       "id": "13",
       "bbox": [
         500,
@@ -735,7 +735,7 @@
       "order": 14,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/ra5gbq1o",
+      "aid": "sh/h0fepkzu",
       "id": "14",
       "bbox": [
         488,
@@ -813,7 +813,7 @@
       "order": 15,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/2p8nqxs7",
+      "aid": "sh/sfil0rqd",
       "id": "15",
       "bbox": [
         488,
@@ -892,7 +892,7 @@
       "order": 16,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/9gr2p8nq",
+      "aid": "sh/zupwb2hw",
       "id": "16",
       "bbox": [
         42,
@@ -913,7 +913,7 @@
       "order": 17,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/gvy90je9",
+      "aid": "sh/a9w3m94f",
       "id": "17",
       "bbox": [
         62,
@@ -934,7 +934,7 @@
       "order": 18,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/re1w7mp0",
+      "aid": "sh/hwfyxobm",
       "id": "18",
       "bbox": [
         74,
@@ -1012,7 +1012,7 @@
       "order": 19,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/2t83itgf",
+      "aid": "sh/obm58z25",
       "id": "19",
       "bbox": [
         62,
@@ -1090,7 +1090,7 @@
       "order": 20,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/qpg3ex0n",
+      "aid": "sh/knih4byh",
       "id": "20",
       "bbox": [
         62,
@@ -1169,7 +1169,7 @@
       "order": 21,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/fa9w3m94",
+      "aid": "sh/d8bat47y",
       "id": "21",
       "bbox": [
         468,
@@ -1190,7 +1190,7 @@
       "order": 22,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/8v6psfil",
+      "aid": "sh/2lszqtcj",
       "id": "22",
       "bbox": [
         488,
@@ -1211,7 +1211,7 @@
       "order": 23,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/xczed8v6",
+      "aid": "sh/v6psfil0",
       "id": "23",
       "bbox": [
         500,
@@ -1289,7 +1289,7 @@
       "order": 24,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/qd4vmtwr",
+      "aid": "sh/kf6dcbul",
       "id": "24",
       "bbox": [
         488,
@@ -1367,7 +1367,7 @@
       "order": 25,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/fyxobm58",
+      "aid": "sh/d0z61032",
       "id": "25",
       "bbox": [
         488,
@@ -1446,7 +1446,7 @@
       "order": 26,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/8jqh0fep",
+      "aid": "sh/29gr2p8n",
       "id": "26",
       "bbox": [
         898,
@@ -1467,7 +1467,7 @@
       "order": 27,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/x4nap4r6",
+      "aid": "sh/vu9knih4",
       "id": "27",
       "bbox": [
         918,
@@ -1549,7 +1549,7 @@
       "order": 28,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/q1orytsv",
+      "aid": "sh/k3q5o7qp",
       "id": "28",
       "bbox": [
         918,
@@ -1628,7 +1628,7 @@
       "order": 29,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/fmlkjm1c",
+      "aid": "sh/donyd0z6",
       "id": "29",
       "bbox": [
         918,
@@ -1703,7 +1703,7 @@
       "order": 30,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/5sneloj2",
+      "aid": "sh/3itgfmlk",
       "id": "30",
       "bbox": [
         918,
@@ -1782,7 +1782,7 @@
       "order": 31,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/cbulwval",
+      "aid": "sh/ex0nuxc3",
       "id": "31",
       "bbox": [
         918,
@@ -1861,7 +1861,7 @@
       "order": 32,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/nqxs72x4",
+      "aid": "sh/loj2t83i",
       "id": "32",
       "bbox": [
         918,
@@ -1882,7 +1882,7 @@
       "order": 33,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/u54zidon",
+      "aid": "sh/w3m94fu1",
       "id": "33",
       "bbox": [
         938,
@@ -1960,7 +1960,7 @@
       "order": 34,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/5kb6xkf6",
+      "aid": "sh/3q5o7qpg",
       "id": "34",
       "bbox": [
         938,
@@ -2039,7 +2039,7 @@
       "order": 35,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/czed8v6p",
+      "aid": "sh/e9cvixcz",
       "id": "35",
       "bbox": [
         1074,
@@ -2060,7 +2060,7 @@
       "order": 36,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/neloj2t8",
+      "aid": "sh/lwval87e",
       "id": "36",
       "bbox": [
         1094,
@@ -2138,7 +2138,7 @@
       "order": 37,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/ytsvu9kn",
+      "aid": "sh/wb2hwfyx",
       "id": "37",
       "bbox": [
         1094,
@@ -2320,7 +2320,7 @@
                     "text": "ПРОДУКТ",
                     "transform": "none",
                     "element": {
-                      "aid": "sh/wjudg7ad",
+                      "aid": "sh/e9cvixcz",
                       "id": "2",
                       "kind": "shape"
                     }
@@ -2351,7 +2351,7 @@
                     "text": "Что пользователь получает за один run",
                     "transform": "none",
                     "element": {
-                      "aid": "sh/p4r65wju",
+                      "aid": "sh/3q5o7qpg",
                       "id": "3",
                       "kind": "shape"
                     }
@@ -2532,7 +2532,7 @@
                             "text": "ЕСЛИ БЮДЖЕТ МЕНЯЕТСЯ ПОСЛЕ ПЕРВОГО ОТВЕТА, СИСТЕМА НЕ НАЧИНАЕТ ВСЁ ЗАНОВО",
                             "transform": "none",
                             "element": {
-                              "aid": "sh/7qpg3ex0",
+                              "aid": "sh/loj2t83i",
                               "id": "5",
                               "kind": "shape"
                             }
@@ -2602,7 +2602,7 @@
                       "height": 14
                     },
                     "element": {
-                      "aid": "sh/i5sneloj",
+                      "aid": "sh/w3m94fu1",
                       "id": "4",
                       "kind": "shape"
                     }
@@ -2775,7 +2775,7 @@
                                             "text": "SEARCH",
                                             "transform": "none",
                                             "element": {
-                                              "aid": "sh/itgfmlkj",
+                                              "aid": "sh/szqtcj6t",
                                               "id": "8",
                                               "kind": "shape"
                                             }
@@ -2845,7 +2845,7 @@
                                       "height": 14
                                     },
                                     "element": {
-                                      "aid": "sh/pwb2hwfy",
+                                      "aid": "sh/3itgfmlk",
                                       "id": "7",
                                       "kind": "shape"
                                     }
@@ -2875,7 +2875,7 @@
                                     "text": "Подбор по кейсу",
                                     "transform": "none",
                                     "element": {
-                                      "aid": "sh/7ed8bat4",
+                                      "aid": "sh/lkjm1cfa",
                                       "id": "9",
                                       "kind": "shape"
                                     }
@@ -2906,7 +2906,7 @@
                                     "text": "Город, бюджет, дата въезда, состав домохозяйства, питомцы и время в пути.",
                                     "transform": "none",
                                     "element": {
-                                      "aid": "sh/r2p8nqxs",
+                                      "aid": "sh/hcrmhk3q",
                                       "id": "10",
                                       "kind": "shape"
                                     }
@@ -3029,7 +3029,7 @@
                               "height": 228
                             },
                             "element": {
-                              "aid": "sh/0bi9s36h",
+                              "aid": "sh/ex0nuxc3",
                               "id": "6",
                               "kind": "shape"
                             }
@@ -3154,7 +3154,7 @@
                                             "text": "EXPLAIN",
                                             "transform": "none",
                                             "element": {
-                                              "aid": "sh/kjm1cfa9",
+                                              "aid": "sh/al87ed8b",
                                               "id": "13",
                                               "kind": "shape"
                                             }
@@ -3224,7 +3224,7 @@
                                       "height": 14
                                     },
                                     "element": {
-                                      "aid": "sh/94fu18jq",
+                                      "aid": "sh/z61032ls",
                                       "id": "12",
                                       "kind": "shape"
                                     }
@@ -3254,7 +3254,7 @@
                                     "text": "Объяснение выбора",
                                     "transform": "none",
                                     "element": {
-                                      "aid": "sh/ra5gbq1o",
+                                      "aid": "sh/h0fepkzu",
                                       "id": "14",
                                       "kind": "shape"
                                     }
@@ -3285,7 +3285,7 @@
                                     "text": "Показываем, почему вариант подходит, где компромиссы и какие стартовые расходы.",
                                     "transform": "none",
                                     "element": {
-                                      "aid": "sh/2p8nqxs7",
+                                      "aid": "sh/sfil0rqd",
                                       "id": "15",
                                       "kind": "shape"
                                     }
@@ -3408,7 +3408,7 @@
                               "height": 228
                             },
                             "element": {
-                              "aid": "sh/2hwfyxob",
+                              "aid": "sh/orytsvu9",
                               "id": "11",
                               "kind": "shape"
                             }
@@ -3533,7 +3533,7 @@
                                             "text": "REPLAN",
                                             "transform": "none",
                                             "element": {
-                                              "aid": "sh/re1w7mp0",
+                                              "aid": "sh/hwfyxobm",
                                               "id": "18",
                                               "kind": "shape"
                                             }
@@ -3603,7 +3603,7 @@
                                       "height": 14
                                     },
                                     "element": {
-                                      "aid": "sh/gvy90je9",
+                                      "aid": "sh/a9w3m94f",
                                       "id": "17",
                                       "kind": "shape"
                                     }
@@ -3633,7 +3633,7 @@
                                     "text": "Пересборка shortlist",
                                     "transform": "none",
                                     "element": {
-                                      "aid": "sh/2t83itgf",
+                                      "aid": "sh/obm58z25",
                                       "id": "19",
                                       "kind": "shape"
                                     }
@@ -3664,7 +3664,7 @@
                                     "text": "При изменении бюджета, даты или города агент считает delta и обновляет решение.",
                                     "transform": "none",
                                     "element": {
-                                      "aid": "sh/qpg3ex0n",
+                                      "aid": "sh/knih4byh",
                                       "id": "20",
                                       "kind": "shape"
                                     }
@@ -3787,7 +3787,7 @@
                               "height": 228
                             },
                             "element": {
-                              "aid": "sh/9gr2p8nq",
+                              "aid": "sh/zupwb2hw",
                               "id": "16",
                               "kind": "shape"
                             }
@@ -3912,7 +3912,7 @@
                                             "text": "ESCALATE",
                                             "transform": "none",
                                             "element": {
-                                              "aid": "sh/xczed8v6",
+                                              "aid": "sh/v6psfil0",
                                               "id": "23",
                                               "kind": "shape"
                                             }
@@ -3982,7 +3982,7 @@
                                       "height": 14
                                     },
                                     "element": {
-                                      "aid": "sh/8v6psfil",
+                                      "aid": "sh/2lszqtcj",
                                       "id": "22",
                                       "kind": "shape"
                                     }
@@ -4012,7 +4012,7 @@
                                     "text": "Безопасная остановка",
                                     "transform": "none",
                                     "element": {
-                                      "aid": "sh/qd4vmtwr",
+                                      "aid": "sh/kf6dcbul",
                                       "id": "24",
                                       "kind": "shape"
                                     }
@@ -4043,7 +4043,7 @@
                                     "text": "Документные и квази-юридические кейсы идут в clarification или handoff.",
                                     "transform": "none",
                                     "element": {
-                                      "aid": "sh/fyxobm58",
+                                      "aid": "sh/d0z61032",
                                       "id": "25",
                                       "kind": "shape"
                                     }
@@ -4166,7 +4166,7 @@
                               "height": 228
                             },
                             "element": {
-                              "aid": "sh/fa9w3m94",
+                              "aid": "sh/d8bat47y",
                               "id": "21",
                               "kind": "shape"
                             }
@@ -4339,7 +4339,7 @@
                                 "text": "Один запуск = один понятный результат",
                                 "transform": "none",
                                 "element": {
-                                  "aid": "sh/x4nap4r6",
+                                  "aid": "sh/vu9knih4",
                                   "id": "27",
                                   "kind": "shape"
                                 }
@@ -4370,7 +4370,7 @@
                                 "text": "- вход: сообщение пользователя + профиль кейса",
                                 "transform": "none",
                                 "element": {
-                                  "aid": "sh/q1orytsv",
+                                  "aid": "sh/k3q5o7qp",
                                   "id": "28",
                                   "kind": "shape"
                                 }
@@ -4401,7 +4401,7 @@
                                 "text": "- процесс: search -> score -> verify",
                                 "transform": "none",
                                 "element": {
-                                  "aid": "sh/fmlkjm1c",
+                                  "aid": "sh/donyd0z6",
                                   "id": "29",
                                   "kind": "shape"
                                 }
@@ -4432,7 +4432,7 @@
                                 "text": "- выход: shortlist + объяснение + предупреждения",
                                 "transform": "none",
                                 "element": {
-                                  "aid": "sh/5sneloj2",
+                                  "aid": "sh/3itgfmlk",
                                   "id": "30",
                                   "kind": "shape"
                                 }
@@ -4463,7 +4463,7 @@
                                 "text": "- follow-up: пересчёт относительно прошлого run",
                                 "transform": "none",
                                 "element": {
-                                  "aid": "sh/cbulwval",
+                                  "aid": "sh/ex0nuxc3",
                                   "id": "31",
                                   "kind": "shape"
                                 }
@@ -4564,7 +4564,7 @@
                                             "text": "top-3",
                                             "transform": "none",
                                             "element": {
-                                              "aid": "sh/u54zidon",
+                                              "aid": "sh/w3m94fu1",
                                               "id": "33",
                                               "kind": "shape"
                                             }
@@ -4595,7 +4595,7 @@
                                             "text": "варианта на экране",
                                             "transform": "none",
                                             "element": {
-                                              "aid": "sh/5kb6xkf6",
+                                              "aid": "sh/3q5o7qpg",
                                               "id": "34",
                                               "kind": "shape"
                                             }
@@ -4696,7 +4696,7 @@
                                       "height": 76
                                     },
                                     "element": {
-                                      "aid": "sh/nqxs72x4",
+                                      "aid": "sh/loj2t83i",
                                       "id": "32",
                                       "kind": "shape"
                                     }
@@ -4773,7 +4773,7 @@
                                             "text": "safe",
                                             "transform": "none",
                                             "element": {
-                                              "aid": "sh/neloj2t8",
+                                              "aid": "sh/lwval87e",
                                               "id": "36",
                                               "kind": "shape"
                                             }
@@ -4804,7 +4804,7 @@
                                             "text": "guardrails в пайплайне",
                                             "transform": "none",
                                             "element": {
-                                              "aid": "sh/ytsvu9kn",
+                                              "aid": "sh/wb2hwfyx",
                                               "id": "37",
                                               "kind": "shape"
                                             }
@@ -4905,7 +4905,7 @@
                                       "height": 76
                                     },
                                     "element": {
-                                      "aid": "sh/czed8v6p",
+                                      "aid": "sh/e9cvixcz",
                                       "id": "35",
                                       "kind": "shape"
                                     }
@@ -5161,7 +5161,7 @@
                           "height": 492
                         },
                         "element": {
-                          "aid": "sh/8jqh0fep",
+                          "aid": "sh/29gr2p8n",
                           "id": "26",
                           "kind": "shape"
                         }
@@ -5409,7 +5409,7 @@
           "height": 654
         },
         "element": {
-          "aid": "sh/7y1kre1w",
+          "aid": "sh/lwval87e",
           "id": "1",
           "kind": "shape"
         }

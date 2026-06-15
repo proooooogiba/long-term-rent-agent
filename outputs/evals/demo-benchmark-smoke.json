@@ -1,5 +1,5 @@
 {
-  "qa_path": "/Users/iopogiba/Documents/HSE/Module 3/AI AGENT/final_work/Проект агент подбора аренды жилья и релокации/data/qa/qa.jsonl",
+  "qa_path": "data/qa/qa.jsonl",
   "llm_backend": "demo_stub",
   "llm_mode": "required",
   "model": "demo_stub",

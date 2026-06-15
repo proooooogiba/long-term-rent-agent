@@ -9,6 +9,11 @@ async function writeBlob(filePath, blob) {
   await fs.writeFile(filePath, new Uint8Array(await blob.arrayBuffer()));
 }
 
+function toManifestRelative(baseDir, targetPath) {
+  const relativePath = path.relative(baseDir, targetPath) || ".";
+  return relativePath.split(path.sep).join("/");
+}
+
 async function main() {
   const workspaceDir = process.argv[2] ? path.resolve(process.argv[2]) : process.cwd();
   const slidesDir = path.join(workspaceDir, "slides");
@@ -19,6 +24,7 @@ async function main() {
   const outputPath = path.join(outputDir, "relocation-agent-defense.pptx");
   const manifestPath = path.join(qaDir, "manifest.json");
   const contactSheetPath = path.join(qaDir, "contact-sheet.png");
+  const manifestBaseDir = path.dirname(manifestPath);
   const python = process.env.CODEX_PYTHON || "/Users/iopogiba/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3";
   const contactScript = process.env.CONTACT_SHEET_SCRIPT || "/Users/iopogiba/.codex/plugins/cache/openai-primary-runtime/presentations/26.614.11602/skills/presentations/scripts/make_contact_sheet.py";
 
@@ -47,11 +53,12 @@ async function main() {
     slideManifests.push({
       index: index + 1,
       requestedSlideNumber: Number(fileName.match(/\d+/)?.[0] || index + 1),
-      modulePath,
+      modulePath: toManifestRelative(manifestBaseDir, modulePath),
       exportName,
     });
   }
 
+  const previewFilePaths = [];
   const previewPaths = [];
   const layoutResults = [];
   for (const [index, slide] of presentation.slides.items.entries()) {
@@ -63,11 +70,12 @@ async function main() {
     const layoutBlob = await slide.export({ format: "layout" });
     await fs.writeFile(layoutPath, await layoutBlob.text(), "utf8");
 
-    previewPaths.push(pngPath);
-    layoutResults.push({ layoutPath });
+    previewFilePaths.push(pngPath);
+    previewPaths.push(toManifestRelative(manifestBaseDir, pngPath));
+    layoutResults.push({ layoutPath: toManifestRelative(manifestBaseDir, layoutPath) });
   }
 
-  const contactSheet = spawnSync(python, [contactScript, "--output", contactSheetPath, ...previewPaths], {
+  const contactSheet = spawnSync(python, [contactScript, "--output", contactSheetPath, ...previewFilePaths], {
     encoding: "utf8",
   });
   if (contactSheet.status !== 0) {
@@ -79,15 +87,15 @@ async function main() {
   const stat = await fs.stat(outputPath);
 
   const manifest = {
-    output: outputPath,
+    output: toManifestRelative(manifestBaseDir, outputPath),
     outputBytes: stat.size,
     slideCount: presentation.slides.items.length,
     slideSize: { width: 1280, height: 720 },
-    previewDir,
+    previewDir: toManifestRelative(manifestBaseDir, previewDir),
     previewPaths,
-    layoutDir,
+    layoutDir: toManifestRelative(manifestBaseDir, layoutDir),
     layoutResults,
-    contactSheet: contactSheetPath,
+    contactSheet: toManifestRelative(manifestBaseDir, contactSheetPath),
     slides: slideManifests,
   };
   await fs.writeFile(manifestPath, JSON.stringify(manifest, null, 2), "utf8");

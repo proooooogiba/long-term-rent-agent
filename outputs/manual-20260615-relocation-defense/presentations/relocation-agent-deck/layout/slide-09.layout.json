@@ -2,13 +2,13 @@
   "schema": "openai.presentation.layout/v4",
   "unit": "px",
   "slide": {
-    "aid": "sl/d89mrb",
-    "id": "d89mrb",
+    "aid": "sl/bwqmrg",
+    "id": "bwqmrg",
     "slide": 9,
-    "layoutId": "42394a6f-c0e5-402f-a73b-4571aabd6194",
+    "layoutId": "8e1fa63f-f22a-4256-89d4-20c807888436",
     "layoutName": "Title Slide",
     "layoutType": "title",
-    "masterLayoutId": "7ed930d9-e6a6-4fa6-a518-57804764494e",
+    "masterLayoutId": "3871ca3a-c15e-4637-98b2-37e1470948cc",
     "masterLayoutName": "Master",
     "frame": {
       "left": 0,
@@ -45,15 +45,15 @@
   "inheritedLayers": [
     {
       "scope": "layout",
-      "id": "42394a6f-c0e5-402f-a73b-4571aabd6194",
+      "id": "8e1fa63f-f22a-4256-89d4-20c807888436",
       "name": "Title Slide",
       "type": "title",
-      "parentLayoutId": "7ed930d9-e6a6-4fa6-a518-57804764494e",
+      "parentLayoutId": "3871ca3a-c15e-4637-98b2-37e1470948cc",
       "elements": []
     },
     {
       "scope": "master",
-      "id": "7ed930d9-e6a6-4fa6-a518-57804764494e",
+      "id": "3871ca3a-c15e-4637-98b2-37e1470948cc",
       "name": "Master",
       "type": "master",
       "elements": []
@@ -64,7 +64,7 @@
       "order": 1,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/0z61032l",
+      "aid": "sh/cfa9w3m9",
       "id": "1",
       "bbox": [
         0,
@@ -83,7 +83,7 @@
       "order": 2,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/7ed8bat4",
+      "aid": "sh/judg7ads",
       "id": "2",
       "bbox": [
         42,
@@ -161,7 +161,7 @@
       "order": 3,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/itgfmlkj",
+      "aid": "sh/u9knih4b",
       "id": "3",
       "bbox": [
         42,
@@ -239,7 +239,7 @@
       "order": 4,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/p8nqxs72",
+      "aid": "sh/1orytsvu",
       "id": "4",
       "bbox": [
         42,
@@ -260,7 +260,7 @@
       "order": 5,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/0nuxc3yl",
+      "aid": "sh/c7u54zid",
       "id": "5",
       "bbox": [
         62,
@@ -281,7 +281,7 @@
       "order": 6,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/72x4nap4",
+      "aid": "sh/jm1cfa9w",
       "id": "6",
       "bbox": [
         74,
@@ -359,7 +359,7 @@
       "order": 7,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/ih4byhgn",
+      "aid": "sh/u18jqh0f",
       "id": "7",
       "bbox": [
         62,
@@ -437,7 +437,7 @@
       "order": 8,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/p4r65wju",
+      "aid": "sh/5gbq1ory",
       "id": "8",
       "bbox": [
         62,
@@ -512,7 +512,7 @@
       "order": 9,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/wjudg7ad",
+      "aid": "sh/cvixczed",
       "id": "9",
       "bbox": [
         62,
@@ -591,7 +591,7 @@
       "order": 10,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/6tovahoz",
+      "aid": "sh/m1cfa9w3",
       "id": "10",
       "bbox": [
         62,
@@ -670,7 +670,7 @@
       "order": 11,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/vahoza1g",
+      "aid": "sh/bm58z25k",
       "id": "11",
       "bbox": [
         649,
@@ -691,7 +691,7 @@
       "order": 12,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/ovahoza1",
+      "aid": "sh/47y1kre1",
       "id": "12",
       "bbox": [
         669,
@@ -712,7 +712,7 @@
       "order": 13,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/dg7adsji",
+      "aid": "sh/tsvu9kni",
       "id": "13",
       "bbox": [
         681,
@@ -790,7 +790,7 @@
       "order": 14,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/6hcrmhk3",
+      "aid": "sh/mp0bi9s3",
       "id": "14",
       "bbox": [
         669,
@@ -868,7 +868,7 @@
       "order": 15,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/z25kb6xk",
+      "aid": "sh/bat47y1k",
       "id": "15",
       "bbox": [
         669,
@@ -943,7 +943,7 @@
       "order": 16,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/onyd0z61",
+      "aid": "sh/4vmtwra5",
       "id": "16",
       "bbox": [
         669,
@@ -1018,7 +1018,7 @@
       "order": 17,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/d8v6psfi",
+      "aid": "sh/tgfmlkjm",
       "id": "17",
       "bbox": [
         669,
@@ -1097,7 +1097,7 @@
       "order": 18,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/6dcbulwv",
+      "aid": "sh/mhk3q5o7",
       "id": "18",
       "bbox": [
         42,
@@ -1118,7 +1118,7 @@
       "order": 19,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/vy90je9c",
+      "aid": "sh/b2hwfyxo",
       "id": "19",
       "bbox": [
         62,
@@ -1139,7 +1139,7 @@
       "order": 20,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/rmhk3q5o",
+      "aid": "sh/7u54zido",
       "id": "20",
       "bbox": [
         74,
@@ -1217,7 +1217,7 @@
       "order": 21,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/y1kre1w7",
+      "aid": "sh/ed8bat47",
       "id": "21",
       "bbox": [
         62,
@@ -1295,7 +1295,7 @@
       "order": 22,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/9s36hcrm",
+      "aid": "sh/l0rqd4vm",
       "id": "22",
       "bbox": [
         62,
@@ -1370,7 +1370,7 @@
       "order": 23,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/g7adsji5",
+      "aid": "sh/wfyxobm5",
       "id": "23",
       "bbox": [
         62,
@@ -1449,7 +1449,7 @@
       "order": 24,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/rytsvu9k",
+      "aid": "sh/36hcrmhk",
       "id": "24",
       "bbox": [
         62,
@@ -1524,7 +1524,7 @@
       "order": 25,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/yd0z6103",
+      "aid": "sh/eloj2t83",
       "id": "25",
       "bbox": [
         649,
@@ -1545,7 +1545,7 @@
       "order": 26,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/90je9cvi",
+      "aid": "sh/lc7u54zi",
       "id": "26",
       "bbox": [
         669,
@@ -1566,7 +1566,7 @@
       "order": 27,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/gfmlkjm1",
+      "aid": "sh/wra5gbq1",
       "id": "27",
       "bbox": [
         681,
@@ -1644,7 +1644,7 @@
       "order": 28,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/r65wjudg",
+      "aid": "sh/7adsji5s",
       "id": "28",
       "bbox": [
         669,
@@ -1722,7 +1722,7 @@
       "order": 29,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/ylc7u54z",
+      "aid": "sh/epkzupwb",
       "id": "29",
       "bbox": [
         669,
@@ -1801,7 +1801,7 @@
       "order": 30,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/8v6psfil",
+      "aid": "sh/orytsvu9",
       "id": "30",
       "bbox": [
         669,
@@ -1880,7 +1880,7 @@
       "order": 31,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/xczed8v6",
+      "aid": "sh/hcrmhk3q",
       "id": "31",
       "bbox": [
         669,
@@ -2058,7 +2058,7 @@
                     "text": "KNOWN ISSUES",
                     "transform": "none",
                     "element": {
-                      "aid": "sh/7ed8bat4",
+                      "aid": "sh/judg7ads",
                       "id": "2",
                       "kind": "shape"
                     }
@@ -2089,7 +2089,7 @@
                     "text": "Проблемы, с которыми мы сталкивались",
                     "transform": "none",
                     "element": {
-                      "aid": "sh/itgfmlkj",
+                      "aid": "sh/u9knih4b",
                       "id": "3",
                       "kind": "shape"
                     }
@@ -2318,7 +2318,7 @@
                                     "text": "ROUTING",
                                     "transform": "none",
                                     "element": {
-                                      "aid": "sh/72x4nap4",
+                                      "aid": "sh/jm1cfa9w",
                                       "id": "6",
                                       "kind": "shape"
                                     }
@@ -2388,7 +2388,7 @@
                               "height": 14
                             },
                             "element": {
-                              "aid": "sh/0nuxc3yl",
+                              "aid": "sh/c7u54zid",
                               "id": "5",
                               "kind": "shape"
                             }
@@ -2418,7 +2418,7 @@
                             "text": "LLM routing failed: Connection error",
                             "transform": "none",
                             "element": {
-                              "aid": "sh/ih4byhgn",
+                              "aid": "sh/u18jqh0f",
                               "id": "7",
                               "kind": "shape"
                             }
@@ -2449,7 +2449,7 @@
                             "text": "symptom: UI падал с traceback вместо ответа.",
                             "transform": "none",
                             "element": {
-                              "aid": "sh/p4r65wju",
+                              "aid": "sh/5gbq1ory",
                               "id": "8",
                               "kind": "shape"
                             }
@@ -2480,7 +2480,7 @@
                             "text": "cause: Live OpenRouter-вызов отваливался по сети, а ранний код не имел мягкого fallback.",
                             "transform": "none",
                             "element": {
-                              "aid": "sh/wjudg7ad",
+                              "aid": "sh/cvixczed",
                               "id": "9",
                               "kind": "shape"
                             }
@@ -2511,7 +2511,7 @@
                             "text": "fix: Добавлен fallback на demo LLM для routing, intake, replanning и final composition.",
                             "transform": "none",
                             "element": {
-                              "aid": "sh/6tovahoz",
+                              "aid": "sh/m1cfa9w3",
                               "id": "10",
                               "kind": "shape"
                             }
@@ -2678,7 +2678,7 @@
                       "height": 251
                     },
                     "element": {
-                      "aid": "sh/p8nqxs72",
+                      "aid": "sh/1orytsvu",
                       "id": "4",
                       "kind": "shape"
                     }
@@ -2803,7 +2803,7 @@
                                     "text": "PARSER",
                                     "transform": "none",
                                     "element": {
-                                      "aid": "sh/dg7adsji",
+                                      "aid": "sh/tsvu9kni",
                                       "id": "13",
                                       "kind": "shape"
                                     }
@@ -2873,7 +2873,7 @@
                               "height": 14
                             },
                             "element": {
-                              "aid": "sh/ovahoza1",
+                              "aid": "sh/47y1kre1",
                               "id": "12",
                               "kind": "shape"
                             }
@@ -2903,7 +2903,7 @@
                             "text": "Бюджет брался из даты",
                             "transform": "none",
                             "element": {
-                              "aid": "sh/6hcrmhk3",
+                              "aid": "sh/mp0bi9s3",
                               "id": "14",
                               "kind": "shape"
                             }
@@ -2934,7 +2934,7 @@
                             "text": "symptom: Строка 07.07.2026, 1000 usd могла давать budget = 2026.",
                             "transform": "none",
                             "element": {
-                              "aid": "sh/z25kb6xk",
+                              "aid": "sh/bat47y1k",
                               "id": "15",
                               "kind": "shape"
                             }
@@ -2965,7 +2965,7 @@
                             "text": "cause: Fallback-parser ловил первое похожее число и не исключал дату.",
                             "transform": "none",
                             "element": {
-                              "aid": "sh/onyd0z61",
+                              "aid": "sh/4vmtwra5",
                               "id": "16",
                               "kind": "shape"
                             }
@@ -2996,7 +2996,7 @@
                             "text": "fix: Теперь бюджет ищется как сумма с валютой, а дата фильтруется отдельно.",
                             "transform": "none",
                             "element": {
-                              "aid": "sh/d8v6psfi",
+                              "aid": "sh/tgfmlkjm",
                               "id": "17",
                               "kind": "shape"
                             }
@@ -3163,7 +3163,7 @@
                       "height": 251
                     },
                     "element": {
-                      "aid": "sh/vahoza1g",
+                      "aid": "sh/bm58z25k",
                       "id": "11",
                       "kind": "shape"
                     }
@@ -3288,7 +3288,7 @@
                                     "text": "CURRENCY",
                                     "transform": "none",
                                     "element": {
-                                      "aid": "sh/rmhk3q5o",
+                                      "aid": "sh/7u54zido",
                                       "id": "20",
                                       "kind": "shape"
                                     }
@@ -3358,7 +3358,7 @@
                               "height": 14
                             },
                             "element": {
-                              "aid": "sh/vy90je9c",
+                              "aid": "sh/b2hwfyxo",
                               "id": "19",
                               "kind": "shape"
                             }
@@ -3388,7 +3388,7 @@
                             "text": "Москва + 2000 USD давали пустой Cian",
                             "transform": "none",
                             "element": {
-                              "aid": "sh/y1kre1w7",
+                              "aid": "sh/ed8bat47",
                               "id": "21",
                               "kind": "shape"
                             }
@@ -3419,7 +3419,7 @@
                             "text": "symptom: Живой provider отвечал пусто даже при доступном MCP.",
                             "transform": "none",
                             "element": {
-                              "aid": "sh/9s36hcrm",
+                              "aid": "sh/l0rqd4vm",
                               "id": "22",
                               "kind": "shape"
                             }
@@ -3450,7 +3450,7 @@
                             "text": "cause: USD-бюджет уходил в Cian как RUB, потому что не было currency conversion.",
                             "transform": "none",
                             "element": {
-                              "aid": "sh/g7adsji5",
+                              "aid": "sh/wfyxobm5",
                               "id": "23",
                               "kind": "shape"
                             }
@@ -3481,7 +3481,7 @@
                             "text": "fix: Добавлены budget_currency и конвертация request/result contract.",
                             "transform": "none",
                             "element": {
-                              "aid": "sh/rytsvu9k",
+                              "aid": "sh/36hcrmhk",
                               "id": "24",
                               "kind": "shape"
                             }
@@ -3648,7 +3648,7 @@
                       "height": 251
                     },
                     "element": {
-                      "aid": "sh/6dcbulwv",
+                      "aid": "sh/mhk3q5o7",
                       "id": "18",
                       "kind": "shape"
                     }
@@ -3773,7 +3773,7 @@
                                     "text": "ENV",
                                     "transform": "none",
                                     "element": {
-                                      "aid": "sh/gfmlkjm1",
+                                      "aid": "sh/wra5gbq1",
                                       "id": "27",
                                       "kind": "shape"
                                     }
@@ -3843,7 +3843,7 @@
                               "height": 14
                             },
                             "element": {
-                              "aid": "sh/90je9cvi",
+                              "aid": "sh/lc7u54zi",
                               "id": "26",
                               "kind": "shape"
                             }
@@ -3873,7 +3873,7 @@
                             "text": "Cian ломался только внутри приложения",
                             "transform": "none",
                             "element": {
-                              "aid": "sh/r65wjudg",
+                              "aid": "sh/7adsji5s",
                               "id": "28",
                               "kind": "shape"
                             }
@@ -3904,7 +3904,7 @@
                             "text": "symptom: Изолированный search работал, а полный graph ловил ConnectError.",
                             "transform": "none",
                             "element": {
-                              "aid": "sh/ylc7u54z",
+                              "aid": "sh/epkzupwb",
                               "id": "29",
                               "kind": "shape"
                             }
@@ -3935,7 +3935,7 @@
                             "text": "cause: GraphDependencies подхватывал домашний .env с битым proxy вместо проектного.",
                             "transform": "none",
                             "element": {
-                              "aid": "sh/8v6psfil",
+                              "aid": "sh/orytsvu9",
                               "id": "30",
                               "kind": "shape"
                             }
@@ -3966,7 +3966,7 @@
                             "text": "fix: Чтение .env ограничено локальным проектом.",
                             "transform": "none",
                             "element": {
-                              "aid": "sh/xczed8v6",
+                              "aid": "sh/hcrmhk3q",
                               "id": "31",
                               "kind": "shape"
                             }
@@ -4133,7 +4133,7 @@
                       "height": 251
                     },
                     "element": {
-                      "aid": "sh/yd0z6103",
+                      "aid": "sh/eloj2t83",
                       "id": "25",
                       "kind": "shape"
                     }
@@ -4329,7 +4329,7 @@
           "height": 654
         },
         "element": {
-          "aid": "sh/0z61032l",
+          "aid": "sh/cfa9w3m9",
           "id": "1",
           "kind": "shape"
         }

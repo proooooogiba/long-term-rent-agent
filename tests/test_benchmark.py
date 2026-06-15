@@ -1,6 +1,10 @@
 from __future__ import annotations
 
-from src.evals.benchmark import BenchmarkTrialCaseResult, summarize_benchmark_results
+from src.evals.benchmark import (
+    BenchmarkTrialCaseResult,
+    ROOT_DIR,
+    summarize_benchmark_results,
+)
 from src.evals.metrics import CaseMetrics
 
 
@@ -93,3 +97,17 @@ def test_summarize_benchmark_results_tracks_reliability_and_pass_at_k(tmp_path):
     assert summary.cases[0].pass_rate == 0.5
     assert summary.cases[1].case_id == "Q-002"
     assert summary.cases[1].pass_all_k == 1.0
+
+
+def test_summarize_benchmark_results_serializes_repo_paths_as_relative():
+    summary = summarize_benchmark_results(
+        trial_results=[],
+        rows=[],
+        qa_path=ROOT_DIR / "data" / "qa" / "qa.jsonl",
+        llm_backend="demo_stub",
+        llm_mode="required",
+        model="demo_stub",
+        trials=1,
+    )
+
+    assert summary.qa_path == "data/qa/qa.jsonl"

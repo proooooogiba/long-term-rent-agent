@@ -2,13 +2,13 @@
   "schema": "openai.presentation.layout/v4",
   "unit": "px",
   "slide": {
-    "aid": "sl/2b0ubh",
-    "id": "2b0ubh",
+    "aid": "sl/28x82y",
+    "id": "28x82y",
     "slide": 4,
-    "layoutId": "42394a6f-c0e5-402f-a73b-4571aabd6194",
+    "layoutId": "8e1fa63f-f22a-4256-89d4-20c807888436",
     "layoutName": "Title Slide",
     "layoutType": "title",
-    "masterLayoutId": "7ed930d9-e6a6-4fa6-a518-57804764494e",
+    "masterLayoutId": "3871ca3a-c15e-4637-98b2-37e1470948cc",
     "masterLayoutName": "Master",
     "frame": {
       "left": 0,
@@ -45,15 +45,15 @@
   "inheritedLayers": [
     {
       "scope": "layout",
-      "id": "42394a6f-c0e5-402f-a73b-4571aabd6194",
+      "id": "8e1fa63f-f22a-4256-89d4-20c807888436",
       "name": "Title Slide",
       "type": "title",
-      "parentLayoutId": "7ed930d9-e6a6-4fa6-a518-57804764494e",
+      "parentLayoutId": "3871ca3a-c15e-4637-98b2-37e1470948cc",
       "elements": []
     },
     {
       "scope": "master",
-      "id": "7ed930d9-e6a6-4fa6-a518-57804764494e",
+      "id": "3871ca3a-c15e-4637-98b2-37e1470948cc",
       "name": "Master",
       "type": "master",
       "elements": []
@@ -64,7 +64,7 @@
       "order": 1,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/xczed8v6",
+      "aid": "sh/nih4byhg",
       "id": "1",
       "bbox": [
         0,
@@ -83,7 +83,7 @@
       "order": 2,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/qpg3ex0n",
+      "aid": "sh/g3ex0nux",
       "id": "2",
       "bbox": [
         42,
@@ -161,7 +161,7 @@
       "order": 3,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/fa9w3m94",
+      "aid": "sh/5o7qpg3e",
       "id": "3",
       "bbox": [
         42,
@@ -239,7 +239,7 @@
       "order": 4,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/8jqh0fep",
+      "aid": "sh/ylc7u54z",
       "id": "4",
       "bbox": [
         42,
@@ -260,7 +260,7 @@
       "order": 5,
       "kind": "image",
       "scope": "slide",
-      "aid": "im/0bi9s36h",
+      "aid": "im/ylc7u54z",
       "id": "5",
       "bbox": [
         54,
@@ -275,7 +275,7 @@
       "contentType": "image/png",
       "imageFit": "contain",
       "asset": {
-        "assetId": "45dae3ae-278f-4b3d-834f-bdbd1b68a076",
+        "assetId": "862659df-787c-4cf5-a0b9-9f3ba9c01211",
         "contentType": "image/png",
         "byteLength": 191627
       }
@@ -284,7 +284,7 @@
       "order": 6,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/qd4vmtwr",
+      "aid": "sh/gr2p8nqx",
       "id": "6",
       "bbox": [
         54,
@@ -363,7 +363,7 @@
       "order": 7,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/fyxobm58",
+      "aid": "sh/9cvixcze",
       "id": "7",
       "bbox": [
         822,
@@ -384,7 +384,7 @@
       "order": 8,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/87ed8bat",
+      "aid": "sh/yd0z6103",
       "id": "8",
       "bbox": [
         842,
@@ -405,7 +405,7 @@
       "order": 9,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/xs72x4na",
+      "aid": "sh/rytsvu9k",
       "id": "9",
       "bbox": [
         854,
@@ -483,7 +483,7 @@
       "order": 10,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/xkf6dcbu",
+      "aid": "sh/bi9s36hc",
       "id": "10",
       "bbox": [
         842,
@@ -565,7 +565,7 @@
       "order": 11,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/4zidonyd",
+      "aid": "sh/ixczed8v",
       "id": "11",
       "bbox": [
         842,
@@ -644,7 +644,7 @@
       "order": 12,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/fepkzupw",
+      "aid": "sh/tovahoza",
       "id": "12",
       "bbox": [
         842,
@@ -719,7 +719,7 @@
       "order": 13,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/mtwra5gb",
+      "aid": "sh/032lszqt",
       "id": "13",
       "bbox": [
         842,
@@ -794,7 +794,7 @@
       "order": 14,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/xc3ylc7u",
+      "aid": "sh/bulwval8",
       "id": "14",
       "bbox": [
         822,
@@ -815,7 +815,7 @@
       "order": 15,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/4r65wjud",
+      "aid": "sh/i9s36hcr",
       "id": "15",
       "bbox": [
         842,
@@ -836,7 +836,7 @@
       "order": 16,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/f6dcbulw",
+      "aid": "sh/p0bi9s36",
       "id": "16",
       "bbox": [
         854,
@@ -914,7 +914,7 @@
       "order": 17,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/mlkjm1cf",
+      "aid": "sh/0fepkzup",
       "id": "17",
       "bbox": [
         842,
@@ -992,7 +992,7 @@
       "order": 18,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/x0nuxc3y",
+      "aid": "sh/byhgn29g",
       "id": "18",
       "bbox": [
         842,
@@ -1067,7 +1067,7 @@
       "order": 19,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/4fu18jqh",
+      "aid": "sh/idonyd0z",
       "id": "19",
       "bbox": [
         842,
@@ -1142,7 +1142,7 @@
       "order": 20,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/4nap4r65",
+      "aid": "sh/65wjudg7",
       "id": "20",
       "bbox": [
         842,
@@ -1217,7 +1217,7 @@
       "order": 21,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/t83itgfm",
+      "aid": "sh/zqtcj6to",
       "id": "21",
       "bbox": [
         822,
@@ -1238,7 +1238,7 @@
       "order": 22,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/mhk3q5o7",
+      "aid": "sh/obm58z25",
       "id": "22",
       "bbox": [
         842,
@@ -1259,7 +1259,7 @@
       "order": 23,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/b2hwfyxo",
+      "aid": "sh/hwfyxobm",
       "id": "23",
       "bbox": [
         854,
@@ -1337,7 +1337,7 @@
       "order": 24,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/4byhgn29",
+      "aid": "sh/6xkf6dcb",
       "id": "24",
       "bbox": [
         842,
@@ -1415,7 +1415,7 @@
       "order": 25,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/twra5gbq",
+      "aid": "sh/zed8v6ps",
       "id": "25",
       "bbox": [
         842,
@@ -1490,7 +1490,7 @@
       "order": 26,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/m58z25kb",
+      "aid": "sh/oza1gvy9",
       "id": "26",
       "bbox": [
         842,
@@ -1565,7 +1565,7 @@
       "order": 27,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/bq1oryts",
+      "aid": "sh/hk3q5o7q",
       "id": "27",
       "bbox": [
         842,
@@ -1743,7 +1743,7 @@
                     "text": "OPERATING MODEL",
                     "transform": "none",
                     "element": {
-                      "aid": "sh/qpg3ex0n",
+                      "aid": "sh/g3ex0nux",
                       "id": "2",
                       "kind": "shape"
                     }
@@ -1774,7 +1774,7 @@
                     "text": "Production operating model",
                     "transform": "none",
                     "element": {
-                      "aid": "sh/fa9w3m94",
+                      "aid": "sh/5o7qpg3e",
                       "id": "3",
                       "kind": "shape"
                     }
@@ -1961,7 +1961,7 @@
                             "contentType": "image/png",
                             "fit": "contain",
                             "element": {
-                              "aid": "im/0bi9s36h",
+                              "aid": "im/ylc7u54z",
                               "id": "5",
                               "kind": "image"
                             }
@@ -1992,7 +1992,7 @@
                             "text": "Схема заземляет архитектуру; справа показано, что уже есть в прототипе и что нужно для боевого контура.",
                             "transform": "none",
                             "element": {
-                              "aid": "sh/qd4vmtwr",
+                              "aid": "sh/gr2p8nqx",
                               "id": "6",
                               "kind": "shape"
                             }
@@ -2093,7 +2093,7 @@
                       "height": 552
                     },
                     "element": {
-                      "aid": "sh/8jqh0fep",
+                      "aid": "sh/ylc7u54z",
                       "id": "4",
                       "kind": "shape"
                     }
@@ -2242,7 +2242,7 @@
                                         "text": "FRESHNESS",
                                         "transform": "none",
                                         "element": {
-                                          "aid": "sh/xs72x4na",
+                                          "aid": "sh/rytsvu9k",
                                           "id": "9",
                                           "kind": "shape"
                                         }
@@ -2312,7 +2312,7 @@
                                   "height": 14
                                 },
                                 "element": {
-                                  "aid": "sh/87ed8bat",
+                                  "aid": "sh/yd0z6103",
                                   "id": "8",
                                   "kind": "shape"
                                 }
@@ -2342,7 +2342,7 @@
                                 "text": "Для данных есть явный operating contract.",
                                 "transform": "none",
                                 "element": {
-                                  "aid": "sh/xkf6dcbu",
+                                  "aid": "sh/bi9s36hc",
                                   "id": "10",
                                   "kind": "shape"
                                 }
@@ -2373,7 +2373,7 @@
                                 "text": "- локальный каталог обновляется refresh job по trigger",
                                 "transform": "none",
                                 "element": {
-                                  "aid": "sh/4zidonyd",
+                                  "aid": "sh/ixczed8v",
                                   "id": "11",
                                   "kind": "shape"
                                 }
@@ -2404,7 +2404,7 @@
                                 "text": "- после 24 часов показываем staleness warning",
                                 "transform": "none",
                                 "element": {
-                                  "aid": "sh/fepkzupw",
+                                  "aid": "sh/tovahoza",
                                   "id": "12",
                                   "kind": "shape"
                                 }
@@ -2435,7 +2435,7 @@
                                 "text": "- policy corpus пересматривается по weekly cadence",
                                 "transform": "none",
                                 "element": {
-                                  "aid": "sh/mtwra5gb",
+                                  "aid": "sh/032lszqt",
                                   "id": "13",
                                   "kind": "shape"
                                 }
@@ -2602,7 +2602,7 @@
                           "height": 120
                         },
                         "element": {
-                          "aid": "sh/fyxobm58",
+                          "aid": "sh/9cvixcze",
                           "id": "7",
                           "kind": "shape"
                         }
@@ -2727,7 +2727,7 @@
                                         "text": "УЖЕ ЕСТЬ",
                                         "transform": "none",
                                         "element": {
-                                          "aid": "sh/f6dcbulw",
+                                          "aid": "sh/p0bi9s36",
                                           "id": "16",
                                           "kind": "shape"
                                         }
@@ -2797,7 +2797,7 @@
                                   "height": 14
                                 },
                                 "element": {
-                                  "aid": "sh/4r65wjud",
+                                  "aid": "sh/i9s36hcr",
                                   "id": "15",
                                   "kind": "shape"
                                 }
@@ -2827,7 +2827,7 @@
                                 "text": "Что реально реализовано в прототипе.",
                                 "transform": "none",
                                 "element": {
-                                  "aid": "sh/mlkjm1cf",
+                                  "aid": "sh/0fepkzup",
                                   "id": "17",
                                   "kind": "shape"
                                 }
@@ -2858,7 +2858,7 @@
                                 "text": "- persistent memory в SQLite",
                                 "transform": "none",
                                 "element": {
-                                  "aid": "sh/x0nuxc3y",
+                                  "aid": "sh/byhgn29g",
                                   "id": "18",
                                   "kind": "shape"
                                 }
@@ -2889,7 +2889,7 @@
                                 "text": "- write-back в профиль кейса",
                                 "transform": "none",
                                 "element": {
-                                  "aid": "sh/4fu18jqh",
+                                  "aid": "sh/idonyd0z",
                                   "id": "19",
                                   "kind": "shape"
                                 }
@@ -2920,7 +2920,7 @@
                                 "text": "- fallback при сбое MCP provider",
                                 "transform": "none",
                                 "element": {
-                                  "aid": "sh/4nap4r65",
+                                  "aid": "sh/65wjudg7",
                                   "id": "20",
                                   "kind": "shape"
                                 }
@@ -3087,7 +3087,7 @@
                           "height": 132
                         },
                         "element": {
-                          "aid": "sh/xc3ylc7u",
+                          "aid": "sh/bulwval8",
                           "id": "14",
                           "kind": "shape"
                         }
@@ -3212,7 +3212,7 @@
                                         "text": "OBSERVABILITY",
                                         "transform": "none",
                                         "element": {
-                                          "aid": "sh/b2hwfyxo",
+                                          "aid": "sh/hwfyxobm",
                                           "id": "23",
                                           "kind": "shape"
                                         }
@@ -3282,7 +3282,7 @@
                                   "height": 14
                                 },
                                 "element": {
-                                  "aid": "sh/mhk3q5o7",
+                                  "aid": "sh/obm58z25",
                                   "id": "22",
                                   "kind": "shape"
                                 }
@@ -3312,7 +3312,7 @@
                                 "text": "Ключевые сигналы уже определены.",
                                 "transform": "none",
                                 "element": {
-                                  "aid": "sh/4byhgn29",
+                                  "aid": "sh/6xkf6dcb",
                                   "id": "24",
                                   "kind": "shape"
                                 }
@@ -3343,7 +3343,7 @@
                                 "text": "- latency: agent_run, listing_search, MCP",
                                 "transform": "none",
                                 "element": {
-                                  "aid": "sh/twra5gbq",
+                                  "aid": "sh/zed8v6ps",
                                   "id": "25",
                                   "kind": "shape"
                                 }
@@ -3374,7 +3374,7 @@
                                 "text": "- quality: nightly QA gate и quality gate status",
                                 "transform": "none",
                                 "element": {
-                                  "aid": "sh/m58z25kb",
+                                  "aid": "sh/oza1gvy9",
                                   "id": "26",
                                   "kind": "shape"
                                 }
@@ -3405,7 +3405,7 @@
                                 "text": "- empty_shortlist_rate, escalation_rate, freshness age",
                                 "transform": "none",
                                 "element": {
-                                  "aid": "sh/bq1oryts",
+                                  "aid": "sh/hk3q5o7q",
                                   "id": "27",
                                   "kind": "shape"
                                 }
@@ -3572,7 +3572,7 @@
                           "height": 182
                         },
                         "element": {
-                          "aid": "sh/t83itgfm",
+                          "aid": "sh/zqtcj6to",
                           "id": "21",
                           "kind": "shape"
                         }
@@ -3842,7 +3842,7 @@
           "height": 654
         },
         "element": {
-          "aid": "sh/xczed8v6",
+          "aid": "sh/nih4byhg",
           "id": "1",
           "kind": "shape"
         }

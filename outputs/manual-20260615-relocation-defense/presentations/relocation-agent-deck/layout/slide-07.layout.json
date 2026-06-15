@@ -2,13 +2,13 @@
   "schema": "openai.presentation.layout/v4",
   "unit": "px",
   "slide": {
-    "aid": "sl/7zdp1m",
-    "id": "7zdp1m",
+    "aid": "sl/e6v7xv",
+    "id": "e6v7xv",
     "slide": 7,
-    "layoutId": "42394a6f-c0e5-402f-a73b-4571aabd6194",
+    "layoutId": "8e1fa63f-f22a-4256-89d4-20c807888436",
     "layoutName": "Title Slide",
     "layoutType": "title",
-    "masterLayoutId": "7ed930d9-e6a6-4fa6-a518-57804764494e",
+    "masterLayoutId": "3871ca3a-c15e-4637-98b2-37e1470948cc",
     "masterLayoutName": "Master",
     "frame": {
       "left": 0,
@@ -45,15 +45,15 @@
   "inheritedLayers": [
     {
       "scope": "layout",
-      "id": "42394a6f-c0e5-402f-a73b-4571aabd6194",
+      "id": "8e1fa63f-f22a-4256-89d4-20c807888436",
       "name": "Title Slide",
       "type": "title",
-      "parentLayoutId": "7ed930d9-e6a6-4fa6-a518-57804764494e",
+      "parentLayoutId": "3871ca3a-c15e-4637-98b2-37e1470948cc",
       "elements": []
     },
     {
       "scope": "master",
-      "id": "7ed930d9-e6a6-4fa6-a518-57804764494e",
+      "id": "3871ca3a-c15e-4637-98b2-37e1470948cc",
       "name": "Master",
       "type": "master",
       "elements": []
@@ -64,7 +64,7 @@
       "order": 1,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/byhgn29g",
+      "aid": "sh/wjudg7ad",
       "id": "1",
       "bbox": [
         0,
@@ -83,7 +83,7 @@
       "order": 2,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/0je9cvix",
+      "aid": "sh/7y1kre1w",
       "id": "2",
       "bbox": [
         42,
@@ -161,7 +161,7 @@
       "order": 3,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/t47y1kre",
+      "aid": "sh/ed8v6psf",
       "id": "3",
       "bbox": [
         42,
@@ -239,7 +239,7 @@
       "order": 4,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/il0rqd4v",
+      "aid": "sh/pwb2hwfy",
       "id": "4",
       "bbox": [
         42,
@@ -260,7 +260,7 @@
       "order": 5,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/b6xkf6dc",
+      "aid": "sh/0bi9s36h",
       "id": "5",
       "bbox": [
         62,
@@ -281,7 +281,7 @@
       "order": 6,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/0rqd4vmt",
+      "aid": "sh/7qpg3ex0",
       "id": "6",
       "bbox": [
         74,
@@ -291,7 +291,7 @@
       ],
       "composeSource": {
         "run": 1,
-        "path": "0.0.1.1.1.0.4"
+        "path": "0.0.1.0.0.0.0.0.0"
       },
       "geometry": "rect",
       "text": "SHORTLIST SCORE",
@@ -359,7 +359,7 @@
       "order": 7,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/tcj6tova",
+      "aid": "sh/i5sneloj",
       "id": "7",
       "bbox": [
         62,
@@ -369,7 +369,7 @@
       ],
       "composeSource": {
         "run": 1,
-        "path": "0.0.1.1.1.0.5"
+        "path": "0.0.1.0.0.0.1"
       },
       "geometry": "rect",
       "text": "Как считается score shortlist",
@@ -437,7 +437,7 @@
       "order": 8,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/ixczed8v",
+      "aid": "sh/pkzupwb2",
       "id": "8",
       "bbox": [
         62,
@@ -447,7 +447,7 @@
       ],
       "composeSource": {
         "run": 1,
-        "path": "0.0.1.1.1.0.2"
+        "path": "0.0.1.1.2.0.5"
       },
       "geometry": "rect",
       "text": "Это внутренний ranking score для объявлений: он помогает упорядочить кандидатов до verifier и финального ответа.",
@@ -516,7 +516,7 @@
       "order": 9,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/bi9s36hc",
+      "aid": "sh/0z61032l",
       "id": "9",
       "bbox": [
         62,
@@ -526,7 +526,7 @@
       ],
       "composeSource": {
         "run": 1,
-        "path": "0.0.1.1.1.0.3"
+        "path": "0.0.1.1.2.0.4"
       },
       "geometry": "roundRect",
       "fillColor": "#EFF6FF",
@@ -537,7 +537,7 @@
       "order": 10,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/rytsvu9k",
+      "aid": "sh/qpg3ex0n",
       "id": "10",
       "bbox": [
         82,
@@ -615,7 +615,7 @@
       "order": 11,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/yd0z6103",
+      "aid": "sh/fa9w3m94",
       "id": "11",
       "bbox": [
         82,
@@ -690,7 +690,7 @@
       "order": 12,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/90je9cvi",
+      "aid": "sh/8v6psfil",
       "id": "12",
       "bbox": [
         305.33,
@@ -711,7 +711,7 @@
       "order": 13,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/gfmlkjm1",
+      "aid": "sh/xczed8v6",
       "id": "13",
       "bbox": [
         325.33,
@@ -789,7 +789,7 @@
       "order": 14,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/rmhk3q5o",
+      "aid": "sh/qd4vmtwr",
       "id": "14",
       "bbox": [
         325.33,
@@ -864,7 +864,7 @@
       "order": 15,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/y1kre1w7",
+      "aid": "sh/fyxobm58",
       "id": "15",
       "bbox": [
         548.67,
@@ -885,7 +885,7 @@
       "order": 16,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/9s36hcrm",
+      "aid": "sh/8jqh0fep",
       "id": "16",
       "bbox": [
         568.67,
@@ -963,7 +963,7 @@
       "order": 17,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/g7adsji5",
+      "aid": "sh/x4nap4r6",
       "id": "17",
       "bbox": [
         568.67,
@@ -1038,7 +1038,7 @@
       "order": 18,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/nih4byhg",
+      "aid": "sh/q1orytsv",
       "id": "18",
       "bbox": [
         62,
@@ -1059,7 +1059,7 @@
       "order": 19,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/yxobm58z",
+      "aid": "sh/fmlkjm1c",
       "id": "19",
       "bbox": [
         82,
@@ -1137,7 +1137,7 @@
       "order": 20,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/61032lsz",
+      "aid": "sh/r2p8nqxs",
       "id": "20",
       "bbox": [
         82,
@@ -1212,7 +1212,7 @@
       "order": 21,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/vmtwra5g",
+      "aid": "sh/2hwfyxob",
       "id": "21",
       "bbox": [
         305.33,
@@ -1233,7 +1233,7 @@
       "order": 22,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/o7qpg3ex",
+      "aid": "sh/94fu18jq",
       "id": "22",
       "bbox": [
         325.33,
@@ -1311,7 +1311,7 @@
       "order": 23,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/dsji5sne",
+      "aid": "sh/kjm1cfa9",
       "id": "23",
       "bbox": [
         325.33,
@@ -1386,7 +1386,7 @@
       "order": 24,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/6dcbulwv",
+      "aid": "sh/ra5gbq1o",
       "id": "24",
       "bbox": [
         548.67,
@@ -1407,7 +1407,7 @@
       "order": 25,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/vy90je9c",
+      "aid": "sh/2p8nqxs7",
       "id": "25",
       "bbox": [
         568.67,
@@ -1485,7 +1485,7 @@
       "order": 26,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/oj2t83it",
+      "aid": "sh/9gr2p8nq",
       "id": "26",
       "bbox": [
         568.67,
@@ -1560,7 +1560,7 @@
       "order": 27,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/d4vmtwra",
+      "aid": "sh/gvy90je9",
       "id": "27",
       "bbox": [
         42,
@@ -1581,7 +1581,7 @@
       "order": 28,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/6hcrmhk3",
+      "aid": "sh/re1w7mp0",
       "id": "28",
       "bbox": [
         62,
@@ -1602,7 +1602,7 @@
       "order": 29,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/z25kb6xk",
+      "aid": "sh/2t83itgf",
       "id": "29",
       "bbox": [
         74,
@@ -1680,7 +1680,7 @@
       "order": 30,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/l87ed8ba",
+      "aid": "sh/cvixczed",
       "id": "30",
       "bbox": [
         62,
@@ -1758,7 +1758,7 @@
       "order": 31,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/sneloj2t",
+      "aid": "sh/5gbq1ory",
       "id": "31",
       "bbox": [
         62,
@@ -1833,7 +1833,7 @@
       "order": 32,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/32lszqtc",
+      "aid": "sh/upwb2hwf",
       "id": "32",
       "bbox": [
         62,
@@ -1908,7 +1908,7 @@
       "order": 33,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/ahoza1gv",
+      "aid": "sh/nap4r65w",
       "id": "33",
       "bbox": [
         62,
@@ -1983,7 +1983,7 @@
       "order": 34,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/lkjm1cfa",
+      "aid": "sh/cj6tovah",
       "id": "34",
       "bbox": [
         822,
@@ -2004,7 +2004,7 @@
       "order": 35,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/szqtcj6t",
+      "aid": "sh/54zidony",
       "id": "35",
       "bbox": [
         842,
@@ -2025,7 +2025,7 @@
       "order": 36,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/3ex0nuxc",
+      "aid": "sh/udg7adsj",
       "id": "36",
       "bbox": [
         854,
@@ -2103,7 +2103,7 @@
       "order": 37,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/at47y1kr",
+      "aid": "sh/nyd0z610",
       "id": "37",
       "bbox": [
         842,
@@ -2181,7 +2181,7 @@
       "order": 38,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/loj2t83i",
+      "aid": "sh/cfa9w3m9",
       "id": "38",
       "bbox": [
         842,
@@ -2256,7 +2256,7 @@
       "order": 39,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/w3m94fu1",
+      "aid": "sh/1032lszq",
       "id": "39",
       "bbox": [
         842,
@@ -2331,7 +2331,7 @@
       "order": 40,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/0fepkzup",
+      "aid": "sh/xobm58z2",
       "id": "40",
       "bbox": [
         842,
@@ -2406,7 +2406,7 @@
       "order": 41,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/p0bi9s36",
+      "aid": "sh/83itgfml",
       "id": "41",
       "bbox": [
         842,
@@ -2481,7 +2481,7 @@
       "order": 42,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/i9s36hcr",
+      "aid": "sh/fil0rqd4",
       "id": "42",
       "bbox": [
         822,
@@ -2502,7 +2502,7 @@
       "order": 43,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/bulwval8",
+      "aid": "sh/qxs72x4n",
       "id": "43",
       "bbox": [
         842,
@@ -2523,7 +2523,7 @@
       "order": 44,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/032lszqt",
+      "aid": "sh/x0nuxc3y",
       "id": "44",
       "bbox": [
         854,
@@ -2601,7 +2601,7 @@
       "order": 45,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/tovahoza",
+      "aid": "sh/4fu18jqh",
       "id": "45",
       "bbox": [
         842,
@@ -2679,7 +2679,7 @@
       "order": 46,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/ixczed8v",
+      "aid": "sh/fu18jqh0",
       "id": "46",
       "bbox": [
         842,
@@ -2754,7 +2754,7 @@
       "order": 47,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/bi9s36hc",
+      "aid": "sh/m94fu18j",
       "id": "47",
       "bbox": [
         842,
@@ -2829,7 +2829,7 @@
       "order": 48,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/0rqd4vmt",
+      "aid": "sh/xc3ylc7u",
       "id": "48",
       "bbox": [
         842,
@@ -2904,7 +2904,7 @@
       "order": 49,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/tcj6tova",
+      "aid": "sh/4r65wjud",
       "id": "49",
       "bbox": [
         842,
@@ -2979,7 +2979,7 @@
       "order": 50,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/j6tovaho",
+      "aid": "sh/ih4byhgn",
       "id": "50",
       "bbox": [
         822,
@@ -3000,7 +3000,7 @@
       "order": 51,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/ulwval87",
+      "aid": "sh/72x4nap4",
       "id": "51",
       "bbox": [
         842,
@@ -3021,7 +3021,7 @@
       "order": 52,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/1cfa9w3m",
+      "aid": "sh/0nuxc3yl",
       "id": "52",
       "bbox": [
         854,
@@ -3099,7 +3099,7 @@
       "order": 53,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/crmhk3q5",
+      "aid": "sh/p8nqxs72",
       "id": "53",
       "bbox": [
         842,
@@ -3177,7 +3177,7 @@
       "order": 54,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/ji5snelo",
+      "aid": "sh/itgfmlkj",
       "id": "54",
       "bbox": [
         842,
@@ -3252,7 +3252,7 @@
       "order": 55,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/uxc3ylc7",
+      "aid": "sh/7ed8bat4",
       "id": "55",
       "bbox": [
         842,
@@ -3327,7 +3327,7 @@
       "order": 56,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/1kre1w7m",
+      "aid": "sh/0z61032l",
       "id": "56",
       "bbox": [
         842,
@@ -3402,7 +3402,7 @@
       "order": 57,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/c3ylc7u5",
+      "aid": "sh/pkzupwb2",
       "id": "57",
       "bbox": [
         842,
@@ -3580,7 +3580,7 @@
                     "text": "QUALITY",
                     "transform": "none",
                     "element": {
-                      "aid": "sh/0je9cvix",
+                      "aid": "sh/7y1kre1w",
                       "id": "2",
                       "kind": "shape"
                     }
@@ -3611,7 +3611,7 @@
                     "text": "Как мы считаем score и как его проверяем",
                     "transform": "none",
                     "element": {
-                      "aid": "sh/t47y1kre",
+                      "aid": "sh/ed8v6psf",
                       "id": "3",
                       "kind": "shape"
                     }
@@ -3864,7 +3864,7 @@
                                         "text": "SHORTLIST SCORE",
                                         "transform": "none",
                                         "element": {
-                                          "aid": "sh/0rqd4vmt",
+                                          "aid": "sh/7qpg3ex0",
                                           "id": "6",
                                           "kind": "shape"
                                         }
@@ -3934,7 +3934,7 @@
                                   "height": 14
                                 },
                                 "element": {
-                                  "aid": "sh/b6xkf6dc",
+                                  "aid": "sh/0bi9s36h",
                                   "id": "5",
                                   "kind": "shape"
                                 }
@@ -3964,7 +3964,7 @@
                                 "text": "Как считается score shortlist",
                                 "transform": "none",
                                 "element": {
-                                  "aid": "sh/tcj6tova",
+                                  "aid": "sh/i5sneloj",
                                   "id": "7",
                                   "kind": "shape"
                                 }
@@ -3995,7 +3995,7 @@
                                 "text": "Это внутренний ranking score для объявлений: он помогает упорядочить кандидатов до verifier и финального ответа.",
                                 "transform": "none",
                                 "element": {
-                                  "aid": "sh/ixczed8v",
+                                  "aid": "sh/pkzupwb2",
                                   "id": "8",
                                   "kind": "shape"
                                 }
@@ -4096,7 +4096,7 @@
                                             "text": "25%",
                                             "transform": "none",
                                             "element": {
-                                              "aid": "sh/rytsvu9k",
+                                              "aid": "sh/qpg3ex0n",
                                               "id": "10",
                                               "kind": "shape"
                                             }
@@ -4127,7 +4127,7 @@
                                             "text": "budget fit",
                                             "transform": "none",
                                             "element": {
-                                              "aid": "sh/yd0z6103",
+                                              "aid": "sh/fa9w3m94",
                                               "id": "11",
                                               "kind": "shape"
                                             }
@@ -4228,7 +4228,7 @@
                                       "height": 76
                                     },
                                     "element": {
-                                      "aid": "sh/bi9s36hc",
+                                      "aid": "sh/0z61032l",
                                       "id": "9",
                                       "kind": "shape"
                                     }
@@ -4305,7 +4305,7 @@
                                             "text": "20%",
                                             "transform": "none",
                                             "element": {
-                                              "aid": "sh/gfmlkjm1",
+                                              "aid": "sh/xczed8v6",
                                               "id": "13",
                                               "kind": "shape"
                                             }
@@ -4336,7 +4336,7 @@
                                             "text": "commute fit",
                                             "transform": "none",
                                             "element": {
-                                              "aid": "sh/rmhk3q5o",
+                                              "aid": "sh/qd4vmtwr",
                                               "id": "14",
                                               "kind": "shape"
                                             }
@@ -4437,7 +4437,7 @@
                                       "height": 76
                                     },
                                     "element": {
-                                      "aid": "sh/90je9cvi",
+                                      "aid": "sh/8v6psfil",
                                       "id": "12",
                                       "kind": "shape"
                                     }
@@ -4514,7 +4514,7 @@
                                             "text": "20%",
                                             "transform": "none",
                                             "element": {
-                                              "aid": "sh/9s36hcrm",
+                                              "aid": "sh/8jqh0fep",
                                               "id": "16",
                                               "kind": "shape"
                                             }
@@ -4545,7 +4545,7 @@
                                             "text": "household fit",
                                             "transform": "none",
                                             "element": {
-                                              "aid": "sh/g7adsji5",
+                                              "aid": "sh/x4nap4r6",
                                               "id": "17",
                                               "kind": "shape"
                                             }
@@ -4646,7 +4646,7 @@
                                       "height": 76
                                     },
                                     "element": {
-                                      "aid": "sh/y1kre1w7",
+                                      "aid": "sh/fyxobm58",
                                       "id": "15",
                                       "kind": "shape"
                                     }
@@ -4832,7 +4832,7 @@
                                             "text": "15%",
                                             "transform": "none",
                                             "element": {
-                                              "aid": "sh/yxobm58z",
+                                              "aid": "sh/fmlkjm1c",
                                               "id": "19",
                                               "kind": "shape"
                                             }
@@ -4863,7 +4863,7 @@
                                             "text": "district fit",
                                             "transform": "none",
                                             "element": {
-                                              "aid": "sh/61032lsz",
+                                              "aid": "sh/r2p8nqxs",
                                               "id": "20",
                                               "kind": "shape"
                                             }
@@ -4964,7 +4964,7 @@
                                       "height": 76
                                     },
                                     "element": {
-                                      "aid": "sh/nih4byhg",
+                                      "aid": "sh/q1orytsv",
                                       "id": "18",
                                       "kind": "shape"
                                     }
@@ -5041,7 +5041,7 @@
                                             "text": "10%",
                                             "transform": "none",
                                             "element": {
-                                              "aid": "sh/o7qpg3ex",
+                                              "aid": "sh/94fu18jq",
                                               "id": "22",
                                               "kind": "shape"
                                             }
@@ -5072,7 +5072,7 @@
                                             "text": "pet fit",
                                             "transform": "none",
                                             "element": {
-                                              "aid": "sh/dsji5sne",
+                                              "aid": "sh/kjm1cfa9",
                                               "id": "23",
                                               "kind": "shape"
                                             }
@@ -5173,7 +5173,7 @@
                                       "height": 76
                                     },
                                     "element": {
-                                      "aid": "sh/vmtwra5g",
+                                      "aid": "sh/2hwfyxob",
                                       "id": "21",
                                       "kind": "shape"
                                     }
@@ -5250,7 +5250,7 @@
                                             "text": "10%",
                                             "transform": "none",
                                             "element": {
-                                              "aid": "sh/vy90je9c",
+                                              "aid": "sh/2p8nqxs7",
                                               "id": "25",
                                               "kind": "shape"
                                             }
@@ -5281,7 +5281,7 @@
                                             "text": "upfront fit",
                                             "transform": "none",
                                             "element": {
-                                              "aid": "sh/oj2t83it",
+                                              "aid": "sh/9gr2p8nq",
                                               "id": "26",
                                               "kind": "shape"
                                             }
@@ -5382,7 +5382,7 @@
                                       "height": 76
                                     },
                                     "element": {
-                                      "aid": "sh/6dcbulwv",
+                                      "aid": "sh/ra5gbq1o",
                                       "id": "24",
                                       "kind": "shape"
                                     }
@@ -5634,7 +5634,7 @@
                           "height": 286
                         },
                         "element": {
-                          "aid": "sh/il0rqd4v",
+                          "aid": "sh/pwb2hwfy",
                           "id": "4",
                           "kind": "shape"
                         }
@@ -5759,7 +5759,7 @@
                                         "text": "НА КАКИХ ДАННЫХ",
                                         "transform": "none",
                                         "element": {
-                                          "aid": "sh/z25kb6xk",
+                                          "aid": "sh/2t83itgf",
                                           "id": "29",
                                           "kind": "shape"
                                         }
@@ -5829,7 +5829,7 @@
                                   "height": 14
                                 },
                                 "element": {
-                                  "aid": "sh/6hcrmhk3",
+                                  "aid": "sh/re1w7mp0",
                                   "id": "28",
                                   "kind": "shape"
                                 }
@@ -5859,7 +5859,7 @@
                                 "text": "Что входит в расчёт shortlist score",
                                 "transform": "none",
                                 "element": {
-                                  "aid": "sh/l87ed8ba",
+                                  "aid": "sh/cvixczed",
                                   "id": "30",
                                   "kind": "shape"
                                 }
@@ -5890,7 +5890,7 @@
                                 "text": "- listing: rent, rooms, deposit, furnished, pet policy",
                                 "transform": "none",
                                 "element": {
-                                  "aid": "sh/sneloj2t",
+                                  "aid": "sh/5gbq1ory",
                                   "id": "31",
                                   "kind": "shape"
                                 }
@@ -5921,7 +5921,7 @@
                                 "text": "- district: safety, transit, school, family-friendly",
                                 "transform": "none",
                                 "element": {
-                                  "aid": "sh/32lszqtc",
+                                  "aid": "sh/upwb2hwf",
                                   "id": "32",
                                   "kind": "shape"
                                 }
@@ -5952,7 +5952,7 @@
                                 "text": "- requirements: budget, move-in date, pets, commute",
                                 "transform": "none",
                                 "element": {
-                                  "aid": "sh/ahoza1gv",
+                                  "aid": "sh/nap4r65w",
                                   "id": "33",
                                   "kind": "shape"
                                 }
@@ -6119,7 +6119,7 @@
                           "height": 200
                         },
                         "element": {
-                          "aid": "sh/d4vmtwra",
+                          "aid": "sh/gvy90je9",
                           "id": "27",
                           "kind": "shape"
                         }
@@ -6348,7 +6348,7 @@
                                         "text": "OFFLINE BENCHMARK",
                                         "transform": "none",
                                         "element": {
-                                          "aid": "sh/3ex0nuxc",
+                                          "aid": "sh/udg7adsj",
                                           "id": "36",
                                           "kind": "shape"
                                         }
@@ -6418,7 +6418,7 @@
                                   "height": 14
                                 },
                                 "element": {
-                                  "aid": "sh/szqtcj6t",
+                                  "aid": "sh/54zidony",
                                   "id": "35",
                                   "kind": "shape"
                                 }
@@ -6448,7 +6448,7 @@
                                 "text": "Как оцениваем модель офлайн",
                                 "transform": "none",
                                 "element": {
-                                  "aid": "sh/at47y1kr",
+                                  "aid": "sh/nyd0z610",
                                   "id": "37",
                                   "kind": "shape"
                                 }
@@ -6479,7 +6479,7 @@
                                 "text": "- тот же data/qa/qa.jsonl как suite",
                                 "transform": "none",
                                 "element": {
-                                  "aid": "sh/loj2t83i",
+                                  "aid": "sh/cfa9w3m9",
                                   "id": "38",
                                   "kind": "shape"
                                 }
@@ -6510,7 +6510,7 @@
                                 "text": "- для live LLM запускаем run_benchmark",
                                 "transform": "none",
                                 "element": {
-                                  "aid": "sh/w3m94fu1",
+                                  "aid": "sh/1032lszq",
                                   "id": "39",
                                   "kind": "shape"
                                 }
@@ -6541,7 +6541,7 @@
                                 "text": "- минимум 3 trial, лучше 5",
                                 "transform": "none",
                                 "element": {
-                                  "aid": "sh/0fepkzup",
+                                  "aid": "sh/xobm58z2",
                                   "id": "40",
                                   "kind": "shape"
                                 }
@@ -6572,7 +6572,7 @@
                                 "text": "- fresh SQLite для каждого trial",
                                 "transform": "none",
                                 "element": {
-                                  "aid": "sh/p0bi9s36",
+                                  "aid": "sh/83itgfml",
                                   "id": "41",
                                   "kind": "shape"
                                 }
@@ -6761,7 +6761,7 @@
                           "height": 134
                         },
                         "element": {
-                          "aid": "sh/lkjm1cfa",
+                          "aid": "sh/cj6tovah",
                           "id": "34",
                           "kind": "shape"
                         }
@@ -6886,7 +6886,7 @@
                                         "text": "ЧТО СРАВНИВАЕМ",
                                         "transform": "none",
                                         "element": {
-                                          "aid": "sh/032lszqt",
+                                          "aid": "sh/x0nuxc3y",
                                           "id": "44",
                                           "kind": "shape"
                                         }
@@ -6956,7 +6956,7 @@
                                   "height": 14
                                 },
                                 "element": {
-                                  "aid": "sh/bulwval8",
+                                  "aid": "sh/qxs72x4n",
                                   "id": "43",
                                   "kind": "shape"
                                 }
@@ -6986,7 +6986,7 @@
                                 "text": "Метрики для сравнения вариантов",
                                 "transform": "none",
                                 "element": {
-                                  "aid": "sh/tovahoza",
+                                  "aid": "sh/4fu18jqh",
                                   "id": "45",
                                   "kind": "shape"
                                 }
@@ -7017,7 +7017,7 @@
                                 "text": "- domain metrics и quality gate",
                                 "transform": "none",
                                 "element": {
-                                  "aid": "sh/ixczed8v",
+                                  "aid": "sh/fu18jqh0",
                                   "id": "46",
                                   "kind": "shape"
                                 }
@@ -7048,7 +7048,7 @@
                                 "text": "- mean_case_score и case pass rate",
                                 "transform": "none",
                                 "element": {
-                                  "aid": "sh/bi9s36hc",
+                                  "aid": "sh/m94fu18j",
                                   "id": "47",
                                   "kind": "shape"
                                 }
@@ -7079,7 +7079,7 @@
                                 "text": "- case_pass_all_k и outcome_consistency",
                                 "transform": "none",
                                 "element": {
-                                  "aid": "sh/0rqd4vmt",
+                                  "aid": "sh/xc3ylc7u",
                                   "id": "48",
                                   "kind": "shape"
                                 }
@@ -7110,7 +7110,7 @@
                                 "text": "- mean latency и p95 latency",
                                 "transform": "none",
                                 "element": {
-                                  "aid": "sh/tcj6tova",
+                                  "aid": "sh/4r65wjud",
                                   "id": "49",
                                   "kind": "shape"
                                 }
@@ -7299,7 +7299,7 @@
                           "height": 134
                         },
                         "element": {
-                          "aid": "sh/i9s36hcr",
+                          "aid": "sh/fil0rqd4",
                           "id": "42",
                           "kind": "shape"
                         }
@@ -7424,7 +7424,7 @@
                                         "text": "HUMAN FEEDBACK",
                                         "transform": "none",
                                         "element": {
-                                          "aid": "sh/1cfa9w3m",
+                                          "aid": "sh/0nuxc3yl",
                                           "id": "52",
                                           "kind": "shape"
                                         }
@@ -7494,7 +7494,7 @@
                                   "height": 14
                                 },
                                 "element": {
-                                  "aid": "sh/ulwval87",
+                                  "aid": "sh/72x4nap4",
                                   "id": "51",
                                   "kind": "shape"
                                 }
@@ -7524,7 +7524,7 @@
                                 "text": "Как оцениваем live-режим",
                                 "transform": "none",
                                 "element": {
-                                  "aid": "sh/crmhk3q5",
+                                  "aid": "sh/p8nqxs72",
                                   "id": "53",
                                   "kind": "shape"
                                 }
@@ -7555,7 +7555,7 @@
                                 "text": "- task_completion, constraint_fit, relevance",
                                 "transform": "none",
                                 "element": {
-                                  "aid": "sh/ji5snelo",
+                                  "aid": "sh/itgfmlkj",
                                   "id": "54",
                                   "kind": "shape"
                                 }
@@ -7586,7 +7586,7 @@
                                 "text": "- clarity, safety_trust, would_use_again",
                                 "transform": "none",
                                 "element": {
-                                  "aid": "sh/uxc3ylc7",
+                                  "aid": "sh/7ed8bat4",
                                   "id": "55",
                                   "kind": "shape"
                                 }
@@ -7617,7 +7617,7 @@
                                 "text": "- critical_issue_yes_no как стоп-сигнал",
                                 "transform": "none",
                                 "element": {
-                                  "aid": "sh/1kre1w7m",
+                                  "aid": "sh/0z61032l",
                                   "id": "56",
                                   "kind": "shape"
                                 }
@@ -7648,7 +7648,7 @@
                                 "text": "- шаблон feedback лежит в data/qa",
                                 "transform": "none",
                                 "element": {
-                                  "aid": "sh/c3ylc7u5",
+                                  "aid": "sh/pkzupwb2",
                                   "id": "57",
                                   "kind": "shape"
                                 }
@@ -7837,7 +7837,7 @@
                           "height": 134
                         },
                         "element": {
-                          "aid": "sh/j6tovaho",
+                          "aid": "sh/ih4byhgn",
                           "id": "50",
                           "kind": "shape"
                         }
@@ -8107,7 +8107,7 @@
           "height": 654
         },
         "element": {
-          "aid": "sh/byhgn29g",
+          "aid": "sh/wjudg7ad",
           "id": "1",
           "kind": "shape"
         }

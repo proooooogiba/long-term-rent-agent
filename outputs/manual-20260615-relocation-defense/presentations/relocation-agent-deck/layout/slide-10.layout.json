@@ -2,13 +2,13 @@
   "schema": "openai.presentation.layout/v4",
   "unit": "px",
   "slide": {
-    "aid": "sl/zzpdmb",
-    "id": "zzpdmb",
+    "aid": "sl/hplw81",
+    "id": "hplw81",
     "slide": 10,
-    "layoutId": "42394a6f-c0e5-402f-a73b-4571aabd6194",
+    "layoutId": "8e1fa63f-f22a-4256-89d4-20c807888436",
     "layoutName": "Title Slide",
     "layoutType": "title",
-    "masterLayoutId": "7ed930d9-e6a6-4fa6-a518-57804764494e",
+    "masterLayoutId": "3871ca3a-c15e-4637-98b2-37e1470948cc",
     "masterLayoutName": "Master",
     "frame": {
       "left": 0,
@@ -45,15 +45,15 @@
   "inheritedLayers": [
     {
       "scope": "layout",
-      "id": "42394a6f-c0e5-402f-a73b-4571aabd6194",
+      "id": "8e1fa63f-f22a-4256-89d4-20c807888436",
       "name": "Title Slide",
       "type": "title",
-      "parentLayoutId": "7ed930d9-e6a6-4fa6-a518-57804764494e",
+      "parentLayoutId": "3871ca3a-c15e-4637-98b2-37e1470948cc",
       "elements": []
     },
     {
       "scope": "master",
-      "id": "7ed930d9-e6a6-4fa6-a518-57804764494e",
+      "id": "3871ca3a-c15e-4637-98b2-37e1470948cc",
       "name": "Master",
       "type": "master",
       "elements": []
@@ -64,7 +64,7 @@
       "order": 1,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/7adsji5s",
+      "aid": "sh/0je9cvix",
       "id": "1",
       "bbox": [
         0,
@@ -83,7 +83,7 @@
       "order": 2,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/wval87ed",
+      "aid": "sh/byhgn29g",
       "id": "2",
       "bbox": [
         42,
@@ -161,7 +161,7 @@
       "order": 3,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/pg3ex0nu",
+      "aid": "sh/idonyd0z",
       "id": "3",
       "bbox": [
         42,
@@ -239,7 +239,7 @@
       "order": 4,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/e1w7mp0b",
+      "aid": "sh/tcj6tova",
       "id": "4",
       "bbox": [
         42,
@@ -260,7 +260,7 @@
       "order": 5,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/7mp0bi9s",
+      "aid": "sh/0rqd4vmt",
       "id": "5",
       "bbox": [
         62,
@@ -281,7 +281,7 @@
       "order": 6,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/w7mp0bi9",
+      "aid": "sh/b6xkf6dc",
       "id": "6",
       "bbox": [
         74,
@@ -359,7 +359,7 @@
       "order": 7,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/psfil0rq",
+      "aid": "sh/il0rqd4v",
       "id": "7",
       "bbox": [
         62,
@@ -437,7 +437,7 @@
       "order": 8,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/ed8bat47",
+      "aid": "sh/tovahoza",
       "id": "8",
       "bbox": [
         62,
@@ -512,7 +512,7 @@
       "order": 9,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/7u54zido",
+      "aid": "sh/032lszqt",
       "id": "9",
       "bbox": [
         344.5,
@@ -533,7 +533,7 @@
       "order": 10,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/3q5o7qpg",
+      "aid": "sh/61032lsz",
       "id": "10",
       "bbox": [
         364.5,
@@ -554,7 +554,7 @@
       "order": 11,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/e9cvixcz",
+      "aid": "sh/vmtwra5g",
       "id": "11",
       "bbox": [
         376.5,
@@ -632,7 +632,7 @@
       "order": 12,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/lwval87e",
+      "aid": "sh/o7qpg3ex",
       "id": "12",
       "bbox": [
         364.5,
@@ -710,7 +710,7 @@
       "order": 13,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/wb2hwfyx",
+      "aid": "sh/dsji5sne",
       "id": "13",
       "bbox": [
         364.5,
@@ -789,7 +789,7 @@
       "order": 14,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/3itgfmlk",
+      "aid": "sh/6dcbulwv",
       "id": "14",
       "bbox": [
         647,
@@ -810,7 +810,7 @@
       "order": 15,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/ex0nuxc3",
+      "aid": "sh/vy90je9c",
       "id": "15",
       "bbox": [
         667,
@@ -831,7 +831,7 @@
       "order": 16,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/loj2t83i",
+      "aid": "sh/oj2t83it",
       "id": "16",
       "bbox": [
         679,
@@ -909,7 +909,7 @@
       "order": 17,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/w3m94fu1",
+      "aid": "sh/d4vmtwra",
       "id": "17",
       "bbox": [
         667,
@@ -987,7 +987,7 @@
       "order": 18,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/3ex0nuxc",
+      "aid": "sh/6hcrmhk3",
       "id": "18",
       "bbox": [
         667,
@@ -1066,7 +1066,7 @@
       "order": 19,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/at47y1kr",
+      "aid": "sh/z25kb6xk",
       "id": "19",
       "bbox": [
         949.5,
@@ -1087,7 +1087,7 @@
       "order": 20,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/ixczed8v",
+      "aid": "sh/rytsvu9k",
       "id": "20",
       "bbox": [
         969.5,
@@ -1108,7 +1108,7 @@
       "order": 21,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/bi9s36hc",
+      "aid": "sh/yd0z6103",
       "id": "21",
       "bbox": [
         981.5,
@@ -1186,7 +1186,7 @@
       "order": 22,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/032lszqt",
+      "aid": "sh/90je9cvi",
       "id": "22",
       "bbox": [
         969.5,
@@ -1264,7 +1264,7 @@
       "order": 23,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/tovahoza",
+      "aid": "sh/gfmlkjm1",
       "id": "23",
       "bbox": [
         969.5,
@@ -1343,7 +1343,7 @@
       "order": 24,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/i9s36hcr",
+      "aid": "sh/rmhk3q5o",
       "id": "24",
       "bbox": [
         42,
@@ -1364,7 +1364,7 @@
       "order": 25,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/bulwval8",
+      "aid": "sh/y1kre1w7",
       "id": "25",
       "bbox": [
         62,
@@ -1442,7 +1442,7 @@
       "order": 26,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/0fepkzup",
+      "aid": "sh/9s36hcrm",
       "id": "26",
       "bbox": [
         62,
@@ -1517,7 +1517,7 @@
       "order": 27,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/p0bi9s36",
+      "aid": "sh/g7adsji5",
       "id": "27",
       "bbox": [
         420,
@@ -1538,7 +1538,7 @@
       "order": 28,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/idonyd0z",
+      "aid": "sh/nih4byhg",
       "id": "28",
       "bbox": [
         440,
@@ -1616,7 +1616,7 @@
       "order": 29,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/byhgn29g",
+      "aid": "sh/yxobm58z",
       "id": "29",
       "bbox": [
         440,
@@ -1699,7 +1699,7 @@
       "order": 30,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/hk3q5o7q",
+      "aid": "sh/s72x4nap",
       "id": "30",
       "bbox": [
         440,
@@ -1877,7 +1877,7 @@
                     "text": "CONCLUSION",
                     "transform": "none",
                     "element": {
-                      "aid": "sh/wval87ed",
+                      "aid": "sh/byhgn29g",
                       "id": "2",
                       "kind": "shape"
                     }
@@ -1908,7 +1908,7 @@
                     "text": "Что важно вынести",
                     "transform": "none",
                     "element": {
-                      "aid": "sh/pg3ex0nu",
+                      "aid": "sh/idonyd0z",
                       "id": "3",
                       "kind": "shape"
                     }
@@ -2161,7 +2161,7 @@
                                         "text": "1",
                                         "transform": "none",
                                         "element": {
-                                          "aid": "sh/w7mp0bi9",
+                                          "aid": "sh/b6xkf6dc",
                                           "id": "6",
                                           "kind": "shape"
                                         }
@@ -2231,7 +2231,7 @@
                                   "height": 14
                                 },
                                 "element": {
-                                  "aid": "sh/7mp0bi9s",
+                                  "aid": "sh/0rqd4vmt",
                                   "id": "5",
                                   "kind": "shape"
                                 }
@@ -2261,7 +2261,7 @@
                                 "text": "Агентность",
                                 "transform": "none",
                                 "element": {
-                                  "aid": "sh/psfil0rq",
+                                  "aid": "sh/il0rqd4v",
                                   "id": "7",
                                   "kind": "shape"
                                 }
@@ -2291,7 +2291,7 @@
                                 "text": "роли, память, replanning, verifier",
                                 "transform": "none",
                                 "element": {
-                                  "aid": "sh/ed8bat47",
+                                  "aid": "sh/tovahoza",
                                   "id": "8",
                                   "kind": "shape"
                                 }
@@ -2414,7 +2414,7 @@
                           "height": 142
                         },
                         "element": {
-                          "aid": "sh/e1w7mp0b",
+                          "aid": "sh/tcj6tova",
                           "id": "4",
                           "kind": "shape"
                         }
@@ -2539,7 +2539,7 @@
                                         "text": "2",
                                         "transform": "none",
                                         "element": {
-                                          "aid": "sh/e9cvixcz",
+                                          "aid": "sh/vmtwra5g",
                                           "id": "11",
                                           "kind": "shape"
                                         }
@@ -2609,7 +2609,7 @@
                                   "height": 14
                                 },
                                 "element": {
-                                  "aid": "sh/3q5o7qpg",
+                                  "aid": "sh/61032lsz",
                                   "id": "10",
                                   "kind": "shape"
                                 }
@@ -2639,7 +2639,7 @@
                                 "text": "Воспроизводимость",
                                 "transform": "none",
                                 "element": {
-                                  "aid": "sh/lwval87e",
+                                  "aid": "sh/o7qpg3ex",
                                   "id": "12",
                                   "kind": "shape"
                                 }
@@ -2669,7 +2669,7 @@
                                 "text": "demo_stub, локальная БД, QA runner, trace",
                                 "transform": "none",
                                 "element": {
-                                  "aid": "sh/wb2hwfyx",
+                                  "aid": "sh/dsji5sne",
                                   "id": "13",
                                   "kind": "shape"
                                 }
@@ -2792,7 +2792,7 @@
                           "height": 142
                         },
                         "element": {
-                          "aid": "sh/7u54zido",
+                          "aid": "sh/032lszqt",
                           "id": "9",
                           "kind": "shape"
                         }
@@ -2917,7 +2917,7 @@
                                         "text": "3",
                                         "transform": "none",
                                         "element": {
-                                          "aid": "sh/loj2t83i",
+                                          "aid": "sh/oj2t83it",
                                           "id": "16",
                                           "kind": "shape"
                                         }
@@ -2987,7 +2987,7 @@
                                   "height": 14
                                 },
                                 "element": {
-                                  "aid": "sh/ex0nuxc3",
+                                  "aid": "sh/vy90je9c",
                                   "id": "15",
                                   "kind": "shape"
                                 }
@@ -3017,7 +3017,7 @@
                                 "text": "Safety boundary",
                                 "transform": "none",
                                 "element": {
-                                  "aid": "sh/w3m94fu1",
+                                  "aid": "sh/d4vmtwra",
                                   "id": "17",
                                   "kind": "shape"
                                 }
@@ -3047,7 +3047,7 @@
                                 "text": "clarification и escalation вместо ложной уверенности",
                                 "transform": "none",
                                 "element": {
-                                  "aid": "sh/3ex0nuxc",
+                                  "aid": "sh/6hcrmhk3",
                                   "id": "18",
                                   "kind": "shape"
                                 }
@@ -3170,7 +3170,7 @@
                           "height": 142
                         },
                         "element": {
-                          "aid": "sh/3itgfmlk",
+                          "aid": "sh/6dcbulwv",
                           "id": "14",
                           "kind": "shape"
                         }
@@ -3295,7 +3295,7 @@
                                         "text": "4",
                                         "transform": "none",
                                         "element": {
-                                          "aid": "sh/bi9s36hc",
+                                          "aid": "sh/yd0z6103",
                                           "id": "21",
                                           "kind": "shape"
                                         }
@@ -3365,7 +3365,7 @@
                                   "height": 14
                                 },
                                 "element": {
-                                  "aid": "sh/ixczed8v",
+                                  "aid": "sh/rytsvu9k",
                                   "id": "20",
                                   "kind": "shape"
                                 }
@@ -3395,7 +3395,7 @@
                                 "text": "Расширяемость",
                                 "transform": "none",
                                 "element": {
-                                  "aid": "sh/032lszqt",
+                                  "aid": "sh/90je9cvi",
                                   "id": "22",
                                   "kind": "shape"
                                 }
@@ -3425,7 +3425,7 @@
                                 "text": "typed tools и config-driven путь для MCP",
                                 "transform": "none",
                                 "element": {
-                                  "aid": "sh/tovahoza",
+                                  "aid": "sh/gfmlkjm1",
                                   "id": "23",
                                   "kind": "shape"
                                 }
@@ -3548,7 +3548,7 @@
                           "height": 142
                         },
                         "element": {
-                          "aid": "sh/at47y1kr",
+                          "aid": "sh/z25kb6xk",
                           "id": "19",
                           "kind": "shape"
                         }
@@ -3752,7 +3752,7 @@
                                 "text": "Возможные улучшения",
                                 "transform": "none",
                                 "element": {
-                                  "aid": "sh/bulwval8",
+                                  "aid": "sh/y1kre1w7",
                                   "id": "25",
                                   "kind": "shape"
                                 }
@@ -3783,7 +3783,7 @@
                                 "text": "SSO, observability, стабильный live MCP",
                                 "transform": "none",
                                 "element": {
-                                  "aid": "sh/0fepkzup",
+                                  "aid": "sh/9s36hcrm",
                                   "id": "26",
                                   "kind": "shape"
                                 }
@@ -3884,7 +3884,7 @@
                           "height": 342
                         },
                         "element": {
-                          "aid": "sh/i9s36hcr",
+                          "aid": "sh/rmhk3q5o",
                           "id": "24",
                           "kind": "shape"
                         }
@@ -3962,7 +3962,7 @@
                                 "text": "Главный тезис для защиты",
                                 "transform": "none",
                                 "element": {
-                                  "aid": "sh/idonyd0z",
+                                  "aid": "sh/nih4byhg",
                                   "id": "28",
                                   "kind": "shape"
                                 }
@@ -3993,7 +3993,7 @@
                                 "text": "Проект уже показывает базовые признаки агента: он понимает намерение, хранит контекст, вызывает инструменты, может пересобрать решение и умеет остановиться, когда автоматизация небезопасна.",
                                 "transform": "none",
                                 "element": {
-                                  "aid": "sh/byhgn29g",
+                                  "aid": "sh/yxobm58z",
                                   "id": "29",
                                   "kind": "shape"
                                 }
@@ -4024,7 +4024,7 @@
                                 "text": "- Главная ценность здесь - в управляемом workflow, а не в одном сильном prompt.",
                                 "transform": "none",
                                 "element": {
-                                  "aid": "sh/hk3q5o7q",
+                                  "aid": "sh/s72x4nap",
                                   "id": "30",
                                   "kind": "shape"
                                 }
@@ -4147,7 +4147,7 @@
                           "height": 342
                         },
                         "element": {
-                          "aid": "sh/p0bi9s36",
+                          "aid": "sh/g7adsji5",
                           "id": "27",
                           "kind": "shape"
                         }
@@ -4395,7 +4395,7 @@
           "height": 654
         },
         "element": {
-          "aid": "sh/7adsji5s",
+          "aid": "sh/0je9cvix",
           "id": "1",
           "kind": "shape"
         }

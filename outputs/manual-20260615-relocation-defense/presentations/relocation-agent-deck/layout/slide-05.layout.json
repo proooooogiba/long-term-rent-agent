@@ -2,13 +2,13 @@
   "schema": "openai.presentation.layout/v4",
   "unit": "px",
   "slide": {
-    "aid": "sl/02hn85",
-    "id": "02hn85",
+    "aid": "sl/a97pm9",
+    "id": "a97pm9",
     "slide": 5,
-    "layoutId": "42394a6f-c0e5-402f-a73b-4571aabd6194",
+    "layoutId": "8e1fa63f-f22a-4256-89d4-20c807888436",
     "layoutName": "Title Slide",
     "layoutType": "title",
-    "masterLayoutId": "7ed930d9-e6a6-4fa6-a518-57804764494e",
+    "masterLayoutId": "3871ca3a-c15e-4637-98b2-37e1470948cc",
     "masterLayoutName": "Master",
     "frame": {
       "left": 0,
@@ -45,15 +45,15 @@
   "inheritedLayers": [
     {
       "scope": "layout",
-      "id": "42394a6f-c0e5-402f-a73b-4571aabd6194",
+      "id": "8e1fa63f-f22a-4256-89d4-20c807888436",
       "name": "Title Slide",
       "type": "title",
-      "parentLayoutId": "7ed930d9-e6a6-4fa6-a518-57804764494e",
+      "parentLayoutId": "3871ca3a-c15e-4637-98b2-37e1470948cc",
       "elements": []
     },
     {
       "scope": "master",
-      "id": "7ed930d9-e6a6-4fa6-a518-57804764494e",
+      "id": "3871ca3a-c15e-4637-98b2-37e1470948cc",
       "name": "Master",
       "type": "master",
       "elements": []
@@ -64,7 +64,7 @@
       "order": 1,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/b2hwfyxo",
+      "aid": "sh/vmtwra5g",
       "id": "1",
       "bbox": [
         0,
@@ -74,7 +74,7 @@
       ],
       "composeSource": {
         "run": 1,
-        "path": "0"
+        "path": "0.0.1.1.1.0"
       },
       "geometry": "rect",
       "fillColor": "#F4F7FB"
@@ -83,7 +83,7 @@
       "order": 2,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/4nap4r65",
+      "aid": "sh/o7qpg3ex",
       "id": "2",
       "bbox": [
         42,
@@ -93,7 +93,7 @@
       ],
       "composeSource": {
         "run": 1,
-        "path": "0.0.0.0"
+        "path": "0.0.1.1.1.1"
       },
       "geometry": "rect",
       "text": "EXTERNAL INTEGRATION",
@@ -161,7 +161,7 @@
       "order": 3,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/t83itgfm",
+      "aid": "sh/dsji5sne",
       "id": "3",
       "bbox": [
         42,
@@ -171,7 +171,7 @@
       ],
       "composeSource": {
         "run": 1,
-        "path": "0.0.0.1"
+        "path": "0.0.1.1.1.0.0.1"
       },
       "geometry": "rect",
       "text": "MCP Cian, с которым работает агент",
@@ -239,7 +239,7 @@
       "order": 4,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/m58z25kb",
+      "aid": "sh/6dcbulwv",
       "id": "4",
       "bbox": [
         42,
@@ -249,7 +249,7 @@
       ],
       "composeSource": {
         "run": 1,
-        "path": "0.0.1.0"
+        "path": "0.0.1.1.0.0.2"
       },
       "geometry": "roundRect",
       "fillColor": "#FFFFFF",
@@ -260,7 +260,7 @@
       "order": 5,
       "kind": "image",
       "scope": "slide",
-      "aid": "im/epkzupwb",
+      "aid": "im/25kb6xkf",
       "id": "5",
       "bbox": [
         54,
@@ -275,7 +275,7 @@
       "contentType": "image/png",
       "imageFit": "contain",
       "asset": {
-        "assetId": "a7432732-88c1-493c-858f-bbfe99f060f8",
+        "assetId": "1eec451c-3416-48f1-855f-f6a360655671",
         "contentType": "image/png",
         "byteLength": 378999
       }
@@ -284,7 +284,7 @@
       "order": 6,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/4byhgn29",
+      "aid": "sh/oj2t83it",
       "id": "6",
       "bbox": [
         54,
@@ -294,7 +294,7 @@
       ],
       "composeSource": {
         "run": 1,
-        "path": "0.0.1.0.0.1"
+        "path": "0.0.1.1.0.0.4"
       },
       "geometry": "rect",
       "text": "Cian не живёт отдельно: его выдача нормализуется в ту же модель Listing и попадает в тот же shortlist.",
@@ -359,7 +359,7 @@
       "order": 7,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/twra5gbq",
+      "aid": "sh/d4vmtwra",
       "id": "7",
       "bbox": [
         822,
@@ -369,7 +369,7 @@
       ],
       "composeSource": {
         "run": 1,
-        "path": "0.0.1.1.0"
+        "path": "0.0.1.1.0.0.3"
       },
       "geometry": "roundRect",
       "fillColor": "#FFFFFF",
@@ -380,7 +380,7 @@
       "order": 8,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/m1cfa9w3",
+      "aid": "sh/6hcrmhk3",
       "id": "8",
       "bbox": [
         842,
@@ -401,7 +401,7 @@
       "order": 9,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/bm58z25k",
+      "aid": "sh/z25kb6xk",
       "id": "9",
       "bbox": [
         854,
@@ -479,7 +479,7 @@
       "order": 10,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/val87ed8",
+      "aid": "sh/vy90je9c",
       "id": "10",
       "bbox": [
         842,
@@ -557,7 +557,7 @@
       "order": 11,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/6psfil0r",
+      "aid": "sh/6dcbulwv",
       "id": "11",
       "bbox": [
         842,
@@ -632,7 +632,7 @@
       "order": 12,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/dcbulwva",
+      "aid": "sh/d4vmtwra",
       "id": "12",
       "bbox": [
         842,
@@ -707,7 +707,7 @@
       "order": 13,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/kre1w7mp",
+      "aid": "sh/oj2t83it",
       "id": "13",
       "bbox": [
         842,
@@ -782,7 +782,7 @@
       "order": 14,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/vixczed8",
+      "aid": "sh/vmtwra5g",
       "id": "14",
       "bbox": [
         822,
@@ -803,7 +803,7 @@
       "order": 15,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/2x4nap4r",
+      "aid": "sh/61032lsz",
       "id": "15",
       "bbox": [
         842,
@@ -881,7 +881,7 @@
       "order": 16,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/donyd0z6",
+      "aid": "sh/dsji5sne",
       "id": "16",
       "bbox": [
         842,
@@ -956,7 +956,7 @@
       "order": 17,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/k3q5o7qp",
+      "aid": "sh/o7qpg3ex",
       "id": "17",
       "bbox": [
         964,
@@ -977,7 +977,7 @@
       "order": 18,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/vu9knih4",
+      "aid": "sh/vahoza1g",
       "id": "18",
       "bbox": [
         984,
@@ -1055,7 +1055,7 @@
       "order": 19,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/29gr2p8n",
+      "aid": "sh/6tovahoz",
       "id": "19",
       "bbox": [
         984,
@@ -1130,7 +1130,7 @@
       "order": 20,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/adsji5sn",
+      "aid": "sh/epkzupwb",
       "id": "20",
       "bbox": [
         1106,
@@ -1151,7 +1151,7 @@
       "order": 21,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/3ylc7u54",
+      "aid": "sh/7adsji5s",
       "id": "21",
       "bbox": [
         1126,
@@ -1229,7 +1229,7 @@
       "order": 22,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/sji5snel",
+      "aid": "sh/wval87ed",
       "id": "22",
       "bbox": [
         1126,
@@ -1304,7 +1304,7 @@
       "order": 23,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/h4byhgn2",
+      "aid": "sh/pg3ex0nu",
       "id": "23",
       "bbox": [
         822,
@@ -1325,7 +1325,7 @@
       "order": 24,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/a5gbq1or",
+      "aid": "sh/e1w7mp0b",
       "id": "24",
       "bbox": [
         842,
@@ -1346,7 +1346,7 @@
       "order": 25,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/3m94fu18",
+      "aid": "sh/7mp0bi9s",
       "id": "25",
       "bbox": [
         854,
@@ -1424,7 +1424,7 @@
       "order": 26,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/s72x4nap",
+      "aid": "sh/w7mp0bi9",
       "id": "26",
       "bbox": [
         842,
@@ -1502,7 +1502,7 @@
       "order": 27,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/lszqtcj6",
+      "aid": "sh/psfil0rq",
       "id": "27",
       "bbox": [
         842,
@@ -1577,7 +1577,7 @@
       "order": 28,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/a1gvy90j",
+      "aid": "sh/ed8bat47",
       "id": "28",
       "bbox": [
         842,
@@ -1652,7 +1652,7 @@
       "order": 29,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/zidonyd0",
+      "aid": "sh/7u54zido",
       "id": "29",
       "bbox": [
         842,
@@ -1834,7 +1834,7 @@
                     "text": "EXTERNAL INTEGRATION",
                     "transform": "none",
                     "element": {
-                      "aid": "sh/4nap4r65",
+                      "aid": "sh/o7qpg3ex",
                       "id": "2",
                       "kind": "shape"
                     }
@@ -1865,7 +1865,7 @@
                     "text": "MCP Cian, с которым работает агент",
                     "transform": "none",
                     "element": {
-                      "aid": "sh/t83itgfm",
+                      "aid": "sh/dsji5sne",
                       "id": "3",
                       "kind": "shape"
                     }
@@ -2052,7 +2052,7 @@
                             "contentType": "image/png",
                             "fit": "contain",
                             "element": {
-                              "aid": "im/epkzupwb",
+                              "aid": "im/25kb6xkf",
                               "id": "5",
                               "kind": "image"
                             }
@@ -2083,7 +2083,7 @@
                             "text": "Cian не живёт отдельно: его выдача нормализуется в ту же модель Listing и попадает в тот же shortlist.",
                             "transform": "none",
                             "element": {
-                              "aid": "sh/4byhgn29",
+                              "aid": "sh/oj2t83it",
                               "id": "6",
                               "kind": "shape"
                             }
@@ -2184,7 +2184,7 @@
                       "height": 552
                     },
                     "element": {
-                      "aid": "sh/m58z25kb",
+                      "aid": "sh/6dcbulwv",
                       "id": "4",
                       "kind": "shape"
                     }
@@ -2333,7 +2333,7 @@
                                         "text": "ПРОВЕРЕННЫЙ ПРИМЕР",
                                         "transform": "none",
                                         "element": {
-                                          "aid": "sh/bm58z25k",
+                                          "aid": "sh/z25kb6xk",
                                           "id": "9",
                                           "kind": "shape"
                                         }
@@ -2403,7 +2403,7 @@
                                   "height": 14
                                 },
                                 "element": {
-                                  "aid": "sh/m1cfa9w3",
+                                  "aid": "sh/6hcrmhk3",
                                   "id": "8",
                                   "kind": "shape"
                                 }
@@ -2433,7 +2433,7 @@
                                 "text": "Live-capture от 2026-06-14",
                                 "transform": "none",
                                 "element": {
-                                  "aid": "sh/val87ed8",
+                                  "aid": "sh/vy90je9c",
                                   "id": "10",
                                   "kind": "shape"
                                 }
@@ -2464,7 +2464,7 @@
                                 "text": "- провайдер: Apify MCP",
                                 "transform": "none",
                                 "element": {
-                                  "aid": "sh/6psfil0r",
+                                  "aid": "sh/6dcbulwv",
                                   "id": "11",
                                   "kind": "shape"
                                 }
@@ -2495,7 +2495,7 @@
                                 "text": "- инструмент: cian-ru-scraper",
                                 "transform": "none",
                                 "element": {
-                                  "aid": "sh/dcbulwva",
+                                  "aid": "sh/d4vmtwra",
                                   "id": "12",
                                   "kind": "shape"
                                 }
@@ -2526,7 +2526,7 @@
                                 "text": "- запрос: Moscow, 1 room, rent",
                                 "transform": "none",
                                 "element": {
-                                  "aid": "sh/kre1w7mp",
+                                  "aid": "sh/oj2t83it",
                                   "id": "13",
                                   "kind": "shape"
                                 }
@@ -2693,7 +2693,7 @@
                           "height": 120
                         },
                         "element": {
-                          "aid": "sh/twra5gbq",
+                          "aid": "sh/d4vmtwra",
                           "id": "7",
                           "kind": "shape"
                         }
@@ -2794,7 +2794,7 @@
                                     "text": "25k",
                                     "transform": "none",
                                     "element": {
-                                      "aid": "sh/2x4nap4r",
+                                      "aid": "sh/61032lsz",
                                       "id": "15",
                                       "kind": "shape"
                                     }
@@ -2825,7 +2825,7 @@
                                     "text": "₽ • #998771",
                                     "transform": "none",
                                     "element": {
-                                      "aid": "sh/donyd0z6",
+                                      "aid": "sh/dsji5sne",
                                       "id": "16",
                                       "kind": "shape"
                                     }
@@ -2926,7 +2926,7 @@
                               "height": 76
                             },
                             "element": {
-                              "aid": "sh/vixczed8",
+                              "aid": "sh/vmtwra5g",
                               "id": "14",
                               "kind": "shape"
                             }
@@ -3003,7 +3003,7 @@
                                     "text": "38k",
                                     "transform": "none",
                                     "element": {
-                                      "aid": "sh/vu9knih4",
+                                      "aid": "sh/vahoza1g",
                                       "id": "18",
                                       "kind": "shape"
                                     }
@@ -3034,7 +3034,7 @@
                                     "text": "₽ • #995460",
                                     "transform": "none",
                                     "element": {
-                                      "aid": "sh/29gr2p8n",
+                                      "aid": "sh/6tovahoz",
                                       "id": "19",
                                       "kind": "shape"
                                     }
@@ -3135,7 +3135,7 @@
                               "height": 76
                             },
                             "element": {
-                              "aid": "sh/k3q5o7qp",
+                              "aid": "sh/o7qpg3ex",
                               "id": "17",
                               "kind": "shape"
                             }
@@ -3212,7 +3212,7 @@
                                     "text": "45k",
                                     "transform": "none",
                                     "element": {
-                                      "aid": "sh/3ylc7u54",
+                                      "aid": "sh/7adsji5s",
                                       "id": "21",
                                       "kind": "shape"
                                     }
@@ -3243,7 +3243,7 @@
                                     "text": "₽ • #992338",
                                     "transform": "none",
                                     "element": {
-                                      "aid": "sh/sji5snel",
+                                      "aid": "sh/wval87ed",
                                       "id": "22",
                                       "kind": "shape"
                                     }
@@ -3344,7 +3344,7 @@
                               "height": 76
                             },
                             "element": {
-                              "aid": "sh/adsji5sn",
+                              "aid": "sh/epkzupwb",
                               "id": "20",
                               "kind": "shape"
                             }
@@ -3554,7 +3554,7 @@
                                         "text": "CONTRACT",
                                         "transform": "none",
                                         "element": {
-                                          "aid": "sh/3m94fu18",
+                                          "aid": "sh/7mp0bi9s",
                                           "id": "25",
                                           "kind": "shape"
                                         }
@@ -3624,7 +3624,7 @@
                                   "height": 14
                                 },
                                 "element": {
-                                  "aid": "sh/a5gbq1or",
+                                  "aid": "sh/e1w7mp0b",
                                   "id": "24",
                                   "kind": "shape"
                                 }
@@ -3654,7 +3654,7 @@
                                 "text": "Почему этот слой важен",
                                 "transform": "none",
                                 "element": {
-                                  "aid": "sh/s72x4nap",
+                                  "aid": "sh/w7mp0bi9",
                                   "id": "26",
                                   "kind": "shape"
                                 }
@@ -3685,7 +3685,7 @@
                                 "text": "- новые providers чаще подключаются через config",
                                 "transform": "none",
                                 "element": {
-                                  "aid": "sh/lszqtcj6",
+                                  "aid": "sh/psfil0rq",
                                   "id": "27",
                                   "kind": "shape"
                                 }
@@ -3716,7 +3716,7 @@
                                 "text": "- aliases, mapping и defaults живут вне графа",
                                 "transform": "none",
                                 "element": {
-                                  "aid": "sh/a1gvy90j",
+                                  "aid": "sh/ed8bat47",
                                   "id": "28",
                                   "kind": "shape"
                                 }
@@ -3747,7 +3747,7 @@
                                 "text": "- timeout или provider fail -> fallback на локальные объявления",
                                 "transform": "none",
                                 "element": {
-                                  "aid": "sh/zidonyd0",
+                                  "aid": "sh/7u54zido",
                                   "id": "29",
                                   "kind": "shape"
                                 }
@@ -3914,7 +3914,7 @@
                           "height": 254
                         },
                         "element": {
-                          "aid": "sh/h4byhgn2",
+                          "aid": "sh/pg3ex0nu",
                           "id": "23",
                           "kind": "shape"
                         }
@@ -4184,7 +4184,7 @@
           "height": 654
         },
         "element": {
-          "aid": "sh/b2hwfyxo",
+          "aid": "sh/vmtwra5g",
           "id": "1",
           "kind": "shape"
         }

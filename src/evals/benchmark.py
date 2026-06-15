@@ -119,6 +119,14 @@ def _latency_p95(latencies: list[float]) -> float:
     return round(ordered[index], 1)
 
 
+def _serialize_summary_path(path: Path) -> str:
+    try:
+        relative_path = path.resolve().relative_to(ROOT_DIR.resolve())
+    except ValueError:
+        return str(path)
+    return relative_path.as_posix()
+
+
 def _quality_gate_to_dict(result: QualityGateResult) -> dict[str, object]:
     return {
         "passed": result.passed,
@@ -291,7 +299,7 @@ def summarize_benchmark_results(
 
     latencies = [result.latency_ms for result in trial_results]
     return BenchmarkSummary(
-        qa_path=str(qa_path),
+        qa_path=_serialize_summary_path(qa_path),
         llm_backend=llm_backend,
         llm_mode=llm_mode,
         model=model,

@@ -2,13 +2,13 @@
   "schema": "openai.presentation.layout/v4",
   "unit": "px",
   "slide": {
-    "aid": "sl/5u50uw",
-    "id": "5u50uw",
+    "aid": "sl/pprhrv",
+    "id": "pprhrv",
     "slide": 8,
-    "layoutId": "42394a6f-c0e5-402f-a73b-4571aabd6194",
+    "layoutId": "8e1fa63f-f22a-4256-89d4-20c807888436",
     "layoutName": "Title Slide",
     "layoutType": "title",
-    "masterLayoutId": "7ed930d9-e6a6-4fa6-a518-57804764494e",
+    "masterLayoutId": "3871ca3a-c15e-4637-98b2-37e1470948cc",
     "masterLayoutName": "Master",
     "frame": {
       "left": 0,
@@ -45,15 +45,15 @@
   "inheritedLayers": [
     {
       "scope": "layout",
-      "id": "42394a6f-c0e5-402f-a73b-4571aabd6194",
+      "id": "8e1fa63f-f22a-4256-89d4-20c807888436",
       "name": "Title Slide",
       "type": "title",
-      "parentLayoutId": "7ed930d9-e6a6-4fa6-a518-57804764494e",
+      "parentLayoutId": "3871ca3a-c15e-4637-98b2-37e1470948cc",
       "elements": []
     },
     {
       "scope": "master",
-      "id": "7ed930d9-e6a6-4fa6-a518-57804764494e",
+      "id": "3871ca3a-c15e-4637-98b2-37e1470948cc",
       "name": "Master",
       "type": "master",
       "elements": []
@@ -64,7 +64,7 @@
       "order": 1,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/r65wjudg",
+      "aid": "sh/knih4byh",
       "id": "1",
       "bbox": [
         0,
@@ -83,7 +83,7 @@
       "order": 2,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/gr2p8nqx",
+      "aid": "sh/v6psfil0",
       "id": "2",
       "bbox": [
         42,
@@ -161,7 +161,7 @@
       "order": 3,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/9cvixcze",
+      "aid": "sh/2lszqtcj",
       "id": "3",
       "bbox": [
         42,
@@ -239,7 +239,7 @@
       "order": 4,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/yxobm58z",
+      "aid": "sh/d0z61032",
       "id": "4",
       "bbox": [
         42,
@@ -260,7 +260,7 @@
       "order": 5,
       "kind": "image",
       "scope": "slide",
-      "aid": "im/mp0bi9s3",
+      "aid": "im/tovahoza",
       "id": "5",
       "bbox": [
         54,
@@ -275,7 +275,7 @@
       "contentType": "image/png",
       "imageFit": "contain",
       "asset": {
-        "assetId": "13c0ddf8-b991-4716-91a2-67444bb05821",
+        "assetId": "933b505c-f4d6-4460-8dfb-8d3015a09e86",
         "contentType": "image/png",
         "byteLength": 327079
       }
@@ -284,7 +284,7 @@
       "order": 6,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/g3ex0nux",
+      "aid": "sh/vu9knih4",
       "id": "6",
       "bbox": [
         54,
@@ -359,7 +359,7 @@
       "order": 7,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/5o7qpg3e",
+      "aid": "sh/29gr2p8n",
       "id": "7",
       "bbox": [
         822,
@@ -380,7 +380,7 @@
       "order": 8,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/y1kre1w7",
+      "aid": "sh/donyd0z6",
       "id": "8",
       "bbox": [
         842,
@@ -390,7 +390,7 @@
       ],
       "composeSource": {
         "run": 1,
-        "path": "0.0.1.1.1.0.2"
+        "path": "0.0.1.1.0.0.0.0"
       },
       "geometry": "rect",
       "text": "10.2 s",
@@ -458,7 +458,7 @@
       "order": 9,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/rmhk3q5o",
+      "aid": "sh/k3q5o7qp",
       "id": "9",
       "bbox": [
         842,
@@ -468,7 +468,7 @@
       ],
       "composeSource": {
         "run": 1,
-        "path": "0.0.1.1.1.0.3"
+        "path": "0.0.1.1.0.0.0.1"
       },
       "geometry": "rect",
       "text": "общий run",
@@ -533,7 +533,7 @@
       "order": 10,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/fa9w3m94",
+      "aid": "sh/at47y1kr",
       "id": "10",
       "bbox": [
         964.67,
@@ -554,7 +554,7 @@
       "order": 11,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/qpg3ex0n",
+      "aid": "sh/3ex0nuxc",
       "id": "11",
       "bbox": [
         984.67,
@@ -632,7 +632,7 @@
       "order": 12,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/xczed8v6",
+      "aid": "sh/szqtcj6t",
       "id": "12",
       "bbox": [
         984.67,
@@ -707,7 +707,7 @@
       "order": 13,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/8v6psfil",
+      "aid": "sh/lkjm1cfa",
       "id": "13",
       "bbox": [
         1107.33,
@@ -728,7 +728,7 @@
       "order": 14,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/fyxobm58",
+      "aid": "sh/ahoza1gv",
       "id": "14",
       "bbox": [
         1127.33,
@@ -806,7 +806,7 @@
       "order": 15,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/qd4vmtwr",
+      "aid": "sh/32lszqtc",
       "id": "15",
       "bbox": [
         1127.33,
@@ -885,7 +885,7 @@
       "order": 16,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/x4nap4r6",
+      "aid": "sh/sneloj2t",
       "id": "16",
       "bbox": [
         822,
@@ -906,7 +906,7 @@
       "order": 17,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/8jqh0fep",
+      "aid": "sh/l87ed8ba",
       "id": "17",
       "bbox": [
         842,
@@ -927,7 +927,7 @@
       "order": 18,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/fmlkjm1c",
+      "aid": "sh/e9cvixcz",
       "id": "18",
       "bbox": [
         854,
@@ -1005,7 +1005,7 @@
       "order": 19,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/q1orytsv",
+      "aid": "sh/3q5o7qpg",
       "id": "19",
       "bbox": [
         842,
@@ -1087,7 +1087,7 @@
       "order": 20,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/y1kre1w7",
+      "aid": "sh/vmtwra5g",
       "id": "20",
       "bbox": [
         842,
@@ -1162,7 +1162,7 @@
       "order": 21,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/rmhk3q5o",
+      "aid": "sh/61032lsz",
       "id": "21",
       "bbox": [
         842,
@@ -1237,7 +1237,7 @@
       "order": 22,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/g7adsji5",
+      "aid": "sh/dsji5sne",
       "id": "22",
       "bbox": [
         822,
@@ -1258,7 +1258,7 @@
       "order": 23,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/9s36hcrm",
+      "aid": "sh/o7qpg3ex",
       "id": "23",
       "bbox": [
         842,
@@ -1279,7 +1279,7 @@
       "order": 24,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/yd0z6103",
+      "aid": "sh/vy90je9c",
       "id": "24",
       "bbox": [
         854,
@@ -1357,7 +1357,7 @@
       "order": 25,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/rytsvu9k",
+      "aid": "sh/6dcbulwv",
       "id": "25",
       "bbox": [
         842,
@@ -1439,7 +1439,7 @@
       "order": 26,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/gfmlkjm1",
+      "aid": "sh/d4vmtwra",
       "id": "26",
       "bbox": [
         842,
@@ -1514,7 +1514,7 @@
       "order": 27,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/90je9cvi",
+      "aid": "sh/oj2t83it",
       "id": "27",
       "bbox": [
         842,
@@ -1692,7 +1692,7 @@
                     "text": "TRACE",
                     "transform": "none",
                     "element": {
-                      "aid": "sh/gr2p8nqx",
+                      "aid": "sh/v6psfil0",
                       "id": "2",
                       "kind": "shape"
                     }
@@ -1723,7 +1723,7 @@
                     "text": "Сколько времени занимает каждый этап",
                     "transform": "none",
                     "element": {
-                      "aid": "sh/9cvixcze",
+                      "aid": "sh/2lszqtcj",
                       "id": "3",
                       "kind": "shape"
                     }
@@ -1910,7 +1910,7 @@
                             "contentType": "image/png",
                             "fit": "contain",
                             "element": {
-                              "aid": "im/mp0bi9s3",
+                              "aid": "im/tovahoza",
                               "id": "5",
                               "kind": "image"
                             }
@@ -1941,7 +1941,7 @@
                             "text": "Замерено через AgentTraceStep на live OpenRouter run от 2026-06-15.",
                             "transform": "none",
                             "element": {
-                              "aid": "sh/g3ex0nux",
+                              "aid": "sh/vu9knih4",
                               "id": "6",
                               "kind": "shape"
                             }
@@ -2042,7 +2042,7 @@
                       "height": 552
                     },
                     "element": {
-                      "aid": "sh/yxobm58z",
+                      "aid": "sh/d0z61032",
                       "id": "4",
                       "kind": "shape"
                     }
@@ -2167,7 +2167,7 @@
                                     "text": "10.2 s",
                                     "transform": "none",
                                     "element": {
-                                      "aid": "sh/y1kre1w7",
+                                      "aid": "sh/donyd0z6",
                                       "id": "8",
                                       "kind": "shape"
                                     }
@@ -2198,7 +2198,7 @@
                                     "text": "общий run",
                                     "transform": "none",
                                     "element": {
-                                      "aid": "sh/rmhk3q5o",
+                                      "aid": "sh/k3q5o7qp",
                                       "id": "9",
                                       "kind": "shape"
                                     }
@@ -2299,7 +2299,7 @@
                               "height": 76
                             },
                             "element": {
-                              "aid": "sh/5o7qpg3e",
+                              "aid": "sh/29gr2p8n",
                               "id": "7",
                               "kind": "shape"
                             }
@@ -2376,7 +2376,7 @@
                                     "text": "5.4 s",
                                     "transform": "none",
                                     "element": {
-                                      "aid": "sh/qpg3ex0n",
+                                      "aid": "sh/3ex0nuxc",
                                       "id": "11",
                                       "kind": "shape"
                                     }
@@ -2407,7 +2407,7 @@
                                     "text": "intake",
                                     "transform": "none",
                                     "element": {
-                                      "aid": "sh/xczed8v6",
+                                      "aid": "sh/szqtcj6t",
                                       "id": "12",
                                       "kind": "shape"
                                     }
@@ -2508,7 +2508,7 @@
                               "height": 76
                             },
                             "element": {
-                              "aid": "sh/fa9w3m94",
+                              "aid": "sh/at47y1kr",
                               "id": "10",
                               "kind": "shape"
                             }
@@ -2585,7 +2585,7 @@
                                     "text": "3.2 s",
                                     "transform": "none",
                                     "element": {
-                                      "aid": "sh/fyxobm58",
+                                      "aid": "sh/ahoza1gv",
                                       "id": "14",
                                       "kind": "shape"
                                     }
@@ -2616,7 +2616,7 @@
                                     "text": "final composer",
                                     "transform": "none",
                                     "element": {
-                                      "aid": "sh/qd4vmtwr",
+                                      "aid": "sh/32lszqtc",
                                       "id": "15",
                                       "kind": "shape"
                                     }
@@ -2717,7 +2717,7 @@
                               "height": 76
                             },
                             "element": {
-                              "aid": "sh/8v6psfil",
+                              "aid": "sh/lkjm1cfa",
                               "id": "13",
                               "kind": "shape"
                             }
@@ -2927,7 +2927,7 @@
                                         "text": "ЗАЧЕМ ЭТО НУЖНО",
                                         "transform": "none",
                                         "element": {
-                                          "aid": "sh/fmlkjm1c",
+                                          "aid": "sh/e9cvixcz",
                                           "id": "18",
                                           "kind": "shape"
                                         }
@@ -2997,7 +2997,7 @@
                                   "height": 14
                                 },
                                 "element": {
-                                  "aid": "sh/8jqh0fep",
+                                  "aid": "sh/l87ed8ba",
                                   "id": "17",
                                   "kind": "shape"
                                 }
@@ -3027,7 +3027,7 @@
                                 "text": "Trace показывает не только latency, но и реальный маршрут запроса.",
                                 "transform": "none",
                                 "element": {
-                                  "aid": "sh/q1orytsv",
+                                  "aid": "sh/3q5o7qpg",
                                   "id": "19",
                                   "kind": "shape"
                                 }
@@ -3058,7 +3058,7 @@
                                 "text": "- видно шаги, которые агент реально прошёл",
                                 "transform": "none",
                                 "element": {
-                                  "aid": "sh/y1kre1w7",
+                                  "aid": "sh/vmtwra5g",
                                   "id": "20",
                                   "kind": "shape"
                                 }
@@ -3089,7 +3089,7 @@
                                 "text": "- видно момент ухода в clarification",
                                 "transform": "none",
                                 "element": {
-                                  "aid": "sh/rmhk3q5o",
+                                  "aid": "sh/61032lsz",
                                   "id": "21",
                                   "kind": "shape"
                                 }
@@ -3234,7 +3234,7 @@
                           "height": 144
                         },
                         "element": {
-                          "aid": "sh/x4nap4r6",
+                          "aid": "sh/sneloj2t",
                           "id": "16",
                           "kind": "shape"
                         }
@@ -3359,7 +3359,7 @@
                                         "text": "НАБЛЮДЕНИЕ",
                                         "transform": "none",
                                         "element": {
-                                          "aid": "sh/yd0z6103",
+                                          "aid": "sh/vy90je9c",
                                           "id": "24",
                                           "kind": "shape"
                                         }
@@ -3429,7 +3429,7 @@
                                   "height": 14
                                 },
                                 "element": {
-                                  "aid": "sh/9s36hcrm",
+                                  "aid": "sh/o7qpg3ex",
                                   "id": "23",
                                   "kind": "shape"
                                 }
@@ -3459,7 +3459,7 @@
                                 "text": "В этом live кейсе почти вся стоимость сидит в LLM-узлах.",
                                 "transform": "none",
                                 "element": {
-                                  "aid": "sh/rytsvu9k",
+                                  "aid": "sh/6dcbulwv",
                                   "id": "25",
                                   "kind": "shape"
                                 }
@@ -3490,7 +3490,7 @@
                                 "text": "- router + intake + final composer = 10.19 s",
                                 "transform": "none",
                                 "element": {
-                                  "aid": "sh/gfmlkjm1",
+                                  "aid": "sh/d4vmtwra",
                                   "id": "26",
                                   "kind": "shape"
                                 }
@@ -3521,7 +3521,7 @@
                                 "text": "- детерминированный контур занял около 6 ms",
                                 "transform": "none",
                                 "element": {
-                                  "aid": "sh/90je9cvi",
+                                  "aid": "sh/oj2t83it",
                                   "id": "27",
                                   "kind": "shape"
                                 }
@@ -3666,7 +3666,7 @@
                           "height": 230
                         },
                         "element": {
-                          "aid": "sh/g7adsji5",
+                          "aid": "sh/dsji5sne",
                           "id": "22",
                           "kind": "shape"
                         }
@@ -3936,7 +3936,7 @@
           "height": 654
         },
         "element": {
-          "aid": "sh/r65wjudg",
+          "aid": "sh/knih4byh",
           "id": "1",
           "kind": "shape"
         }

@@ -16,13 +16,7 @@
 
 ## How to start
 
-1. Перейдите в корень проекта:
-
-```bash
-cd "Проект агент подбора аренды жилья и релокации"
-```
-
-2. Создайте виртуальное окружение и установите зависимости:
+1. Создайте виртуальное окружение и установите зависимости:
 
 ```bash
 python3 -m venv .venv
@@ -30,7 +24,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-3. Подготовьте конфиг:
+2. Подготовьте конфиг:
 
 Для запуска с live LLM:
 
@@ -47,13 +41,13 @@ cp config/agent_runtime.example.json config/agent_runtime.json
 cp config/agent_runtime.demo.example.json config/agent_runtime.json
 ```
 
-4. Создайте или пересоздайте локальную БД:
+3. Создайте или пересоздайте локальную БД:
 
 ```bash
 python3 -m src.db.seed
 ```
 
-5. Запустите интерфейс или CLI:
+4. Запустите интерфейс или CLI:
 
 ```bash
 python3 -m src.app
@@ -71,7 +65,7 @@ CLI-режим:
 python3 -m src.app --cli
 ```
 
-6. При необходимости прогоните проверки:
+5. При необходимости прогоните проверки:
 
 ```bash
 pytest

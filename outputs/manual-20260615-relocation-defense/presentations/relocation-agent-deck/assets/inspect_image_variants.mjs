@@ -1,6 +1,10 @@
 import * as art from '@oai/artifact-tool';
 import fs from 'node:fs';
-const pngPath = '/Users/iopogiba/Documents/HSE/Module 3/AI AGENT/final_work/outputs/manual-20260615-relocation-defense/presentations/relocation-agent-deck/assets/search_ui.png';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+
+const assetDir = path.dirname(fileURLToPath(import.meta.url));
+const pngPath = path.join(assetDir, 'search_ui.png');
 const buf = fs.readFileSync(pngPath);
 const dataUrl = `data:image/png;base64,${buf.toString('base64')}`;
 const vars = [

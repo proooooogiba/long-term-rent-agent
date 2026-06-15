@@ -1,117 +1,117 @@
 {
-  "output": "/Users/iopogiba/Documents/HSE/Module 3/AI AGENT/final_work/Проект агент подбора аренды жилья и релокации/outputs/manual-20260615-relocation-defense/presentations/relocation-agent-deck/output/relocation-agent-defense.pptx",
-  "outputBytes": 1238988,
+  "output": "../output/relocation-agent-defense.pptx",
+  "outputBytes": 1238987,
   "slideCount": 10,
   "slideSize": {
     "width": 1280,
     "height": 720
   },
-  "previewDir": "/Users/iopogiba/Documents/HSE/Module 3/AI AGENT/final_work/Проект агент подбора аренды жилья и релокации/outputs/manual-20260615-relocation-defense/presentations/relocation-agent-deck/preview",
+  "previewDir": "../preview",
   "previewPaths": [
-    "/Users/iopogiba/Documents/HSE/Module 3/AI AGENT/final_work/Проект агент подбора аренды жилья и релокации/outputs/manual-20260615-relocation-defense/presentations/relocation-agent-deck/preview/slide-01.png",
-    "/Users/iopogiba/Documents/HSE/Module 3/AI AGENT/final_work/Проект агент подбора аренды жилья и релокации/outputs/manual-20260615-relocation-defense/presentations/relocation-agent-deck/preview/slide-02.png",
-    "/Users/iopogiba/Documents/HSE/Module 3/AI AGENT/final_work/Проект агент подбора аренды жилья и релокации/outputs/manual-20260615-relocation-defense/presentations/relocation-agent-deck/preview/slide-03.png",
-    "/Users/iopogiba/Documents/HSE/Module 3/AI AGENT/final_work/Проект агент подбора аренды жилья и релокации/outputs/manual-20260615-relocation-defense/presentations/relocation-agent-deck/preview/slide-04.png",
-    "/Users/iopogiba/Documents/HSE/Module 3/AI AGENT/final_work/Проект агент подбора аренды жилья и релокации/outputs/manual-20260615-relocation-defense/presentations/relocation-agent-deck/preview/slide-05.png",
-    "/Users/iopogiba/Documents/HSE/Module 3/AI AGENT/final_work/Проект агент подбора аренды жилья и релокации/outputs/manual-20260615-relocation-defense/presentations/relocation-agent-deck/preview/slide-06.png",
-    "/Users/iopogiba/Documents/HSE/Module 3/AI AGENT/final_work/Проект агент подбора аренды жилья и релокации/outputs/manual-20260615-relocation-defense/presentations/relocation-agent-deck/preview/slide-07.png",
-    "/Users/iopogiba/Documents/HSE/Module 3/AI AGENT/final_work/Проект агент подбора аренды жилья и релокации/outputs/manual-20260615-relocation-defense/presentations/relocation-agent-deck/preview/slide-08.png",
-    "/Users/iopogiba/Documents/HSE/Module 3/AI AGENT/final_work/Проект агент подбора аренды жилья и релокации/outputs/manual-20260615-relocation-defense/presentations/relocation-agent-deck/preview/slide-09.png",
-    "/Users/iopogiba/Documents/HSE/Module 3/AI AGENT/final_work/Проект агент подбора аренды жилья и релокации/outputs/manual-20260615-relocation-defense/presentations/relocation-agent-deck/preview/slide-10.png"
+    "../preview/slide-01.png",
+    "../preview/slide-02.png",
+    "../preview/slide-03.png",
+    "../preview/slide-04.png",
+    "../preview/slide-05.png",
+    "../preview/slide-06.png",
+    "../preview/slide-07.png",
+    "../preview/slide-08.png",
+    "../preview/slide-09.png",
+    "../preview/slide-10.png"
   ],
-  "layoutDir": "/Users/iopogiba/Documents/HSE/Module 3/AI AGENT/final_work/Проект агент подбора аренды жилья и релокации/outputs/manual-20260615-relocation-defense/presentations/relocation-agent-deck/layout",
+  "layoutDir": "../layout",
   "layoutResults": [
     {
-      "layoutPath": "/Users/iopogiba/Documents/HSE/Module 3/AI AGENT/final_work/Проект агент подбора аренды жилья и релокации/outputs/manual-20260615-relocation-defense/presentations/relocation-agent-deck/layout/slide-01.layout.json"
+      "layoutPath": "../layout/slide-01.layout.json"
     },
     {
-      "layoutPath": "/Users/iopogiba/Documents/HSE/Module 3/AI AGENT/final_work/Проект агент подбора аренды жилья и релокации/outputs/manual-20260615-relocation-defense/presentations/relocation-agent-deck/layout/slide-02.layout.json"
+      "layoutPath": "../layout/slide-02.layout.json"
     },
     {
-      "layoutPath": "/Users/iopogiba/Documents/HSE/Module 3/AI AGENT/final_work/Проект агент подбора аренды жилья и релокации/outputs/manual-20260615-relocation-defense/presentations/relocation-agent-deck/layout/slide-03.layout.json"
+      "layoutPath": "../layout/slide-03.layout.json"
     },
     {
-      "layoutPath": "/Users/iopogiba/Documents/HSE/Module 3/AI AGENT/final_work/Проект агент подбора аренды жилья и релокации/outputs/manual-20260615-relocation-defense/presentations/relocation-agent-deck/layout/slide-04.layout.json"
+      "layoutPath": "../layout/slide-04.layout.json"
     },
     {
-      "layoutPath": "/Users/iopogiba/Documents/HSE/Module 3/AI AGENT/final_work/Проект агент подбора аренды жилья и релокации/outputs/manual-20260615-relocation-defense/presentations/relocation-agent-deck/layout/slide-05.layout.json"
+      "layoutPath": "../layout/slide-05.layout.json"
     },
     {
-      "layoutPath": "/Users/iopogiba/Documents/HSE/Module 3/AI AGENT/final_work/Проект агент подбора аренды жилья и релокации/outputs/manual-20260615-relocation-defense/presentations/relocation-agent-deck/layout/slide-06.layout.json"
+      "layoutPath": "../layout/slide-06.layout.json"
     },
     {
-      "layoutPath": "/Users/iopogiba/Documents/HSE/Module 3/AI AGENT/final_work/Проект агент подбора аренды жилья и релокации/outputs/manual-20260615-relocation-defense/presentations/relocation-agent-deck/layout/slide-07.layout.json"
+      "layoutPath": "../layout/slide-07.layout.json"
     },
     {
-      "layoutPath": "/Users/iopogiba/Documents/HSE/Module 3/AI AGENT/final_work/Проект агент подбора аренды жилья и релокации/outputs/manual-20260615-relocation-defense/presentations/relocation-agent-deck/layout/slide-08.layout.json"
+      "layoutPath": "../layout/slide-08.layout.json"
     },
     {
-      "layoutPath": "/Users/iopogiba/Documents/HSE/Module 3/AI AGENT/final_work/Проект агент подбора аренды жилья и релокации/outputs/manual-20260615-relocation-defense/presentations/relocation-agent-deck/layout/slide-09.layout.json"
+      "layoutPath": "../layout/slide-09.layout.json"
     },
     {
-      "layoutPath": "/Users/iopogiba/Documents/HSE/Module 3/AI AGENT/final_work/Проект агент подбора аренды жилья и релокации/outputs/manual-20260615-relocation-defense/presentations/relocation-agent-deck/layout/slide-10.layout.json"
+      "layoutPath": "../layout/slide-10.layout.json"
     }
   ],
-  "contactSheet": "/Users/iopogiba/Documents/HSE/Module 3/AI AGENT/final_work/Проект агент подбора аренды жилья и релокации/outputs/manual-20260615-relocation-defense/presentations/relocation-agent-deck/qa/contact-sheet.png",
+  "contactSheet": "contact-sheet.png",
   "slides": [
     {
       "index": 1,
       "requestedSlideNumber": 1,
-      "modulePath": "/Users/iopogiba/Documents/HSE/Module 3/AI AGENT/final_work/Проект агент подбора аренды жилья и релокации/outputs/manual-20260615-relocation-defense/presentations/relocation-agent-deck/slides/slide-01.mjs",
+      "modulePath": "../slides/slide-01.mjs",
       "exportName": "addSlide"
     },
     {
       "index": 2,
       "requestedSlideNumber": 2,
-      "modulePath": "/Users/iopogiba/Documents/HSE/Module 3/AI AGENT/final_work/Проект агент подбора аренды жилья и релокации/outputs/manual-20260615-relocation-defense/presentations/relocation-agent-deck/slides/slide-02.mjs",
+      "modulePath": "../slides/slide-02.mjs",
       "exportName": "addSlide"
     },
     {
       "index": 3,
       "requestedSlideNumber": 3,
-      "modulePath": "/Users/iopogiba/Documents/HSE/Module 3/AI AGENT/final_work/Проект агент подбора аренды жилья и релокации/outputs/manual-20260615-relocation-defense/presentations/relocation-agent-deck/slides/slide-03.mjs",
+      "modulePath": "../slides/slide-03.mjs",
       "exportName": "addSlide"
     },
     {
       "index": 4,
       "requestedSlideNumber": 4,
-      "modulePath": "/Users/iopogiba/Documents/HSE/Module 3/AI AGENT/final_work/Проект агент подбора аренды жилья и релокации/outputs/manual-20260615-relocation-defense/presentations/relocation-agent-deck/slides/slide-04.mjs",
+      "modulePath": "../slides/slide-04.mjs",
       "exportName": "addSlide"
     },
     {
       "index": 5,
       "requestedSlideNumber": 5,
-      "modulePath": "/Users/iopogiba/Documents/HSE/Module 3/AI AGENT/final_work/Проект агент подбора аренды жилья и релокации/outputs/manual-20260615-relocation-defense/presentations/relocation-agent-deck/slides/slide-05.mjs",
+      "modulePath": "../slides/slide-05.mjs",
       "exportName": "addSlide"
     },
     {
       "index": 6,
       "requestedSlideNumber": 6,
-      "modulePath": "/Users/iopogiba/Documents/HSE/Module 3/AI AGENT/final_work/Проект агент подбора аренды жилья и релокации/outputs/manual-20260615-relocation-defense/presentations/relocation-agent-deck/slides/slide-06.mjs",
+      "modulePath": "../slides/slide-06.mjs",
       "exportName": "addSlide"
     },
     {
       "index": 7,
       "requestedSlideNumber": 7,
-      "modulePath": "/Users/iopogiba/Documents/HSE/Module 3/AI AGENT/final_work/Проект агент подбора аренды жилья и релокации/outputs/manual-20260615-relocation-defense/presentations/relocation-agent-deck/slides/slide-07.mjs",
+      "modulePath": "../slides/slide-07.mjs",
       "exportName": "addSlide"
     },
     {
       "index": 8,
       "requestedSlideNumber": 8,
-      "modulePath": "/Users/iopogiba/Documents/HSE/Module 3/AI AGENT/final_work/Проект агент подбора аренды жилья и релокации/outputs/manual-20260615-relocation-defense/presentations/relocation-agent-deck/slides/slide-08.mjs",
+      "modulePath": "../slides/slide-08.mjs",
       "exportName": "addSlide"
     },
     {
       "index": 9,
       "requestedSlideNumber": 9,
-      "modulePath": "/Users/iopogiba/Documents/HSE/Module 3/AI AGENT/final_work/Проект агент подбора аренды жилья и релокации/outputs/manual-20260615-relocation-defense/presentations/relocation-agent-deck/slides/slide-09.mjs",
+      "modulePath": "../slides/slide-09.mjs",
       "exportName": "addSlide"
     },
     {
       "index": 10,
       "requestedSlideNumber": 10,
-      "modulePath": "/Users/iopogiba/Documents/HSE/Module 3/AI AGENT/final_work/Проект агент подбора аренды жилья и релокации/outputs/manual-20260615-relocation-defense/presentations/relocation-agent-deck/slides/slide-10.mjs",
+      "modulePath": "../slides/slide-10.mjs",
       "exportName": "addSlide"
     }
   ]
